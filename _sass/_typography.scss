@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cutive+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@900&display=swap');
+
+blockquote strong {
+	color: #4A4A4A;
+}
+
+// Two blockquotes in a row (the second one)
+blockquote + blockquote {
+	margin-top: 3rem;
+
+	// Border between them.
+	
+	&::before {
+		content: ' ';
+		display: block;
+		border-top: 1px solid $grey-2;
+		position:relative;
+		top: -1.5rem;
+		width: 60%;
+		margin:auto;
+	}
+}
+
+pre {
+	font-size: 16px;
+}
+
+a > code {
+	text-decoration: underline #bf616a;
+}
+
+.archive-link, .bibtex-button {
+	background-color: #f9f9f9;
+	border-radius: 3px;
+	color: #bf616a;
+	font-size: 85%;
+	padding: .25em .5em;
+}
+
+.bibtex-button {
+	text-decoration: underline;
+	cursor: pointer;
+	padding: 0;
+}
+
+.bibtex {
+	transition: max-height 0.25s ease-in;
+	// overflow-y: scroll;
+	max-height: 1000px;
+	overflow-y: auto;
+	background-color: #f9f9f9;
+	border-radius: 10px;
+	border: 1px black solid;
+
+	&.collapsed {
+		max-height: 0px;
+		overflow-y: hidden;
+		transition: max-height 0.25s ease-out;
+		border: none;
+	}
+
+	& pre {
+		overflow-wrap: break-word;
+		overflow-x: auto;
+		white-space: pre-wrap;
+		// color: #bf616a;
+		margin: 0;
+	}
+}

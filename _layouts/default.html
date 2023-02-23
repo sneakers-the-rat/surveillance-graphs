@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en" prefix="foaf: http://xmlns.com/foaf/0.1/">
+
+  {% include head.html %}
+
+  <body vocab="https://schema.org/" typeof="ScholarlyArticle">
+
+    {% if page.navigation %}
+    {% include navigation.html %}
+    {% endif %}
+
+    <main>
+      <div class="container">
+      {{ content | inject_anchors }}
+      </div>
+    </main>
+
+
+
+    {% include footer.html %}
+  </body>
+</html>

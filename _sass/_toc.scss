@@ -1,0 +1,124 @@
+$menuWidth: 30%;
+$menuPaddingLeft: 0%;
+
+$break-sm: 600px;
+$break-md: 839px;
+
+body {
+  // padding: 0 $menuWidth+$menuPaddingLeft 0 0;
+
+  @media (max-width: $break-md) {
+    padding: 0;
+  }
+}
+
+
+.toc {
+  // position: fixed;
+  // right: $menuPaddingLeft;
+  top: 2%;
+  padding: 2.5% 0;
+  width: 100%;
+  line-height: 1em;
+
+  // Style top level
+  &>ol {
+    // padding:0;
+
+    // Extra offset makes all the numbers in sub-lists more spaced
+    &>li {
+      padding-left:0.5em;
+    }
+  }
+
+
+  ul,ol {
+    list-style: none;
+    padding: 0 0 0 1em;
+    margin: 0;
+    margin-bottom: 10px;
+    counter-reset: toc-subcount;
+  }
+
+  // Numbering
+
+  ol>li {
+    counter-increment: toc-subcount;
+
+    &:hover::before,&.visible::before {
+      content: counters(toc-subcount, '.');
+      color: #000;
+    }
+    &:before {
+      color: #888;
+      padding-right: 10px;
+      line-height:1.2em;
+      position:absolute;
+      left:10px;
+    }
+  }
+
+  // ul ul, ol ol {
+  //   padding-left: 0.5em;
+  // }
+
+  // Link styling
+
+  li {
+    // padding-left: 8px;
+
+    & a {
+      display: inline-block;
+      color: #888;
+      line-height: 1em;
+      padding-bottom: 0.2em;
+      text-decoration: none;
+      transition: all 0.3s cubic-bezier(0.230, 1.000, 0.320, 1.000);
+    }
+  }
+
+  li.visible>a, li:hover>a {
+    color: #000;
+    // transform: translate( 2px );
+  }
+
+  // collapse
+  ol>li ol {
+    // display: none;
+    height: 100%;
+    max-height: 0px;
+    overflow: hidden;
+    margin: 0;
+    transition: max-height 1s ease, margin 0.1s linear;
+    // height: 0;
+
+    &.opened, {
+      // display: inherit;
+      max-height: 1000px;
+      margin: 0 0 10px 0;
+    }
+  }
+
+}
+
+.mobile-toc-drawer {
+  ol>li ol {
+    max-height: 1000px;
+    margin: 0 0 10px 0;
+  }
+}
+
+.toc-marker {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+
+  path {
+    transition: all 0.3s ease;
+  }
+}
+
+

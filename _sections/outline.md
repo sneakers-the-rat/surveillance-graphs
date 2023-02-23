@@ -1,0 +1,27 @@
+- Introduction
+	- Governments and Academics want to create data infrastructures for linking lots of heterogeneous data
+	- Backing out: the backdrop is that we are in a state of purposeful knowledge disorganization. Why do we need these graphs and search in the first place? It's because standing in between people and information is ridiculously profitable
+	- What will we create? Are we making public data infrastructure, or something else?
+	- Central argument: The great Graph of Everything is a pipe dream sold to us by the cloud orthodoxy as a way of diverting funding to consolidate a new kind of barely working platform
+	- Instead we might imagine a properly human data infrastructure: Beyond "scruffiness," we need properly vulgar linked data. 
+- Arguments
+	- Problematizing the "Graph of Everything"
+	- Centralized ontologies bad
+		- Don't work
+		- Extremely labor intensive
+		- Colonial project
+		- patronizing at best - we can't know the solutions to these problems like poverty or whatever without advanced analytics is a lie: just ask the people involved what the problem is.
+	- Cloud bad
+		- Can't scale
+		- Centralizes control
+		- Easily captured as platform
+		- Constrains possible actors and domains (even given their intention to allow zero-infra ppl to use graph)
+	- Focus on AI bad
+		- Junk predictions
+		- Magical computers
+		- Presuppose the problem is 'harnessing power of big data' rather than collective sensemaking
+- Alternative
+	- fundementally a linguistic project
+	- focused on making tools as a means of expression and communication rather than databases to shove things into
+
+

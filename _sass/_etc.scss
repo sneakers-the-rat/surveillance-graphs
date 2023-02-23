@@ -1,0 +1,95 @@
+#draftmarker {
+	padding: 20px;
+	background-color: #005500;
+	color: #ff5555;
+	font-style: italic;
+	font-size: 3rem;
+	border: 20px yellow dashed;
+
+	h1 {
+		font-size: 5rem;
+		color: #ffffff;
+	}
+
+  @media (max-width: $width-tablet) {
+    font-size: 2rem;
+
+    h1 {
+    	font-size: 2rem;
+    }
+  }
+}
+
+
+.trimlink {
+	width: 100%;
+	border: 1px solid black;
+  background-color: orangered;
+  color: white;
+	box-shadow: 5px 5px black;
+	margin: 0 0 1em 0;
+	padding: 15px;
+
+	a {
+		background-color:white;
+		box-shadow: 5px 5px black;
+		padding: 5px;
+		margin: 5px;
+		font-family: $monospaced;
+	}
+
+	span {
+		
+	}
+}
+
+.draft-text {
+	color: #f00; 
+	padding: 20px; 
+	border: 1px red dashed; 
+	border-radius: 20px; 
+	background-color:#fff5f5;
+	margin-left: 20px;
+	margin-bottom: 1rem;
+
+	&::before {
+		content: "draft!";
+		position: relative;
+		left:-50px;
+		top: 10px;
+		height: 0px;
+		width:0px;
+		display: inline-block;
+		writing-mode: sideways-lr;
+	}
+}
+
+.anchorjs-link {
+	transition: opacity 0.1s ease-out;
+}
+
+.music {
+	transition: height 0.5s ease-out;
+
+	height: 80px;
+
+	&.hidden {
+		height: 0px;
+	}
+}
+
+.music-icon {
+  // opacity: 0;
+  transition: opacity 0.2s ease;
+
+  position: absolute;
+  transform: translate(-50px, -42px);
+
+  &:hover {
+  	opacity: 1;
+  }
+}
+
+#taped-on-interfaces-open-loop-user-testing:hover ~ #musicbutton {
+	opacity: 1 !important;	
+}
