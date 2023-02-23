@@ -13,23 +13,6 @@ jobs:
       - uses: actions/cache@v2
         with:
           path: vendor/bundle
-          key: ${{ runner.os }}-npmv3-${{ hashFiles('package.json') }}-${{ hashFiles('yarn.lock') }}
-          restore-keys: |
-            ${{ runner.os }}-npmv3-
-      - name: Install Node
-        uses: actions/setup-node@v2
-        with:
-          node-version: '16.x'
-          registry-url: 'https://registry.npmjs.org'
-      - name: Install Node Dependencies
-        run: |
-          yarn install
-      - name: Build Webpack
-        run: |
-          npm run build_wp
-      - uses: actions/cache@v2
-        with:
-          path: vendor/bundle
           key: ${{ runner.os }}-gemsv3-${{ hashFiles('**/Gemfile') }}-${{ hashFiles('_config.yml') }}
           restore-keys: |
             ${{ runner.os }}-gemsv3-
