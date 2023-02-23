@@ -19,7 +19,16 @@
 	- Focus on AI bad
 		- Junk predictions
 		- Magical computers
-		- Presuppose the problem is 'harnessing power of big data' rather than collective sensemaking
+		- Presuppose the problem is 'harnessing power of big data' rather than collective sensemaking. Data is something "out there" to be captured, rather than something that exists between people.
+	- Broader scope on knowledge graphs - what else are they used for? why would this specifically be a problem for government knowledge graphs?
+		- the graph is used as the basis for compute-based platforms. we might have some 
+		- example of that biotech group that spun off the proprietary algorithm immediately
+		- fundamentally broken incentive: you always have to make some part of some platform nonfunctional in order to have something to rent. this is literally rent-seeking behavior
+	- gatekeeping doesn't make safety it makes exclusion!
+		- making a single-space social system makes an intractable moderation problem
+		- even the fedi has problems iwth this
+		- but the cloud marketers are increasingly describing themselves as being the last bulwarks against misinformation - contrast that with the statements from the publishers to the same effects. 
+
 - Alternative
 	- fundementally a linguistic project
 	- focused on making tools as a means of expression and communication rather than databases to shove things into
