@@ -20,7 +20,7 @@
 
 title: Surveillance Graphs
 email: j@nny.fyi
-baseurl: "/surveillance_graphs" # the subpath of your site, e.g. /blog
+baseurl: "/surveillance-graphs" # the subpath of your site, e.g. /blog
 url: "https://jon-e.net" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: json_dirs
 github_username:  sneakers-the-rat
