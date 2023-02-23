@@ -16,15 +16,10 @@ jobs:
           key: ${{ runner.os }}-gemsv3-${{ hashFiles('**/Gemfile') }}-${{ hashFiles('_config.yml') }}
           restore-keys: |
             ${{ runner.os }}-gemsv3-
-      - name: Trust github workspace
-        run:
-          git config --global --add safe.directory /github/workspace
       - name: Main Jekyll Build
         uses: helaili/jekyll-action@master
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          keep_history: true
-          target_path: /
           pre_build_commands: git config --global --add safe.directory /github/workspace
       # - name: Get Short Hash
       #   id: vars
