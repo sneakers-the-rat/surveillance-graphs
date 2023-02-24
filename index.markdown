@@ -29,6 +29,8 @@ toc: true
 
 {% include_relative _sections/intro.md %}
 
+{% include_relative _sections/kgs.md %}
+
 # Scraps
 
 {% include_relative _sections/scraps.md %}
