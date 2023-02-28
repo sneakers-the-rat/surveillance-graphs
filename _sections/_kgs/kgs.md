@@ -1,4 +1,4 @@
-# Knowledge Graphs: A Backbone in the Surveillance Economy
+
 
 What are Knowledge Graphs, and why do they deserve particular attention in an always-more-fraught landscape of digital technology? 
 
@@ -13,6 +13,7 @@ What are Knowledge Graphs, and why do they deserve particular attention in an al
 			- Bing
 			- Academic Graph
 			- LinkedIn Graph
+		- Facebook: {% cite weaverFacebookLinkedData2013 %}
 	- Natural counterpart to sprawling surveillance
 		- This is exactly why they will be so powerful for our kind of generalized digital infrastructure we want to build: the corporate platforms have identified a tool that can be used to run the world's information. 
 		- Eg relx. lots of information acquired over time from a lot of different locations, needs to be able to be reduced to some unified system, and graphs work at the level of propositions and assertions that can then be traversed and resolved. 

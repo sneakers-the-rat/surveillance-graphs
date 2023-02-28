@@ -28,6 +28,10 @@
 		- making a single-space social system makes an intractable moderation problem
 		- even the fedi has problems iwth this
 		- but the cloud marketers are increasingly describing themselves as being the last bulwarks against misinformation - contrast that with the statements from the publishers to the same effects. 
+	- Centralized ontologies always reflect the strong beliefs of what a system of representation shoudl be used for
+		- use the example of the emoji shapes: https://www.unicode.org/L2/L2018/18141r2-emoji-colors.pdf
+		- and the backlash, which demonstrated that the consortium believed that the semantic uses of emoji were different than they could possibly be
+		- and then ... wordle happened.
 
 - Alternative
 	- fundementally a linguistic project

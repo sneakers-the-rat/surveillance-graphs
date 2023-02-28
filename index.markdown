@@ -18,7 +18,12 @@ toc: true
 1. toc
 {:toc}
 
+<div class="foreword">
+  This piece is an extension of linked data or surveillance capitalism in (cite original infra document) and reproduces text from (sections) in whole or in part. 
 
+  - Purpose of splitting out this document
+  - Purposefully early release, so will be incomplete
+</div>
 
 
 # Outline
@@ -29,11 +34,23 @@ toc: true
 
 {% include_relative _sections/intro.md %}
 
-{% include_relative _sections/kgs.md %}
+# Knowledge Graphs: A Backbone in the Surveillance Economy
+
+{% include_relative _sections/_kgs/index.md %}
+
+# Public Graphs, Private Profits
+
+- Application to medical data: {% cite shiraiApplyingPersonalKnowledge2021 %}
+
+{% include_relative _sections/_public_private/index.md %}
 
 # Scraps
 
 {% include_relative _sections/scraps.md %}
+
+## Quotes
+
+{% include_relative _sections/quotes.md %}
 
 # References
 
