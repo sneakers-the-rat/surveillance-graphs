@@ -1,4 +1,4 @@
-### Semantic Web
+### Semantic Web: Priesthoods
 
 The term "Knowledge Graph" evolved out of the Semantic Web project {% cite hitzlerReviewSemanticWeb2021 %}. It is difficult to reconstruct how radical the notion of a collection of documents organized by arbitrary links between them was at dawn of the internet. At the time, the infrastructures of linking documents looked more like ISBNs, carefully regulated by expert, centralized authorities[^dois]. Being able to *just make anything that could be linked to* and *link to anything you wanted* was *terrifying* and *new* (eg. {% cite berners-leeLinksLaw1997 berners-leeLinksLawMyths1997 %}).
 

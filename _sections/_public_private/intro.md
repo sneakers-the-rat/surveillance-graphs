@@ -22,3 +22,7 @@ Dividing publicly curated knowledge like facutla information that anyone can kno
 Also you can't ignore the sheer dominance of literally owning the hardware that it all runs on... which also structures the nature of these projects.
 
 All the public stuff is great, but they don't have a good mechanism for how to collaborate on private contents of graphs, so that's why the government graphs are so worrying in particular
+
+- Open source data, proprietary compute.
+	- eg. wikidata, github copilot, pattern of corporations exploiting open source 
+	- The transition of freebase as an autonomous knowledge graph to one owned by google, shut down, and then a lot of that labor transitioned to wikidata: {% cite pellissiertanonFreebaseWikidataGreat2016 chahOKGoogleWhat2018 %}

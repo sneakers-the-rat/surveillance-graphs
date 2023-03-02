@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "The Cloud Wants Surveillance Graphs"
-subtitle: "In Defense of Vulgar Linked Data Infrastructures"
+title:  "Surveillance Graphs"
+subtitle: "Cloud Orthodoxy and Vulgarity in Data Infrastructures"
 author: 
   - name: Jonny Saunders
     affiliation: 

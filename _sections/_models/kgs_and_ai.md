@@ -30,3 +30,12 @@ merged with research and reference data, they could literally make a graph of al
 	
 > "Second, there is a clear recognition that KG representations are a central ingredient to achieving the compositional behavior in AI systems."
 - They want to integrate these with your personal knowledge graph: Google alredy owns all your calendar/etc. data, now they want you to take notes in a way that can be more easily mined: {% cite balogPersonalKnowledgeGraphs2019a %}. Under the guise of convenience - "update my location across all my apps"
+
+- The evolution into chatbots
+	- These companies want to be able to provide some interface to this graph without revealing it, chatbots are effectively a way to launder knowledge graphs into some information-consumer facing interface that lets them traverse the graph with natural language. Eg. you can hold the context of the graph in mind when doing subsequent searches
+	- They want to make the processes of curating their graphs more interactive! A new kind of information serfdom - presumably google wants you to tell it when its information box is incorrect!?
+	- Relationship between graphs and surveillance technologies: {% cite iliadisSeerSeenSurveying2022 %}
+- And the broader universe of surveillance
+	- Policing: {% cite brayneBigDataSurveillance2017 braynePredictSurveilData2020 %}
+	- NSF graph describes military applications by the boatload
+- The fundamental contradiction of platform capitalism
