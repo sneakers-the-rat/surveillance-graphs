@@ -25,10 +25,10 @@ toc: true
   - Purposefully early release, so will be incomplete
 </div>
 
+**Subpages:**
 
-# Outline
-
-{% include_relative _sections/outline.md %}
+- [Outline](outline.html)
+- [TODO](todo.html)
 
 # Introduction
 
@@ -43,6 +43,10 @@ toc: true
 - Application to medical data: {% cite shiraiApplyingPersonalKnowledge2021 %}
 
 {% include_relative _sections/_public_private/index.md %}
+
+# Competing Models
+
+{% include_relative _sections/_models/index.md %}
 
 # Scraps
 

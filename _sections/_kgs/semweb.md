@@ -1,0 +1,17 @@
+### Semantic Web
+
+The term "Knowledge Graph" evolved out of the Semantic Web project {% cite hitzlerReviewSemanticWeb2021 %}. It is difficult to reconstruct how radical the notion of a collection of documents organized by arbitrary links between them was at dawn of the internet. At the time, the infrastructures of linking documents looked more like ISBNs, carefully regulated by expert, centralized authorities[^dois]. Being able to *just make anything that could be linked to* and *link to anything you wanted* was *terrifying* and *new* (eg. {% cite berners-leeLinksLaw1997 berners-leeLinksLawMyths1997 %}).
+
+The initial design of the web imagined it as a self-organizing process, where people would maintain their own websites and organize a collection of links to other websites. It became clear relatively quickly that the anarchy of a socially self-organizing internet wasn't going to work as planned, where without a formal system of organization "people were frightened of getting lost in it. You could follow links forever." {% cite berners-leeWhatSemanticWeb1998 %} 
+
+In its earliest formulations, the Semantic Web was an attempt to supplement the same arbitrary power to express human-readable information with computer-readable information. It imagined a linked and overlapping set of schemas ranging from locally expressive vocabularies used among small groups of friends through globally shared, logically consistent ontologies. The semantic web was intended to evolve fluidly, like language, with cultures of meaning meshing and separating at multiple scales {% cite berners-leeScalefreeNatureWeb1998 berners-leeSemanticWeb2001 berners-leeCulturesBoundaries2007 %}:
+
+> Locally defined languages are easy to create, needing local consensus about meaning: only a limited number of people have to share a mental pattern of relationships which define the meaning. However, global languages are so much more effective at communication, reaching the parts that local languages cannot. [...]
+>
+>  So the idea is that in any one message, some of the terms will be from a global ontology, some from subdomains. The amount of data which can be reused by another agent will depend on how many communities they have in common, how many ontologies they share.
+> 
+> In other words, one global ontology is not a solution to the problem, and a local subdomain is not a solution either. But if each agent has uses a mix of a few ontologies of different scale, that is forms a global solution to the problem. {% cite berners-leeScalefreeNatureWeb1998 %}
+
+> The Semantic Web, in naming every concept simply by a URI, lets anyone express new concepts that they invent with minimal effort. Its unifying logical language will enable these concepts to be progressively linked into a universal Web. {% cite berners-leeSemanticWeb2001 %}
+
+This freeform goal expression for expression's sake was always in tension with another part of the vision - serving as a backbone for AI "agents" that could compute emergent function from the semantic web. Succinctly: "Human language thrives when using the same term to mean somewhat different things, but automation does not." {% cite berners-leeSemanticWeb2001 %} This tension persists through the broader history of the web.

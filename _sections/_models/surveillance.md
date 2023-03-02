@@ -1,3 +1,25 @@
+## Surveillance Graphs
+
+
+The problem of belief: what should these things do? present us instantly with results? or should they be part of a messy dialectic of information where the graph itself is the outcome? The cloud orthodoxy suggests the former!
+
+- Need to articulate the components of the cloud orthodoxy mindset
+	- Automated reasoning
+	- More data is better
+	- Neutral reflection of underlying facts, only conditioning factor is 'confidence', but no criticism of schema
+	- End goal is productized services: eg. the fantasy of the google researcher in 2018 at the end of entity oriented search
+	- Convenience
+	- Performance
+	- Assumes that we are all subjects of surveillance, that the data is "out there" to be mined, and its heterogeneity is an inconvenience or technical problem.
+
+- YOU ONLY NEED TO DO THIS SCALE OF AUTOMATED EXTRACTION IF YOU PRESUPPOSE A UNIVERSE OF A FEW MASSIVE PLATFORMS OWNING EVERYTHING IN THE FIRST PLACE re: amazon product graph example in {% cite chaudhriKnowledgeGraphsIntroduction2022 %}
+
+--- 
+
+
+- The argument that the next phase of everything is chatbots and 
+
+
 The merger of AI shit and knowledge graph shit
 
 So if web 2.0 was about the platformatization of the web, what is up next? In the same way that information conglomerates successfully harnessed open source for profit, now can we effectively gamify the entirety of knowledge generation process? can we put ppl inside of information curation chambers when they search?

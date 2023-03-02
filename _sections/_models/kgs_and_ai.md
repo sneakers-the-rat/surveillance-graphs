@@ -1,3 +1,5 @@
+**MOVE THIS to "models/surveillance" - the cognitive style of search, why chatbots inevitable and an intrinsic part of the plan, and the broader conversation of the surveillance mindset**
+
 The 'one bar' search paradigm is powerful and inculcates a very specific expectation of use...  (expectations from search results)
 
 the problem is that it naturally sacrifices all the extra query structure inherent in any "advanced search" interface. 
@@ -19,3 +21,12 @@ Thus the criticism that LLM's don't "know anything" won't be true for long - the
 Think broader than search engines though, the pernicious and dangerous part here is that we could merge several classes of platform and surveillance harm: individual surveillance could merge with medical and public information and insurance information and the rest in an interoperable interchange format so that the data brokering economy woudl effectively explode. Imagine the splintering of infinitely many platforms that each owned some subset of the data, each platform holder owning all of them and slicing them off to you and pocketing the costs.
 
 merged with research and reference data, they could literally make a graph of all information and supplant libraries, etc. for all information from news to government to personal.
+
+---
+
+- KGs + AI are gonna try and do "explainable AI" - {% cite janowiczNeuralsymbolicIntegrationSemantic2020 renLegoLatentExecutionguided2021 %}
+	- Microsoft: KGs necessary for chatbots - "the LLMs don't *know anything* {% cite huEmpoweringLanguageModels2022 %}. Google: {% cite renLegoLatentExecutionguided2021 %}
+	- AI is the future of KGs - {% cite chaudhriKnowledgeGraphsIntroduction2022 %}
+	
+> "Second, there is a clear recognition that KG representations are a central ingredient to achieving the compositional behavior in AI systems."
+- They want to integrate these with your personal knowledge graph: Google alredy owns all your calendar/etc. data, now they want you to take notes in a way that can be more easily mined: {% cite balogPersonalKnowledgeGraphs2019a %}. Under the guise of convenience - "update my location across all my apps"
