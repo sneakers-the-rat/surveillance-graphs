@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Surveillance Graphs"
-subtitle: "Cloud Orthodoxy and Vulgarity in Data Infrastructures"
+subtitle: "Vulgarity as an Antidote to Cloud Orthodoxy in Data Infrastructures"
 author: 
   - name: Jonny Saunders
     affiliation: 
