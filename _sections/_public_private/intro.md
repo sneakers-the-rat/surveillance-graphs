@@ -11,6 +11,8 @@ Broad principles
 
 > With a large-scale knowledge graph, developers can build high-dimensional representations of entities and relations. The resulting embeddings will greatly benefit many machine-learning, NLP, and AI tasks as sources of features and constraints, and can form the basis for more sophisticated inferences and ways to curate training data. {% cite noyIndustryscaleKnowledgeGraphs2019 %}
 
+When Freebase was closed, its graph was (partially) integrated into Wikidata {% cite pellissiertanonFreebaseWikidataGreat2016 WikidataWikiProjectFreebase %}, which is the dominant collaborative public knowledge graph today. 
+
 ---
 
 Linked Open Data Vs. Knowledge Graphs - KGs are products! LOD is a messy and wily ball of data!
