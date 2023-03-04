@@ -10,7 +10,55 @@ The significance of the relationship between search, the semantic web, and what 
 
 Instead, the form of of the semantic web that emerged as "Knowledge Graphs" flipped the vision of a free and evolving internet on its head. The mutation from "Linked Open Data" {% cite berners-leeLinkedData2006 %} to "Knowledge Graphs" is a shift in meaning from a public and densely linked web of information from many sources to a proprietary information store used to power derivative platforms and services. The shift isn't quite so simple as a "closure" of a formerly open resource --- we'll return to the complex role of openness in a moment. It is closer to an *en*closure, a *domestication* of the dream of the Semantic Web. A dream of a mutating, pluralistic space of communication, where we were able to own and change and create the information that structures our digital lives was reduced to a ring of platforms that give us precisely as much agency as is needed to keep us content in our captivity. Links that had all the expressive power of utterances, questions, hints, slander, and lies were reduced to mere facts. We were recast from our role as *people* creating a digital world to *consumers* of subscriptions and services. The artifacts that we create for and with and between each other as the substance of our lives online were yoked to the acquisitive gaze of the knowledge graph as *content* to be mined. We vulgar commoners, we data subjects, are not allowed to touch the graph.
 
+The same technologies, with minor variation, that were intended to keep the internet free became emblematic of and coproductive with the surveillance/platform model that has enclosed it. Beyond Google, knowledge graphs are an elemental part of the contempory information economy. Banks, militaries, governments, life science corporations, journalists, everyone is using knowledge graphs {% cite neo4jNeo4jCustomers enterpriseknowledgegraphfoundationKnowledgeGraphIndustry2022 %}. Their ubiquity is not an accident, one of many possible data systems that could have fit the bill, but reflects and reinforces basic patterns of the information economy and the corporations within it. 
 
+What makes knowledge graphs so special? It turns out that semantic web technologies, designed to accomodate the infinitely heterogeneous, multiscale nature of free and unmediated social structuring of information are also quite useful for the indefinitely expanding dragnet of data collection that defines the operation of contemporary capitalism:
+
+> "If one takes a look at the top Fortune 500 companies, it is surprising how many of them are really in the information business. I don’t just mean the technology and telecommunication companies like Apple or Google or Verizon or Cisco or the drug companies like Pfizer. One could also think of the big banks as a subset of the vectoralist class rather than as “finance capital.” They too are in the information asymmetry business. And as we learned in the 2008 crash, even the car companies are in the information business—they made more money from car loans than cars. The military—industrial sector is also in the information business. The companies that appear to sell actual things, like Nike, are really in the brand business. Walmart and Amazon compete with different models of the information logistics business. Even the oil companies are in part at least in the information-about-the-geology-of-possible-oil-deposits business. Perhaps the vectoralist class is no longer emerging. Maybe it is the new dominant class." *- McKenzie Wark, Capital Is Dead: Is This Something Worse?* {% cite warkCapitalDeadThis2021 %} 
+
+Data companies --- most major companies --- need to store and maintain massive collections of heterogeneous data across their byzantine hierarchies of executives, managers, and workers. This gigantic haunted ball of data is not just a tool, but the *substance* of the company. A data company persists by exploiting the combinatorics of its data hoard, spinning off new platforms that in turn maintain and expand access to data by creating captive data subjects[^fbgraph]. As it expands, a conglomerate will acquire many new sources and modalities of data and need to integrate them with its existing data. 
+
+Knowledge graphs are particularly well suited for this "data integration" problem. A full technical description is out of scope here, but briefly: traditional relational database systems can be very difficult to modify and refactor, and that difficulty increases the larger and more complex a database is[^etsydb]. One has to be design the structure of the anticipated data in advance, and the abstract schematic structure of the data is embedded in how it is stored and accessed. It is particularly difficult to do unanticipated "long range" analyses where very different kinds of data are analyzed together. 
+
+In contrast, merging graphs is more straightforward {% cite enterpriseknowledgegraphfoundationKnowledgeGraphIndustry2022 schenkerNewReportDetails2021 sequedaDesigningBuildingEnterprise2021 segaranTwophaseConstructionData2020 natarajanGraphKnowledgeGraph %} - the data is just triplets, so in an idealized case[^notmagic] it is possible to just concatenate them and remove duplicates (eg. for a short example, see {% cite allemangMergingDataGraphs2022 allemangMergingTablesHard2023 %}). The graph can be operated on locally, with more global coordination provided by ontologies and schemas, which themselves have a graph structure {% cite villazon-terrazasKnowledgeGraphFoundations2017 %}. Discrepancies between graphlike schema can be resolved by, you guessed it, making more graph to describe the links and transformations between them. Long-range operations between data are part of the basic structure of a graph - just traverse nodes and edges until you get to where you need to go - and the semantic structure of the graph provides additional constraints to that traversal. Again, a technical description is out of scope here, graphs are not magic, but they are well-suited to merging, modifying, and analyzing large quantities of heterogeneous data. 
+
+Another way of looking at the capacity for heterogeneity in triplet graphs is by thinking of links as statements:
+
+> One person may define a `vehicle` as having a `number of wheels` and a `weight` and a `length`, but not foresee a `color`. This will not stop another person making the assertion that a given car is `red`, using the color vocabulary from elsewhere. {% cite berners-leeWhatSemanticWeb1998 %}
+
+So if you are a data broker, and you just made a hostile acquisition of another data broker who has additional surveillance information to fill out for the people in your existing dataset, you can just stitch those new properties on like a fifth arm on your nightmarish data frankenstein.
+
+**what does this look like in practice? what kind of horrors does this spawn???? examples from RELX, palantir, neo4j army**
+
+- pharmaceutical interaction graphs & general life sciences application
+- recommendation systems
+- fraud detection
+- social media graphs
+- justice & incarceration 
+- army {% cite neo4jNeo4jArmyCase2021 %}
+
+
+
+Another way of 
+
+This problem of "data integration" 
+
+Patent re: merging graphs {% cite segaranTwophaseConstructionData2020 %}
+
+Elsevier having trouble merging data systems:
+- https://scholarlykitchen.sspnet.org/2022/05/02/reorganization-elsevier/
+- https://scholarlykitchen.sspnet.org/2022/04/25/elsevier-acquire-interfolio/
+- 
+
+ among information conglomerates {% cite noyIndustryscaleKnowledgeGraphs2019 %}
+
+Why
+	- Capable of integrating lots of heterogeneous data {% cite enterpriseknowledgegraphfoundationKnowledgeGraphIndustry2022 schenkerNewReportDetails2021 segaranTwophaseConstructionData2020 natarajanGraphKnowledgeGraph %}
+	- Doesn't need to be radically refactored and all the structure of it carefully architected, just slap some more links in there and let the graph sort it out. 
+
+> Knowledge graphs are also gaining traction in a variety of use cases such as “Customer 360,” identity graph, master data management, fraud detection, recommendation engines, social networking, network operations, life science and drug discovery, among others. {% cite sequedaDesigningBuildingEnterprise2021 %}
+
+> That is because knowledge graphs aim to solve the data incongruence problem, which is one of the biggest operational headaches for corporates, says Atkin.  “Corporates suffer from technology fragmentation and as a result have a lot of data that doesn’t align across the organization. Doing the hard work to fix this data incongruence reality is a pre-requisite for realizing business value,” he says. {% cite schenkerNewReportDetails2021 %}
 
 
 - The change in character is one of 'public information present on the web in the same medium that we use it in, I have tools to be able to directly interact with and understand the data, maybe by way of some automated reasoning agent that I control, but whatevers. -> something where corporations sit on their knowledge graph as *the thing* that they actually are as a business - their structured collection of informatino, the ability to collect and relate adn link it together and repackage it in improbable ways s.t. you always have some new information product to 
