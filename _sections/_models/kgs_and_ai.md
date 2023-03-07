@@ -1,5 +1,8 @@
 **MOVE THIS to "models/surveillance" - the cognitive style of search, why chatbots inevitable and an intrinsic part of the plan, and the broader conversation of the surveillance mindset**
 
+Scraps:
+- Role of knowledge graphs in explainable AI: {% cite lecueRoleKnowledgeGraphs2020 %}
+
 Tim BL actually really wanted to be able to talk to the computers, he specifically imagined chatbots working on top of the semantic web: https://www.w3.org/DesignIssues/Evolution.html
 
 The 'one bar' search paradigm is powerful and inculcates a very specific expectation of use...  (expectations from search results)

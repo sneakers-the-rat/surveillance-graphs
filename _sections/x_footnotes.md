@@ -7,3 +7,7 @@
 [^etsydb]: For a practical example, see a recent [trio](https://www.etsy.com/codeascraft/scaling-etsy-payments-with-vitess-part-1--the-data-model) of [blog](https://www.etsy.com/codeascraft/scaling-etsy-payments-with-vitess-part-2--the-seamless-migration) [posts](https://www.etsy.com/codeascraft/scaling-etsy-payments-with-vitess-part-3--reducing-cutover-risk) from Etsy engineers that describe the process of scaling their database system.
 
 [^notmagic]: I am aware graph databases are not magic and this is an extraordinarily simplified example. The principle is the point, not all the subtle ways the implementations of graph databases are hard.
+
+[^RELXStrugs]: Though apparently they have had historical difficulty actually getting that integration to work {% cite schonfeldReorganizationElsevier2022 %}.
+
+[^infoindustry]: To the degree that it can be considered an "industry" rather than a "mode of extraction."

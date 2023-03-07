@@ -20,13 +20,40 @@ Data companies --- most major companies --- need to store and maintain massive c
 
 Knowledge graphs are particularly well suited for this "data integration" problem. A full technical description is out of scope here, but briefly: traditional relational database systems can be very difficult to modify and refactor, and that difficulty increases the larger and more complex a database is[^etsydb]. One has to be design the structure of the anticipated data in advance, and the abstract schematic structure of the data is embedded in how it is stored and accessed. It is particularly difficult to do unanticipated "long range" analyses where very different kinds of data are analyzed together. 
 
-In contrast, merging graphs is more straightforward {% cite enterpriseknowledgegraphfoundationKnowledgeGraphIndustry2022 schenkerNewReportDetails2021 sequedaDesigningBuildingEnterprise2021 segaranTwophaseConstructionData2020 natarajanGraphKnowledgeGraph %} - the data is just triplets, so in an idealized case[^notmagic] it is possible to just concatenate them and remove duplicates (eg. for a short example, see {% cite allemangMergingDataGraphs2022 allemangMergingTablesHard2023 %}). The graph can be operated on locally, with more global coordination provided by ontologies and schemas, which themselves have a graph structure {% cite villazon-terrazasKnowledgeGraphFoundations2017 %}. Discrepancies between graphlike schema can be resolved by, you guessed it, making more graph to describe the links and transformations between them. Long-range operations between data are part of the basic structure of a graph - just traverse nodes and edges until you get to where you need to go - and the semantic structure of the graph provides additional constraints to that traversal. Again, a technical description is out of scope here, graphs are not magic, but they are well-suited to merging, modifying, and analyzing large quantities of heterogeneous data. 
+In contrast, merging graphs is more straightforward {% cite enterpriseknowledgegraphfoundationKnowledgeGraphIndustry2022 schenkerNewReportDetails2021 sequedaDesigningBuildingEnterprise2021 segaranTwophaseConstructionData2020 natarajanGraphKnowledgeGraph %} - the data is just triplets, so in an idealized case[^notmagic] it is possible to just concatenate them and remove duplicates (eg. for a short example, see {% cite allemangMergingDataGraphs2022 allemangMergingTablesHard2022 %}). The graph can be operated on locally, with more global coordination provided by ontologies and schemas, which themselves have a graph structure {% cite villazon-terrazasKnowledgeGraphFoundations2017 %}. Discrepancies between graphlike schema can be resolved by, you guessed it, making more graph to describe the links and transformations between them. Long-range operations between data are part of the basic structure of a graph - just traverse nodes and edges until you get to where you need to go - and the semantic structure of the graph provides additional constraints to that traversal. Again, a technical description is out of scope here, graphs are not magic, but they are well-suited to merging, modifying, and analyzing large quantities of heterogeneous data. 
 
 Another way of looking at the capacity for heterogeneity in triplet graphs is by thinking of links as statements:
 
 > One person may define a `vehicle` as having a `number of wheels` and a `weight` and a `length`, but not foresee a `color`. This will not stop another person making the assertion that a given car is `red`, using the color vocabulary from elsewhere. {% cite berners-leeWhatSemanticWeb1998 %}
 
 So if you are a data broker, and you just made a hostile acquisition of another data broker who has additional surveillance information to fill out for the people in your existing dataset, you can just stitch those new properties on like a fifth arm on your nightmarish data frankenstein.
+
+What does this look like in practice? While in a bygone era Elsevier was merely a rentier holding publicly funded research hostage for profit, its parent company RELX is paradigmatic of the transformation of a more traditional information rentier into a sprawling, multimodal surveillance conglomerate (see {% cite lamdanDataCartelsCompanies2023 %}). RELX proudly describes itself as a gigantic haunted graph of data:
+
+> Technology at RELX involves creating actionable insights from big data – large volumes of data in different formats being ingested at high speeds. We take this high-quality data from thousands of sources in varying formats – both structured and unstructured. We then extract the data points from the content, link the data points and enrich them to make it analysable. Finally, we apply advanced statistics and algorithms, such as machine learning and natural language processing, to provide professional customers with the actionable insights they need to do their jobs.
+>
+> We are continually building new products and data and technology platforms, re-using approaches and technologies across the company to create platforms that are reliable, scalable and secure. **Even though we serve different segments with different content sets, the nature of the problems solved and the way we apply technology has commonalities across the company.** {% cite relxAnnualReport20222023 %}
+
+![Alt Text: A diagram from RELX's 2022 Annual report titled "Delivering To Customers In A Single Point of Execution." The graph is a funnel from left to right, taking in data sources (Public records, Contributory, Licenses, Proprietary), cleaning them, standardizing them, and then relating and analyzing them. The narrow end of the funnel then expands to a series of services (Batch services, Real-Time API services, Visualization integration) illustrating that once the data has been cleaned then it is possible to create a number of derivative platforms off of them. Beneath the graph are four bullet point lists. Unstructured and structured content: Hundreds of thousands of sources, Billions of device and asset identities, Hundreds of millions of records added daily. Big data platforms: Grid computing with low-cost servers, Linking algorithms that generate high precision and recall, Machine learning algorithms to cluster, link, and learn from the data, High speed data ingestion, recall, and processing, rapid development cycles. Analysis applications: Patented algorithms, Predictive modeling, Machine learning and artifical intelligence. Customer single point of execution: Modular product suites, Flexible delivery platforms](/surveillance-graphs/assets/img/RELX_Pipeline_2022.png)
+*In its 2022 Annual Report, RELX describes its business model as ingesting large quantities of data, linking them together, and deriving platforms from them. {% cite relxAnnualReport20222023 %}*
+
+While to any individual market segment or class of customers RELX and its subsidiaries might look like a portfolio of separate platforms and applications, one can only make sense of the company by thinking of each of them as a view on an interconnected graph of data[^RELXStrugs]. Each additional source of data, either by acquiring new companies or by expanding their existing control of informational access points has the potential to create some combinatorically new set of opportunities for new platforms.
+
+For example, RELX is able to gather surveillance data on researcher attention data through the tracking in its ScienceDirect and Mendeley platforms. It also collects a large amount of chemical data through its control of scientific publishing that it rents access to on its [Reaxys](https://www.elsevier.com/en-gb/solutions/reaxys) platform, which is supplemented by its LexisNexis PatentSight database of patents. So far so normal.
+
+What about the other sides of the multisided market? RELX is able to combine these and other data sources into new product. For pharmaceutical R&D companies, their bespoke [Drug Design Optimization](https://web.archive.org/web/20211207070524/https://www.elsevier.com/solutions/professional-services/drug-design-optimization) services advertise being able to use chemical, disease, and literature-based data to generate a priority list of potential therapeutic targets and drugs, as well as provide "competitive intelligence" about which targets are currently being studied, presumably identified from their ownership of the scientific literature coupled with surveillance data. Since clinicians don't trust pharmaceutical advertisements {% cite elsevierMakingMedicalInformation2021 %}, Elsevier uses its position as a perceived neutral third party to repackage advertisements as informational systems {% cite elsevierRethinkClincalContent2020 %}, "journal-branded webinars," as well as a number of other avenues via its "[360 degree advertising solutions](https://web.archive.org/web/20211111211058/https://www.elsevier.com/advertising-reprints-supplements/advertising)" catalogue. So, by combining several data sources and platforms, Elsevier is able to offer pharmaceutical companies recommendations for candidate drugs above and beyond what would be possible with chemical information alone and then advertise their drugs directly to doctors. 
+
+Derivative platforms beget derivative platforms. Its integration into clinical systems by way of reference material is growing to include [electronic health record](https://web.archive.org/web/20230307020432/https://www.elsevier.com/en-gb/clinical-solutions/clinical-practice) (EHR) systems, and they are "developing clinical decision support applications [...] leveraging [their] proprietary health graph" {% cite relxAnnualReport20222023 %}. Similarly, their integration into Apple's watchOS to track medications indicates their interest in directly tracking personal medical data. 
+
+That's all within biomedical sciences, but RELX's risk division also provides "comprehensive data, analytics, and decision tools for [...] life insurance carriers" {% cite relxAnnualReport20222023 %}, so while we will never have the kind of external visibility into its infrastructure to say for certain, it's not difficult to imagine combining its diverse biomedical knowledge graph with personal medical information in order to sell risk-assessment services to health and life insurance companies. The contemporary knowledge graph-powered surveillance conglomerate gains its versatility precisely from its ability to span many unrelated domains and deploy new platforms as opportunities present themselves.
+
+RELX is easy to hate, but this pattern is true across the information industry[^infoindustry]:
+
+> Knowledge graphs are also gaining traction in a variety of use cases such as “Customer 360,” identity graph, master data management, fraud detection, recommendation engines, social networking, network operations, life science and drug discovery, among others. {% cite sequedaDesigningBuildingEnterprise2021 %}
+
+
+
+
 
 **what does this look like in practice? what kind of horrors does this spawn???? examples from RELX, palantir, neo4j army**
 
@@ -39,24 +66,6 @@ So if you are a data broker, and you just made a hostile acquisition of another 
 
 
 
-Another way of 
-
-This problem of "data integration" 
-
-Patent re: merging graphs {% cite segaranTwophaseConstructionData2020 %}
-
-Elsevier having trouble merging data systems:
-- https://scholarlykitchen.sspnet.org/2022/05/02/reorganization-elsevier/
-- https://scholarlykitchen.sspnet.org/2022/04/25/elsevier-acquire-interfolio/
-- 
-
- among information conglomerates {% cite noyIndustryscaleKnowledgeGraphs2019 %}
-
-Why
-	- Capable of integrating lots of heterogeneous data {% cite enterpriseknowledgegraphfoundationKnowledgeGraphIndustry2022 schenkerNewReportDetails2021 segaranTwophaseConstructionData2020 natarajanGraphKnowledgeGraph %}
-	- Doesn't need to be radically refactored and all the structure of it carefully architected, just slap some more links in there and let the graph sort it out. 
-
-> Knowledge graphs are also gaining traction in a variety of use cases such as “Customer 360,” identity graph, master data management, fraud detection, recommendation engines, social networking, network operations, life science and drug discovery, among others. {% cite sequedaDesigningBuildingEnterprise2021 %}
 
 > That is because knowledge graphs aim to solve the data incongruence problem, which is one of the biggest operational headaches for corporates, says Atkin.  “Corporates suffer from technology fragmentation and as a result have a lot of data that doesn’t align across the organization. Doing the hard work to fix this data incongruence reality is a pre-requisite for realizing business value,” he says. {% cite schenkerNewReportDetails2021 %}
 
