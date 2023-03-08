@@ -20,7 +20,8 @@ Data companies --- most major companies --- need to store and maintain massive c
 
 Knowledge graphs are particularly well suited for this "data integration" problem. A full technical description is out of scope here, but briefly: traditional relational database systems can be very difficult to modify and refactor, and that difficulty increases the larger and more complex a database is[^etsydb]. One has to be design the structure of the anticipated data in advance, and the abstract schematic structure of the data is embedded in how it is stored and accessed. It is particularly difficult to do unanticipated "long range" analyses where very different kinds of data are analyzed together. 
 
-In contrast, merging graphs is more straightforward[^integration] {% cite enterpriseknowledgegraphfoundationKnowledgeGraphIndustry2022 schenkerNewReportDetails2021 sequedaDesigningBuildingEnterprise2021 segaranTwophaseConstructionData2020 natarajanGraphKnowledgeGraph %} - the data is just triplets, so in an idealized case[^notmagic] it is possible to just concatenate them and remove duplicates (eg. for a short example, see {% cite allemangMergingDataGraphs2022 allemangMergingTablesHard2022 %}). The graph can be operated on locally, with more global coordination provided by ontologies and schemas, which themselves have a graph structure {% cite villazon-terrazasKnowledgeGraphFoundations2017 %}. Discrepancies between graphlike schema can be resolved by, you guessed it, making more graph to describe the links and transformations between them. Long-range operations between data are part of the basic structure of a graph - just traverse nodes and edges until you get to where you need to go - and the semantic structure of the graph provides additional constraints to that traversal. Again, a technical description is out of scope here, graphs are not magic, but they are well-suited to merging, modifying, and analyzing large quantities of heterogeneous data. 
+In contrast, merging graphs is more straightforward[^integration] {% cite chaudhriKnowledgeGraphsIntroduction2022 enterpriseknowledgegraphfoundationKnowledgeGraphIndustry2022 schenkerNewReportDetails2021 sequedaDesigningBuildingEnterprise2021 
+azziniAdvancesDataManagement2021 segaranTwophaseConstructionData2020 ceravoloBigDataSemantics2018 natarajanGraphKnowledgeGraph %} - the data is just triplets, so in an idealized case[^notmagic] it is possible to just concatenate them and remove duplicates (eg. for a short example, see {% cite allemangMergingDataGraphs2022 allemangMergingTablesHard2022 %}). The graph can be operated on locally, with more global coordination provided by ontologies and schemas, which themselves have a graph structure {% cite villazon-terrazasKnowledgeGraphFoundations2017 %}. Discrepancies between graphlike schema can be resolved by, you guessed it, making more graph to describe the links and transformations between them. Long-range operations between data are part of the basic structure of a graph - just traverse nodes and edges until you get to where you need to go - and the semantic structure of the graph provides additional constraints to that traversal. Again, a technical description is out of scope here, graphs are not magic, but they are well-suited to merging, modifying, and analyzing large quantities of heterogeneous data. 
 
 Another way of looking at the capacity for heterogeneity in triplet graphs is by thinking of links as statements:
 
@@ -51,82 +52,6 @@ This pattern is true across the information industry {% cite sequedaDesigningBui
 
 > There is evidence [...] that Palantir has infrastructural aspirations to become a general classification system for data integration [...] that can be tailored into a universal knowledge graph. [...] Palantir similarly imagines a world where its platform might serve as a “shadow” universal knowledge graph for governments, industries, and organizations. {% cite iliadisSeerSeenSurveying2022 %}
 
+Knowledge graphs *as a technology* - like all technologies - are not intrinsically unethical. It is the structure of the capital-K capital-G Knowledge Graph *as a concept* with its *context* that is pathological. They represent the historical trajectory of semantic web ideas and technologies from something that we are intended to use and create directly into privately held data that we can only interact with through platforms. They are coproductive with the corporate and technical structure of surveillance capitalism, facilitating conglomerates that gobble up as many platforms and data sources as possible to stitch them into an expanding, heterogeneous graph of data.
 
-**closing ideas**
-- enclosure of tech
-- private ontologies - something that 'they do' and 'we receive'
-- the criticism of 'what does a universal ontology mean' doesn't matter when what you're doing is repackaging it into a product.
-- but what could come is a hybrid...the notion of peer production of knowledge graphs is a trap.
-	- crowdsourcing is literally a euphemism for harvesting other ppls work. people building something together means somethign entirely different when they don't own it.
-
-
-
-**what does this look like in practice? what kind of horrors does this spawn???? examples from RELX, palantir, neo4j army**
-
-- pharmaceutical interaction graphs & general life sciences application
-- recommendation systems
-- fraud detection
-- social media graphs
-- justice & incarceration 
-- army {% cite neo4jNeo4jArmyCase2021 %}
-
-
-
-
-
-
-
-- The change in character is one of 'public information present on the web in the same medium that we use it in, I have tools to be able to directly interact with and understand the data, maybe by way of some automated reasoning agent that I control, but whatevers. -> something where corporations sit on their knowledge graph as *the thing* that they actually are as a business - their structured collection of informatino, the ability to collect and relate adn link it together and repackage it in improbable ways s.t. you always have some new information product to 
-
----
-
-**THIS SECTION: Knowledge graphs as the corporatization of semantic web, culmination of the platformatization logic. cut to next section with a nod to the development of schema.org, why would organizations like this share data/given the focus on proprietariness, what is in it for them with seemingly open standards that might enable others?**
-
---
-
-**Move this probably up before switching to talking about public and private?**
-The competition between explicitly structuring the web and searching through it, and the role of Google specifically is not an incidental example among many, but instrumental to the development of the web as we know it (see Ben Tarnoff's excellent "Internet for the People" for a fuller account {% cite tarnoffInternetPeopleFight2022 %}). 
-
-What do knowledge graphs give us that the older platform models didn't? the ability to link huge amounts of heterogeneous data, which dovetails with the emergence of the platform -> surveillance model
-
-- Also schema.org starting in 2012 - exemplary of how 'open' efforts lead ultimately to greater dominance. 
-
-- and so that transitions to the question at hand: the turn from strictly private corporate knowledge graphs to ones that can be broadly interoperable and extend to many more domains of life... it mirrors the way that "openness" via schema.org allowed them to consolidate a whole set of processes... so why might we care about government knowledge graphs...
-
-This gives clarity to what exactly is an information business, what is 'good' for it - which kinds of openness are good and which are bad. because you want to be able to be able to maximize interfacial contact with indivudual people - sell ads, gather information - 
-the interoperability of a bunch of knowledge graphs is good. you imagine your competitors just some other graph you might want to acquire some day. 
-Through the alchemy of informational capitalism, you want to be able to rent and loan your graph out in pieces to competitors that aren't competing with you on a particular domain so that they might fight your other competitors on a different domain. 
-it's like ultracapitalism where the capital is just infinitely fungible, but it's these graphs + compute!!! 
-interoperability is not a threat because ultimately it's designed around a "graph + compute" anyway, so even if you could get your hands on the graph, you wouldn't be able to use it.
-
-
-- Use in industry
-- Differentiation from prior models of cloud computing and storage
-- Why in particular were they adopted by google et al?
-- Google's KG in particular:
-	- {% cite juelvangEthicsGoogleKnowledge2013 %} - since its creation, people have been questioning the role of google as arbiter or all knowledge. In fact this really freaking pissed off wikipedia and is sort of indicative of the general pillaging of the commons that this kind of business model represent
-- Other companies KGs {% cite noyIndustryscaleKnowledgeGraphs2019 %}
-	- Microsoft:
-		- Bing
-		- Academic Graph
-		- LinkedIn Graph
-	- Facebook: {% cite weaverFacebookLinkedData2013 %}
-- Natural counterpart to sprawling surveillance
-	- This is exactly why they will be so powerful for our kind of generalized digital infrastructure we want to build: the corporate platforms have identified a tool that can be used to run the world's information. 
-	- Eg relx. lots of information acquired over time from a lot of different locations, needs to be able to be reduced to some unified system, and graphs work at the level of propositions and assertions that can then be traversed and resolved. 
-	- You also end up having a lot of multidomain data that could refer to the same entity, but in ways that were unanticipated by the initial schema for the object
-	- unlike traditional relational databases, this is no problem for a graph. 
-	- This also can work in a common interface: you get really dramatically different kinds of information for different kinds of objects, including different kinds of actions that can be taken, but those can be represented in a common format on a graph. 
-	- Inference: you can then make logical inferences based on the networked information, this is a natural thing to want to do for search engines, as you are able to "fill in" information that isn't explicitly encoded in the database. Inference also is coproductive with the evolution into chatbots - if you provide some information about some flight you want to take, then the graph can know what information hasn't beeen provided in a complex concept. 
-
-- What makes KGs special:
-	- Explicit algo + KG model - entity oriented search: {% cite balogEntityOrientedSearch2018 %} 
-	- KGs are best for heterogeneous data: {% cite ceravoloBigDataSemantics2018 %} and specifically in the business case: {% cite chaudhriKnowledgeGraphsIntroduction2022 %}
-	- Specific role of standards efforts like Schema.org - where openness is strategically used in order to 
-
-
-> While Palantir may claim otherwise, we believe there is enough evidence in these patents to suggest that Palantir has an internal knowledge base or knowledge graph for labeling entities in the world, along with their attributes and relationships, and that these occluded resources are not fully released to users, but that users are subject to them in using the products. {% cite iliadisSeerSeenSurveying2022 %}
-
-- KGs are the dominant mode of integrating heterogeneous data: {% cite sequedaDesigningBuildingEnterprise2021 azziniAdvancesDataManagement2021 allemangMergingDataGraphs2022 %}
-
-- Yes, wikidata exists, but it's extremely carefully managed with the intention of creating "facts" that don't embarass google {% cite chahOKGoogleWhat2018 %}
+In particular, it is their "graph plus compute" structure - where some underlying graph of data is coupled with a set of algorithms and interfaces to view it - that is necessary to understand some of the more counterintuitive motivations of surveillance conglomerates. This structure complicates questions of "openness" versus "proprietariness," one of the deepest loci of criticism of the platformatized web, and provides a different lens on ostensibly "open" or "public" knowledge graph-based infrastructure projects.

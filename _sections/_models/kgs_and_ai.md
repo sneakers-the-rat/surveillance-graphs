@@ -2,6 +2,7 @@
 
 Scraps:
 - Role of knowledge graphs in explainable AI: {% cite lecueRoleKnowledgeGraphs2020 %}
+- Explicit algo + KG model - entity oriented search: {% cite balogEntityOrientedSearch2018 %} 
 
 Tim BL actually really wanted to be able to talk to the computers, he specifically imagined chatbots working on top of the semantic web: https://www.w3.org/DesignIssues/Evolution.html
 
