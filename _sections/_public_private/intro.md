@@ -4,6 +4,14 @@ General principle of platformatization doing odd things with proprietariness - e
 Broad principles
 - Strategic use of "openness" when it facilitates greater market control and to prevent someone else from capturing a particular element of the technology.	
 	- Same thing as with the DOI: the linking agreements were killing us! Get some barrier to commerce out of the way (ontology discontinuity) so that the commerce can intensify, not so that it can abate
+	- re: crowdsourcing semantics: {% cite allhutterWorkingOntologistsHighQuality2019 %}
+- Need to create a larger space of shared 'public data' that the companies can then add their 'private data' to: . 
+
+> In a case like IBM clients, who build their own custom knowledge graphs, the clients are not expected to tell the graph about basic knowledge. For example, a cancer researcher is not going to teach the knowledge graph that skin is a form of tissue, or that St. Jude is a hospital in Memphis, Tennessee. This is known as “general knowledge,” captured in a general knowledge graph. The next level of information is knowledge that is well known to anybody in the domain—for example, carcinoma is a form of cancer or NHL more often stands for nonHodgkin lymphoma than National Hockey League in some contexts it may still mean that—say, in the patient record of an NHL player). The client should need to input only the private and confidential knowledge or any knowledge that the system does not yet know. Isolation, federation, and online updates of the base and domain layers are some of the major issues that surface because of this requirement. 
+>
+> [...]
+> 
+> **The natural question from our discussion in this article is whether different knowledge graphs can someday share certain core elements, such as descriptions of people, places, and similar entities.** {% cite noyIndustryscaleKnowledgeGraphs2019 %}
 
 > Peter Mika: A natural next step for Knowledge Graphs is to extend beyond the boundaries of organisations, connecting data assets of companies along business value chains. This process is still at an early stage, and there is a need for trade associations or industry-specific standards organisations to step in, especially when it comes to developing shared entity identifier schemes. {% cite panExploitingLinkedData2017 %}
 

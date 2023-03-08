@@ -1,5 +1,8 @@
 ## Surveillance Graphs
 
+- read and cite:
+	- {% cite allhutterWorkingOntologistsHighQuality2019 %}
+
 
 The problem of belief: what should these things do? present us instantly with results? or should they be part of a messy dialectic of information where the graph itself is the outcome? The cloud orthodoxy suggests the former!
 
@@ -11,6 +14,8 @@ The problem of belief: what should these things do? present us instantly with re
 	- Convenience
 	- Performance
 	- Assumes that we are all subjects of surveillance, that the data is "out there" to be mined, and its heterogeneity is an inconvenience or technical problem.
+	- There is "one" of something - there is one index that refers to the concept of a man, or a given person, etc. rather than many contextual representations of that thing.
+		- the poltics of ontologies are neatly illustrated by the fact that "a woman is a woman" means precisely the opposite thing w.r.t trans woman to transmisics as compared to normal people.
 
 - YOU ONLY NEED TO DO THIS SCALE OF AUTOMATED EXTRACTION IF YOU PRESUPPOSE A UNIVERSE OF A FEW MASSIVE PLATFORMS OWNING EVERYTHING IN THE FIRST PLACE re: amazon product graph example in {% cite chaudhriKnowledgeGraphsIntroduction2022 %}
 
