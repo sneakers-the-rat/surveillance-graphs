@@ -40,8 +40,6 @@ toc: true
 
 # Public Graphs, Private Profits
 
-- Application to medical data: {% cite shiraiApplyingPersonalKnowledge2021 %}
-
 {% include_relative _sections/_public_private/index.md %}
 
 # Competing Models

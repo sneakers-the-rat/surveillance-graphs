@@ -19,6 +19,9 @@ In defense of vulgar linked data, where we dispense with the notion of a unified
 
 ## Notes
 
+- Application to medical data: {% cite shiraiApplyingPersonalKnowledge2021 %}
+
+
 ### Open Knowledge Network Roadmap
 
 - Driven by AI and need for lots of data to munch

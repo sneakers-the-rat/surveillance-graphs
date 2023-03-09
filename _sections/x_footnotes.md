@@ -13,3 +13,7 @@
 [^infoindustry]: To the degree that it can be considered an "industry" rather than a "mode of extraction."
 
 [^integration]: > That is because knowledge graphs aim to solve the data incongruence problem, which is one of the biggest operational headaches for corporates, says Atkin.  “Corporates suffer from technology fragmentation and as a result have a lot of data that doesn’t align across the organization. Doing the hard work to fix this data incongruence reality is a pre-requisite for realizing business value,” he says. {% cite schenkerNewReportDetails2021 %}
+
+[^freesoftware]: "free as in whatever will prevent you from @'ing me about getting some definition of free wrong."
+
+[^wikipedia]: I have written about the peculiar structure of Wikipedia among wikis previously, section 3.4.1 - "[The Wiki Way](https://jon-e.net/infrastructure/#the-wiki-way)" {% cite saundersDecentralizedInfrastructureNeuro2022 %}
