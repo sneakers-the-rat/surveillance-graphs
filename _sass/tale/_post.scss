@@ -19,12 +19,12 @@ main>div.container {
 .post {
   padding: 3rem 0;
 
-    max-width: 750px;
-  width: 80%;
+    // max-width: 750px;
+  // width: 80%;
 
-  @media (max-width: $width-tablet){
-    width: 90%;
-  }
+  // @media (max-width: $width-tablet){
+  //   width: 90%;
+  // }
 
   &-info {
     // color: $default-tint;
@@ -62,7 +62,7 @@ main>div.container {
     }
 
     @media (max-width: $width-mobile){
-      font-size: 2rem;
+      font-size: 2.5rem;
     }
 
   }
