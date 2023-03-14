@@ -1,11 +1,8 @@
 <div id="acknowledgements">
-<ul>
+<h2>With Gratitude To...</h2>
+<ul class="no-anchor">
 {% for item in site.data.acknowledgements %}
-<li>
-	<span class="name">{{ item.name }}</span> {% if item.url %} - <a href="{{ item.url }}">{{ item.handle }}</a> - {% endif %} {{ item.comment | markdownify }}
-</li>
-	
-
-{% endfor %}
+<li markdown="span">
+	<span class="name">{{ item.name }}</span> {% if item.url %} - <a href="{{ item.url }}">{{ item.handle }}</a> - {% endif %} {{ item.comment }}</li>{% endfor %}
 </ul>
 </div>

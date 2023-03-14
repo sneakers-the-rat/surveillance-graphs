@@ -17,3 +17,19 @@
 [^freesoftware]: "free as in whatever will prevent you from @'ing me about getting some definition of free wrong."
 
 [^wikipedia]: I have written about the peculiar structure of Wikipedia among wikis previously, section 3.4.1 - "[The Wiki Way](https://jon-e.net/infrastructure/#the-wiki-way)" {% cite saundersDecentralizedInfrastructureNeuro2022 %}
+
+[^crowdsource]: For critical work on crowdsourcing in the context of "open science," see {% cite mirowskiFutureOpenScience2018 %}, and in the semantic web see {% cite allhutterWorkingOntologistsHighQuality2019 %}.
+
+[^rdfavmicroformats]: (Intervening messages in the [chat log](https://www.w3.org/2011/06/semtech-bof-notes.html) have been omitted for clarity):<br>
+    
+    `<tantek>` Hey Kavi - do you see what you've done here?
+    <br>
+    `<tantek>` You've gotten a community leader of microformats.org (myself) and chair of W3C RDFa WG to \*agree\*
+	<br>
+	`<edsu>` tantek: see, that's progress :)
+	<br>
+	`<manu-db>` Yes - both RDFa and Microformats communities agree - sky will be falling, next.
+
+[^linkingagreements]: "The potential benefit of the service that would become CrossRef was immediately apparent. Organizations such as AIP and IOP (Institute of Physics) had begun to link to each other’s publications, and the impossibility of replicating such one-off arrangements across the industry was obvious. As Tim Ingoldsby later put it, **'All those linking agreements were going to kill us.'**" {% cite crossrefFormationCrossRefShort2009 %}
+
+[^diygoogle]: Go ahead, try and make your own web crawler to compete with Google - all the information is just out there in public on the open web! 

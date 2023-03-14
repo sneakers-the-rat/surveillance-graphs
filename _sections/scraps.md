@@ -46,3 +46,12 @@ In defense of vulgar linked data, where we dispense with the notion of a unified
 - The extended universe of health technologies/wearables/etc.
 	- The implied technologies and platforms from the rest of the projects in the NSF portfolio
 - The general structure of slicing up the giant graph of everything and selling us some chunks of it + some proprietary compute on top 
+
+
+
+> With a large-scale knowledge graph, developers can build high-dimensional representations of entities and relations. The resulting embeddings will greatly benefit many machine-learning, NLP, and AI tasks as sources of features and constraints, and can form the basis for more sophisticated inferences and ways to curate training data. {% cite noyIndustryscaleKnowledgeGraphs2019 %}
+
+When Freebase was closed, its graph was (partially) integrated into Wikidata {% cite pellissiertanonFreebaseWikidataGreat2016 WikidataWikiProjectFreebase %}, which is the dominant collaborative public knowledge graph today. 
+
+
+- Yes, wikidata exists, but it's extremely carefully managed with the intention of creating "facts" that don't embarass google {% cite chahOKGoogleWhat2018 %}

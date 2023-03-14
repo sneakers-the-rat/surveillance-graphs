@@ -55,7 +55,6 @@ function style_hypothesis(){
 
 
 function load_hypothesis(){
-	console.log('loading hypothesis')
 	let footer = document.getElementById('footer');
 	let script = document.createElement('script');
 	script.type = 'text/javascript'

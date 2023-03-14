@@ -18,17 +18,15 @@ toc: true
 1. toc
 {:toc}
 
-<div class="foreword">
-  This piece is an extension of linked data or surveillance capitalism in (cite original infra document) and reproduces text from (sections) in whole or in part. 
-
-  - Purpose of splitting out this document
-  - Purposefully early release, so will be incomplete
-</div>
-
 **Subpages:**
 
 - [Outline](outline.html)
 - [TODO](todo.html)
+
+{% include acknowledgements.html %}
+
+{% include foreword.html %}
+
 
 # Introduction
 
