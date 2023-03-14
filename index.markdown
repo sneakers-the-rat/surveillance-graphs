@@ -22,6 +22,7 @@ toc: true
 
 - [Outline](outline.html)
 - [TODO](todo.html)
+- [Scraps](scraps.html)
 
 {% include acknowledgements.html %}
 
@@ -44,13 +45,6 @@ toc: true
 
 {% include_relative _sections/_models/index.md %}
 
-# Scraps
-
-{% include_relative _sections/scraps.md %}
-
-## Quotes
-
-{% include_relative _sections/quotes.md %}
 
 # References
 

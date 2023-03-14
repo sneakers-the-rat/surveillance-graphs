@@ -1,4 +1,11 @@
-
+---
+layout: post
+title:  "Outline"
+subtitle: "Scraps to maybe incorporate later???"
+author: "Jonny Saunders"
+navigation: false
+canonical_url: "https://jon-e.net/surveillance-graphs/scraps.html"
+---
 ## Summary
 
 The Knowledge Graph Of Everything is a colonial surveillance project
@@ -55,3 +62,7 @@ When Freebase was closed, its graph was (partially) integrated into Wikidata {% 
 
 
 - Yes, wikidata exists, but it's extremely carefully managed with the intention of creating "facts" that don't embarass google {% cite chahOKGoogleWhat2018 %}
+
+# Quotes
+
+> Big Dick Data is a formal, academic term that we, the authors, have coined to denote big data projects that are characterized by masculinist, totalizing fantasies of world domination as enacted through data capture and analysis. Big Dick Data projects ignore context, fetishize size, and inflate their technical and scientific capabilities.4 In GDELT’s case, the question is whether we should take its claims of big data at face value or whether the Big Dick Data is trying to trick funding organizations into giving the project massive amounts of research funding. (We have seen this trick work many times before.) {% cite dignazioDataFeminism2020 %}
