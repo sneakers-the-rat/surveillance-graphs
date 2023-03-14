@@ -1,1 +1,0 @@
-- Who sent all the links about FOSS and corporate capture again? find out and credit them!

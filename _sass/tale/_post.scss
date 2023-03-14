@@ -68,12 +68,16 @@ main>div.container {
   }
 
   &-subtitle {
-    // font-style: italic;
+    font-style: italic;
     font-size: 2rem;
     font-weight: 200;
     text-align: left;
     margin-top: 1rem;
     margin-bottom: 0;
+
+    @media (max-width: $width-mobile){
+      font-size: 1.5rem;
+    }
   }
 
   &-line {

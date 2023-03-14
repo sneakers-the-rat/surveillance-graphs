@@ -2,7 +2,11 @@
 
 main,
 footer{
-  margin: auto;
+  margin: 0 auto;
+  display: block;
+  width: 80%;
+
+  max-width: 750px;
 
   @media (max-width: $width-tablet){
     width: 90%;

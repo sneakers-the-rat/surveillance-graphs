@@ -28,7 +28,8 @@ window.hypothesisConfig = function() {
     return {
         branding: {
             appBackgroundColor: 'transparent'
-        }
+        },
+        enableExperimentalNewNoteButton: true
     }
 }
 
@@ -39,6 +40,11 @@ function style_hypothesis(){
         .bg-grey-2 {
           background-color: transparent !important;
         }
+        
+        button.focus-visible-ring:nth-child(2) {
+            display: none;
+        }
+
     `
 
     waitForElement('hypothesis-sidebar')

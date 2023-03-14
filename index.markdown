@@ -1,9 +1,9 @@
 ---
 layout: post
 title:  "Surveillance Graphs"
-subtitle: "Vulgarity as an Antidote to Cloud Orthodoxy in Data Infrastructures"
+subtitle: "Vulgarity and Cloud Orthodoxy in Linked Data Infrastructures"
 author: 
-  - name: Jonny Saunders
+  - name: Jonny L. Saunders
     affiliation: 
       - UCLA
       - Department of Neurology

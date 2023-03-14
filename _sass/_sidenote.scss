@@ -1,0 +1,44 @@
+.sidenote {
+  position: absolute;
+  text-align: left;
+  padding-left: 20px;
+  margin-left: 20px;
+  margin-bottom: 1.5em;
+  border-left: 1px solid $default-color;
+  color: $default-color;
+  font-style: italic;
+  font-size: 0.8em;
+
+  transition: 0.5s;
+
+
+
+
+  &-header {
+    font-weight: 700;
+  }
+
+  &-hover {
+    @media (max-width: 420px){
+      border-width: 2px;
+      color: inherit;
+    }
+    color: $highlight-color;
+    border-color: $highlight-color;
+    transition: 0.5s
+  }
+
+  p {
+    display: inline;
+  }
+
+  /* kramdown */
+  .reversefootnote {
+    display: none;
+  }
+
+  /* commonmark */
+  .footnote-backref {
+    display: none;
+  }
+}
