@@ -97,3 +97,12 @@
 #taped-on-interfaces-open-loop-user-testing:hover ~ #musicbutton {
 	opacity: 1 !important;	
 }
+
+.note {
+	border: 5px solid $highlight-color;
+	border-radius: 10px;
+	background-color: adjust-color($highlight-color, $lightness: 45%);
+	box-shadow: 5px 5px adjust-color($highlight-color, $lightness: -10%);
+	padding: 0.5em 1em;
+	margin-bottom: 2rem;
+}

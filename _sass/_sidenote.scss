@@ -32,6 +32,10 @@
     display: inline;
   }
 
+  blockquote p {
+    display: block;
+  }
+
   /* kramdown */
   .reversefootnote {
     display: none;
