@@ -1,0 +1,921 @@
+<!DOCTYPE html>
+<html lang="en" prefix="foaf: http://xmlns.com/foaf/0.1/">
+
+  <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Surveillance Graphs</title>
+<meta name="generator" content="Jekyll v4.3.2" />
+<meta property="og:title" content="Surveillance Graphs" />
+<meta property="og:locale" content="en_US" />
+<link rel="canonical" href="https://jon-e.net/surveillance-graphs" />
+<meta property="og:url" content="https://jon-e.net/surveillance-graphs" />
+<meta property="og:site_name" content="Surveillance Graphs" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Surveillance Graphs" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebSite","headline":"Surveillance Graphs","name":"Jonny Saunders","sameAs":["https://twitter.com/json_dirs","https://jon-e.net"],"url":"https://jon-e.net/surveillance-graphs"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="/surveillance-graphs/assets/main.css">
+  <script src="/surveillance-graphs/assets/js/hypothesis.js"></script>
+  <script src="/surveillance-graphs/assets/js/sidenote.js"></script>
+  <!-- Favicon -->
+<!--   <link rel="icon" type="image/png" sizes="32x32" href="/surveillance-graphs/assets/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/surveillance-graphs/assets/favicon-16x16.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/surveillance-graphs/assets/apple-touch-icon.png">
+ -->
+  <!-- RSS -->
+
+
+</head>
+
+
+  <body vocab="https://schema.org/" typeof="ScholarlyArticle">
+
+    
+
+    <main>
+      <!-- <div class="container"> -->
+      <div class="post">
+    <div class="post-info">
+        <h1 class="post-title" property="title">
+<a class="anchor" href="#surveillance-graphs" aria-hidden="true"><span class="octicon octicon-link"></span></a>Surveillance Graphs</h1>
+        
+        
+          <h2 class="post-subtitle">
+<a class="anchor" href="#vulgarity-and-cloud-orthodoxy-in-linked-data-infrastructures" aria-hidden="true"><span class="octicon octicon-link"></span></a>Vulgarity and Cloud Orthodoxy in Linked Data Infrastructures</h2>
+        
+
+        <div class="post-line"></div>
+
+        
+          
+          <span property="author" resource="#au:jonny-l-saunders" typeof="Person">
+            <span class="post-author" property="name">Jonny L. Saunders</span>
+            <span property="email" content="j@nny.fyi"> 
+            <a href="mailto:j@nny.fyi">
+                <i class="far fa-envelope"></i>
+            </a>
+            </span>
+          </span>
+          
+        
+
+        <br>
+
+        
+
+        
+        
+
+        <div class="post-date">
+            <span>Rendered: </span>
+            <time datetime="2023-28-15"> 2023-03-15</time> - <span style="color:#444; font-style:none">permalink:</span> <a href="/infrastructure/versions/bb2b452"><code>bb2b452</code></a> 
+
+        </div>
+
+        <div class="wordcount">
+            <p>Estimated Reading Time: 36 minutes (<span property="wordCount">9661</span> words)</p>
+        </div>
+
+    </div>
+    
+
+
+    <div property="articleBody">
+    <ol id="markdown-toc">
+  <li><a href="#introduction" id="markdown-toc-introduction">Introduction</a></li>
+  <li>
+<a href="#knowledge-graphs-a-backbone-in-the-surveillance-economy" id="markdown-toc-knowledge-graphs-a-backbone-in-the-surveillance-economy">Knowledge Graphs: A Backbone in the Surveillance Economy</a>    <ol>
+      <li><a href="#semantic-web-priesthoods" id="markdown-toc-semantic-web-priesthoods">Semantic Web: Priesthoods</a></li>
+      <li><a href="#linked-data-platforms" id="markdown-toc-linked-data-platforms">Linked Data: Platforms</a></li>
+      <li><a href="#knowledge-graphs-panoptica" id="markdown-toc-knowledge-graphs-panoptica">Knowledge Graphs: Panoptica</a></li>
+    </ol>
+  </li>
+  <li>
+<a href="#public-graphs-private-profits" id="markdown-toc-public-graphs-private-profits">Public Graphs, Private Profits</a>    <ol>
+      <li><a href="#nih-the-biomedical-translator" id="markdown-toc-nih-the-biomedical-translator">NIH: The Biomedical Translator</a></li>
+      <li><a href="#nsf-open-knowledge-network" id="markdown-toc-nsf-open-knowledge-network">NSF: Open Knowledge Network</a></li>
+    </ol>
+  </li>
+  <li>
+<a href="#competing-models" id="markdown-toc-competing-models">Competing Models</a>    <ol>
+      <li><a href="#surveillance-graphs" id="markdown-toc-surveillance-graphs">Surveillance Graphs</a></li>
+      <li><a href="#vulgar-linked-data" id="markdown-toc-vulgar-linked-data">Vulgar Linked Data</a></li>
+    </ol>
+  </li>
+  <li><a href="#references" id="markdown-toc-references">References</a></li>
+  <li><a href="#footnotes" id="markdown-toc-footnotes">Footnotes</a></li>
+</ol>
+
+<p><strong>Subpages:</strong></p>
+
+<ul>
+  <li><a href="outline.html">Outline</a></li>
+  <li><a href="todo.html">TODO</a></li>
+  <li><a href="scraps.html">Scraps</a></li>
+</ul>
+
+<div id="acknowledgements">
+  <h2>
+<a class="anchor" href="#with-gratitude-to" aria-hidden="true"><span class="octicon octicon-link"></span></a>With Gratitude To…</h2>
+  <ul class="no-anchor">
+
+<li>
+	<span class="name">Fabián Heredia</span>  - <a href="https://sunbeam.city/@fabianhjr">@fabianhjr@sunbeam.city</a> -  for recommending a number of resources on FOSS and industry, see <a href="#context_foss-and-industry">context:foss-and-industry</a>
+</li>
+<li>
+	<span class="name">Ed Summers</span>  - <a href="https://social.coop/@edsu">@edsu@social.coop</a> -  for providing context on some historical Linked Data questions</li>
+</ul>
+</div>
+
+<div class="foreword">
+  <p>This piece is an extension of linked data or surveillance capitalism in (cite original infra document) and reproduces text from (sections) in whole or in part.</p>
+
+  <ul>
+    <li>Purpose of splitting out this document</li>
+    <li>Purposefully early release, so will be incomplete</li>
+  </ul>
+</div>
+
+<h1 id="introduction">
+<a class="anchor" href="#introduction" aria-hidden="true"><span class="octicon octicon-link"></span></a>Introduction</h1>
+
+<p>The world is Big Data, and The Cloud is its landlord. Much like the universal commodification of prior <a class="citation" href="#warkCapitalDeadThis2021">[1]</a> assemblages of capitalism, The Cloud’s informational capitalism recasts every element of our reality as Data, and it is our responsibility to ferret it out of its primitive unknown, mine it, harvest it, dump it by the tanker-truckful into great Data Lakes and wring the Actionable Insights from its neck. The world has always been Big with Data, but The Cloud has finally given us a fruit of knowledge to munch on that reveals its true nature. We are but Data Subjects, and if we can harness the wily spray of our Organic Content with biosensor wearables, filtering our every action, affection, and affilitation through a mob of algorithmically optimized platforms, then The Cloud might teach us enough about ourselves to be able to lead a fulfilled and healthy life. Academics and Governments in particular are filthy with Data, and have set their eyes on a new generation of data infrastructures that promise to dissolve the Silos that prevent the Big Data from teaching us the nature of the universe, how to solve poverty, reverse climate change, and finally collapse into one great cat-pile of peace and love for our neighbor. The Cloud is dreaming of linking the Big Data into one great Knowledge Graph of Everything — it tells us this is important for the fate of humanity.</p>
+
+<p>The Knowledge Graph of Everything is a mirage, though. Its vision of extracting all the world’s data is the same colonial vision of infinite prosperity that has driven us to the brink of extinction: So The Cloud Said, let us make Platforms in our image, and let them have dominion over the interactions with the apps, and the insights of the analytics, and over all the data of the earth. The pursuit of universalizing ontologies that will finally give every quantum of Data its one True and Correct form is the same fascistic vision that has driven eliminationist campaigns to stamp out degeneracy: Ontologien über alles. Aside from its properly pathological nature, the Knowledge Graph of Everything <em>is impossible</em> and <em>won’t work.</em> Instead, The Cloud will lead governments and academics along by the nose just long enough to build critical mass for an interlocking set of platforms that slice off snapshots of the Everything to ratchet us ever futher into the captivity of surveillance and subscription.</p>
+
+<p>What is the alternative? The Cloud presents its future as inevitable, but by seeing past its logic we might imagine properly <em>human</em> infrastructures that fill the needs for connection and understanding that it exploits. This piece develops the notion of <strong>vulgar linked data</strong> as an alternative to the Cloud Orthodoxy. Predicated on relationality, heterogeneity, privacy, and vernacular expression, vulgar linked data infrastructures attempt to empower <em>people</em> to <em>socially organize</em> information in a truly decentralized sociotechnological commons, rather than empowering <em>systems</em> to <em>rent</em> knowledge organization for <em>profit.</em></p>
+
+<h1 id="knowledge-graphs-a-backbone-in-the-surveillance-economy">
+<a class="anchor" href="#knowledge-graphs-a-backbone-in-the-surveillance-economy" aria-hidden="true"><span class="octicon octicon-link"></span></a>Knowledge Graphs: A Backbone in the Surveillance Economy</h1>
+
+<p>Through their cloud of corporate jargon, knowledge graphs are relatively straightforward to define <a class="citation" href="#chaudhriKnowledgeGraphsIntroduction2022">[2, 3, 4, 5]</a> (though see <a class="citation" href="#ehrlingerDefinitionKnowledgeGraphs2016">[6]</a>): <strong>directed, labeled graphs</strong> consisting of <em>nodes</em> corresponding to entities like a person, dataset, location, etc. and <em>edges</em> that describe their relationship<sup id="fnref:triplets" role="doc-noteref"><a href="#fn:triplets" class="footnote" rel="footnote">1</a></sup>. Knowledge graphs typically make use of some controlled <strong>ontology</strong> that provide a specific set of terms and how they are to be used, and “types” that give a given entity an expected set of <em>properties</em> denoted by edges with a particular set of labels from the ontology. For example, the schema.org <a href="https://schema.org/Person">Person</a> type would be applied to a node, and then have a set of labeled edges like <code class="language-plaintext highlighter-rouge">gender</code> or <code class="language-plaintext highlighter-rouge">email</code> that link to other nodes that contain the values of the properties.</p>
+
+<p>Why does such a seemingly ordinary data structure deserve particular attention in an always-more-fraught landscape of digital technology? The story of knowledge graphs is the story of the enclosure of the wild and open web into a series of surveillance-backed platforms. They provide an underexplored lens onto the present and future of digital infrastructure as planned by information conglomerates — and serve as a liberatory kernel that hints at how we might chart a different course.</p>
+
+<h3 id="semantic-web-priesthoods">
+<a class="anchor" href="#semantic-web-priesthoods" aria-hidden="true"><span class="octicon octicon-link"></span></a>Semantic Web: Priesthoods</h3>
+
+<p>The term “Knowledge Graph” evolved out of the Semantic Web project <a class="citation" href="#hitzlerReviewSemanticWeb2021">[6]</a>. It is difficult to reconstruct how radical the notion of a collection of documents organized by arbitrary links between them was at dawn of the internet. At the time, the infrastructures of linking documents looked more like ISBNs, carefully regulated by expert, centralized authorities<sup id="fnref:dois" role="doc-noteref"><a href="#fn:dois" class="footnote" rel="footnote">2</a></sup>. Being able to <em>just make anything that could be linked to</em> and <em>link to anything you wanted</em> was <em>terrifying</em> and <em>new</em> (eg. <a class="citation" href="#berners-leeLinksLaw1997">[7, 8]</a>).</p>
+
+<p>The initial design of the web imagined it as a self-organizing process, where people would maintain their own websites and organize a collection of links to other websites. It became clear relatively quickly that the anarchy of a socially self-organizing internet wasn’t going to work as planned, where without a formal system of organization “people were frightened of getting lost in it. You could follow links forever.” <a class="citation" href="#berners-leeWhatSemanticWeb1998">[9]</a></p>
+
+<p>In its earliest formulations, the Semantic Web was an attempt to supplement the same arbitrary power to express human-readable information with computer-readable information. It imagined a linked and overlapping set of schemas ranging from locally expressive vocabularies used among small groups of friends through globally shared, logically consistent ontologies. The semantic web was intended to evolve fluidly, like language, with cultures of meaning meshing and separating at multiple scales <a class="citation" href="#berners-leeScalefreeNatureWeb1998">[10, 11, 12]</a>:</p>
+
+<blockquote>
+  <p>Locally defined languages are easy to create, needing local consensus about meaning: only a limited number of people have to share a mental pattern of relationships which define the meaning. However, global languages are so much more effective at communication, reaching the parts that local languages cannot. […]</p>
+
+  <p>So the idea is that in any one message, some of the terms will be from a global ontology, some from subdomains. The amount of data which can be reused by another agent will depend on how many communities they have in common, how many ontologies they share.</p>
+
+  <p>In other words, one global ontology is not a solution to the problem, and a local subdomain is not a solution either. But if each agent has uses a mix of a few ontologies of different scale, that is forms a global solution to the problem. <a class="citation" href="#berners-leeScalefreeNatureWeb1998">[10]</a></p>
+</blockquote>
+
+<blockquote>
+  <p>The Semantic Web, in naming every concept simply by a URI, lets anyone express new concepts that they invent with minimal effort. Its unifying logical language will enable these concepts to be progressively linked into a universal Web. <a class="citation" href="#berners-leeSemanticWeb2001">[11]</a></p>
+</blockquote>
+
+<p>This freeform goal expression for expression’s sake was always in tension with another part of the vision - serving as a backbone for AI “agents” that could compute emergent function from the semantic web. Succinctly: “Human language thrives when using the same term to mean somewhat different things, but automation does not.” <a class="citation" href="#berners-leeSemanticWeb2001">[11]</a> This tension persists through the broader history of the web.</p>
+
+<h3 id="linked-data-platforms">
+<a class="anchor" href="#linked-data-platforms" aria-hidden="true"><span class="octicon octicon-link"></span></a>Linked Data: Platforms</h3>
+
+<p>Much of the work of the semantic web project in the early 2000s focused on the “global” side of this tension at the expense of the “local” - creating ontologies and related technologies intended to serve as a foundation for expressing basic things in a common vocabulary <a class="citation" href="#hitzlerReviewSemanticWeb2021">[12]</a>. This work had many successes, but began a schism between the priesthood of people concerned with making systems that were <em>correct</em> and those that were more concerned with making things that <em>worked</em> - or supported “local” expression (eg (missing reference)). Aaron Swartz captured this frustration in his unfinished book:</p>
+
+<blockquote>
+  <p>Instead of the “let’s just build something that works” attitude that made the Web (and the Internet) such a roaring success, they brought the formalizing mindset of mathematicians and the institutional structures of academics and defense contractors. They formed committees to form working groups to write drafts of ontologies that carefully listed (in 100-page Word documents) all possible things in the universe and the various properties they could have, and they spent hours in Talmudic debates over whether a washing machine was a kitchen appliance or a household cleaning device. <a class="citation" href="#swartzAaronSwartzProgrammable2013">[13]</a></p>
+</blockquote>
+
+<p>Lindsay Poirier describes this difference in “thought styles” as a rift between the “neats” focused on universalizing <em>a priori</em> ontologies and the “scruffies” focused on everyday use and letting the structure appear afterwards <a class="citation" href="#poirierTurnScruffyEthnographic2017">[14]</a>. The latter characterizes the “second age” of the Semantic Web after 2006 - the reorganization around <strong>Linked Data</strong> <a class="citation" href="#berners-leeLinkedData2006">[15, 12]</a>. The era of Linked Data de-emphasized the idealistic and ideological goals of the early Semantic Web, driven more by an empirical approach of trying to realize these systems on the wilds of the web, creating some of the first public “Linked Open Data” systems like DBPedia and Freebase.</p>
+
+<p>This turn coincides with the emerging platformatization and enclosure of the web as “Web 2.0.” Throughout the early 2000s, the work of the Semantic Web project was largely invisible to the ordinary web user, and its vision of a self-organizing web was easily outcompeted by the now-ubiquitous use of search engines to index the web. Where in the early 2000s web architects were imagining the future of web continuing to take place on free and open <em>protocols,</em> the Linked Data/Web 2.0 era corraled us into a pattern of <em>platforms</em> which quickly ratcheted their way to dominance in a positive feedback loop of user experience design, network effects and profit. On platforms, rather than a system that “belongs” to everyone, you are granted access to some specific set of operations through an interface so that you can be part of a social process of producing and curating information for the platform holder.</p>
+
+<h3 id="knowledge-graphs-panoptica">
+<a class="anchor" href="#knowledge-graphs-panoptica" aria-hidden="true"><span class="octicon octicon-link"></span></a>Knowledge Graphs: Panoptica</h3>
+
+<p>In 2010 Google acquired Metaweb and its publicly-edited Semantic Web database Freebase, and in 2012 repackaged it and the ideas of Linked Data as what it called a <strong>Knowledge Graph</strong> — the third era of the Semantic Web <a class="citation" href="#singhalIntroducingKnowledgeGraph2012">[16, 17]</a>. Freebase only made up part of it, and the full extent of Google’s Knowledge Graph are unknown, but its most visible impact are the factboxes that present structured information about the subjects of searches - like biographical information in a search for a person - or the different widgets for contextual interaction - like being able to make a restaurant reservation from the serach page <a class="citation" href="#noyIndustryscaleKnowledgeGraphs2019">[18]</a>. Knowledge Graphs still share the same underlying structure — triplet graphs with ontologies — even if they occupy a broader space of implementations and technologies. What differs is the context and intended use: the “worldview” of the knowledge graph.</p>
+
+<p>Beyond the obvious product-level features it supports, Google’s acquisition of Freebase and the structure of its Knowledge Graph represent at least two deeper shifts in the trajectory of the Semantic Web and the broader internet: the privatization of technologies with initially liberatory aspirations, and an early template of the sprawling, surveillance-driven information conglomerate we know and love today.</p>
+
+<p>Like the radical nature of linking on the web, it’s difficult to remember that the web as surveillance apparatus thinly veiled as the five or so remaining websites was not inevitable. The pre-dotcom bust internet of the 90’s and early 2000’s was far from the commercialized wasteland we know today. Ed Horowitz, CEO of Viacom explained in 1996: “The Internet has yet to fulfill its promise of commercial success. Why? Because there is no business model” <a class="citation" href="#tarnoffInternetPeopleFight2022">[19]</a>. Google’s AdWords being a defining moment in the development of surveillance capitalism is a story already told <a class="citation" href="#zuboffAgeSurveillanceCapitalism2019">[20]</a>: taking advantage of the need for search generated by the disorganization of the web, AdWords turned personal search data into a profit vector by selling targeted space in the results.</p>
+
+<p>The significance of the relationship between search, the semantic web, and what became knowledge graphs is less widely appreciated. The semantic web was initially an alternative to monolithic search engine platforms - or, more generally, to platforms in general <a class="citation" href="#berners-leeSociallyAwareCloud2009">[21]</a>. It imagined the use of triplet links and shared ontologies at a protocol level as a way of organizing the information on the web into a richly explorable space: rather than needing to rely on a search bar, one could traverse a structured graph of information <a class="citation" href="#berners-leeLinkedData2006">[21, 22]</a> to find what one needed without mediation by a third party.</p>
+
+<p>Instead, the form of of the semantic web that emerged as “Knowledge Graphs” flipped the vision of a free and evolving internet on its head. The mutation from “Linked Open Data” <a class="citation" href="#berners-leeLinkedData2006">[21]</a> to “Knowledge Graphs” is a shift in meaning from a public and densely linked web of information from many sources to a proprietary information store used to power derivative platforms and services. The shift isn’t quite so simple as a “closure” of a formerly open resource — we’ll return to the complex role of openness in a moment. It is closer to an <em>en</em>closure, a <em>domestication</em> of the dream of the Semantic Web. A dream of a mutating, pluralistic space of communication, where we were able to own and change and create the information that structures our digital lives was reduced to a ring of platforms that give us precisely as much agency as is needed to keep us content in our captivity. Links that had all the expressive power of utterances, questions, hints, slander, and lies were reduced to mere facts. We were recast from our role as <em>people</em> creating a digital world to <em>consumers</em> of subscriptions and services. The artifacts that we create for and with and between each other as the substance of our lives online were yoked to the acquisitive gaze of the knowledge graph as <em>content</em> to be mined. We vulgar commoners, we data subjects, are not allowed to touch the graph — even if it is built from our disembodied bits.</p>
+
+<p>The same technologies, with minor variation, that were intended to keep the internet free became emblematic of and coproductive with the surveillance/platform model that has enclosed it. Beyond Google, knowledge graphs are an elemental part of the contempory information economy. Banks, militaries, governments, life science corporations, journalists, everyone is using knowledge graphs <a class="citation" href="#neo4jNeo4jCustomers">[23, 24]</a>. Their ubiquity is not an accident, one of many possible data systems that could have fit the bill, but reflects and reinforces basic patterns of the information economy and the corporations within it.</p>
+
+<p>What makes knowledge graphs so special? It turns out that semantic web technologies, designed to accomodate the infinitely heterogeneous, multiscale nature of free and unmediated social structuring of information are also quite useful for the indefinitely expanding dragnet of data collection that defines the operation of contemporary capitalism:</p>
+
+<blockquote>
+  <p>“If one takes a look at the top Fortune 500 companies, it is surprising how many of them are really in the information business. I don’t just mean the technology and telecommunication companies like Apple or Google or Verizon or Cisco or the drug companies like Pfizer. One could also think of the big banks as a subset of the vectoralist class rather than as “finance capital.” They too are in the information asymmetry business. And as we learned in the 2008 crash, even the car companies are in the information business—they made more money from car loans than cars. The military—industrial sector is also in the information business. The companies that appear to sell actual things, like Nike, are really in the brand business. Walmart and Amazon compete with different models of the information logistics business. Even the oil companies are in part at least in the information-about-the-geology-of-possible-oil-deposits business. Perhaps the vectoralist class is no longer emerging. Maybe it is the new dominant class.” <em>- McKenzie Wark, Capital Is Dead: Is This Something Worse?</em> <a class="citation" href="#warkCapitalDeadThis2021">[24]</a></p>
+</blockquote>
+
+<p>Data companies — most major companies — need to store and maintain massive collections of heterogeneous data across their byzantine hierarchies of executives, managers, and workers. This gigantic haunted ball of data is not just a tool, but the <em>substance</em> of the company. A data company persists by exploiting the combinatorics of its data hoard, spinning off new platforms that in turn maintain and expand access to data by creating captive data subjects<sup id="fnref:fbgraph" role="doc-noteref"><a href="#fn:fbgraph" class="footnote" rel="footnote">3</a></sup>. As it expands, a conglomerate will acquire many new sources and modalities of data and need to integrate them with its existing data.</p>
+
+<p>Knowledge graphs are particularly well suited for this “data integration” problem. A full technical description is out of scope here, but briefly: traditional relational database systems can be very difficult to modify and refactor, and that difficulty increases the larger and more complex a database is<sup id="fnref:etsydb" role="doc-noteref"><a href="#fn:etsydb" class="footnote" rel="footnote">4</a></sup>. One has to be design the structure of the anticipated data in advance, and the abstract schematic structure of the data is embedded in how it is stored and accessed. It is particularly difficult to do unanticipated “long range” analyses where very different kinds of data are analyzed together.</p>
+
+<p>In contrast, merging graphs is more straightforward<sup id="fnref:integration" role="doc-noteref"><a href="#fn:integration" class="footnote" rel="footnote">5</a></sup> <a class="citation" href="#chaudhriKnowledgeGraphsIntroduction2022">[24, 24, 25, 26, 27, 28, 29, 30]</a> - the data is just triplets, so in an idealized case<sup id="fnref:notmagic" role="doc-noteref"><a href="#fn:notmagic" class="footnote" rel="footnote">6</a></sup> it is possible to just concatenate them and remove duplicates (eg. for a short example, see <a class="citation" href="#allemangMergingDataGraphs2022">[31, 32]</a>). The graph can be operated on locally, with more global coordination provided by ontologies and schemas, which themselves have a graph structure <a class="citation" href="#villazon-terrazasKnowledgeGraphFoundations2017">[33]</a>. Discrepancies between graphlike schema can be resolved by, you guessed it, making more graph to describe the links and transformations between them. Long-range operations between data are part of the basic structure of a graph - just traverse nodes and edges until you get to where you need to go - and the semantic structure of the graph provides additional constraints to that traversal. Again, a technical description is out of scope here, graphs are not magic, but they are well-suited to merging, modifying, and analyzing large quantities of heterogeneous data.</p>
+
+<p>Another way of looking at the capacity for heterogeneity in triplet graphs is by thinking of links as statements:</p>
+
+<blockquote>
+  <p>One person may define a <code class="language-plaintext highlighter-rouge">vehicle</code> as having a <code class="language-plaintext highlighter-rouge">number of wheels</code> and a <code class="language-plaintext highlighter-rouge">weight</code> and a <code class="language-plaintext highlighter-rouge">length</code>, but not foresee a <code class="language-plaintext highlighter-rouge">color</code>. This will not stop another person making the assertion that a given car is <code class="language-plaintext highlighter-rouge">red</code>, using the color vocabulary from elsewhere. <a class="citation" href="#berners-leeWhatSemanticWeb1998">[33]</a></p>
+</blockquote>
+
+<p>So if you are a data broker, and you just made a hostile acquisition of another data broker who has additional surveillance information to fill out for the people in your existing dataset, you can just stitch those new properties on like a fifth arm on your nightmarish data frankenstein.</p>
+
+<p>What does this look like in practice? While in a bygone era Elsevier was merely a rentier holding publicly funded research hostage for profit, its parent company RELX is paradigmatic of the transformation of a more traditional information rentier into a sprawling, multimodal surveillance conglomerate (see <a class="citation" href="#lamdanDataCartelsCompanies2023">[34]</a>). RELX proudly describes itself as a gigantic haunted graph of data:</p>
+
+<blockquote>
+  <p>Technology at RELX involves creating actionable insights from big data – large volumes of data in different formats being ingested at high speeds. We take this high-quality data from thousands of sources in varying formats – both structured and unstructured. We then extract the data points from the content, link the data points and enrich them to make it analysable. Finally, we apply advanced statistics and algorithms, such as machine learning and natural language processing, to provide professional customers with the actionable insights they need to do their jobs.</p>
+
+  <p>We are continually building new products and data and technology platforms, re-using approaches and technologies across the company to create platforms that are reliable, scalable and secure. <strong>Even though we serve different segments with different content sets, the nature of the problems solved and the way we apply technology has commonalities across the company.</strong> <a class="citation" href="#relxAnnualReport20222023">[35]</a></p>
+</blockquote>
+
+<p><img src="/surveillance-graphs/assets/img/RELX_Pipeline_2022.png" alt="Alt Text: A diagram from RELX's 2022 Annual report titled &quot;Delivering To Customers In A Single Point of Execution.&quot; The graph is a funnel from left to right, taking in data sources (Public records, Contributory, Licenses, Proprietary), cleaning them, standardizing them, and then relating and analyzing them. The narrow end of the funnel then expands to a series of services (Batch services, Real-Time API services, Visualization integration) illustrating that once the data has been cleaned then it is possible to create a number of derivative platforms off of them. Beneath the graph are four bullet point lists. Unstructured and structured content: Hundreds of thousands of sources, Billions of device and asset identities, Hundreds of millions of records added daily. Big data platforms: Grid computing with low-cost servers, Linking algorithms that generate high precision and recall, Machine learning algorithms to cluster, link, and learn from the data, High speed data ingestion, recall, and processing, rapid development cycles. Analysis applications: Patented algorithms, Predictive modeling, Machine learning and artifical intelligence. Customer single point of execution: Modular product suites, Flexible delivery platforms">
+<em>In its 2022 Annual Report, RELX describes its business model as ingesting large quantities of data, linking them together, and deriving platforms from them. <a class="citation" href="#relxAnnualReport20222023">[35]</a></em></p>
+
+<p>While to any individual market segment or class of customers RELX and its subsidiaries might look like a portfolio of separate platforms and applications, one can only make sense of the company by thinking of each of them as a view on an interconnected graph of data<sup id="fnref:RELXStrugs" role="doc-noteref"><a href="#fn:RELXStrugs" class="footnote" rel="footnote">7</a></sup>. Each additional source of data, either by acquiring new companies or by expanding their existing control of informational access points has the potential to create some combinatorically new set of opportunities for new platforms.</p>
+
+<p>For example, RELX is able to gather surveillance data on researcher attention data through the tracking in its ScienceDirect and Mendeley platforms. It also collects a large amount of chemical data through its control of scientific publishing that it rents access to on its <a href="https://www.elsevier.com/en-gb/solutions/reaxys">Reaxys</a> platform, which is supplemented by its LexisNexis PatentSight database of patents. So far so normal.</p>
+
+<p>What about the other sides of the multisided market? RELX is able to combine these and other data sources into new product. For pharmaceutical R&amp;D companies, their bespoke <a href="https://web.archive.org/web/20211207070524/https://www.elsevier.com/solutions/professional-services/drug-design-optimization">Drug Design Optimization</a> services advertise being able to use chemical, disease, and literature-based data to generate a priority list of potential therapeutic targets and drugs, as well as provide “competitive intelligence” about which targets are currently being studied, presumably identified from their ownership of the scientific literature coupled with surveillance data. Since clinicians don’t trust pharmaceutical advertisements <a class="citation" href="#elsevierMakingMedicalInformation2021">[36]</a>, Elsevier uses its position as a perceived neutral third party to repackage advertisements as informational systems <a class="citation" href="#elsevierRethinkClincalContent2020">[37]</a>, “journal-branded webinars,” as well as a number of other avenues via its “<a href="https://web.archive.org/web/20211111211058/https://www.elsevier.com/advertising-reprints-supplements/advertising">360 degree advertising solutions</a>” catalogue. So, by combining several data sources and platforms, Elsevier is able to offer pharmaceutical companies recommendations for candidate drugs above and beyond what would be possible with chemical information alone and then advertise their drugs directly to doctors.</p>
+
+<p>Derivative platforms beget derivative platforms. Its integration into clinical systems by way of reference material is growing to include <a href="https://web.archive.org/web/20230307020432/https://www.elsevier.com/en-gb/clinical-solutions/clinical-practice">electronic health record</a> (EHR) systems, and they are “developing clinical decision support applications […] leveraging [their] proprietary health graph” <a class="citation" href="#relxAnnualReport20222023">[35]</a>. Similarly, their integration into Apple’s watchOS to track medications indicates their interest in directly tracking personal medical data.</p>
+
+<p>That’s all within biomedical sciences, but RELX’s risk division also provides “comprehensive data, analytics, and decision tools for […] life insurance carriers” <a class="citation" href="#relxAnnualReport20222023">[35]</a>, so while we will never have the kind of external visibility into its infrastructure to say for certain, it’s not difficult to imagine combining its diverse biomedical knowledge graph with personal medical information in order to sell risk-assessment services to health and life insurance companies. LexisNexis has personal data enough to serve as an “integral part” of the United States Immigrations and Customs Enforcement’s (ICE) arrest and deportation program <a class="citation" href="#biddleLexisNexisProvideGiant2021">[38, 39]</a>, including dragnet <a href="https://web.archive.org/web/20230308034123/https://risk.lexisnexis.com/products/accurint-trax">location data</a> <a class="citation" href="#lexisnexisrisksolutionsAccurintTraX">[40]</a>, <a href="https://risk.lexisnexis.com/products/telematics-ondemand">driving behavior data</a> from internet-connected cars <a class="citation" href="#lexisnexisrisksolutionsTelematicsOnDemand">[41]</a>, and <a href="https://risk.lexisnexis.com/products/threatmetrix">payment and credit data</a> as just a small sample from its large <a href="https://web.archive.org/web/20230308034302/https://www.lexisnexis.com/pdf/AccurintForLegalProfessionals/24.pdf">catalogue</a> <a class="citation" href="#lexisnexisrisksolutionsAccurintLegalProfessionals2022">[42]</a> of data <a href="https://risk.lexisnexis.com/our-technology/lexid">aggregated and linked</a> into comprehensive profiles <a class="citation" href="#lexisnexisrisksolutionsLexID">[43]</a>. The contemporary knowledge graph-powered surveillance conglomerate gains its versatility precisely from its ability to span many unrelated domains and deploy new platforms as opportunities present themselves. As new data sources are acquired, the combinatorics of possible surveillance products correspondingly explode.</p>
+
+<p>This pattern is true across the information industry <a class="citation" href="#sequedaDesigningBuildingEnterprise2021">[26]</a>. A handful of representatives from Microsoft, Google, Facebook, eBay, and IBM describe some elements of each of their knowledge graphs in a 2019 paper <a class="citation" href="#noyIndustryscaleKnowledgeGraphs2019">[18]</a>. Each has different scopes, applications, and interaction with the other data and processing infrastructure at the company, but all emphasize the ability for their knowledge graphs to accomodate change, heterogeneity, conflicting data, inference, and facilitate work by distributed teams due to their self-documenting and modular nature. Neo4j, developers of an eponymous graph database library,  describes in one <a href="https://neo4j.com/case-studies/us-army/">case study</a> among its <a href="https://neo4j.com/customers/">hundreds of customers</a> how the U.S. Army uses its “connected data” to track its equipment and estimate the cost of some new exploratory imperialism <a class="citation" href="#neo4jNeo4jArmyCase2021">[44]</a>. An analysis of Palantir’s hundreds of patents for knowledge graph technology (eg. <a class="citation" href="#cohenSystemMethodSharing2015">[45, 46, 47, 48]</a>) describes its ambitions for its knowledge graph:</p>
+
+<blockquote>
+  <p>There is evidence […] that Palantir has infrastructural aspirations to become a general classification system for data integration […] that can be tailored into a universal knowledge graph. […] Palantir similarly imagines a world where its platform might serve as a “shadow” universal knowledge graph for governments, industries, and organizations. <a class="citation" href="#iliadisSeerSeenSurveying2022">[49]</a></p>
+</blockquote>
+
+<p>Knowledge graphs <em>as a technology</em> - like all technologies - are not intrinsically unethical. It is the structure of the capital-K capital-G Knowledge Graph <em>as a concept</em> with its <em>context</em> that is pathological. They represent the historical trajectory of semantic web ideas and technologies from something that we are intended to use and create directly into privately held data that we can only interact with through platforms. They are coproductive with the corporate and technical structure of surveillance capitalism, facilitating conglomerates that gobble up as many platforms and data sources as possible to stitch them into an expanding, heterogeneous graph of data. We will return to the underlying ideology of the knowledge graph and an alternative in the final section.</p>
+
+<p>In particular, it is their “graph plus compute” structure - where some underlying graph of data is coupled with a set of algorithms and interfaces to view it - that is necessary to understand some of the more counterintuitive motivations of surveillance conglomerates. This structure complicates questions of “openness” versus “proprietariness,” one of the deepest loci of criticism of the platformatized web, and provides a different lens on ostensibly “open” or “public” knowledge graph-based infrastructure projects.</p>
+
+<h1 id="public-graphs-private-profits">
+<a class="anchor" href="#public-graphs-private-profits" aria-hidden="true"><span class="octicon octicon-link"></span></a>Public Graphs, Private Profits</h1>
+
+<p>A reader that I am constructing as a straw man for the sake of argument might ask: if the problem is information conglomerates stockpiling a massive quantity of proprietary data and renting use of it, isn’t “open data” the answer? And to that reader I would gently shake my head and say a qualified “no.”</p>
+
+<p>“Openness,” including open source, open standards, and open data, is a subtle tool that can be used both to dissolve and reinforce economic and political power <a class="citation" href="#bowkerSortingThingsOut1999">[50]</a>.</p>
+
+<p>Free and open source software, with its noble (and decidedly non-monolithic <a class="citation" href="#liuFreedomIsnFree2018">[51]</a>) goal of creating an ecosystem of free<sup id="fnref:freesoftware" role="doc-noteref"><a href="#fn:freesoftware" class="footnote" rel="footnote">8</a></sup> software, is a means by which large information companies can harvest the commons and outsource labor costs <a class="citation" href="#warkHackerManifesto2004">[52, 53, 54, 55, 56]</a>. There are countless examples of FOSS developers maintaing software widely used by companies making billions of dollars for little or no compensation - eg. <a href="https://github.com/zloirock/core-js/blob/master/docs/2023-02-14-so-whats-next.md">core-js</a> <a class="citation" href="#pushkarevWhatNext2023">[57]</a>, <a href="https://veridicalsystems.com/blog/of-money-responsibility-and-pride/index.html">OpenSSL</a> <a class="citation" href="#marquessSpeedsFeedsMoney2014">[58]</a>, leftpad <a class="citation" href="#gallagherRagequitCoderUnpublished2016">[59]</a>, <a href="https://github.com/chrisdutz/blog/blob/main/plc4x/free-trial-expired.adoc">PLC4X</a> <a class="citation" href="#dutzYourFreeTrial2022">[60]</a> and so on. When an information company releases or supports an open source project it is rarely an act of altruism. The effect is to prevent another company from profiting from a proprietary version of that technology, signal virtue, drive recruitment, and create a centralized point to concentrate donated labor. Microsoft, a famously <a href="https://en.wikipedia.org/wiki/Embrace,_extend,_and_extinguish">good actor</a> in software, took this several steps further with GitHub, VSCode, and later Copilot, capturing a large chunk of the software development <em>process</em> in order to trick programmers to be the “<a href="https://twitter.com/json_dirs/status/1410897161277956097">humans in the loop</a>” refining the neural network to write code and dilute their labor power <a class="citation" href="#butterickGitHubCopilotInvestigation2022">[61, 62, 63, 64]</a>.</p>
+
+<p>“<a href="https://en.wikipedia.org/wiki/Peer_production">Peer production</a>” models, a more generic term for public collaboration that includes FOSS, has similar discontents. The similar term “crowdsource<sup id="fnref:crowdsource" role="doc-noteref"><a href="#fn:crowdsource" class="footnote" rel="footnote">9</a></sup>” quite literally describes a patronizing means of harvesting free labor via some typically gamified platform. Wikipedia is perhaps the most well-known example of peer production<sup id="fnref:wikipedia" role="doc-noteref"><a href="#fn:wikipedia" class="footnote" rel="footnote">10</a></sup>, and it too struggles with its position as a resource to be harvested by information conglomerates. In 2015, the increasing prevalence of Google’s information boxes caused a substantial decline in wikipedia pageviews <a class="citation" href="#UserTalkJimbo2015">[65, 66]</a> as its information was harvested into Google’s knowledge graph, and a “will she, won’t she” search engine arguably intended to avoid dependence on Google was at the heart of its 2014-2016 leadership crisis <a class="citation" href="#whiteWikimediaTimelineEvents2016">[67, 68]</a>. After shuttering Freebase, Google has donated a substantial amount of money to kickstart its successor <a class="citation" href="#pellissiertanonFreebaseWikidataGreat2016">[69]</a> Wikidata, presumably as a means of crowdsourcing the curation of its knowledge graph <a class="citation" href="#wikimediameta-wikiGoogleMeta">[70, 71, 72]</a>.</p>
+
+<p>“Open” standards are yet another fraught domain of openness. For an example within academia, the seemingly-open Digital Object Identifier (DOI) system was concocted as a means for <a href="https://jon-e.net/infrastructure/#seemingly-prosocial-protocols-can-be-used-by-industries-to-preem">publishers to retain control of indexing research</a>, avoiding the impact of the proposed free repository PubMedCentral and the high overhead of linking documents between publishers<sup id="fnref:linkingagreements" role="doc-noteref"><a href="#fn:linkingagreements" class="footnote" rel="footnote">11</a></sup> (see sec. 3.1.1 in <a class="citation" href="#saundersDecentralizedInfrastructureNeuro2022">[73]</a>). The nonprofit standards body <a href="https://www.niso.org">NISO</a>’s standards for indicating journal article versions <a class="citation" href="#nisoRP82008JournalArticle2008">[74]</a> and licensing <a class="citation" href="#nisoRP222021AccessLicense2021">[75]</a> are used by publishers to enforce their intellectual property monopolies and programmatically scour the web to prevent free access to publicly funded information <a class="citation" href="#carpenterNewArticleSharing2021">[76]</a>.</p>
+
+<p>Schema.org, a standard intended to be the generic interchange ontology of the web, is another emblem of enclosure of the semantic web. Its introduction at the SemTech 2011 conference was cause for a rare point of agreement<sup id="fnref:rdfavmicroformats" role="doc-noteref"><a href="#fn:rdfavmicroformats" class="footnote" rel="footnote">12</a></sup> between the then-warring maintainers of RDFa and Microformats: “folks, it’s wrong for Google to dictate vocabularies, let’s not lose sight of that” <a class="citation" href="#SemTech2011BOF2011">[77]</a>. Though ostensibly open, its structure and emphases have been roundly criticized, eg. having a eurocentric bias towards commercially valuable information <a class="citation" href="#iliadisOneSchemaRule2023">[78]</a>. It encourages website maintainers to embed Schema.org annotations in their pages in exchange for a boost in search rankings — which google then embeds in its infoboxes, driving down page views. More fundamentally it cements the notion that Linked Data is something that we are only intended to use to make our information more available to some search engine crawler rather than make use of for ourselves: “In general, the design decisions place more of the burden on consumers of the markup” <a class="citation" href="#guhaSchemaOrgEvolution2015">[79]</a>. It encodes the notion that there should be one “neutral” means of representing information for one (or a few) global search engines to understand, rather than for local negotiation over meaning and location. According to the transcribed Q&amp;A after its 2011 announcement, the Google representatives characterized the creation of authoring tools like those created to make creative use of HTML more accessible as a potential “alternative path,” but then dismissed the notion of improved tooling as “impossible” <a class="citation" href="#hawkeNotesSessionSemTech2011">[80]</a>.</p>
+
+<p>Clearly, on its own, mere “openness” is no guarantee of virtue, and socio-technological systems must always be evaluated in their broader context: <em>what is open? why? who benefits?</em> Open source, open standards, and peer production models do not inherently challenge the rent-seeking behavior of information conglomerates, but can instead facilitate it.</p>
+
+<p>In particular, the maintainers of corporate knowledge graphs want to reduce labor duplication by making use of some public knowledge graph that they can then “add value” to with shades of proprietary and personal data (emphasis mine):</p>
+
+<blockquote>
+  <p>In a case like IBM clients, who build their own custom knowledge graphs, <strong>the clients are not expected to tell the graph about basic knowledge.</strong> For example, a cancer researcher is not going to teach the knowledge graph that skin is a form of tissue, or that St. Jude is a hospital in Memphis, Tennessee. This is known as <strong>“general knowledge,”</strong> captured in a general knowledge graph. <strong>The next level of information is knowledge that is well known to anybody in the domain</strong>—for example, carcinoma is a form of cancer or NHL more often stands for nonHodgkin lymphoma than National Hockey League in some contexts it may still mean that—say, in the patient record of an NHL player). <strong>The client should need to input only the private and confidential knowledge</strong> or any knowledge that the system does not yet know. <a class="citation" href="#noyIndustryscaleKnowledgeGraphs2019">[80]</a></p>
+</blockquote>
+
+<p>The creation of a collection of more domain-specific ontologies and tooling for ingesting previously unstructured data would allow for a new kind of globally linked knowledge graph ecosystem — making use of a broader range of publicly-available data, as well as facilitating new markets for renting access to interoperable data. Five information conglomerates conclude their joint paper on knowledge graphs accordingly:</p>
+
+<blockquote>
+  <p>The natural question from our discussion in this article is whether different knowledge graphs can someday share certain core elements, such as descriptions of people, places, and similar entities. <a class="citation" href="#noyIndustryscaleKnowledgeGraphs2019">[80]</a></p>
+</blockquote>
+
+<p>Having such standards be under the stewardship of ostensibly neutral and open third-parties provides cover for powerful actors exerting their influence and helps overcome the initial energy barrier to realizing network effects from their broad use <a class="citation" href="#wiegmannMultiModeStandardisationCritical2017">[81, 82]</a>. Peter Mika, the director of Semantic Search at Yahoo Labs, describes this need for third-party intervention in domain-specific standards:</p>
+
+<blockquote>
+  <p>A natural next step for Knowledge Graphs is to <strong>extend beyond the boundaries of organisations,</strong> connecting data assets of companies along business value chains. This process is still at an early stage, and <strong>there is a need for trade associations or industry-specific standards organisations to step in,</strong> especially when it comes to developing shared entity identifier schemes. <a class="citation" href="#panExploitingLinkedData2017">[83]</a></p>
+</blockquote>
+
+<p>As with search, we should be particularly wary of information infrastructures that are <em>technically</em> open<sup id="fnref:diygoogle" role="doc-noteref"><a href="#fn:diygoogle" class="footnote" rel="footnote">13</a></sup> but embed design logics that preserve the hegemony of the organizations that have the resources to make use of them. The existing organization of industrial knowledge graphs as chimeric “data + compute” models give a hint at what we might look for in public knowledge graphs: the data is open, but to make use of it we have to rely on some proprietary algorithm or cloud infrastructure.</p>
+
+<p>Unfortunately, that is exactly what at least two US Federal agencies have in mind: the NIH and NSF are both in the thick of engineering cloud-based knowledge graph infrastructures and domain-specific ontologies with all the trappings of technology that fills the stated needs of information conglomerates at the expense of the people it is outwardly intended to serve. We will describe those efforts and their already apparent risks as a way of understanding how these technologies illustrate and reinforce the ideological and practical dominance of the existing corporate informational ecosystem — and to articulate an alternative.</p>
+
+<h3 id="nih-the-biomedical-translator">
+<a class="anchor" href="#nih-the-biomedical-translator" aria-hidden="true"><span class="octicon octicon-link"></span></a>NIH: The Biomedical Translator</h3>
+
+<div class="note">
+  <p><strong>Note:</strong></p>
+
+  <p>This section is reproduced from, focuses, and expands on “<a href="https://jon-e.net/infrastructure/#linked-data-or-surveillance-capitalism">Linked Data or Surveillance Capitalism?</a>” from <a class="citation" href="#saundersDecentralizedInfrastructureNeuro2022">[83]</a>.</p>
+</div>
+
+<p>The NIH’s Biomedical Data Translator<sup id="fnref:translator" role="doc-noteref"><a href="#fn:translator" class="footnote" rel="footnote">14</a></sup> project was initially described in its 2016 Strategic Plan for Data Science as a means of translating between biomedical data formats:</p>
+
+<blockquote>
+  <p>Through its Biomedical Data Translator program, the National Center for Advancing Translational Sciences (NCATS) is supporting research to develop ways to connect conventionally separated data types to one another to make them more useful for researchers and the public. (missing reference)</p>
+</blockquote>
+
+<p>The original <a href="https://web.archive.org/web/20210709100523/https://ncats.nih.gov/news/releases/2016/feasibility-assessment-translator">funding statement from 2016</a> is similarly humble, and press releases <a href="https://web.archive.org/web/20210709171335/https://ncats.nih.gov/pubs/features/translator">through 2017</a> also speak mostly in terms of querying the data – though some ambition begins to creep in. By 2019, the vision for the project had shifted from <em>translating</em> between data types into the realm of heterogeneous linkages in some meta-level system for linking and <em>reasoning</em> over them.</p>
+
+<p>In their piece “Toward a Universal Biomedical Translator,” then in a feasibility assessment phase, the members of the Translator Consortium assert that universal translation between biomedical data is impossible<sup id="fnref:impossibledata" role="doc-noteref"><a href="#fn:impossibledata" class="footnote" rel="footnote">15</a></sup>(missing reference). The impossibility they saw was not that of conflicting political demands on the structure of organization (as per <a class="citation" href="#bowkerSortingThingsOut1999">[83]</a>), but of the sheer numeracy of the data and vocabularies needed to describe them. The risk posed by a lack of a universal “language” was not being able to index all possible data, rather than inaccuracy or inequity.</p>
+
+<p>Undaunted by their stated belief in the impossibility of a universalizing ontology, the Consortium arguably created one in their <a href="https://biolink.github.io/biolink-model/docs/">biolink</a> model (missing reference). Biolink consists of a hierarchy of basic classes: eg. a <a href="https://biolink.github.io/biolink-model/docs/BiologicalEntity.html">BiologicalEntity</a> like a <a href="https://biolink.github.io/biolink-model/docs/Gene.html">Gene</a>, or a <a href="https://biolink.github.io/biolink-model/docs/ChemicalEntity.html">ChemicalEntity</a> like a <a href="https://biolink.github.io/biolink-model/docs/Drug.html">Drug</a>. Classes can then linked by any number of properties, or “Slots,” like a therapeutic procedure that <a href="https://biolink.github.io/biolink-model/docs/treats.html">treats</a> a disease.</p>
+
+<div class="draft-text">
+  <p>Biolink is a sort of meta-ontology….</p>
+
+  <p>The resolution of the impossibility of universalizing knowledge graph was to bring them into a more permissive meta-ontology and then apply the magic of algorithms to them.</p>
+
+  <p>Combine this and following paragraph</p>
+</div>
+
+<p>The translator does not attempt to respond to the needs of researchers or labs who might want to link their raw data splayed out across flash drives and file structures whose chaos borders on whimsy. Instead, the Translator operates at the level of “knowledge,” or “generally accepted, universal assertions derived from the accumulation of information” (missing reference). Rather than translating <em>between data types</em>, the meaning of “translation” shifted to meaning <em>“translating data into knowledge”</em> (missing reference).</p>
+
+<p>To feed the Translator, Biolink sits “on top of” a <a href="http://www.smart-api.info/registry">collection of database APIs</a> that serve structured biomedical data, each called a “knowledge source.” Individual APIs <a href="https://github.com/NCATSTranslator/ReasonerAPI">declare</a> that they are able to provide data for a particular set of classes or slots, like <a href="http://www.smart-api.info/ui/adf20dd6ff23dfe18e8e012bde686e31">drugs that affect genetic expression</a>, and are then made browsable from the <a href="http://www.smart-api.info/portal/translator/metakg">SmartAPI Knowledge Graph</a>. Queries to individual APIs do not return “raw” data, but return assertions of fact in the parlance of the Biolink model: this procedure treats that disease, etc.</p>
+
+<p>Because individual researchers do not typically represent their data in the form of factual assertions, knowledge sources are constrained to “highly curated biomedical databases” or other aggregated systems. The NIH RePORTER tool <a href="https://reporter.nih.gov/search/DShVUhB_ZUq0X5UWFjy5WQ/projects?shared=true">gives an overview</a> of the way these knowledge sources are prepared when none already exist for a given Biolink class or predicate: automated <a href="https://reporter.nih.gov/project-details/10548337">text mining</a> tools and a series of <a href="https://reporter.nih.gov/project-details/10056962">domain-specific data provider</a> projects, rather than via tools provided to researchers.</p>
+
+<p>The collection of knowledge sources, linked to nodes and edges in the Biolink model, are designed to be queried as a graph. To answer a query like “what drug treats this disease?” the translator considers the graph of entities linked to the disease: what symptoms does the disease have? what genes are linked to those symptoms? which drugs act on those genes? and so on (missing reference). The form of the Translator as a graph-based question answering machine bounds its application as a platform for researchers to guide their research and clinicians to guide their care (missing reference), rather than a tool for linking data <em>in situ</em>.</p>
+
+<hr>
+
+<p><em>still integrating prior piece</em></p>
+
+<p>Personalized Medicine:</p>
+<ul>
+  <li>detecting MS indicators, good example of how off-target information can propagate through the graph (and in this case be explained post-hoc) <a class="citation" href="#nelsonEmbeddingElectronicHealth2021">[84]</a>
+</li>
+</ul>
+
+<div class="draft-text">
+  <p>The point here is mostly that we are trying to work through several layers of abstraction, jumping to the ‘database of everything’ rather than making systems that allow people to make local sense of the information they need to. that we launder basic information through ‘big data’ techniques in a way that is intended to “extract and summarize” rather than be a means of expression and sensemaking.</p>
+
+  <p>Eg. SPOKE <a class="citation" href="#morrisScalablePrecisionMedicine2023">[85]</a>. Rather than trying to like understand stuff, we just plug in all the data from a ton of APIs and knowledge will emerge.</p>
+
+  <p>Separable critiques:</p>
+  <ul>
+    <li>rather than having the scientific discourse happen in these graphs so the context is just al the discussion and whatnot that goes into understanding conflicting results, the goal is to “extract” and “clean” them so each paper is just some assertion of a fact. cf. data feminism and obsession with cleanliness <a class="citation" href="#dignazioDataFeminism2020">[86]</a>
+</li>
+    <li>focus on prediction and algorithmic sensemaking rather than human sensemaking</li>
+    <li>tech is wrong: platformatized information cant’ actually realize the kind of community input that some platforms claim to want -&gt; interacts with scientific publishing incentives</li>
+    <li>personalized medicine &amp; surveillance.</li>
+  </ul>
+</div>
+
+<h3 id="nsf-open-knowledge-network">
+<a class="anchor" href="#nsf-open-knowledge-network" aria-hidden="true"><span class="octicon octicon-link"></span></a>NSF: Open Knowledge Network</h3>
+
+<h1 id="competing-models">
+<a class="anchor" href="#competing-models" aria-hidden="true"><span class="octicon octicon-link"></span></a>Competing Models</h1>
+
+<p>The emerging models</p>
+
+<p>Scraps:</p>
+
+<ul>
+  <li>I mean what could be different? how do we get out of the loop of trying to make “ok the real unified knowledge base for real this time guys” loop <a class="citation" href="#hoytUnifyingIdentificationBiomedical2022">[87]</a>. Maybe it’s the belief that there should be a single unified naming system that’s pathological? Maybe we need to focus on linking these things together rather than projecting them into some singular space.</li>
+  <li>it is, in fact ideological! “SPOKE was conceived with the philosophy that if relevant information is connected, it can result in the emergence of knowledge, and hence provide insights into the understanding of diseases, discovering of drugs and proactively improving personal health.” <a class="citation" href="#morrisScalablePrecisionMedicine2023">[87]</a>
+</li>
+</ul>
+
+<h2 id="surveillance-graphs">
+<a class="anchor" href="#surveillance-graphs" aria-hidden="true"><span class="octicon octicon-link"></span></a>Surveillance Graphs</h2>
+
+<ul>
+  <li>read and cite:
+    <ul>
+      <li><a class="citation" href="#allhutterWorkingOntologistsHighQuality2019">[88]</a></li>
+    </ul>
+  </li>
+</ul>
+
+<p>The problem of belief: what should these things do? present us instantly with results? or should they be part of a messy dialectic of information where the graph itself is the outcome? The cloud orthodoxy suggests the former!</p>
+
+<ul>
+  <li>Need to articulate the components of the cloud orthodoxy mindset
+    <ul>
+      <li>Automated reasoning</li>
+      <li>More data is better</li>
+      <li>Neutral reflection of underlying facts, only conditioning factor is ‘confidence’, but no criticism of schema</li>
+      <li>End goal is productized services: eg. the fantasy of the google researcher in 2018 at the end of entity oriented search</li>
+      <li>Convenience</li>
+      <li>Performance</li>
+      <li>Assumes that we are all subjects of surveillance, that the data is “out there” to be mined, and its heterogeneity is an inconvenience or technical problem.</li>
+      <li>There is “one” of something - there is one index that refers to the concept of a man, or a given person, etc. rather than many contextual representations of that thing.
+        <ul>
+          <li>the poltics of ontologies are neatly illustrated by the fact that “a woman is a woman” means precisely the opposite thing w.r.t trans woman to transmisics as compared to normal people.</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>YOU ONLY NEED TO DO THIS SCALE OF AUTOMATED EXTRACTION IF YOU PRESUPPOSE A UNIVERSE OF A FEW MASSIVE PLATFORMS OWNING EVERYTHING IN THE FIRST PLACE re: amazon product graph example in <a class="citation" href="#chaudhriKnowledgeGraphsIntroduction2022">[88]</a>
+</li>
+</ul>
+
+<hr>
+
+<ul>
+  <li>The argument that the next phase of everything is chatbots and</li>
+</ul>
+
+<p>The merger of AI shit and knowledge graph shit</p>
+
+<p>So if web 2.0 was about the platformatization of the web, what is up next? In the same way that information conglomerates successfully harnessed open source for profit, now can we effectively gamify the entirety of knowledge generation process? can we put ppl inside of information curation chambers when they search?</p>
+
+<p>“Explainable AI” is gonna come from knowledge graphs yo</p>
+
+<p>Broad principles</p>
+<ul>
+  <li>Strategic use of “openness” when it facilitates greater market control and to prevent someone else from capturing a particular element of the technology.
+    <ul>
+      <li>Same thing as with the DOI: the linking agreements were killing us! Get some barrier to commerce out of the way (ontology discontinuity) so that the commerce can intensify, not so that it can abate</li>
+    </ul>
+  </li>
+</ul>
+
+<blockquote>
+  <p>Peter Mika: A natural next step for Knowledge Graphs is to extend beyond the boundaries of organisations, connecting data assets of companies along business value chains. This process is still at an early stage, and there is a need for trade associations or industry-specific standards organisations to step in, especially when it comes to developing shared entity identifier schemes. <a class="citation" href="#panExploitingLinkedData2017">[88]</a></p>
+</blockquote>
+
+<h2 id="vulgar-linked-data">
+<a class="anchor" href="#vulgar-linked-data" aria-hidden="true"><span class="octicon octicon-link"></span></a>Vulgar Linked Data</h2>
+
+<p>vulgar LD is when we own it, rather than merely annotate things to be owned by google. what is the point where the owner of the graph can just say… no?</p>
+
+<h1 id="references">
+<a class="anchor" href="#references" aria-hidden="true"><span class="octicon octicon-link"></span></a>References</h1>
+
+<ol class="bibliography">
+<li>
+<span id="warkCapitalDeadThis2021"><b><b>Wark, McKenzie</b></b> (2021) Capital Is Dead: Is This Something Worse? :208. </span>    <a class="archive-link" href="https://libgen.is/search.php?req=Capital+Is+Dead&amp;lg_topic=libgen&amp;open=0&amp;view=simple&amp;res=25&amp;phrase=1&amp;column=def#">(libgen)</a>
+
+</li>
+<li>
+<span id="chaudhriKnowledgeGraphsIntroduction2022"><b><b>Chaudhri, Vinay K</b>. <b>Baru, Chaitanya</b>. <b>Chittar, Naren</b>. <b>Dong, Xin Luna</b>. <b>Genesereth, Michael</b>. <b>Hendler, James</b>. <b>Kalyanpur, Aditya</b>. <b>Lenat, Douglas B</b>. <b>Sequeda, Juan</b>. <b>Vrandečić, Denny</b>. <b>Wang, Kuansan</b></b> (2022) Knowledge Graphs: Introduction, History, and Perspectives. <i>AI Magazine</i>, 43(1):17–29. </span>  <a href="https://doi.org/10.1002/aaai.12033">doi:10.1002/aaai.12033</a>  <a class="archive-link" href="https://sci-hub.se/10.1002/aaai.12033">(sci-hub)</a> 
+
+</li>
+<li>
+<span id="hitzlerReviewSemanticWeb2021"><b><b>Hitzler, Pascal</b></b> (2021) A Review of the Semantic Web Field. <i>Communications of the ACM</i>, 64(2):76–83. </span>  <a href="https://doi.org/10.1145/3397512">doi:10.1145/3397512</a>  <a class="archive-link" href="https://sci-hub.se/10.1145/3397512">(sci-hub)</a> 
+
+</li>
+<li>
+<span id="yanRetrospectiveKnowledgeGraphs2018"><b><b>Yan, Jihong</b>. <b>Wang, Chengyu</b>. <b>Cheng, Wenliang</b>. <b>Gao, Ming</b>. <b>Zhou, Aoying</b></b> (2018) A Retrospective of Knowledge Graphs. <i>Frontiers of Computer Science</i>, 12(1):55–74. </span>  <a href="https://doi.org/10.1007/s11704-016-5228-9">doi:10.1007/s11704-016-5228-9</a>  <a class="archive-link" href="https://sci-hub.se/10.1007/s11704-016-5228-9">(sci-hub)</a> 
+
+</li>
+<li>
+<span id="bergmanCommonSenseView2019"><b><b>Bergman, Mike</b></b> (2019) A Common Sense View of Knowledge Graphs. <i>AI3:::Adaptive Information</i>, </span>  <a href="https://www.mkbergman.com/2244/a-common-sense-view-of-knowledge-graphs/">https://www.mkbergman.com/2244/a-common-sense-view-of-knowledge-graphs/</a> <a class="archive-link" href="https://web.archive.org/web/20230309025758/https://www.mkbergman.com/2244/a-common-sense-view-of-knowledge-graphs/">(archive)</a>  
+
+</li>
+<li>
+<span id="ehrlingerDefinitionKnowledgeGraphs2016"><b><b>Ehrlinger, Lisa</b>. <b>Wöß, Wolfram</b></b> (2016) Towards a Definition of Knowledge Graphs. <i>Semantics</i>, </span>    
+
+</li>
+<li>
+<span id="berners-leeLinksLaw1997"><b><b>Berners-Lee, Tim</b></b> (1997) Links and Law. <i>Axioms of Web architecture</i>, </span>  <a href="https://www.w3.org/DesignIssues/LinkLaw">https://www.w3.org/DesignIssues/LinkLaw</a> <a class="archive-link" href="https://web.archive.org/web/20230301223937/https://www.w3.org/DesignIssues/LinkLaw">(archive)</a>  
+
+</li>
+<li>
+<span id="berners-leeLinksLawMyths1997"><b><b>Berners-Lee, Tim</b></b> (1997) Links and Law: Myths. <i>Axioms of Web architecture</i>, </span>  <a href="https://www.w3.org/DesignIssues/LinkMyths.html">https://www.w3.org/DesignIssues/LinkMyths.html</a>  
+
+</li>
+<li>
+<span id="berners-leeWhatSemanticWeb1998"><b><b>Berners-Lee, Tim</b></b> (1998) What the Semantic Web Can Represent. </span>  <a href="https://www.w3.org/DesignIssues/RDFnot.html">https://www.w3.org/DesignIssues/RDFnot.html</a>  
+
+</li>
+<li>
+<span id="berners-leeScalefreeNatureWeb1998"><b><b>Berners-Lee, Tim</b></b> (1998) The Scale-free Nature of the Web. </span>  <a href="https://www.w3.org/DesignIssues/Fractal.html">https://www.w3.org/DesignIssues/Fractal.html</a>  
+
+</li>
+<li>
+<span id="berners-leeSemanticWeb2001"><b><b>Berners-Lee, Tim</b>. <b>HENDLER, James</b>. <b>Lassila, Ora</b></b> (2001) The Semantic Web. <i>Scientific American</i>, 284(5):34–43. </span>  <a href="https://www.jstor.org/stable/26059207">https://www.jstor.org/stable/26059207</a>  
+
+</li>
+<li>
+<span id="berners-leeCulturesBoundaries2007"><b><b>Berners-Lee, Tim</b></b> (2007) Cultures and Boundaries. </span>  <a href="https://www.w3.org/DesignIssues/Culture.html">https://www.w3.org/DesignIssues/Culture.html</a> <a class="archive-link" href="https://web.archive.org/web/20230212163455/https://www.w3.org/DesignIssues/Culture.html">(archive)</a>  
+
+</li>
+<li>
+<span id="swartzAaronSwartzProgrammable2013"><b><b>Swartz, Aaron</b></b> (2013) Aaron Swartz’s A Programmable Web: An Unfinished Work. <i>Synthesis Lectures on the Semantic Web: Theory and Technology</i>, 3(2):1–64. </span>  <a href="https://doi.org/10.2200/S00481ED1V01Y201302WBE005">doi:10.2200/S00481ED1V01Y201302WBE005</a>  <a class="archive-link" href="https://sci-hub.se/10.2200/S00481ED1V01Y201302WBE005">(sci-hub)</a> 
+
+</li>
+<li>
+<span id="poirierTurnScruffyEthnographic2017"><b><b>Poirier, Lindsay</b></b> (2017) A Turn for the Scruffy: An Ethnographic Study of Semantic Web Architecture. <i>Proceedings of the 2017 ACM on Web Science Conference</i>, :359–367. </span>  <a href="https://doi.org/10.1145/3091478.3091505">doi:10.1145/3091478.3091505</a>  <a class="archive-link" href="https://sci-hub.se/10.1145/3091478.3091505">(sci-hub)</a> 
+
+</li>
+<li>
+<span id="berners-leeLinkedData2006"><b><b>Berners-Lee, Tim</b></b> (2006) Linked Data. </span>  <a href="https://www.w3.org/DesignIssues/LinkedData.html">https://www.w3.org/DesignIssues/LinkedData.html</a>  
+
+</li>
+<li>
+<span id="singhalIntroducingKnowledgeGraph2012"><b><b>Singhal, Amit</b></b> (2012) Introducing the Knowledge Graph: Things, Not Strings. <i>Google</i>, </span>  <a href="https://blog.google/products/search/introducing-knowledge-graph-things-not/">https://blog.google/products/search/introducing-knowledge-graph-things-not/</a>  
+
+</li>
+<li>
+<span id="iainFreebaseDeadLong2016"><b><b>Iain</b></b> (2016) Freebase Is Dead, Long Live Freebase. <i>Medium</i>, </span>  <a href="https://medium.com/@iainsproat/freebase-is-dead-long-live-freebase-6c1daff44d19">https://medium.com/@iainsproat/freebase-is-dead-long-live-freebase-6c1daff44d19</a> <a class="archive-link" href="https://web.archive.org/web/20230314030904/https://medium.com/@iainsproat/freebase-is-dead-long-live-freebase-6c1daff44d19">(archive)</a>  
+
+</li>
+<li>
+<span id="noyIndustryscaleKnowledgeGraphs2019"><b><b>Noy, Natasha</b>. <b>Gao, Yuqing</b>. <b>Jain, Anshu</b>. <b>Narayanan, Anant</b>. <b>Patterson, Alan</b>. <b>Taylor, Jamie</b></b> (2019) Industry-Scale Knowledge Graphs: Lessons and Challenges: Five Diverse Technology Companies Show How It’s Done. <i>Queue</i>, 17(2):Pages 20:48–Pages 20:75. </span>  <a href="https://doi.org/10.1145/3329781.3332266">doi:10.1145/3329781.3332266</a>  <a class="archive-link" href="https://sci-hub.se/10.1145/3329781.3332266">(sci-hub)</a> 
+
+</li>
+<li>
+<span id="tarnoffInternetPeopleFight2022"><b><b>Tarnoff, Ben</b></b> (2022) Internet for the People: The Fight for Our Digital Future. </span>    <a class="archive-link" href="https://libgen.is/search.php?req=Internet+for+the+People&amp;lg_topic=libgen&amp;open=0&amp;view=simple&amp;res=25&amp;phrase=1&amp;column=def#">(libgen)</a>
+
+</li>
+<li>
+<span id="zuboffAgeSurveillanceCapitalism2019"><b><b>Zuboff, Shoshana</b></b> (2019) The Age of Surveillance Capitalism: The Fight for a Human Future at the New Frontier of Power. </span>    <a class="archive-link" href="https://libgen.is/search.php?req=The+Age+of+Surveillance+Capitalism&amp;lg_topic=libgen&amp;open=0&amp;view=simple&amp;res=25&amp;phrase=1&amp;column=def#">(libgen)</a>
+
+</li>
+<li>
+<span id="berners-leeSociallyAwareCloud2009"><b><b>Berners-Lee, Tim</b></b> (2009) Socially Aware Cloud Storage. </span>  <a href="https://www.w3.org/DesignIssues/CloudStorage.html">https://www.w3.org/DesignIssues/CloudStorage.html</a> <a class="archive-link" href="https://web.archive.org/web/20211123040517/https://www.w3.org/DesignIssues/CloudStorage.html">(archive)</a>  
+
+</li>
+<li>
+<span id="berners-leeGoalsHumanDataInterface2010"><b><b>Berners-Lee, Tim</b></b> (2010) Goals for a Human-Data Interface. </span>  <a href="https://www.w3.org/DesignIssues/TabulatorGoals.html">https://www.w3.org/DesignIssues/TabulatorGoals.html</a> <a class="archive-link" href="https://web.archive.org/web/20230212163847/https://www.w3.org/DesignIssues/TabulatorGoals.html">(archive)</a>  
+
+</li>
+<li>
+<span id="neo4jNeo4jCustomers"><b><b>Neo4j</b></b> Neo4j Customers. <i>Neo4j Graph Data Platform</i>, </span>  <a href="https://neo4j.com/customers/">https://neo4j.com/customers/</a> <a class="archive-link" href="https://web.archive.org/web/20230304031435/https://neo4j.com/customers/">(archive)</a>  
+
+</li>
+<li>
+<span id="enterpriseknowledgegraphfoundationKnowledgeGraphIndustry2022"><b><b>Enterprise Knowledge Graph Foundation</b>. <b>Atkin, Michael</b></b> (2022) Knowledge Graph Industry Survey Report. </span>  <a href="https://www.ontotext.com/knowledgehub/white_paper/knowledge-graph-industry-survey-report/">https://www.ontotext.com/knowledgehub/white_paper/knowledge-graph-industry-survey-report/</a> <a class="archive-link" href="https://web.archive.org/web/20230304025348/https://www.ontotext.com/knowledgehub/white_paper/knowledge-graph-industry-survey-report/">(archive)</a>  
+
+</li>
+<li>
+<span id="schenkerNewReportDetails2021"><b><b>Schenker, Jennifer L</b></b> (2021) New Report Details Industry’s Use of Knowledge Graphs. <i>The Innovator</i>, </span>  <a href="https://theinnovator.news/new-report-details-industrys-use-of-knowledge-graphs/">https://theinnovator.news/new-report-details-industrys-use-of-knowledge-graphs/</a> <a class="archive-link" href="https://web.archive.org/web/20230304024700/https://theinnovator.news/new-report-details-industrys-use-of-knowledge-graphs/">(archive)</a>  
+
+</li>
+<li>
+<span id="sequedaDesigningBuildingEnterprise2021"><b><b>Sequeda, Juan</b>. <b>Lassila, Ora</b></b> (2021) Designing and Building Enterprise Knowledge Graphs. </span>  <a href="https://doi.org/10.1007/978-3-031-01916-6">doi:10.1007/978-3-031-01916-6</a>  <a class="archive-link" href="https://web.archive.org/web/20230227194911/https://link.springer.com/book/10.1007/978-3-031-01916-6">(archive)</a> <a class="archive-link" href="https://sci-hub.se/10.1007/978-3-031-01916-6">(sci-hub)</a> 
+
+</li>
+<li>
+<span id="azziniAdvancesDataManagement2021"><b><b>Azzini, Antonia</b>. <b>Barbon, Sylvio</b>. <b>Bellandi, Valerio</b>. <b>Catarci, Tiziana</b>. <b>Ceravolo, Paolo</b>. <b>Cudré-Mauroux, Philippe</b>. <b>Maghool, Samira</b>. <b>Pokorny, Jaroslav</b>. <b>Scannapieco, Monica</b>. <b>Sedes, Florence</b>. <b>Tavares, Gabriel Marques</b>. <b>Wrembel, Robert</b></b> (2021) Advances in Data Management in the Big Data Era. <i>Advancing Research in Information and Communication Technology</i>, 600:99–126. </span>  <a href="https://doi.org/10.1007/978-3-030-81701-5_4">doi:10.1007/978-3-030-81701-5_4</a>  <a class="archive-link" href="https://sci-hub.se/10.1007/978-3-030-81701-5_4">(sci-hub)</a> 
+
+</li>
+<li>
+<span id="segaranTwophaseConstructionData2020"><b><b>Segaran, Suresh Toby</b></b> (2020) Two-Phase Construction of Data Graphs from Disparate Inputs. (US10614127B2)</span>  <a href="https://patents.google.com/patent/US10614127B2/">https://patents.google.com/patent/US10614127B2/</a> <a class="archive-link" href="https://web.archive.org/web/20230303055346/https://patents.google.com/patent/US10614127B2/">(archive)</a>  
+
+</li>
+<li>
+<span id="ceravoloBigDataSemantics2018"><b><b>Ceravolo, Paolo</b>. <b>Azzini, Antonia</b>. <b>Angelini, Marco</b>. <b>Catarci, Tiziana</b>. <b>Cudré-Mauroux, Philippe</b>. <b>Damiani, Ernesto</b>. <b>Mazak, Alexandra</b>. <b>Van Keulen, Maurice</b>. <b>Jarrar, Mustafa</b>. <b>Santucci, Giuseppe</b>. <b>Sattler, Kai-Uwe</b>. <b>Scannapieco, Monica</b>. <b>Wimmer, Manuel</b>. <b>Wrembel, Robert</b>. <b>Zaraket, Fadi</b></b> (2018) Big Data Semantics. <i>Journal on Data Semantics</i>, 7(2):65–85. </span>  <a href="https://doi.org/10.1007/s13740-018-0086-2">doi:10.1007/s13740-018-0086-2</a>  <a class="archive-link" href="https://web.archive.org/web/20230227195219/https://link.springer.com/article/10.1007/s13740-018-0086-2">(archive)</a> <a class="archive-link" href="https://sci-hub.se/10.1007/s13740-018-0086-2">(sci-hub)</a> 
+
+</li>
+<li>
+<span id="natarajanGraphKnowledgeGraph"><b><b>Natarajan, Maya</b></b> From Graph To Knowledge Graph: A Short Journey to Unlimited Insights. </span>  <a href="https://neo4j.com/whitepapers/knowledge-graphs-unlimited-insights/thanks/">https://neo4j.com/whitepapers/knowledge-graphs-unlimited-insights/thanks/</a>  
+
+</li>
+<li>
+<span id="allemangMergingDataGraphs2022"><b><b>Allemang, Dean</b></b> (2022) Merging Data Graphs Made Easy. <i>Medium</i>, </span>  <a href="https://scribe.rip/@dallemang/merging-data-graphs-made-easy-8b7e616acfe6">https://scribe.rip/@dallemang/merging-data-graphs-made-easy-8b7e616acfe6</a> <a class="archive-link" href="https://web.archive.org/web/20230227194604/https://scribe.rip/@dallemang/merging-data-graphs-made-easy-8b7e616acfe6">(archive)</a>  
+
+</li>
+<li>
+<span id="allemangMergingTablesHard2022"><b><b>Allemang, Dean</b></b> (2022) Merging Tables Is Hard. <i>Medium</i>, </span>  <a href="https://scribe.citizen4.eu/@dallemang/merging-tables-is-hard-89d8637a081">https://scribe.citizen4.eu/@dallemang/merging-tables-is-hard-89d8637a081</a> <a class="archive-link" href="https://web.archive.org/web/20230304042622/https://medium.com/@dallemang/merging-tables-is-hard-89d8637a081">(archive)</a>  
+
+</li>
+<li>
+<span id="villazon-terrazasKnowledgeGraphFoundations2017"><b><b>Villazon-Terrazas, Boris</b>. <b>Garcia-Santa, Nuria</b>. <b>Ren, Yuan</b>. <b>Faraotti, Alessandro</b>. <b>Wu, Honghan</b>. <b>Zhao, Yuting</b>. <b>Vetere, Guido</b>. <b>Pan, Jeff Z</b></b> (2017) Knowledge Graph Foundations. <i>Exploiting Linked Data and Knowledge Graphs in Large Organisations</i>, :17–55. </span>  <a href="https://doi.org/10.1007/978-3-319-45654-6_2">doi:10.1007/978-3-319-45654-6_2</a>  <a class="archive-link" href="https://web.archive.org/web/20230304043246/https://link.springer.com/chapter/10.1007/978-3-319-45654-6_2">(archive)</a> <a class="archive-link" href="https://sci-hub.se/10.1007/978-3-319-45654-6_2">(sci-hub)</a> 
+
+</li>
+<li>
+<span id="lamdanDataCartelsCompanies2023"><b><b>Lamdan, Sarah</b></b> (2023) Data Cartels: The Companies That Control and Monopolize Our Information. </span>    <a class="archive-link" href="https://libgen.is/search.php?req=Data+Cartels&amp;lg_topic=libgen&amp;open=0&amp;view=simple&amp;res=25&amp;phrase=1&amp;column=def#">(libgen)</a>
+
+</li>
+<li>
+<span id="relxAnnualReport20222023"><b><b>RELX</b></b> (2023) Annual Report 2022. </span>  <a href="https://www.relx.com/%C2%A0/media/Files/R/RELX-Group/documents/reports/annual-reports/relx-2022-annual-report.pdf">https://www.relx.com/ /media/Files/R/RELX-Group/documents/reports/annual-reports/relx-2022-annual-report.pdf</a> <a class="archive-link" href="https://web.archive.org/web/20230303031832/https://www.relx.com/~/media/Files/R/RELX-Group/documents/reports/annual-reports/relx-2022-annual-report.pdf">(archive)</a>  
+
+</li>
+<li>
+<span id="elsevierMakingMedicalInformation2021"><b><b>Elsevier</b>. <b>EMD Serono</b></b> (2021) Making Medical Information Easily Accessible to Healthcare Professionals. </span>  <a href="https://www.elsevier.com/__data/assets/pdf_file/0004/1276087/Elsevier-EMD-Serono-phactMI-collaboration.pdf">https://www.elsevier.com/__data/assets/pdf_file/0004/1276087/Elsevier-EMD-Serono-phactMI-collaboration.pdf</a> <a class="archive-link" href="https://web.archive.org/web/20220613034307/https://www.elsevier.com/__data/assets/pdf_file/0004/1276087/Elsevier-EMD-Serono-phactMI-collaboration.pdf">(archive)</a>  
+
+</li>
+<li>
+<span id="elsevierRethinkClincalContent2020"><b><b>Elsevier</b></b> (2020) Rethink Clincal Content. </span>  <a href="https://www.elsmediakits.com/intelligence/white-paper/white-paper%3A-rethink-clinical-content">https://www.elsmediakits.com/intelligence/white-paper/white-paper%3A-rethink-clinical-content</a> <a class="archive-link" href="https://web.archive.org/web/20230307005305/https://www.elsmediakits.com/intelligence/white-paper/white-paper:-rethink-clinical-content">(archive)</a>  
+
+</li>
+<li>
+<span id="biddleLexisNexisProvideGiant2021"><b><b>Biddle, Sam</b></b> (2021) LexisNexis to Provide Giant Database of Personal Information to ICE. <i>The Intercept</i>, </span>  <a href="https://theintercept.com/2021/04/02/ice-database-surveillance-lexisnexis/">https://theintercept.com/2021/04/02/ice-database-surveillance-lexisnexis/</a>  
+
+</li>
+<li>
+<span id="biddleICESearchedLexisNexis2022"><b><b>Biddle, Sam</b></b> (2022) ICE Searched LexisNexis Database Over 1 Million Times in Just Seven Months. <i>The Intercept</i>, </span>  <a href="https://theintercept.com/2022/06/09/ice-lexisnexis-mass-surveillances/">https://theintercept.com/2022/06/09/ice-lexisnexis-mass-surveillances/</a>  
+
+</li>
+<li>
+<span id="lexisnexisrisksolutionsAccurintTraX"><b><b>LexisNexis Risk Solutions</b></b> Accurint&amp;#0174 TraX™. <i>LexisNexis Risk Solutions</i>, </span>  <a href="https://risk.lexisnexis.com/products/accurint-trax">https://risk.lexisnexis.com/products/accurint-trax</a> <a class="archive-link" href="https://web.archive.org/web/20230308034123/https://risk.lexisnexis.com/products/accurint-trax">(archive)</a>  
+
+</li>
+<li>
+<span id="lexisnexisrisksolutionsTelematicsOnDemand"><b><b>LexisNexis Risk Solutions</b></b> Telematics OnDemand. <i>LexisNexis Risk Solutions</i>, </span>  <a href="https://risk.lexisnexis.com/products/telematics-ondemand">https://risk.lexisnexis.com/products/telematics-ondemand</a> <a class="archive-link" href="https://web.archive.org/web/20230308035751/https://risk.lexisnexis.com/products/telematics-ondemand">(archive)</a>  
+
+</li>
+<li>
+<span id="lexisnexisrisksolutionsAccurintLegalProfessionals2022"><b><b>LexisNexis Risk Solutions</b></b> (2022) Accurint for Legal Professionals. </span>  <a href="https://web.archive.org/web/20230308034302/https://www.lexisnexis.com/pdf/AccurintForLegalProfessionals/24.pdf">https://web.archive.org/web/20230308034302/https://www.lexisnexis.com/pdf/AccurintForLegalProfessionals/24.pdf</a>  
+
+</li>
+<li>
+<span id="lexisnexisrisksolutionsLexID"><b><b>LexisNexis Risk Solutions</b></b> LexID. <i>LexisNexis Risk Solutions</i>, </span>  <a href="https://risk.lexisnexis.com/our-technology/lexid">https://risk.lexisnexis.com/our-technology/lexid</a> <a class="archive-link" href="https://web.archive.org/web/20230308040341/https://risk.lexisnexis.com/our-technology/lexid">(archive)</a>  
+
+</li>
+<li>
+<span id="neo4jNeo4jArmyCase2021"><b><b>Neo4j</b></b> (2021) Neo4j + U.S. Army Case Study. <i>Neo4j Graph Data Platform</i>, </span>  <a href="https://neo4j.com/case-studies/us-army/">https://neo4j.com/case-studies/us-army/</a> <a class="archive-link" href="https://web.archive.org/web/20230304033831/https://neo4j.com/case-studies/us-army/">(archive)</a>  
+
+</li>
+<li>
+<span id="cohenSystemMethodSharing2015"><b><b>Cohen, David</b>. <b>Richards, Kevin</b>. <b>Tasinga, Khan</b></b> (2015) System and Method for Sharing Investigation Result Data. (AU2013251186B2)</span>  <a href="https://patents.google.com/patent/AU2013251186B2/">https://patents.google.com/patent/AU2013251186B2/</a> <a class="archive-link" href="https://web.archive.org/web/20230303054451/https://patents.google.com/patent/AU2013251186B2/">(archive)</a>  
+
+</li>
+<li>
+<span id="mathuraAutomatedDatabaseAnalysis2017"><b><b>Mathura, Shivam</b>. <b>Lemanowicz, Lucas</b>. <b>Vergenz, Tim</b></b> (2017) Automated Database Analysis to Detect Malfeasance. (US20170221063A1)</span>  <a href="https://patents.google.com/patent/US20170221063A1/">https://patents.google.com/patent/US20170221063A1/</a> <a class="archive-link" href="https://web.archive.org/web/20230303055204/https://patents.google.com/patent/US20170221063A1/">(archive)</a>  
+
+</li>
+<li>
+<span id="yousafSystemsMethodsUser2018"><b><b>Yousaf, Timothy</b>. <b>Mark, Alexander</b>. <b>Hao, Sharon</b>. <b>Cohen, David</b>. <b>Elder, Andrew</b>. <b>Lidor, Daniel</b>. <b>Ossher, Joel</b>. <b>RICHBOURG, Christopher</b>. <b>Zavilla, Joshua</b>. <b>Zhang, Kevin</b></b> (2018) Systems, Methods, User Interfaces and Algorithms for Performing Database Analysis and Search of Information Involving Structured and/or Semi-Structured Data. (US9881066B1)</span>  <a href="https://patents.google.com/patent/US9881066B1/">https://patents.google.com/patent/US9881066B1/</a> <a class="archive-link" href="https://web.archive.org/web/20230303054504/https://patents.google.com/patent/US9881066B1/">(archive)</a>  
+
+</li>
+<li>
+<span id="knudsonSystemsMethodsAnnotating2021"><b><b>Knudson, Eric</b>. <b>Gerhardt, Matthew</b>. <b>Elder, Andrew</b>. <b>Rosofsky, Eli</b></b> (2021) Systems and Methods for Annotating and Linking Electronic Documents. (US20210004530A1)</span>  <a href="https://patents.google.com/patent/US20210004530A1/">https://patents.google.com/patent/US20210004530A1/</a>  
+
+</li>
+<li>
+<span id="iliadisSeerSeenSurveying2022"><b><b>Iliadis, Andrew</b>. <b>Acker, Amelia</b></b> (2022) The Seer and the Seen: Surveying Palantir’s Surveillance Platform. <i>The Information Society</i>, 38(5):334–363. </span>  <a href="https://doi.org/10.1080/01972243.2022.2100851">doi:10.1080/01972243.2022.2100851</a>  <a class="archive-link" href="https://sci-hub.se/10.1080/01972243.2022.2100851">(sci-hub)</a> 
+
+</li>
+<li>
+<span id="bowkerSortingThingsOut1999"><b><b>Bowker, Geoffrey C</b>. <b>Star, Susan Leigh</b></b> (1999) Sorting Things Out: Classification and Its Consequences. </span>    <a class="archive-link" href="https://libgen.is/search.php?req=Sorting+Things+Out&amp;lg_topic=libgen&amp;open=0&amp;view=simple&amp;res=25&amp;phrase=1&amp;column=def#">(libgen)</a>
+
+</li>
+<li>
+<span id="liuFreedomIsnFree2018"><b><b>Liu, Wendy</b></b> (2018) Freedom Isn’t Free. <i>Logic Magazine</i>, </span>  <a href="https://logicmag.io/failure/freedom-isnt-free/">https://logicmag.io/failure/freedom-isnt-free/</a> <a class="archive-link" href="https://web.archive.org/web/20230309004927/https://logicmag.io/failure/freedom-isnt-free/">(archive)</a>  
+
+</li>
+<li>
+<span id="warkHackerManifesto2004"><b><b>Wark, McKenzie</b></b> (2004) A Hacker Manifesto. </span>  <a href="https://www.hup.harvard.edu/catalog.php?isbn=9780674015432">https://www.hup.harvard.edu/catalog.php?isbn=9780674015432</a>  <a class="archive-link" href="https://libgen.is/search.php?req=A+Hacker+Manifesto&amp;lg_topic=libgen&amp;open=0&amp;view=simple&amp;res=25&amp;phrase=1&amp;column=def#">(libgen)</a>
+
+</li>
+<li>
+<span id="goldsmithOriginalSinFree2019"><b><b>Goldsmith, Daniel</b></b> (2019) The Original Sin of Free Software. <i>lipu.dgold.eu</i>, </span>  <a href="https://lipu.dgold.eu/original-sin">https://lipu.dgold.eu/original-sin</a> <a class="archive-link" href="https://web.archive.org/web/20220811034952/https://lipu.dgold.eu/original-sin">(archive)</a>  
+
+</li>
+<li>
+<span id="hallidayOpenSourceNot2018"><b><b>Halliday, James</b></b> (2018) Open Source Is Not Enough. <i>Notes From Below</i>, </span>  <a href="https://notesfrombelow.org/article/open-source-is-not-enough">https://notesfrombelow.org/article/open-source-is-not-enough</a> <a class="archive-link" href="https://web.archive.org/web/20230309005606/https://notesfrombelow.org/article/open-source-is-not-enough">(archive)</a>  
+
+</li>
+<li>
+<span id="hunterReclaimingComputingCommons2016"><b><b>Hunter, Rob</b></b> (2016) Reclaiming the Computing Commons. <i>Jacobin</i>, </span>  <a href="https://jacobin.com/2016/02/free-software-movement-richard-stallman-linux-open-source-enclosure/">https://jacobin.com/2016/02/free-software-movement-richard-stallman-linux-open-source-enclosure/</a> <a class="archive-link" href="https://web.archive.org/web/20230309005744/https://jacobin.com/2016/02/free-software-movement-richard-stallman-linux-open-source-enclosure/">(archive)</a>  
+
+</li>
+<li>
+<span id="hornPostOpenSource2020"><b><b>Horn, Melody</b></b> (2020) Post-Open Source. <i>boringcactus</i>, </span>  <a href="https://www.boringcactus.com/2020/08/13/post-open-source.html">https://www.boringcactus.com/2020/08/13/post-open-source.html</a> <a class="archive-link" href="https://web.archive.org/web/20230228033406/https://www.boringcactus.com/2020/08/13/post-open-source.html">(archive)</a>  
+
+</li>
+<li>
+<span id="pushkarevWhatNext2023"><b><b>Pushkarev, Denis</b></b> (2023) So, What’s Next? </span>  <a href="https://github.com/zloirock/core-js/blob/76f8648790efe74634874012701f387884d2c549/docs/2023-02-14-so-whats-next.md">https://github.com/zloirock/core-js/blob/76f8648790efe74634874012701f387884d2c549/docs/2023-02-14-so-whats-next.md</a> <a class="archive-link" href="https://web.archive.org/web/20230309000207/https://github.com/zloirock/core-js/blob/76f8648790efe74634874012701f387884d2c549/docs/2023-02-14-so-whats-next.md">(archive)</a>  
+
+</li>
+<li>
+<span id="marquessSpeedsFeedsMoney2014"><b><b>Marquess, Steve</b></b> (2014) Speeds and Feeds › Of Money, Responsibility, and Pride. <i>Speeds and Feeds</i>, </span>  <a href="https://veridicalsystems.com/blog/of-money-responsibility-and-pride/index.html">https://veridicalsystems.com/blog/of-money-responsibility-and-pride/index.html</a> <a class="archive-link" href="https://web.archive.org/web/20230309004332/https://veridicalsystems.com/blog/of-money-responsibility-and-pride/index.html">(archive)</a>  
+
+</li>
+<li>
+<span id="gallagherRagequitCoderUnpublished2016"><b><b>Gallagher, Sean</b></b> (2016) Rage-Quit: Coder Unpublished 17 Lines of JavaScript and “Broke the Internet.” <i>Ars Technica</i>, </span>  <a href="https://arstechnica.com/information-technology/2016/03/rage-quit-coder-unpublished-17-lines-of-javascript-and-broke-the-internet/">https://arstechnica.com/information-technology/2016/03/rage-quit-coder-unpublished-17-lines-of-javascript-and-broke-the-internet/</a> <a class="archive-link" href="https://web.archive.org/web/20230309003512/https://arstechnica.com/information-technology/2016/03/rage-quit-coder-unpublished-17-lines-of-javascript-and-broke-the-internet/">(archive)</a>  
+
+</li>
+<li>
+<span id="dutzYourFreeTrial2022"><b><b>Dutz, Christofer</b></b> (2022) Your Free Trial Version of “Open-Source” Has Expired, Please Update to a Commercial Plan. </span>  <a href="https://github.com/chrisdutz/blog/blob/835dbf45eaa49aa153604e7e0064b29435f43554/plc4x/free-trial-expired.adoc">https://github.com/chrisdutz/blog/blob/835dbf45eaa49aa153604e7e0064b29435f43554/plc4x/free-trial-expired.adoc</a> <a class="archive-link" href="https://web.archive.org/web/20230309002645/https://github.com/chrisdutz/blog/blob/835dbf45eaa49aa153604e7e0064b29435f43554/plc4x/free-trial-expired.adoc">(archive)</a>  
+
+</li>
+<li>
+<span id="butterickGitHubCopilotInvestigation2022"><b><b>Butterick, Matthew</b></b> (2022) GitHub Copilot Investigation ⋅ Joseph Saveri Law Firm &amp; Matthew Butterick. </span>  <a href="https://githubcopilotinvestigation.com/">https://githubcopilotinvestigation.com/</a> <a class="archive-link" href="https://web.archive.org/web/20230306022322/https://githubcopilotinvestigation.com/">(archive)</a>  
+
+</li>
+<li>
+<span id="butterickGitHubCopilotLitigation2022"><b><b>Butterick, Matthew</b></b> (2022) GitHub Copilot Litigation. </span>  <a href="https://githubcopilotlitigation.com/">https://githubcopilotlitigation.com/</a> <a class="archive-link" href="https://web.archive.org/web/20230306064839/https://githubcopilotlitigation.com/">(archive)</a>  
+
+</li>
+<li>
+<span id="olearyVSCodeWhat2022"><b><b>O’Leary, Rob</b></b> (2022) VS Code - What’s the Deal with the Telemetry? <i>Rob O’Leary</i>, </span>  <a href="https://www.roboleary.net/tools/2022/04/20/vscode-telemetry.html">https://www.roboleary.net/tools/2022/04/20/vscode-telemetry.html</a> <a class="archive-link" href="https://web.archive.org/web/20230309011717/https://www.roboleary.net/tools/2022/04/20/vscode-telemetry.html">(archive)</a>  
+
+</li>
+<li>
+<span id="VSCodiumOpenSource">VSCodium - Open Source Binaries of VSCode. </span>  <a href="https://vscodium.com/">https://vscodium.com/</a> <a class="archive-link" href="https://web.archive.org/web/20230308135311/https://vscodium.com/">(archive)</a>  
+
+</li>
+<li>
+<span id="UserTalkJimbo2015">(2015) User Talk:Jimbo Wales/Archive 192. <i>Wikipedia</i>, </span>  <a href="https://en.wikipedia.org/w/index.php?title=User_talk:Jimbo_Wales/Archive_192&amp;oldid=1143087052#WP_traffic_from_Google_declining">https://en.wikipedia.org/w/index.php?title=User_talk:Jimbo_Wales/Archive_192&amp;oldid=1143087052#WP_traffic_from_Google_declining</a> <a class="archive-link" href="https://web.archive.org/web/20230309022724/https://en.wikipedia.org/w/index.php?title=User_talk:Jimbo_Wales%2FArchive_192&amp;oldid=1143087052">(archive)</a>  
+
+</li>
+<li>
+<span id="hinkisGoogleSteals5502015"><b><b>Hinkis, Roy</b></b> (2015) Google Steals 550+ Million Wikipedia Clicks in 6 Months, Traffic Drop Confirmed by Wiki’s Jimmy Wales. <i>SimilarWeb</i>, </span>  <a href="https://web.archive.org/web/20160114172612/http://www.similarweb.com/blog/google-steals-over-550-million-clicks-from-wikipedia-in-6-months">https://web.archive.org/web/20160114172612/http://www.similarweb.com/blog/google-steals-over-550-million-clicks-from-wikipedia-in-6-months</a>  
+
+</li>
+<li>
+<span id="whiteWikimediaTimelineEvents2016"><b><b>White, Molly</b></b> (2016) Wikimedia Timeline of Events, 2014–2016. </span>  <a href="http://mollywhite.net/wikimedia-timeline/">http://mollywhite.net/wikimedia-timeline/</a> <a class="archive-link" href="https://web.archive.org/web/20230309023316/https://www.mollywhite.net/timelines/wikimedia/">(archive)</a>  
+
+</li>
+<li>
+<span id="buetlerSearchDestroyKnowledge2016"><b><b>Buetler, William</b></b> (2016) Search and Destroy: The Knowledge Engine and the Undoing of Lila Tretikov. <i>The Wikipedian</i>, </span>  <a href="https://thewikipedian.net/2016/02/19/knowledge-engine-lila-tretikov/">https://thewikipedian.net/2016/02/19/knowledge-engine-lila-tretikov/</a> <a class="archive-link" href="https://web.archive.org/web/20230309023808/https://thewikipedian.net/2016/02/19/knowledge-engine-lila-tretikov/">(archive)</a>  
+
+</li>
+<li>
+<span id="pellissiertanonFreebaseWikidataGreat2016"><b><b>Pellissier Tanon, Thomas</b>. <b>Vrandečić, Denny</b>. <b>Schaffert, Sebastian</b>. <b>Steiner, Thomas</b>. <b>Pintscher, Lydia</b></b> (2016) From Freebase to Wikidata: The Great Migration. <i>Proceedings of the 25th International Conference on World Wide Web</i>, :1419–1428. </span>  <a href="https://doi.org/10.1145/2872427.2874809">doi:10.1145/2872427.2874809</a>  <a class="archive-link" href="https://sci-hub.se/10.1145/2872427.2874809">(sci-hub)</a> 
+
+</li>
+<li>
+<span id="wikimediameta-wikiGoogleMeta"><b><b>Wikimedia Meta-Wiki</b></b> Google - Meta. </span>  <a href="https://meta.wikimedia.org/wiki/Google">https://meta.wikimedia.org/wiki/Google</a> <a class="archive-link" href="https://web.archive.org/web/20230309015647/https://meta.wikimedia.org/wiki/Google">(archive)</a>  
+
+</li>
+<li>
+<span id="GoogleStakeWikidata2019">(2019) Google’s Stake in Wikidata and Wikipedia - Wikidata - Lists.Wikimedia.Org. </span>  <a href="https://lists.wikimedia.org/hyperkitty/list/wikidata@lists.wikimedia.org/thread/KOCJRSDG57VYWQ4F2BPF7TH7R7YXGF7G/#KOCJRSDG57VYWQ4F2BPF7TH7R7YXGF7G">https://lists.wikimedia.org/hyperkitty/list/wikidata@lists.wikimedia.org/thread/KOCJRSDG57VYWQ4F2BPF7TH7R7YXGF7G/#KOCJRSDG57VYWQ4F2BPF7TH7R7YXGF7G</a> <a class="archive-link" href="https://web.archive.org/web/20230309024816/https://lists.wikimedia.org/hyperkitty/list/wikidata@lists.wikimedia.org/thread/KOCJRSDG57VYWQ4F2BPF7TH7R7YXGF7G/">(archive)</a>  
+
+</li>
+<li>
+<span id="vrandecicWikidataFreeCollaborative2014"><b><b>Vrandečić, Denny</b>. <b>Krötzsch, Markus</b></b> (2014) Wikidata: A Free Collaborative Knowledge Base. <i>Communications of the ACM</i>, 57(10):78–85. </span>    
+
+</li>
+<li>
+<span id="saundersDecentralizedInfrastructureNeuro2022"><b><b>Saunders, Jonny L</b></b> (2022) Decentralized Infrastructure for (Neuro)Science. (arXiv:2209.07493)</span>  <a href="https://doi.org/10.48550/arXiv.2209.07493">doi:10.48550/arXiv.2209.07493</a>  <a class="archive-link" href="https://web.archive.org/web/20230301224337/https://arxiv.org/abs/2209.07493">(archive)</a> <a class="archive-link" href="https://sci-hub.se/10.48550/arXiv.2209.07493">(sci-hub)</a> 
+
+</li>
+<li>
+<span id="nisoRP82008JournalArticle2008"><b><b>NISO</b></b> (2008) RP-8-2008, Journal Article Versions (JAV): Recommendations. </span>    
+
+</li>
+<li>
+<span id="nisoRP222021AccessLicense2021"><b><b>NISO</b></b> (2021) RP-22-2021: Access &amp; License Indicators. </span>  <a href="https://www.niso.org/publications/rp-22-2021-ali">https://www.niso.org/publications/rp-22-2021-ali</a> <a class="archive-link" href="https://web.archive.org/web/20230309001118/https://www.niso.org/standards-committees/access-and-license-indicators">(archive)</a>  
+
+</li>
+<li>
+<span id="carpenterNewArticleSharing2021"><b><b>Carpenter, Todd A</b></b> (2021) New Article Sharing Framework Released. <i>The Scholarly Kitchen</i>, </span>  <a href="https://scholarlykitchen.sspnet.org/2021/05/17/stm-article-sharing-framework/">https://scholarlykitchen.sspnet.org/2021/05/17/stm-article-sharing-framework/</a>  
+
+</li>
+<li>
+<span id="SemTech2011BOF2011">(2011) SemTech 2011 BOF on Structured Data in HTML. </span>  <a href="https://www.w3.org/2011/06/semtech-bof-notes.html">https://www.w3.org/2011/06/semtech-bof-notes.html</a> <a class="archive-link" href="https://web.archive.org/web/20230304073532/https://www.w3.org/2011/06/semtech-bof-notes.html">(archive)</a>  
+
+</li>
+<li>
+<span id="iliadisOneSchemaRule2023"><b><b>Iliadis, Andrew</b>. <b>Acker, Amelia</b>. <b>Stevens, Wesley</b>. <b>Kavakli, Sezgi Başak</b></b> (2023) One Schema to Rule Them All: How Schema.Org Models the World of Search. <i>Journal of the Association for Information Science and Technology</i>, n/a(n/a)</span>  <a href="https://doi.org/10.1002/asi.24744">doi:10.1002/asi.24744</a>  <a class="archive-link" href="https://sci-hub.se/10.1002/asi.24744">(sci-hub)</a> 
+
+</li>
+<li>
+<span id="guhaSchemaOrgEvolution2015"><b><b>Guha, RV</b>. <b>Brickley, Dan</b>. <b>Macbeth, Steve</b></b> (2015) Schema.Org: Evolution of Structured Data on the Web. <i>ACM Queue</i>, </span>  <a href="https://queue.acm.org/detail.cfm?id=2857276">https://queue.acm.org/detail.cfm?id=2857276</a> <a class="archive-link" href="https://web.archive.org/web/20230309033314/https://queue.acm.org/detail.cfm?id=2857276">(archive)</a>  
+
+</li>
+<li>
+<span id="hawkeNotesSessionSemTech2011"><b><b>Hawke, Sandro</b></b> (2011) Notes from Q&amp;A Session at SemTech, RichSnippets Session. </span>  <a href="https://lists.w3.org/Archives/Public/public-vocabs/2011Jun/0001.html">https://lists.w3.org/Archives/Public/public-vocabs/2011Jun/0001.html</a> <a class="archive-link" href="https://web.archive.org/web/20230304072424/https://lists.w3.org/Archives/Public/public-vocabs/2011Jun/0001.html">(archive)</a>  
+
+</li>
+<li>
+<span id="wiegmannMultiModeStandardisationCritical2017"><b><b>Wiegmann, Paul</b>. <b>de Vries, Henk</b>. <b>Blind, Knut</b></b> (2017) Multi-Mode Standardisation: A Critical Review and a Research Agenda. <i>Research Policy</i>, 46(9):1370–1386. </span>  <a href="https://doi.org/10.1016/j.respol.2017.06.002">doi:10.1016/j.respol.2017.06.002</a>  <a class="archive-link" href="https://web.archive.org/web/20230314020145/https://repub.eur.nl/pub/107374/">(archive)</a> <a class="archive-link" href="https://sci-hub.se/10.1016/j.respol.2017.06.002">(sci-hub)</a> 
+
+</li>
+<li>
+<span id="heiresInternationalOrganizationStandardization2008"><b><b>Heires, Marcel</b></b> (2008) The International Organization for Standardization (ISO). <i>New Political Economy</i>, 13(3):357–367. </span>  <a href="https://doi.org/10.1080/13563460802302693">doi:10.1080/13563460802302693</a>  <a class="archive-link" href="https://sci-hub.se/10.1080/13563460802302693">(sci-hub)</a> 
+
+</li>
+<li>
+<span id="panExploitingLinkedData2017">(2017) Exploiting Linked Data and Knowledge Graphs in Large Organisations. </span>  <a href="https://doi.org/10.1007/978-3-319-45654-6">doi:10.1007/978-3-319-45654-6</a>  <a class="archive-link" href="https://web.archive.org/web/20230227233942/https://link.springer.com/book/10.1007/978-3-319-45654-6">(archive)</a> <a class="archive-link" href="https://sci-hub.se/10.1007/978-3-319-45654-6">(sci-hub)</a> <a class="archive-link" href="https://libgen.is/search.php?req=Exploiting+Linked+Data+and+Knowledge+Graphs+in+Large+Organisations&amp;lg_topic=libgen&amp;open=0&amp;view=simple&amp;res=25&amp;phrase=1&amp;column=def#">(libgen)</a>
+
+</li>
+<li>
+<span id="nelsonEmbeddingElectronicHealth2021"><b><b>Nelson, Charlotte A</b>. <b>Bove, Riley</b>. <b>Butte, Atul J</b>. <b>Baranzini, Sergio E</b></b> (2021) Embedding Electronic Health Records onto a Knowledge Network Recognizes Prodromal Features of Multiple Sclerosis and Predicts Diagnosis. <i>Journal of the American Medical Informatics Association : JAMIA</i>, 29(3):424–434. </span>  <a href="https://doi.org/10.1093/jamia/ocab270">doi:10.1093/jamia/ocab270</a>  <a class="archive-link" href="https://web.archive.org/web/20230315050731/https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8800523/">(archive)</a> <a class="archive-link" href="https://sci-hub.se/10.1093/jamia/ocab270">(sci-hub)</a> 
+
+</li>
+<li>
+<span id="morrisScalablePrecisionMedicine2023"><b><b>Morris, John H</b>. <b>Soman, Karthik</b>. <b>Akbas, Rabia E</b>. <b>Zhou, Xiaoyuan</b>. <b>Smith, Brett</b>. <b>Meng, Elaine C</b>. <b>Huang, Conrad C</b>. <b>Cerono, Gabriel</b>. <b>Schenk, Gundolf</b>. <b>Rizk-Jackson, Angela</b>. <b>Harroud, Adil</b>. <b>Sanders, Lauren</b>. <b>Costes, Sylvain V</b>. <b>Bharat, Krish</b>. <b>Chakraborty, Arjun</b>. <b>Pico, Alexander R</b>. <b>Mardirossian, Taline</b>. <b>Keiser, Michael</b>. <b>Tang, Alice</b>. <b>Hardi, Josef</b>. <b>Shi, Yongmei</b>. <b>Musen, Mark</b>. <b>Israni, Sharat</b>. <b>Huang, Sui</b>. <b>Rose, Peter W</b>. <b>Nelson, Charlotte A</b>. <b>Baranzini, Sergio E</b></b> (2023) The Scalable Precision Medicine Open Knowledge Engine (SPOKE): A Massive Knowledge Graph of Biomedical Information. <i>Bioinformatics</i>, 39(2):btad080. </span>  <a href="https://doi.org/10.1093/bioinformatics/btad080">doi:10.1093/bioinformatics/btad080</a>  <a class="archive-link" href="https://web.archive.org/web/20230315044943/https://academic.oup.com/bioinformatics/article/39/2/btad080/7033465">(archive)</a> <a class="archive-link" href="https://sci-hub.se/10.1093/bioinformatics/btad080">(sci-hub)</a> 
+
+</li>
+<li>
+<span id="dignazioDataFeminism2020"><b><b>D’Ignazio, Catherine</b>. <b>Klein, Lauren F</b></b> (2020) Data Feminism. </span>    <a class="archive-link" href="https://libgen.is/search.php?req=Data+Feminism&amp;lg_topic=libgen&amp;open=0&amp;view=simple&amp;res=25&amp;phrase=1&amp;column=def#">(libgen)</a>
+
+</li>
+<li>
+<span id="hoytUnifyingIdentificationBiomedical2022"><b><b>Hoyt, Charles Tapley</b>. <b>Balk, Meghan</b>. <b>Callahan, Tiffany J</b>. <b>Domingo-Fernández, Daniel</b>. <b>Haendel, Melissa A</b>. <b>Hegde, Harshad B</b>. <b>Himmelstein, Daniel S</b>. <b>Karis, Klas</b>. <b>Kunze, John</b>. <b>Lubiana, Tiago</b>. <b>Matentzoglu, Nicolas</b>. <b>McMurry, Julie</b>. <b>Moxon, Sierra</b>. <b>Mungall, Christopher J</b>. <b>Rutz, Adriano</b>. <b>Unni, Deepak R</b>. <b>Willighagen, Egon</b>. <b>Winston, Donald</b>. <b>Gyori, Benjamin M</b></b> (2022) Unifying the Identification of Biomedical Entities with the Bioregistry. <i>Scientific Data</i>, 9(1):714. </span>  <a href="https://doi.org/10.1038/s41597-022-01807-3">doi:10.1038/s41597-022-01807-3</a>  <a class="archive-link" href="https://web.archive.org/web/20230315043837/https://www.nature.com/articles/s41597-022-01807-3">(archive)</a> <a class="archive-link" href="https://sci-hub.se/10.1038/s41597-022-01807-3">(sci-hub)</a> 
+
+</li>
+<li>
+<span id="allhutterWorkingOntologistsHighQuality2019"><b><b>Allhutter, Doris</b></b> (2019) Of “Working Ontologists” and “High-Quality Human Components”: The Politics of Semantic Infrastructures. <i>Of “Working Ontologists” and “High-Quality Human Components”: The Politics of Semantic Infrastructures</i>, :326–348. </span>  <a href="https://doi.org/10.1515/9780691190600-023">doi:10.1515/9780691190600-023</a>  <a class="archive-link" href="https://web.archive.org/web/20230308045640/https://www.degruyter.com/document/doi/10.1515/9780691190600-023/html">(archive)</a> <a class="archive-link" href="https://sci-hub.se/10.1515/9780691190600-023">(sci-hub)</a> 
+
+</li>
+</ol>
+
+<h1 id="footnotes">
+<a class="anchor" href="#footnotes" aria-hidden="true"><span class="octicon octicon-link"></span></a>Footnotes</h1>
+
+<div class="footnotes" role="doc-endnotes">
+  <ol>
+    <li id="fn:triplets" role="doc-endnote">
+      <p>Equivalently, one could emphasize that they are graphs composed of <strong>triplet</strong> links that describe some subject, predicate, and object. <a href="#fnref:triplets" class="reversefootnote" role="doc-backlink">↩</a></p>
+    </li>
+    <li id="fn:dois" role="doc-endnote">
+      <p>For another example re: the political nature of the DOI system in the face of the arbitrary linking of the internet, see section 3.1.2 “<a href="https://jon-e.net/infrastructure/#seemingly-prosocial-protocols-can-be-used-by-industries-to-preem">Integration, not Invention</a>” in <a class="citation" href="#saundersDecentralizedInfrastructureNeuro2022">[88]</a> <a href="#fnref:dois" class="reversefootnote" role="doc-backlink">↩</a></p>
+    </li>
+    <li id="fn:fbgraph" role="doc-endnote">
+      <p>Facebook describes the notion of its platform as being just a means of interacting with its underlying data graph in corporate web design speak: “A useful tool for Facebook has been to think of the graph as the model and a Facebook page as the view—a projection of an entity or collection of entities that reside in the graph.” <a class="citation" href="#noyIndustryscaleKnowledgeGraphs2019">[88]</a> <a href="#fnref:fbgraph" class="reversefootnote" role="doc-backlink">↩</a></p>
+    </li>
+    <li id="fn:etsydb" role="doc-endnote">
+      <p>For a practical example, see a recent <a href="https://www.etsy.com/codeascraft/scaling-etsy-payments-with-vitess-part-1--the-data-model">trio</a> of <a href="https://www.etsy.com/codeascraft/scaling-etsy-payments-with-vitess-part-2--the-seamless-migration">blog</a> <a href="https://www.etsy.com/codeascraft/scaling-etsy-payments-with-vitess-part-3--reducing-cutover-risk">posts</a> from Etsy engineers that describe the process of scaling their database system. <a href="#fnref:etsydb" class="reversefootnote" role="doc-backlink">↩</a></p>
+    </li>
+    <li id="fn:integration" role="doc-endnote">
+      <blockquote>
+        <p>That is because knowledge graphs aim to solve the data incongruence problem, which is one of the biggest operational headaches for corporates, says Atkin.  “Corporates suffer from technology fragmentation and as a result have a lot of data that doesn’t align across the organization. Doing the hard work to fix this data incongruence reality is a pre-requisite for realizing business value,” he says. <a class="citation" href="#schenkerNewReportDetails2021">[89]</a></p>
+      </blockquote>
+      <p><a href="#fnref:integration" class="reversefootnote" role="doc-backlink">↩</a></p>
+    </li>
+    <li id="fn:notmagic" role="doc-endnote">
+      <p>I am aware graph databases are not magic and this is an extraordinarily simplified example. The principle is the point, not all the subtle ways the implementations of graph databases are hard. <a href="#fnref:notmagic" class="reversefootnote" role="doc-backlink">↩</a></p>
+    </li>
+    <li id="fn:RELXStrugs" role="doc-endnote">
+      <p>Though apparently they have had historical difficulty actually getting that integration to work <a class="citation" href="#schonfeldReorganizationElsevier2022">[89]</a>. <a href="#fnref:RELXStrugs" class="reversefootnote" role="doc-backlink">↩</a></p>
+    </li>
+    <li id="fn:freesoftware" role="doc-endnote">
+      <p>“free as in whatever will prevent you from @’ing me about getting some definition of free wrong.” <a href="#fnref:freesoftware" class="reversefootnote" role="doc-backlink">↩</a></p>
+    </li>
+    <li id="fn:crowdsource" role="doc-endnote">
+      <p>For critical work on crowdsourcing in the context of “open science,” see <a class="citation" href="#mirowskiFutureOpenScience2018">[90]</a>, and in the semantic web see <a class="citation" href="#allhutterWorkingOntologistsHighQuality2019">[90]</a>. <a href="#fnref:crowdsource" class="reversefootnote" role="doc-backlink">↩</a></p>
+    </li>
+    <li id="fn:wikipedia" role="doc-endnote">
+      <p>I have written about the peculiar structure of Wikipedia among wikis previously, section 3.4.1 - “<a href="https://jon-e.net/infrastructure/#the-wiki-way">The Wiki Way</a>” <a class="citation" href="#saundersDecentralizedInfrastructureNeuro2022">[88]</a> <a href="#fnref:wikipedia" class="reversefootnote" role="doc-backlink">↩</a></p>
+    </li>
+    <li id="fn:linkingagreements" role="doc-endnote">
+      <p>“The potential benefit of the service that would become CrossRef was immediately apparent. Organizations such as AIP and IOP (Institute of Physics) had begun to link to each other’s publications, and the impossibility of replicating such one-off arrangements across the industry was obvious. As Tim Ingoldsby later put it, <strong>‘All those linking agreements were going to kill us.’</strong>” <a class="citation" href="#crossrefFormationCrossRefShort2009">[91]</a> <a href="#fnref:linkingagreements" class="reversefootnote" role="doc-backlink">↩</a></p>
+    </li>
+    <li id="fn:rdfavmicroformats" role="doc-endnote">
+      <p>(Intervening messages in the <a href="https://www.w3.org/2011/06/semtech-bof-notes.html">chat log</a> have been omitted for clarity):<br></p>
+
+      <p><code class="language-plaintext highlighter-rouge">&lt;tantek&gt;</code> Hey Kavi - do you see what you’ve done here?
+<br>
+<code class="language-plaintext highlighter-rouge">&lt;tantek&gt;</code> You’ve gotten a community leader of microformats.org (myself) and chair of W3C RDFa WG to *agree*
+<br>
+<code class="language-plaintext highlighter-rouge">&lt;edsu&gt;</code> tantek: see, that’s progress :)
+<br>
+<code class="language-plaintext highlighter-rouge">&lt;manu-db&gt;</code> Yes - both RDFa and Microformats communities agree - sky will be falling, next. <a href="#fnref:rdfavmicroformats" class="reversefootnote" role="doc-backlink">↩</a></p>
+    </li>
+    <li id="fn:diygoogle" role="doc-endnote">
+      <p>Go ahead, try and make your own web crawler to compete with Google - all the information is just out there in public on the open web! <a href="#fnref:diygoogle" class="reversefootnote" role="doc-backlink">↩</a></p>
+    </li>
+    <li id="fn:translator" role="doc-endnote">
+      <p>Or, just “Translator” <a href="#fnref:translator" class="reversefootnote" role="doc-backlink">↩</a></p>
+    </li>
+    <li id="fn:impossibledata" role="doc-endnote">
+      <blockquote>
+        <p>First, we assert that a single monolithic data set that directly connects the complete set of clinical characteristics to the complete set of biomolecular features, including “-omics” data, will never exist because the number of characteristics and features is constantly shifting and exponentially growing. […] We also assert that there is no single language, software or natural, with which to express clinical and biomolecular observations—these observations are necessarily and appropriately linked to the measurement technologies that produce them, as well as the nuances of language. The lack of a universal language for expressing clinical and biomolecular observations presents a risk of isolation or marginalization of data that are relevant for answering a particular inquiry, but are never accessed because of a failure in translation.</p>
+
+        <p>Based on these observations, our final assertion is that automating the ability to reason across integrated data sources and providing users who pose inquiries with a dossier of translated answers coupled with full provenance and confidence in the results is critical if we wish to accelerate clinical and translational insights, drive new discoveries, facilitate serendipity, improve clinical-trial design, and ultimately improve clinical care. This final assertion represents the driving motivation for the Translator system. (missing reference)</p>
+      </blockquote>
+      <p><a href="#fnref:impossibledata" class="reversefootnote" role="doc-backlink">↩</a></p>
+    </li>
+  </ol>
+</div>
+
+    </div>
+
+
+</div>
+<!-- 
+<div class="nav-container">
+<nav>
+  <ul id="toc" class="section-nav">
+<li class="toc-entry toc-h2"><a href="#with-gratitude-to">With Gratitude To…</a></li>
+<li class="toc-entry toc-h1"><a href="#introduction">Introduction</a></li>
+<li class="toc-entry toc-h1"><a href="#knowledge-graphs-a-backbone-in-the-surveillance-economy">Knowledge Graphs: A Backbone in the Surveillance Economy</a>
+<ul>
+<li class="toc-entry toc-h3"><a href="#semantic-web-priesthoods">Semantic Web: Priesthoods</a></li>
+<li class="toc-entry toc-h3"><a href="#linked-data-platforms">Linked Data: Platforms</a></li>
+<li class="toc-entry toc-h3"><a href="#knowledge-graphs-panoptica">Knowledge Graphs: Panoptica</a></li>
+</ul>
+</li>
+<li class="toc-entry toc-h1"><a href="#public-graphs-private-profits">Public Graphs, Private Profits</a>
+<ul>
+<li class="toc-entry toc-h3"><a href="#nih-the-biomedical-translator">NIH: The Biomedical Translator</a></li>
+<li class="toc-entry toc-h3"><a href="#nsf-open-knowledge-network">NSF: Open Knowledge Network</a></li>
+</ul>
+</li>
+<li class="toc-entry toc-h1"><a href="#competing-models">Competing Models</a>
+<ul>
+<li class="toc-entry toc-h2"><a href="#surveillance-graphs">Surveillance Graphs</a></li>
+<li class="toc-entry toc-h2"><a href="#vulgar-linked-data">Vulgar Linked Data</a></li>
+</ul>
+</li>
+<li class="toc-entry toc-h1"><a href="#references">References</a></li>
+<li class="toc-entry toc-h1"><a href="#footnotes">Footnotes</a></li>
+</ul>
+</nav>
+</div> -->
+      <!-- </div> -->
+    </main>
+
+
+
+    <footer id="footer">
+<script src="/surveillance-graphs/assets/js/toc.js"></script>
+<script src="/surveillance-graphs/assets/js/anchor.min.js"></script>
+<script src="/surveillance-graphs/assets/js/anchors.js"></script>
+
+
+</footer>
+
+  </body>
+</html>
