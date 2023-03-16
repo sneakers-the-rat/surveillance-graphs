@@ -3,6 +3,12 @@
 Scraps:
 - Role of knowledge graphs in explainable AI: {% cite lecueRoleKnowledgeGraphs2020 %}
 - Explicit algo + KG model - entity oriented search: {% cite balogEntityOrientedSearch2018 %} 
+	- Microsoft re: academic graph with chat-based search: {% cite sinhaOverviewMicrosoftAcademic2015 %}
+- cognitive expectations of search
+	- 2002 RDF Core WG talking about whether we want things to work like google or not... {% cite sticklerReMonotonicityWas2002 %} - https://lists.w3.org/Archives/Public/w3c-rdfcore-wg/2002Sep/0276.html
+- agents vs. platforms:
+	- where are all the agents? we were supposed to have web robots by now!? {% cite ciorteaDecadeHindsightMissing2019 %}
+	- they're doign business stuff! {% cite mcburneyAgentsAreAll2007 %}
 
 Tim BL actually really wanted to be able to talk to the computers, he specifically imagined chatbots working on top of the semantic web: https://www.w3.org/DesignIssues/Evolution.html
 
