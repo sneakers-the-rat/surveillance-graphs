@@ -47,3 +47,22 @@
 [^babel]: In an odd mixture of metaphors, members of the Translator consortium introduced the project with a piece titled "Deconstructing the Translational Tower of Babel." {% cite austinDeconstructingTranslationalTower2019 %} A common interpretation of the Biblical Tower of Babel is as a symbol of the hubris of humanity, attempting to inscribe ourselves into the heavens and become immune to any future God-induced flooding. God, concerned with the power of a humanity unified under a single language, punished them by scattering people into groups speaking mutually unintelligible languages so they would not complete the tower. It is unclear why an effort to create a universalizing ontology would then be deconstructing a tower of babel, as it was the power of a unified language that allowed it to be built. Perhaps in other interpretations the Tower is an obelisk that suppresses the reunification of language. But I digress.
 
 [^slots]: or links, labeled edges.
+
+[^norawdata]: In a 2018 presentation by one of Biolink's authors: "What NOT to use the biolink-model for: Raw data, Metadata about a dataset" with some caveat that the underlying metamodel might still be useful {% cite chrisIntroductionBioLinkDatamodel2018 %}.
+
+[^generality]: General as opposed to an ontology like [MONDO](https://mondo.monarchinitiative.org/) {% cite vasilevskyMondoUnifyingDiseases2022 %} that identifies specific diseases.
+
+[^moredata]: The answer to a question posed as an algorithmic problem is always more data: "These results suggest that if more EHR concepts were mapped to SPOKE, a significant improvement in the classifier could be achieved." {% cite nelsonEmbeddingElectronicHealth2021 %}
+
+[^robokopdidntwork]: ITSN2 was identified in [an unrelated paper about attachment patterns](https://pubmed.ncbi.nlm.nih.gov/28210932/), HSD17B3 and 5a-RD2 were incorrectly identified as HSD17B13 and DHRS11 from [another paper](https://www.nature.com/articles/nrurol.2012.182), POMC and OPN1SW were sourced from [two papers](https://www.frontiersin.org/articles/10.3389/fendo.2019.00751/full) that [don't mention them](https://pubmed.ncbi.nlm.nih.gov/30843609/). Androgen receptors were also identified, which is probably true, but almost trivially so.
+
+[^ipredit]: I submitted a [pull request](https://github.com/jannahastings/mental-functioning-ontology/pull/8) to remove it, and a full year later it was merged!
+
+[^dateextract]: as well as a recommendation for "date allergenic extract" from a misinterpretation of "to date" in the abstract of [a paper](https://pubmed.ncbi.nlm.nih.gov/24330520/) that reads "Cross-sex hormonal treatment (CHT) used for gender dysphoria (GD) could by itself affect well-being without the use of genital surgery; however, **to date,** there is a paucity of studies investigating the effects of CHT alone"
+
+[^araxtrans]: To its credit, ARAX does transform the request for `DOID:10919` to `MONDO:0001153` - gender dysphoria.
+
+[^personalmedicaldata]: A 2020 presentation in one of the Translator's [github repositories](https://github.com/NCATSTranslator/Translator-All) describes methods for mining individual clinical data {% cite translatorconsortiumClinicalDataServices2020 %} 
+
+[^RELXmedicaldata]: > In commercial healthcare, identity, claims and provider data is combined with patient information to assist healthcare providers, pharmacies and insurers in delivering improved health outcomes, ensuring accurate and complete provider data and regulatory compliance. {% cite relxAnnualReport20222023 %}
+

@@ -75,6 +75,9 @@ keep_files:
   - versions
   - .git
 
+include:
+  - data
+
 exclude:
   - .DS_Store
   - README.md
@@ -90,6 +93,5 @@ exclude:
   - vendor/ruby/
   - .github/
   - assets/.jekyll-cache
-  - data/
   - code/
   - _react/
