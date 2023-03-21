@@ -3,6 +3,7 @@
 - read and cite:
 	- {% cite allhutterWorkingOntologistsHighQuality2019 %}
 
+Why on *earth* would we want our insurance provider to be able to adjust their premiums based on our private medical information, even if it is "de-identified"
 
 The problem of belief: what should these things do? present us instantly with results? or should they be part of a messy dialectic of information where the graph itself is the outcome? The cloud orthodoxy suggests the former!
 

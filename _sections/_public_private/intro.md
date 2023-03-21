@@ -27,3 +27,7 @@ Having such standards be under the stewardship of ostensibly neutral and open th
 As with search, we should be particularly wary of information infrastructures that are *technically* open[^diygoogle] but embed design logics that preserve the hegemony of the organizations that have the resources to make use of them. The existing organization of industrial knowledge graphs as chimeric "data + compute" models give a hint at what we might look for in public knowledge graphs: the data is open, but to make use of it we have to rely on some proprietary algorithm or cloud infrastructure.
 
 Unfortunately, that is exactly what at least two US Federal agencies have in mind: the NIH and NSF are both in the thick of engineering cloud-based knowledge graph infrastructures and domain-specific ontologies with all the trappings of technology that fills the stated needs of information conglomerates at the expense of the people it is outwardly intended to serve. We will describe those efforts and their already apparent risks as a way of understanding how these technologies illustrate and reinforce the ideological and practical dominance of the existing corporate informational ecosystem --- and to articulate an alternative.
+
+<div class="draft-text">
+Add note that we are assuming that people are working with the best of intentinos here, adn that it is hard to imagine an alternative system when the existing one is so dominant! These are mostly good people trying to do good things in a system that's rotten.
+</div>

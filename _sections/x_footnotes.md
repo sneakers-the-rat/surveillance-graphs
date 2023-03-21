@@ -66,3 +66,9 @@
 
 [^RELXmedicaldata]: > In commercial healthcare, identity, claims and provider data is combined with patient information to assist healthcare providers, pharmacies and insurers in delivering improved health outcomes, ensuring accurate and complete provider data and regulatory compliance. {% cite relxAnnualReport20222023 %}
 
+[^flows]: eg. Some members of the SPOKE project, a Knowledge Provider for the Translator project, describe the effects of the extended graph as "pushing" or influencing the "flow" of information: 
+    > "For this patient, information flows from Carbamazepine to a set of Disease nodes (either through “treated by” or “contraindicated for” edges) and then (either directly or through an additional Disease or Gene node) to the genes CNP, MAG, or PTEN which are all components of “Myelin sheath adaxonal region.” {% cite nelsonEmbeddingElectronicHealth2021 %}
+
+[^reasoner-training]: >"The Reasoners then return ranked and scored potential translations with provenance and supporting evidence. The user is then able to evaluate the translations and supporting evidence and provide feedback to the Reasoners, thus promoting continuous improvement of the prototype system." {% cite consortiumUniversalBiomedicalData2019 %}
+
+[^section206]: There is a clear analogy to the recent push to increase internet content regulation by social media companies {% cite doctorowRegulatingBigTech2019 %}. A platform makes a quasi-universal social space for profit, moderation then has to scale with the size of the platform, then it lobbies to increase regulatory burden to a point that is impossible to maintain for all but already-scaled companies. It is only the quasi-universality of the platform that makes the moderation burden so high in the first place, however, compared to eg. a decentralized medium that might have a structurally different disposition to moderation ( see {% cite rozenshteinModeratingFediverseContent2022 %}).
