@@ -72,3 +72,13 @@
 [^reasoner-training]: >"The Reasoners then return ranked and scored potential translations with provenance and supporting evidence. The user is then able to evaluate the translations and supporting evidence and provide feedback to the Reasoners, thus promoting continuous improvement of the prototype system." {% cite consortiumUniversalBiomedicalData2019 %}
 
 [^section206]: There is a clear analogy to the recent push to increase internet content regulation by social media companies {% cite doctorowRegulatingBigTech2019 %}. A platform makes a quasi-universal social space for profit, moderation then has to scale with the size of the platform, then it lobbies to increase regulatory burden to a point that is impossible to maintain for all but already-scaled companies. It is only the quasi-universality of the platform that makes the moderation burden so high in the first place, however, compared to eg. a decentralized medium that might have a structurally different disposition to moderation ( see {% cite rozenshteinModeratingFediverseContent2022 %}).
+
+[^whoomp]: If you could rig an MS Word template to punctuate sentences with "[Whoomp! (There It Is)](https://www.youtube.com/watch?v=L6mNa_QZVHg)," they would have.
+
+[^NSFconvergence]: The Convergence Accelerator is a project specifically designed to provide public research funding to for-profit industries {% cite nationalsciencefoundationNSFConvergenceAccelerator2019 %}
+
+[^pattern]: Hopefully this pattern is familiar.
+
+[^spoke]: SPOKE, discussed previously, was funded by both the Translator project {% cite huangNIH1OT2TR00345001EVIDARA2020 %} and OKN {% cite baranziniNSFAwardSearch2022 %}, and [KnowWhereGraph](https://knowwheregraph.org/) is another notable early prototype {% cite janowiczKnowKnowWhere2022 %}
+
+[^boozallen]: Including a representative from Booz Allen Hamilton, which may be familiar as the former employer of Edward Snowden, who was working for them on a contract with the NSA which gave him access to the details of its [PRISM](https://en.wikipedia.org/wiki/PRISM_(surveillance_program)) mass-surveillance program.

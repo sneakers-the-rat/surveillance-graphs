@@ -11,6 +11,7 @@ Scraps:
 - agents vs. platforms:
 	- where are all the agents? we were supposed to have web robots by now!? {% cite ciorteaDecadeHindsightMissing2019 %}
 	- they're doign business stuff! {% cite mcburneyAgentsAreAll2007 %}
+- OKN is Specifically trying to get the chatbots up to speed: {% cite bigdatainteragencyworkinggroupOpenKnowledgeNetwork2018 %}
 
 Tim BL actually really wanted to be able to talk to the computers, he specifically imagined chatbots working on top of the semantic web: https://www.w3.org/DesignIssues/Evolution.html
 

@@ -13,6 +13,7 @@ bibtex: false # render bibtex for each reference
 canonical_url: "https://jon-e.net/surveillance-graphs"
 toc_levels: "1..3"
 toc: true
+bibliography: true
 ---
 
 1. toc
@@ -45,12 +46,6 @@ toc: true
 
 {% include_relative _sections/_models/index.md %}
 
-
-# References
-
-{% include_relative _sections/bib.md %}
-
-# Footnotes
 
 {% include_relative _sections/x_footnotes.md %}
 

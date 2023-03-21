@@ -60,6 +60,10 @@ layout: default
     {{ content }}
     </div>
 
+    {% if page.bibliography == true %}
+    {% bibliography --cited %}
+    {% endif %}
+
 
 </div>
 <!-- 
