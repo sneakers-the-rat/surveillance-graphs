@@ -82,3 +82,7 @@
 [^spoke]: SPOKE, discussed previously, was funded by both the Translator project {% cite huangNIH1OT2TR00345001EVIDARA2020 %} and OKN {% cite baranziniNSFAwardSearch2022 %}, and [KnowWhereGraph](https://knowwheregraph.org/) is another notable early prototype {% cite janowiczKnowKnowWhere2022 %}
 
 [^boozallen]: Including a representative from Booz Allen Hamilton, which may be familiar as the former employer of Edward Snowden, who was working for them on a contract with the NSA which gave him access to the details of its [PRISM](https://en.wikipedia.org/wiki/PRISM_(surveillance_program)) mass-surveillance program.
+
+[^groupH]: The group focused on unhoused people is particularly thoughtful regarding privacy and other ethical concerns.
+
+[^palantirexternaldata]: > “Because one of Palantir’s biggest selling points is the ease with which new, external data sources can be incorporated into the platform, its coverage grows every day. LAPD data, data collected by other government agencies, and external data, including privately collected data accessed through licensing agreements with data brokers, are among at least 19 databases feeding Palantir at JRIC.” {% cite braynePredictSurveilData2020 %}

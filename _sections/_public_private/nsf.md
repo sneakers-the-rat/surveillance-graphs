@@ -6,18 +6,32 @@ Compared to the Translator, the OKN pulls punches for neither its utopian promis
 
 Its domain is much broader than the Translator, and is unmistakeably bound up in both the United States Federal Government's military and political interests in Artificial Intelligence {% cite nationalsecuritycommissiononartificialintelligenceFinalReport2021 %} and the information economy's interests in making a universal space where all information can be bought and sold with minimal friction {% cite bigdatainteragencyworkinggroupOpenKnowledgeNetwork2018 %}. Where the Translator has the near-inevitable risk of being captured by information conglomerates, through the euphemism of "public private partnership" the OKN makes clear it was already captured at inception. 
 
-Without mincing words, the OKN intends to make a Universal Knowledge Graph of Everything. They check all the boxes[^pattern]: a) make authoritative schemas for everything, b) link all possible data together, c) ingest data from as many sources as possible at whatever quality possible, d) integrate private with public data e) put it all in the cloud! (p. 18-19 "Creating an OKN" {% cite bigdatainteragencyworkinggroupOpenKnowledgeNetwork2018 %}). 
+Without mincing words, the OKN intends to make a Universal Knowledge Graph of Everything. They check all the boxes[^pattern]: a) make authoritative schemas for everything, b) link them all together, c) ingest data from as many sources as possible at whatever quality available, d) integrate private with public data e) put it all in the cloud! (p. 18-19 "Creating an OKN" {% cite bigdatainteragencyworkinggroupOpenKnowledgeNetwork2018 %}). 
 
-They OKN describes its work using a vocabulary of "vertical" "horizontal," where "vertical" applications refer to specific uses or domains like energy or health data, and "horizontal" themes like technologies and governance are shared across all domains. The "vertical" topics identified in the 2022 roadmap tell the story themselves:
+They OKN describes its work using a vocabulary of "vertical" "horizontal," where "vertical" applications refer to specific uses or domains like energy or health data, and "horizontal" themes like technologies and governance are shared across all domains. The work of the OKN is organized around specific use cases either within a "vertical" topic or a specific "horizontal" theme with the intent of later building them together into a shared infrastructure. The collection of "vertical" topics identified in the 2022 roadmap hint at the effectively unbounded scope of the OKN: accelerated capitalism via supply chain logistics, more tightly integrated weapons development, a handful of climate change projects, an omniscient financial system, and so on. Each imagines the primary problem in a given domain not as structural exploitation or injustice, but a lack of data.
 
-- An **Integrated Justice Platform** group describes how greater surveillance across the entirety of the US justice system and every contact people have with it is necessary to decrease bias. The group outlines a wish list of data sources they would integrate - arrest and booking, jail, trial, prosecution, and the rest. A **Decarceration** group[^boozallen] describes extending that surveillance through to the rest of incarcerated people's lives after they are released - rehab, parole, foster care, shelters, public services use, etc. 
+A collection of "vertical" topical working groups in the 2022 roadmap centered on an algorithmic justice system are illustrative: An **Integrated Justice Platform** group describes how greater surveillance across every contact people have with the US Justice System is necessary to decrease bias. The group outlines a wish list of data sources they would integrate - arrest and booking, jail, trial, prosecution, and the rest. A **Decarceration** group[^boozallen] describes extending that surveillance through to the rest of incarcerated people's lives after they are released - rehab, parole, foster care, shelters, public services, etc. A **Homelessness** group intends to track unhoused people in order to match them to available resources. A **Decision Support for Government** group describes bundling up these and other data sources into platforms for making "data driven decisions" on topics including crime and policing.
+
+On their own, each of these groups describes noble goals: decreasing bias in the justice system, providing resources to formerly incarcerated or unhoused people[^groupH], making government decisions more efficient. Taken together, however, the projects describe a panoptical surveillance system that wouldn't even need to be reconfigured to be used for algorithmically-enhanced oppression. I doubt any of the researchers in these groups intend for their work to re-entrench structural racism by way of predictive policing, but *Palantir doesn't care what academics intended their tools to be used for[^palantirexternaldata].* 
+
+The increasing integration of government and law enforcement data systems has been coproductive with the expansion of policing across public services
+- Make a unified identification system so that it's possible to identify "heavy users" of prisons  {% cite farahaniLinkingPublicSafety2016 %}
+
+The capacity to "police the police" with additional data on their operation will *always* lag behind the damage done by their asymmetrical access to the world's data provided by private data brokers.
+
+big-data solutionism is a distraction from root causes like the fundamentally white supremacist instutition of the police {% cite vitaleEndPolicing2021 %}, and indeed like other reformist ideas like "increased training" for police which backfire as "more funding" for police, it's hard to imagine pumping more data into cop algorithms *reducing* bias 
+
+Privacy by broken infrastructure is cold comfort, but it's at least not hurtling headlong into the future of algorithmic policing.
 
 - both of these imagine the problem to be data rather than a structurally racist justice system: if we had more data then we would be able to help decarcerated people more. How about we don't incarcerate so many people and then when we release them we give them the actual resources they need to rebuild the life that was taken from them.
+
+- More details on their ideas of open justice system, specifically SCALES {% cite pahPromiseAIOpen2022 %}
+
+- BUT DONT BELABOR THE POINT JUST SAY THAT THE JUSTICE SYSTEM ONES ARE ILLUSTRATIVE OF THE MINDSET - individually each of these things might be fine, but you can imagine what it looks like when they are all built together - this is whole person tracking at the scale of society that we're talking about. And again it might be researchers and the governemnt that value privacy that design the system, but I guarantee you that ICE will not care, and eventually they will use these tools for eeeeeevil!
 
 -C: Defense Innovation Programs
 
 -D: NIEM - similar to BioLink but for government data.
-
 
 They describe the "end-users and stakeholders" as everyone in the justice system except for incarcerated people or people that might otherwise be affected by a unified surveillance dragnet.
 
@@ -34,6 +48,7 @@ They describe the "end-users and stakeholders" as everyone in the justice system
 - the point is that through noble intentions, the basic structure of these things as gigantic data marketplaces inevitably tends towards maximizing surveillance data in order to sell control.
 - and this is just the opening phase, to work on domain-specific projects before trying to do the actual work of targeted graph of everything building.
 
+- Infrastructure under the OKN: {% cite cafarellaInfrastructureRapidOpen2022 %}
 
 
 - Intends to be good!
@@ -42,3 +57,4 @@ They describe the "end-users and stakeholders" as everyone in the justice system
 - Examples:
 	- KnowWhereGraph {% cite janowiczKnowKnowWhere2022 %}
 - the critical thing here is that the US's two major public funding bodies have lined up to build unifying graphs of everything for ostensibly noble purposes but the information companies are literally licking their chops to eat this up. They have both effectively made new funding mechanisms that allow them to basically let private industry types what to build and how to build it, the academics get invited in to play for a bit, and then it's time to capture it later. The specifics aren't important, what's important is the pattern of layering public and private knowledge graphs that seem great and open on the surface but actually power some monstrously shittier technology underneath.
+- Census of outcomes at the end - it could be really bad, it could actually not amount to anything at all, but regardless this is illustrative of the way that the cloud constrains our thinking! Either nonfunctional or corporate! Note how much has been spent on each and give caveats like "ya these might not even amount to anything, but the point is the way that the existing cloud paradigm constrains the way that we think precisely in such a way that it is difficult to actually build the kind of effective infrastructure that we want. We have to acknowledge that the cloud model is not a universal computing paradigm, but one designed for a very specific mode of property relationships and profit models."

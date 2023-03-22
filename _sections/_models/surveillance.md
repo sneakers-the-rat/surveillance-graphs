@@ -18,6 +18,7 @@ The problem of belief: what should these things do? present us instantly with re
 	- There is "one" of something - there is one index that refers to the concept of a man, or a given person, etc. rather than many contextual representations of that thing.
 		- the poltics of ontologies are neatly illustrated by the fact that "a woman is a woman" means precisely the opposite thing w.r.t trans woman to transmisics as compared to normal people.
 	- It doesn't have to work! as long as it seems like it does
+	- Rather than building tools for people that they might use to actually integrate the system in their work or lives, but instead some means of scraping it afterwards (eg. SCALES), so who is this actually for? the people studying people doing work, or for the people doing the work? When things are intended for the people actually doing the work, they are invariably platforms that provide just enough functionality to keep people using them while surveilling them as the main purpose.
 
 - YOU ONLY NEED TO DO THIS SCALE OF AUTOMATED EXTRACTION IF YOU PRESUPPOSE A UNIVERSE OF A FEW MASSIVE PLATFORMS OWNING EVERYTHING IN THE FIRST PLACE re: amazon product graph example in {% cite chaudhriKnowledgeGraphsIntroduction2022 %}
 
