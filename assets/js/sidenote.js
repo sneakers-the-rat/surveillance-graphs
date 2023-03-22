@@ -57,7 +57,7 @@ function getOffset(element)
         // add id to use as an anchor
         div.id = `sn:${sup.id.split(':')[1]}`;
 
-
+        let last_top = 0;
 
         let sizeit = function() {
             let main = document.getElementsByTagName("main")[0];
@@ -70,14 +70,15 @@ function getOffset(element)
                 // get previous sidenote from id
                 let prev_el = document.getElementById(`sn:${prev.id.split(':')[1]}`);
                 let prev_position = getOffset(prev_el);
-                minh = parseFloat(prev_position.top) + parseFloat(prev_position.height) + 5;
+                minh = parseFloat(prev_el.style.top) + parseFloat(prev_position.height) + 5;
             }
-
+            
+            let new_top = minh > position["top"] ? `${minh}px` : `${position["top"]}px`;
 
             let div_style = {
                 "position": "absolute",
                 "left": `calc(${ww}px - 0.5em)`,
-                "top": minh > position["top"] ? `${minh}px` : `${position["top"]}px`,
+                "top": new_top,
                 "min-width": ww > 420 ? `${ww/4}px` : `%{ww/3}px`,
                 "max-width": `${ww/2}px`,
                 "width": `${ww/2}px`,
@@ -102,6 +103,14 @@ function getOffset(element)
                 div.classList.add("sidenote-hover");
                 div.classList.add("sidenote-perma-hover");
             }
+
+            if (new_top !== last_top) {
+                last_top = new_top;
+                sizeit();
+            } else {
+                last_top = new_top;
+            }
+
 
         };
 

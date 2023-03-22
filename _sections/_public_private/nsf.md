@@ -41,3 +41,4 @@ They describe the "end-users and stakeholders" as everyone in the justice system
 	- Invokes wikipedia and wikidata without critical context of the role of openness in maintaining knowledge dominance.
 - Examples:
 	- KnowWhereGraph {% cite janowiczKnowKnowWhere2022 %}
+- the critical thing here is that the US's two major public funding bodies have lined up to build unifying graphs of everything for ostensibly noble purposes but the information companies are literally licking their chops to eat this up. They have both effectively made new funding mechanisms that allow them to basically let private industry types what to build and how to build it, the academics get invited in to play for a bit, and then it's time to capture it later. The specifics aren't important, what's important is the pattern of layering public and private knowledge graphs that seem great and open on the surface but actually power some monstrously shittier technology underneath.
