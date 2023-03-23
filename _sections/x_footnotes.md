@@ -25,10 +25,10 @@
     `<tantek>` Hey Kavi - do you see what you've done here?
     <br>
     `<tantek>` You've gotten a community leader of microformats.org (myself) and chair of W3C RDFa WG to \*agree\*
-	<br>
-	`<edsu>` tantek: see, that's progress :)
-	<br>
-	`<manu-db>` Yes - both RDFa and Microformats communities agree - sky will be falling, next.
+    <br>
+    `<edsu>` tantek: see, that's progress :)
+    <br>
+    `<manu-db>` Yes - both RDFa and Microformats communities agree - sky will be falling, next.
 
 [^linkingagreements]: "The potential benefit of the service that would become CrossRef was immediately apparent. Organizations such as AIP and IOP (Institute of Physics) had begun to link to each other’s publications, and the impossibility of replicating such one-off arrangements across the industry was obvious. As Tim Ingoldsby later put it, **'All those linking agreements were going to kill us.'**" {% cite crossrefFormationCrossRefShort2009 %}
 
@@ -83,6 +83,15 @@
 
 [^boozallen]: Including a representative from Booz Allen Hamilton, which may be familiar as the former employer of Edward Snowden, who was working for them on a contract with the NSA which gave him access to the details of its [PRISM](https://en.wikipedia.org/wiki/PRISM_(surveillance_program)) mass-surveillance program.
 
-[^groupH]: The group focused on unhoused people is particularly thoughtful regarding privacy and other ethical concerns.
-
 [^palantirexternaldata]: > “Because one of Palantir’s biggest selling points is the ease with which new, external data sources can be incorporated into the platform, its coverage grows every day. LAPD data, data collected by other government agencies, and external data, including privately collected data accessed through licensing agreements with data brokers, are among at least 19 databases feeding Palantir at JRIC.” {% cite braynePredictSurveilData2020 %}
+
+[^sprint]: Given the context of the "Innovation Sprint" essentially as an extended pitch session for future work, and the disincentive towards serious discussion of the ethical ramifications of the projects that entails.
+
+[^systemsengineers]: A recurring pattern in techno-solutionism: 
+    > "These perspectives assume that complex controversies can be solved by getting correct information where it needs to go as efficiently as possible. In this model, political conflict arises primarily from a lack of information. If we just gather all the facts, systems engineers assume, the correct answers to intractable policy problems like homelessness will be simple, uncontroversial, and widely shared.
+    >
+    > But, for better or worse, **this is not how politics work.**" {% cite eubanksAutomatingInequalityHow2019 %}
+
+[^cfive]: ...and then outsourcing the maintenance and risk of it being breached {% cite informationsystemsadvisoryboardcountyoflosangelesCONTRACTCOUNTYANGELES2021 %}
+
+[^acab]: > These visits often resulted in other, unrelated arrests that further victimized families and added to the likelihood that they would be visited and harassed again. In one incident, the mother of a targeted teenager was issued a $2,500 fine when police sent to check in on her child saw chickens in the backyard. In another incident, a father was arrested when police looked through the window of the house and saw a 17-year-old smoking a cigarette. These are the kinds of usually unreported crimes that occur in all neighborhoods, across all economic strata—but which only those marginalized people who live under near constant policing are penalized for. {% cite guarigliaTechnologyCanPredict2020 kathleenTargeted2020 %}

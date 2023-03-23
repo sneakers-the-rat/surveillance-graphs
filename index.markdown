@@ -42,7 +42,7 @@ bibliography: true
 
 {% include_relative _sections/_public_private/index.md %}
 
-# Competing Models
+# Infrastructural Ideologies
 
 {% include_relative _sections/_models/index.md %}
 
