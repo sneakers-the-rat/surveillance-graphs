@@ -1,0 +1,39 @@
+\documentclass{article}
+\usepackage[usenames, dvipsnames,svgnames]{xcolor}
+\usepackage{url}
+\usepackage[colorlinks = true,
+            urlcolor = DarkOrchid,
+            citecolor = DarkOrchid,
+            backref= section]{hyperref}
+\usepackage{graphicx}
+\usepackage{microtype}
+\usepackage[default,regular,black]{sourceserifpro}
+\usepackage[square,numbers]{natbib}
+\usepackage[export]{adjustbox}
+\usepackage{geometry}
+\usepackage{natbib}
+
+\geometry{
+	left=0.9in,
+	right=0.9in,
+	bottom=1.1in
+}
+
+
+
+
+
+\makeatletter
+\AtBeginDocument{%
+  \def\doi#1{\url{https://doi.org/#1}}}
+\makeatother
+
+\setcounter{tocdepth}{3}
+\title{Surveillance Graphs}
+\author{Jonny L. Saunders}
+\date{\today}
+\begin{document}
+
+\maketitle
+
+\tableofcontents

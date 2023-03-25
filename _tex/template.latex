@@ -1,0 +1,7 @@
+% Options for packages loaded elsewhere
+
+$if(highlighting-macros)$
+$highlighting-macros$
+$endif$
+
+$body$
