@@ -94,3 +94,18 @@ footer {
     font-size: .8rem;
   }
 }
+
+ul {
+
+  @media (max-width: $width-tablet){
+    padding: {
+      left: 1em;
+    }
+
+    li {
+      margin: {
+        top: 0.25em;
+      }
+    }
+  }
+}

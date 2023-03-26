@@ -1,4 +1,6 @@
-## Surveillance Graphs
+## The Cloud Orthodoxy
+
+not a complete definition, but describing some basic traits. not all traits are always true, but they fit together into a means of understanding digital infrastructures - a means of establishing values 
 
 - read and cite:
 	- {% cite allhutterWorkingOntologistsHighQuality2019 %}
@@ -10,6 +12,7 @@ The problem of belief: what should these things do? present us instantly with re
 - Need to articulate the components of the cloud orthodoxy mindset
 	- Automated reasoning
 	- More data is better
+	- 'data' as a projection of 'information' is a commodity, inert, factual, external.
 	- Neutral reflection of underlying facts, only conditioning factor is 'confidence', but no criticism of schema
 	- End goal is productized services: eg. the fantasy of the google researcher in 2018 at the end of entity oriented search
 	- Convenience
@@ -19,6 +22,10 @@ The problem of belief: what should these things do? present us instantly with re
 		- the poltics of ontologies are neatly illustrated by the fact that "a woman is a woman" means precisely the opposite thing w.r.t trans woman to transmisics as compared to normal people.
 	- It doesn't have to work! as long as it seems like it does
 	- Rather than building tools for people that they might use to actually integrate the system in their work or lives, but instead some means of scraping it afterwards (eg. SCALES), so who is this actually for? the people studying people doing work, or for the people doing the work? When things are intended for the people actually doing the work, they are invariably platforms that provide just enough functionality to keep people using them while surveilling them as the main purpose.
+	- we are interchangeable consumers, we are not expected to "have anything" or "come with anything" - we are customers of some web service. The notion of **agency** is never afforded to people: **agents** are computational, and specifically on a computer than you don't own. You can tell a web agent to do something for you, but you yourself do not have agentic behavior on ther web.
+	- the expectation that we shouldn't have to organize something, that we should be able to buy it.
+	- that we should be able to complain to the manager, because we are the customer
+	- in some ways most of this is pinned in place by the ideology of capitalism, if youh ave a backdrop of some companies needing to take some action, they abstract away the social relationship of labor into a product for you, which you can then rent. 
 
 - YOU ONLY NEED TO DO THIS SCALE OF AUTOMATED EXTRACTION IF YOU PRESUPPOSE A UNIVERSE OF A FEW MASSIVE PLATFORMS OWNING EVERYTHING IN THE FIRST PLACE re: amazon product graph example in {% cite chaudhriKnowledgeGraphsIntroduction2022 %}
 

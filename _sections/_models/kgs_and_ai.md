@@ -1,4 +1,4 @@
-### Knowledge Graphs + AI
+### Knowledge Graphs Get Chatbots.
 
 **MOVE THIS to "models/surveillance" - the cognitive style of search, why chatbots inevitable and an intrinsic part of the plan, and the broader conversation of the surveillance mindset**
 

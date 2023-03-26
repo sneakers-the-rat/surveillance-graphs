@@ -83,9 +83,10 @@
 
 [^boozallen]: Including a representative from Booz Allen Hamilton, which may be familiar as the former employer of Edward Snowden, who was working for them on a contract with the NSA which gave him access to the details of its [PRISM](https://en.wikipedia.org/wiki/PRISM_(surveillance_program)) mass-surveillance program.
 
-[^palantirexternaldata]: > “Because one of Palantir’s biggest selling points is the ease with which new, external data sources can be incorporated into the platform, its coverage grows every day. LAPD data, data collected by other government agencies, and external data, including privately collected data accessed through licensing agreements with data brokers, are among at least 19 databases feeding Palantir at JRIC.” {% cite braynePredictSurveilData2020 %}
+[^palantirexternaldata]: Palantir prides itself on its ability to continuously add new data sources: 
+    > “Because one of Palantir’s biggest selling points is the ease with which new, external data sources can be incorporated into the platform, its coverage grows every day. LAPD data, data collected by other government agencies, and external data, including privately collected data accessed through licensing agreements with data brokers, are among at least 19 databases feeding Palantir at JRIC.” {% cite braynePredictSurveilData2020 %}
 
-[^sprint]: Given the context of the "Innovation Sprint" essentially as an extended pitch session for future work, and the disincentive towards serious discussion of the ethical ramifications of the projects that entails.
+[^sprint]: The "Innovation Sprint" is essentially as an extended pitch session for future work, which is both important context as a strong counterincentive to series ethical consideration of the projects --- and also a demonstration of why it might not be good to organizing infrastructural projects as pitch sessions rather than from some ethical foundation.
 
 [^systemsengineers]: A recurring pattern in techno-solutionism: 
     > "These perspectives assume that complex controversies can be solved by getting correct information where it needs to go as efficiently as possible. In this model, political conflict arises primarily from a lack of information. If we just gather all the facts, systems engineers assume, the correct answers to intractable policy problems like homelessness will be simple, uncontroversial, and widely shared.
@@ -95,3 +96,10 @@
 [^cfive]: ...and then outsourcing the maintenance and risk of it being breached {% cite informationsystemsadvisoryboardcountyoflosangelesCONTRACTCOUNTYANGELES2021 %}
 
 [^acab]: > These visits often resulted in other, unrelated arrests that further victimized families and added to the likelihood that they would be visited and harassed again. In one incident, the mother of a targeted teenager was issued a $2,500 fine when police sent to check in on her child saw chickens in the backyard. In another incident, a father was arrested when police looked through the window of the house and saw a 17-year-old smoking a cigarette. These are the kinds of usually unreported crimes that occur in all neighborhoods, across all economic strata—but which only those marginalized people who live under near constant policing are penalized for. {% cite guarigliaTechnologyCanPredict2020 kathleenTargeted2020 %}
+
+[^utopiaofrules]: For a fuller discussion of utopias, power, imagination, managerialism, and its intersections with bureaucracy, see {% cite graeberUtopiaRulesTechnology2015 %}
+    > The increasing interpenetration of government, university, and private firms has led all parties to adopt language, sensibilities, and organizational forms that originated in the corporate world. While this might have helped somewhat in speeding up the creation of immediately marketable products --- as this is what corporate bureaucracies are designed to do --- in terms of fostering original research, the results have been catastrophic. [...]
+    >
+    > A timid, bureaucratic spirit has come to suffuse every aspect of intellectual life. More often than not, it comes cloaked in a language of creativity, initiative, and entrepreneurialism. But the language is meaningless. The sort of thinkers most likely to come up with new conceptual breakthroughs are the least likely to receive funding, and if, somehow, breakthroughs nonetheless occur, they will almost certainly never find anyone willing to follow up on the most daring implications. [...]
+    >
+    > This is what I mean by"bureaucratic technologies": administrative imperatives have become not the means, but the end of technological development. {% cite graeberUtopiaRulesTechnology2015 %}

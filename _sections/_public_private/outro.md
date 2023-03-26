@@ -1,6 +1,8 @@
 
 ---
 
+These two projects show us some of the patterns to expect in the near future of informational infrastructures: 
 
-
-In both of these projects, the pursuit of a universal knowledge graph is motivated by altruistic goals --- that those goals take the form of the universal knowledge graph is not a matter of stupidity or malice, but ideology.
+<div class="draft-text">
+	brief summary of the form of the two projects that leads into discussing the ideology that drives their structure, and how the cloud orthodoxy is not the inevitable future of the web
+</div>
