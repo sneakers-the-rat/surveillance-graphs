@@ -111,3 +111,7 @@
 [^firefox]: The last major competitor being Firefox with market share in the low teens. Hang in there little fox!
 
 [^chrome]: Which Google uses as a surveillance platform and a weapon which, according to unredacted court records detailing its "Privacy Sandbox" project, they plan to use for a forceful takeover of the rest of the global ad market in the name of privacy: "Google's new scheme is, in essence, to wall off the entire portion of the internet that consumers access through Google's Chrome browser." {% cite ReGoogleDigital2021 %}.
+
+[^nonuniversal]: Universal definitions are themselves part of of the critique.
+
+[^IP]: (that is profitable to maintain IP licenses for)
