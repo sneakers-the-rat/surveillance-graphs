@@ -44,7 +44,7 @@ bibliography: true
 
 # Infrastructural Ideologies
 
-{% include_relative _sections/_models/index.md %}
+{% include_relative _sections/_ideology/index.md %}
 
 
 {% include_relative _sections/x_footnotes.md %}

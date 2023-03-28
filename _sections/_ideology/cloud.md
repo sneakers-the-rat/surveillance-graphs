@@ -1,5 +1,7 @@
 ## The Cloud Orthodoxy
 
+
+
 not a complete definition, but describing some basic traits. not all traits are always true, but they fit together into a means of understanding digital infrastructures - a means of establishing values 
 
 - read and cite:
@@ -26,6 +28,8 @@ The problem of belief: what should these things do? present us instantly with re
 	- the expectation that we shouldn't have to organize something, that we should be able to buy it.
 	- that we should be able to complain to the manager, because we are the customer
 	- in some ways most of this is pinned in place by the ideology of capitalism, if youh ave a backdrop of some companies needing to take some action, they abstract away the social relationship of labor into a product for you, which you can then rent. 
+	- trust via gatekeeping: you can trust us because we limit the power within the system carefully, as opposed to eg. soft security
+		- trust in a corporate context is having someone to sue, but the same conditions of trust don't need to apply in all contexts.
 
 - YOU ONLY NEED TO DO THIS SCALE OF AUTOMATED EXTRACTION IF YOU PRESUPPOSE A UNIVERSE OF A FEW MASSIVE PLATFORMS OWNING EVERYTHING IN THE FIRST PLACE re: amazon product graph example in {% cite chaudhriKnowledgeGraphsIntroduction2022 %}
 

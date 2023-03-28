@@ -103,3 +103,11 @@
     > A timid, bureaucratic spirit has come to suffuse every aspect of intellectual life. More often than not, it comes cloaked in a language of creativity, initiative, and entrepreneurialism. But the language is meaningless. The sort of thinkers most likely to come up with new conceptual breakthroughs are the least likely to receive funding, and if, somehow, breakthroughs nonetheless occur, they will almost certainly never find anyone willing to follow up on the most daring implications. [...]
     >
     > This is what I mean by"bureaucratic technologies": administrative imperatives have become not the means, but the end of technological development. {% cite graeberUtopiaRulesTechnology2015 %}
+
+[^EOSC]: It's out of scope here, but another point of comparison and contrast is the EU's European Open Science Cloud (ESOC) project {% cite directorate-generalforresearchandinnovationeuropeancommissionEOSCArchitectureWorking2021 directorate-generalforresearchandinnovationeuropeancommissionSolutionsSustainableEOSC2020 directorate-generalforresearchandinnovationeuropeancommissionEOSCInteroperabilityFramework2021 %}
+
+[^loveyanerds]: Except by the scores of beloved nerds in exile on the freer parts of the internet who remember the death of IRC and RSS and the weaponization of JavaScript **acutely and personally.**
+
+[^firefox]: The last major competitor being Firefox with market share in the low teens. Hang in there little fox!
+
+[^chrome]: Which Google uses as a surveillance platform and a weapon which, according to unredacted court records detailing its "Privacy Sandbox" project, they plan to use for a forceful takeover of the rest of the global ad market in the name of privacy: "Google's new scheme is, in essence, to wall off the entire portion of the internet that consumers access through Google's Chrome browser." {% cite ReGoogleDigital2021 %}.
