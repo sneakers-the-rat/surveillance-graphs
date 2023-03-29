@@ -1,6 +1,21 @@
-### Knowledge Graphs Get Chatbots.
+## Knowledge Graphs Get Chatbots.
 
-*Why does it always feel like there is a hollow middle?* - eg. I can't even index across the different projects in the translator. I feel like I always need to subscribe to some additional platform or service, rather than making cumulative progress on a single thing. Always tossed around in an endless sea. This is a reflection of platforms necessarily generating the fundamental lack which they can exploit - typically informational organization. Why do our public information infrastructures which shoudln't be subject to the same profit-based constraints as cloud platforms, also feel this way? Because the cloud paradigm is specifically designed to favor a particular paradigm of computing.
+Given that positive caricature of the Cloud Orthodoxy, what is the future it imagines, and why is the addition of chatbots to knowledge graphs of central importance?
+
+The construction of search --- particularly single-bar search a la google --- as the primary means of information retrieval on the web is not epiphenomenal to its history or structure. The problem that search addresses is an overload of information: if there were only 5 websites, search would be unnecessary. Before Google, search engines were littered with categories and rich with "advanced search" parameters common in other, more constrained search contexts to specify coordinates in the overload. The single bar search paradigm[^pagerank] is simply *more convenient* than rifling through categories or preparing structured queries. Its convenience, of course, naturally trades off with the amount of information present in a query, and thus the ability to specify precisely what you're after.
+
+Imprecision in search, when calibrated correctly, is a *feature* not a bug. The cognitive expectation of indexical or "advanced" search in a finite database is that it is possible to "reach the bottom" of it --- given my query, if something was here I would be able to find it. Conversely, it would be very obvious if a result that *didn't* match your query was included in the results. It is by, perhaps counterintuitively, cultivating the expectation of imprecision that it becomes possible to embed ads or other sponsored content in results[^enshittification]. It's a delicate dance: if you are presented with exactly the correct link at the top of a page of results, you don't spend enough time in the feed to be advertised to. If the results are too low quality, searchers might look elsewhere.
+
+To make up for the lack of search detail from single-bar search, Google and others use whatever additional contextual information they can. This is one way of characterizing PageRank[^underspecified] - in the absence of some differentiating information in the query like "pages from x site" or "written by y" which the searcher may not even know beforehand, PageRank uses the information latent in the link structure of the web to infer "page quality." Surveillance also fits the bill nicely --- in addition to gathering a product to sell in the form of targeted ad space, comprehensive user profiling provides a great deal of context for underspecified searches[^mitchell].
+
+
+
+
+
+**Outline**:
+- Criticisms of 'but the LLMs are just making up plausible sounding text' are correct for now, but discount the plans to integrate these LLMs with structured information in knowledge graphs. {% cite shahSituatingSearch2022 %}
+
+
 
 So if web 2.0 was about the platformatization of the web, what is up next? In the same way that information conglomerates successfully harnessed open source for profit, now can we effectively gamify the entirety of knowledge generation process? can we put ppl inside of information curation chambers when they search?
 
