@@ -1,11 +1,32 @@
 ### Knowledge Graphs Get Chatbots.
 
-**MOVE THIS to "models/surveillance" - the cognitive style of search, why chatbots inevitable and an intrinsic part of the plan, and the broader conversation of the surveillance mindset**
+*Why does it always feel like there is a hollow middle?* - eg. I can't even index across the different projects in the translator. I feel like I always need to subscribe to some additional platform or service, rather than making cumulative progress on a single thing. Always tossed around in an endless sea. This is a reflection of platforms necessarily generating the fundamental lack which they can exploit - typically informational organization. Why do our public information infrastructures which shoudln't be subject to the same profit-based constraints as cloud platforms, also feel this way? Because the cloud paradigm is specifically designed to favor a particular paradigm of computing.
+
+So if web 2.0 was about the platformatization of the web, what is up next? In the same way that information conglomerates successfully harnessed open source for profit, now can we effectively gamify the entirety of knowledge generation process? can we put ppl inside of information curation chambers when they search?
+
+
+- **Review**: {% cite mialonAugmentedLanguageModels2023 %}
+	- Also be sure to read and cite: {% cite shahSituatingSearch2022 %}
+- Google integrating AI and its graph of everything: {% cite nayakMUMNewAI2021 %}
+	- {% cite raghavanHowAIMaking2021 %} - this is how Lens works
+	- {% cite cohenHelpfulSearchTools2021 %} - google as arbiter of true information
+	- {% cite robertsExploringTransferLearning2020 %}
+- Google prior history:
+	- {% cite gomesImprovingSearchNext2018 %}
+	    - answers -> journeys: aka use context from surveillance to fill in the inadequacies of single-bar serach
+	    - queries -> queryless: the user is the context, prompt them with information before they even know they want it!
+	    - text -> visual serach
+	    - "neural embeddings:" from understanding words to understanding concepts and then map then into some thing in teh knowlege graph.
+- Federated learning
+	- Why would a standard data interchange format be useful? 
+	- When you can't acquire the data, you still want a piece of the action! {% cite sadilekPrivacyfirstHealthResearch2021 %}
 
 - The recurring patterns in these projects trace the emerging consensus of public information projects. Expert councils will create unifying ontologies and launch platforms for public knowledge graph sources. These platforms will beget derivative platforms that mix that public data and private data along with some algorithmic computation to rent as a service. We are intended to populate and curate these public graph platforms with our public data as the crowd source. 
 - I mean what could be different? how do we get out of the loop of trying to make "ok the real unified knowledge base for real this time guys" loop {% cite hoytUnifyingIdentificationBiomedical2022 %}. Maybe it's the belief that there should be a single unified naming system that's pathological? Maybe we need to focus on linking these things together rather than projecting them into some singular space.
 - it is, in fact ideological! "SPOKE was conceived with the philosophy that if relevant information is connected, it can result in the emergence of knowledge, and hence provide insights into the understanding of diseases, discovering of drugs and proactively improving personal health." {% cite morrisScalablePrecisionMedicine2023 %}
 - the hollow middle, right? like why is it so hard for me to even find all the ontologies that have been made by the biomedical translator project? why are most of the API endpoints in arax dead *already* - it hasn't even launched! why aren't there the tools for me to actually *use the information* in a way that wasn't specifically designed for in the platform? by focusng the design into these API-based data sources with platforms strapped on top of them, the project is limited to *only exactly what the developers could imagine and are capable of doing* rather than fulfullig the initial definition (find cite) of what "platforms" meant - an enabling technology that allows an expansive space of use that goes beyond the creators and enables and empowers people!
+- "Zero-query The traditional way of information access is reactive: the search system responds to a user-initiated query. Proactive systems, on the other hand, “anticipate and address the user’s information need, without requiring the user to issue (type or speak) a query” [5]. The zero-query search paradigm can be expressed with the slogan “the query is the user.” In practice, the context of the user is used to infer information needs." {% cite balogEntityOrientedSearch2018 %}
+- It doesn't have to work! as long as it seems like it does
 
 Scraps:
 - Role of knowledge graphs in explainable AI: {% cite lecueRoleKnowledgeGraphs2020 %}

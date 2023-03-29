@@ -115,3 +115,13 @@
 [^nonuniversal]: Universal definitions are themselves part of of the critique.
 
 [^IP]: (that is profitable to maintain IP licenses for)
+
+[^bigdickdata]: See Data Feminism's concept of "Big Dick Data"
+    > Big Dick Data is a formal, academic term that we, the authors, have coined to denote big data projects that are characterized by masculinist, totalizing fantasies of world domination as enacted through data capture and analysis. Big Dick Data projects ignore context, fetishize size, and inflate their technical and scientific capabilities.4 In GDELT’s case, the question is whether we should take its claims of big data at face value or whether the Big Dick Data is trying to trick funding organizations into giving the project massive amounts of research funding. (We have seen this trick work many times before.) {% cite dignazioDataFeminism2020 %}
+
+[^priorthought]: Eg. {% cite birhaneValuesEncodedMachine2022 benderDangersStochasticParrots2021 birhaneAlgorithmicInjusticeRelational2021 birhaneDecolonisingComputationalSciences2020 dignazioDataFeminism2020 magerDefiningAlgorithmicIdeology2014 bowkerSortingThingsOut1999 %}
+
+[^spokeknowledge]: > "SPOKE was conceived with the philosophy that if relevant information is connected, it can result in the emergence of knowledge, and hence provide insights into the understanding of diseases, discovering of drugs and proactively improving personal health." {% cite morrisScalablePrecisionMedicine2023 %}
+
+[^googleranking]: Google characterizes the potential for varying meanings in terms of "localization" --- where different geographic locales may have different understandings of a given query, but within that locale meaning is homogenous. It unintentionally captures the tension between localization and maintaining the epistemological framing of "reliability" of information with some underlying True value with this paradox in its training materials for its manual search quality evaluators: 
+    > "Ratings should not be based on your personal opinions, preferences, religious beliefs, or political views. Always use your best judgment and represent the cultural standards of your rating locale." {% cite googleSearchQualityEvaluator2022 %}
