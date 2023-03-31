@@ -133,3 +133,5 @@
 [^underspecified]: "The benefits of PageRank are the greatest for underspecified queries" {% cite pagePageRankCitationRanking1999 %}
 
 [^mitchell]: "Such personalized page ranks may have a number of applications, including personal search engines. These search engines could save users a great deal of trouble by efficiently guessing a large part of their interests given simple input such as their bookmarks or home page." {% cite pagePageRankCitationRanking1999 %}
+
+[^harnesses]: Literally "Harnessing the wisdom of the crowds" {% cite pascaOrganizingSearchingWorld2007 %}
