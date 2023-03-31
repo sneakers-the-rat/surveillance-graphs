@@ -7,6 +7,9 @@ Scraps:
 
 **Critically: Openness has failed us as an alternative** - it has been deeply coopted already!
 
+- Search engine web was not inevitable either: {% cite intronaShapingWebWhy2000 %}
+- as we saw with search! surveillance (in extreme part lmao) is encouraged by convenience - to make robots be maximally responsive and accurate in their responses to us, they need to fill in some missing context somewhere. surveillance is just an extremely valuable signal there. 
+
 - the poltics of ontologies are neatly illustrated by the fact that "a woman is a woman" means precisely the opposite thing w.r.t trans woman to transmisics as compared to normal people.
 
 Why on *earth* would we want our insurance provider to be able to adjust their premiums based on our private medical information, even if it is "de-identified"

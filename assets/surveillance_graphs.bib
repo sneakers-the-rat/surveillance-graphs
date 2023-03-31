@@ -16,6 +16,34 @@
   file = {/Users/jonny/Dropbox/papers/zotero/A/AdolphsL/adolphs_2022_boosting_search_engines_with_interactive_agents.pdf}
 }
 
+@inproceedings{adolphsDecodingNeuralRetriever2022,
+  title = {Decoding a {{Neural Retriever}}'s {{Latent Space}} for {{Query Suggestion}}},
+  author = {Adolphs, Leonard and Huebscher, Michelle Chen and Buck, Christian and Girgin, Sertan and Bachem, Olivier and Ciaramita, Massimiliano and Hofmann, Thomas},
+  year = {2022},
+  publisher = {{arXiv}},
+  doi = {10.48550/ARXIV.2210.12084},
+  url = {https://arxiv.org/abs/2210.12084},
+  urldate = {2023-03-31},
+  abstract = {Neural retrieval models have superseded classic bag-of-words methods such as BM25 as the retrieval framework of choice. However, neural systems lack the interpretability of bag-of-words models; it is not trivial to connect a query change to a change in the latent space that ultimately determines the retrieval results. To shed light on this embedding space, we learn a "query decoder" that, given a latent representation of a neural search engine, generates the corresponding query. We show that it is possible to decode a meaningful query from its latent representation and, when moving in the right direction in latent space, to decode a query that retrieves the relevant paragraph. In particular, the query decoder can be useful to understand "what should have been asked" to retrieve a particular paragraph from the collection. We employ the query decoder to generate a large synthetic dataset of query reformulations for MSMarco, leading to improved retrieval performance. On this data, we train a pseudo-relevance feedback (PRF) T5 model for the application of query suggestion that outperforms both query reformulation and PRF information retrieval baselines.},
+  copyright = {arXiv.org perpetual, non-exclusive license},
+  keywords = {Artificial Intelligence (cs.AI),chatbots,Computation and Language (cs.CL),facebook,FOS: Computer and information sciences,knowledge graphs,Machine Learning (cs.LG),meta},
+  file = {/Users/jonny/Dropbox/papers/zotero/A/AdolphsL/adolphs_2022_decoding_a_neural_retriever's_latent_space_for_query_suggestion.pdf}
+}
+
+@inproceedings{adolphsReasonFirstThen2021,
+  title = {Reason First, Then Respond: {{Modular Generation}} for {{Knowledge-infused Dialogue}}},
+  shorttitle = {Reason First, Then Respond},
+  booktitle = {Conference on {{Empirical Methods}} in {{Natural Language Processing}}},
+  author = {Adolphs, Leonard and Shuster, Kurt and Urbanek, Jack and Szlam, Arthur D. and Weston, J.},
+  year = {2021},
+  month = nov,
+  url = {https://www.semanticscholar.org/paper/Reason-first\%2C-then-respond\%3A-Modular-Generation-for-Adolphs-Shuster/d15d96517370c9ed0658d176b979bcf92d1373ea},
+  urldate = {2023-03-31},
+  abstract = {Large language models can produce fluent dialogue but often hallucinate factual inaccuracies. While retrieval-augmented models help alleviate this issue, they still face a difficult challenge of both reasoning to provide correct knowledge and generating conversation simultaneously. In this work, we propose a modular model, Knowledge to Response (K2R), for incorporating knowledge into conversational agents, which breaks down this problem into two easier steps. K2R first generates a knowledge sequence, given a dialogue context, as an intermediate step. After this"reasoning step", the model then attends to its own generated knowledge sequence, as well as the dialogue context, to produce a final response. In detailed experiments, we find that such a model hallucinates less in knowledge-grounded dialogue tasks, and has advantages in terms of interpretability and modularity. In particular, it can be used to fuse QA and dialogue systems together to enable dialogue agents to give knowledgeable answers, or QA models to give conversational responses in a zero-shot setting.},
+  keywords = {chatbots,facebook,knowledge graphs,meta},
+  file = {/Users/jonny/Dropbox/papers/zotero/A/AdolphsL/adolphs_2021_reason_first,_then_respond.pdf}
+}
+
 @patent{agarwalFraudLeadDetection2020,
   title = {Fraud Lead Detection System for Efficiently Processing Database-Stored Data and Automatically Generating Natural Language Explanatory Information of System Results for Display in Interactive User Interfaces},
   author = {Agarwal, Rahul and WU, Diane},
@@ -960,6 +988,18 @@
   file = {/Users/jonny/Dropbox/papers/zotero/B/BrinS/brin_1998_the_anatomy_of_a_large-scale_hypertextual_web_search_engine.pdf}
 }
 
+@misc{BringingYouNextgeneration2019,
+  title = {Bringing You the Next-Generation {{Google Assistant}}},
+  year = {2019},
+  month = may,
+  journal = {Google},
+  url = {https://blog.google/products/assistant/next-generation-google-assistant-io/},
+  urldate = {2023-03-31},
+  abstract = {At Google I/O, we're sharing how the Assistant is getting faster and more tailored to you\textemdash whether you're at home, in the car, or on your phone.},
+  langid = {american},
+  keywords = {google}
+}
+
 @article{brunssonDynamicsStandardizationThree2012,
   title = {The {{Dynamics}} of {{Standardization}}: {{Three Perspectives}} on {{Standards}} in {{Organization Studies}}},
   shorttitle = {The {{Dynamics}} of {{Standardization}}},
@@ -1262,6 +1302,42 @@
   isbn = {978-1-59593-433-8},
   langid = {english},
   file = {/Users/jonny/Dropbox/papers/zotero/C/ChiritaP/chirita_2006_summarizing_local_context_to_personalize_global_web_search.pdf}
+}
+
+@article{choEfficientCrawlingURL1998,
+  title = {Efficient Crawling through {{URL}} Ordering},
+  author = {Cho, Junghoo and {Garcia-Molina}, Hector and Page, Lawrence},
+  year = {1998},
+  month = apr,
+  journal = {Computer Networks and ISDN Systems},
+  volume = {30},
+  number = {1-7},
+  pages = {161--172},
+  issn = {01697552},
+  doi = {10.1016/S0169-7552(98)00108-1},
+  url = {https://linkinghub.elsevier.com/retrieve/pii/S0169755298001081},
+  urldate = {2023-03-31},
+  abstract = {Semantic Scholar extracted view of "Efficient Crawling Through URL Ordering" by Junghoo Cho et al.},
+  langid = {english},
+  file = {/Users/jonny/Dropbox/papers/zotero/C/ChoJ/cho_1998_efficient_crawling_through_url_ordering.pdf}
+}
+
+@inproceedings{choHeyGoogleCan2019,
+  title = {Hey {{Google}}, {{Can I Ask You Something}} in {{Private}}?},
+  booktitle = {Proceedings of the 2019 {{CHI Conference}} on {{Human Factors}} in {{Computing Systems}}},
+  author = {Cho, Eugene},
+  year = {2019},
+  month = may,
+  series = {{{CHI}} '19},
+  pages = {1--9},
+  publisher = {{Association for Computing Machinery}},
+  address = {{New York, NY, USA}},
+  doi = {10.1145/3290605.3300488},
+  url = {https://dl.acm.org/doi/10.1145/3290605.3300488},
+  urldate = {2023-03-31},
+  abstract = {MModern day voice-activated virtual assistants allow users to share and ask for information that could be considered as personal through different input modalities and devices. Using Google Assistant, this study examined if the differences in modality (i.e., voice vs. text) and device (i.e., smartphone vs. smart home device) affect user perceptions when users attempt to retrieve sensitive health information from voice assistants. Major findings from this study suggest that voice (vs. text) interaction significantly enhanced perceived social presence of the voice assistant, but only when the users solicited less sensitive health-related information. Furthermore, when individuals reported less privacy concerns, voice (vs. text) interaction elicited positive attitudes toward the voice assistant via increased social presence, but only in the low (vs. high) information sensitivity condition. Contrary to modality, the device difference did not exert any significant impact on the attitudes toward the voice assistant regardless of the sensitivity level of the health information being asked or the level of individuals' privacy concerns.},
+  isbn = {978-1-4503-5970-2},
+  keywords = {chatbots,conversational agent(s),google,information sensitivity,modality,privacy,privacy concerns,social presence,virtual assistant(s),voice assistant(s)}
 }
 
 @misc{chrisIntroductionBioLinkDatamodel2018,
@@ -2000,6 +2076,19 @@
   file = {/Users/jonny/Dropbox/papers/zotero/F/FranzA/franz_2002_searching_the_web_by_voice.pdf}
 }
 
+@misc{FutureGoogleAssistant2018,
+  title = {The Future of the {{Google Assistant}}: {{Helping}} You Get Things Done to Give You Time Back},
+  shorttitle = {The Future of the {{Google Assistant}}},
+  year = {2018},
+  month = may,
+  journal = {Google},
+  url = {https://blog.google/products/assistant/io18/},
+  urldate = {2023-03-31},
+  abstract = {Today at I/O, we're sharing our vision for the next phase of the Google Assistant, as we make it more naturally conversational, visually assistive, and helpful in getting things done.},
+  langid = {american},
+  keywords = {chatbots,google}
+}
+
 @misc{gallagherHowGoogleMicrosoft2012,
   title = {How {{Google}} and {{Microsoft}} Taught Search to "Understand" the {{Web}}},
   author = {Gallagher, Sean},
@@ -2378,6 +2467,23 @@
   file = {/Users/jonny/Dropbox/papers/zotero/H/HitzlerP/hitzler_2021_a_review_of_the_semantic_web_field.pdf}
 }
 
+@misc{hoechstoetterWhatUsersSee2015,
+  title = {What {{Users See}} - {{Structures}} in {{Search Engine Results Pages}}},
+  author = {Hoechstoetter, Nadine and Lewandowski, Dirk},
+  year = {2015},
+  month = nov,
+  number = {arXiv:1511.05802},
+  eprint = {arXiv:1511.05802},
+  publisher = {{arXiv}},
+  doi = {10.48550/arXiv.1511.05802},
+  url = {http://arxiv.org/abs/1511.05802},
+  urldate = {2023-03-31},
+  abstract = {This paper investigates the composition of search engine results pages. We define what elements the most popular web search engines use on their results pages (e.g., organic results, advertisements, shortcuts) and to which degree they are used for popular vs. rare queries. Therefore, we send 500 queries of both types to the major search engines Google, Yahoo, Live.com and Ask. We count how often the different elements are used by the individual engines. In total, our study is based on 42,758 elements. Findings include that search engines use quite different approaches to results pages composition and therefore, the user gets to see quite different results sets depending on the search engine and search query used. Organic results still play the major role in the results pages, but different shortcuts are of some importance, too. Regarding the frequency of certain host within the results sets, we find that all search engines show Wikipedia results quite often, while other hosts shown depend on the search engine used. Both Google and Yahoo prefer results from their own offerings (such as YouTube or Yahoo Answers). Since we used the .com interfaces of the search engines, results may not be valid for other country-specific interfaces.},
+  archiveprefix = {arxiv},
+  keywords = {Computer Science - Information Retrieval,search},
+  file = {/Users/jonny/Dropbox/papers/zotero/H/HoechstoetterN/hoechstoetter_2015_what_users_see_-_structures_in_search_engine_results_pages.pdf}
+}
+
 @misc{hongControlCreepWhen,
   title = {Control {{Creep}}: {{When}} the {{Data Always Travels}}, {{So Do}} the {{Harms}}},
   shorttitle = {Control {{Creep}}},
@@ -2502,6 +2608,20 @@
   archive = {https://web.archive.org/web/20230315043756/https://bmcpublichealth.biomedcentral.com/articles/10.1186/s12889-022-12682-3},
   keywords = {ANOVA,archived,Chemical exposure,Children’s health,clinical,Data-driven,Environmental health,Multivariate analysis,Systems approach,ToxPi,translator},
   file = {/Users/jonny/Dropbox/papers/zotero/H/HubalE/hubal_2022_demonstrating_a_systems_approach_for_integrating_disparate_data_streams_to.pdf}
+}
+
+@article{huebscherZeroShotRetrievalSearch2022,
+  title = {Zero-{{Shot Retrieval}} with {{Search Agents}} and {{Hybrid Environments}}},
+  author = {Huebscher, Michelle Chen and Buck, Christian and Ciaramita, Massimiliano and Rothe, Sascha},
+  year = {2022},
+  publisher = {{arXiv}},
+  doi = {10.48550/ARXIV.2209.15469},
+  url = {https://arxiv.org/abs/2209.15469},
+  urldate = {2023-03-31},
+  abstract = {Learning to search is the task of building artificial agents that learn to autonomously use a search box to find information. So far, it has been shown that current language models can learn symbolic query reformulation policies, in combination with traditional term-based retrieval, but fall short of outperforming neural retrievers. We extend the previous learning to search setup to a hybrid environment, which accepts discrete query refinement operations, after a first-pass retrieval step via a dual encoder. Experiments on the BEIR task show that search agents, trained via behavioral cloning, outperform the underlying search system based on a combined dual encoder retriever and cross encoder reranker. Furthermore, we find that simple heuristic Hybrid Retrieval Environments (HRE) can improve baseline performance by several nDCG points. The search agent based on HRE (HARE) matches state-of-the-art performance, balanced in both zero-shot and in-domain evaluations, via interpretable actions, and at twice the speed.},
+  copyright = {Creative Commons Attribution 4.0 International},
+  keywords = {chatbots,Computation and Language (cs.CL),FOS: Computer and information sciences,google,knowledge graphs},
+  file = {/Users/jonny/Dropbox/papers/zotero/H/HuebscherM/huebscher_2022_zero-shot_retrieval_with_search_agents_and_hybrid_environments.pdf}
 }
 
 @misc{huEmpoweringLanguageModels2022,
@@ -2734,6 +2854,26 @@
   keywords = {archived}
 }
 
+@article{intronaShapingWebWhy2000,
+  title = {Shaping the {{Web}}: {{Why}} the {{Politics}} of {{Search Engines Matters}}},
+  shorttitle = {Shaping the {{Web}}},
+  author = {Introna, Lucas D. and Nissenbaum, Helen},
+  year = {2000},
+  month = jul,
+  journal = {The Information Society},
+  volume = {16},
+  number = {3},
+  pages = {169--185},
+  publisher = {{Routledge}},
+  issn = {0197-2243},
+  doi = {10.1080/01972240050133634},
+  url = {https://doi.org/10.1080/01972240050133634},
+  urldate = {2023-03-31},
+  abstract = {This article argues that search engines raise not merely technical issues but also political ones. Our study of search engines suggests that they systematically exclude (in some cases by design and in some, accidentally) certain sites and certain types of sites in favor of others, systematically giving prominence to some at the expense of others. We argue that such biases, which would lead to a narrowing of the Web's functioning in society, run counter to the basic architecture of the Web as well as to the values and ideals that have fueled widespread support for its growth and development. We consider ways of addressing the politics of search engines, raising doubts whether, in particular, the market mechanism could serve as an acceptable corrective.},
+  keywords = {search,Search Engines Bias Values In Design World Wide Web Digital Divide Information Access},
+  file = {/Users/jonny/Dropbox/papers/zotero/I/IntronaL/introna_2000_shaping_the_web.pdf}
+}
+
 @patent{irmakScalableSemistructuredNamed2011,
   title = {Scalable Semi-Structured Named Entity Detection},
   author = {Irmak, Utku and Kraft, Reiner},
@@ -2839,6 +2979,42 @@
   file = {/Users/jonny/Dropbox/papers/zotero/J/Juel VangK/juel_vang_2013_ethics_of_google's_knowledge_graph.pdf}
 }
 
+@article{kallinikosAmbivalentOntologyDigital2013,
+  title = {The {{Ambivalent Ontology}} of {{Digital Artifacts}}},
+  author = {Kallinikos, Jannis and Aaltonen, Aleksi and Marton, Attila},
+  year = {2013},
+  journal = {MIS Quarterly},
+  volume = {37},
+  number = {2},
+  eprint = {43825913},
+  eprinttype = {jstor},
+  pages = {357--370},
+  publisher = {{Management Information Systems Research Center, University of Minnesota}},
+  issn = {0276-7783},
+  url = {https://www.jstor.org/stable/43825913},
+  urldate = {2023-03-31},
+  abstract = {Digital artifacts are embedded in wider and constantly shifting ecosystems such that they become increasingly editable, interactive, reprogrammable, and distributable. This state of flux and constant transfiguration renders the value and utility of these artifacts contingent on shifting webs of functional relations with other artifacts across specific contexts and organizations. By the same token, it apportions control over the development and use of these artifacts over a range of dispersed stakeholders and makes their management a complex technical and social undertaking. These ideas are illustrated with reference to (1) provenance and authenticity of digital documents within the overall context of archiving and social memory and (2) the content dynamics occasioned by the findability of content mediated by Internet search engines. We conclude that the steady change and transfiguration of digital artifacts signal a shift of epochal dimensions that calls for rethinking some of the inherited wisdom in IS research and practice.},
+  keywords = {critical technology,search,search engines},
+  file = {/Users/jonny/Dropbox/papers/zotero/K/KallinikosJ/kallinikos_2013_the_ambivalent_ontology_of_digital_artifacts.pdf}
+}
+
+@article{kallinikosTheoryDigitalObjects2010,
+  title = {A Theory of Digital Objects},
+  author = {Kallinikos, Jannis and Aaltonen, Aleksi and Marton, Attila},
+  year = {2010},
+  month = jun,
+  journal = {First Monday},
+  issn = {1396-0466},
+  doi = {10.5210/fm.v15i6.3033},
+  url = {https://firstmonday.org/ojs/index.php/fm/article/view/3033},
+  urldate = {2023-03-31},
+  abstract = {Digital objects are marked by a limited set of variable yet generic attributes such as editability, interactivity, openness and distributedness. As digital objects diffuse throughout the institutional fabric, these attributes and the information-based operations and procedures out of which they are sustained install themselves at the heart of social practice. The entities and processes that constitute the stuff of social practice are thereby rendered increasingly unstable and transfigurable, producing a context of experience in which the certainties of recurring and recognizable objects are on the wane. These claims are supported with reference to 1) the elusive identity of digital documents and the problems of authentication/preservation of records such an identity posits and 2) the operations of search engines and the effects digital search has on the content of the documents it retrieves.},
+  copyright = {Copyright (c)},
+  langid = {english},
+  keywords = {critai,critical technology},
+  file = {/Users/jonny/Zotero/storage/WGZYZWYS/kallinikos_2010_a_theory_of_digital_objects.pdf}
+}
+
 @article{kathleenTargeted2020,
   title = {Targeted},
   author = {Kathleen, McGrory and Bedi, Neil and Clifford, Douglas R.},
@@ -2895,6 +3071,19 @@
   nationality = {US},
   keywords = {document,documents,electronic documents,snippets,user},
   file = {/Users/jonny/Dropbox/papers/zotero/K/KnudsonE/knudson_2021_systems_and_methods_for_annotating_and_linking_electronic_documents.pdf}
+}
+
+@misc{konzelmannChattingYourGoogle2018,
+  title = {Chatting up Your {{Google Assistant}} Just Got Easier},
+  author = {Konzelmann, Jaclyn},
+  year = {2018},
+  month = jun,
+  journal = {Google},
+  url = {https://blog.google/products/assistant/chatting-your-google-assistant-just-got-easier/},
+  urldate = {2023-03-31},
+  abstract = {One of the most important things we learn as children is how to communicate with each other. We start with ``goo goos and gaa gaas,'' then on to baby sign language, a few simple words like ``momma,'' and our conversations get more complex from there.For the Google Assistant to have a natural conversation, it should be able to understand when it's being spoken to and should be capable of responding to several requests during an interaction. We're taking another step forward in making your interactions with the Google Assistant more natural with Continued Conversation, available starting today on Google Home, Google Home Mini and Google Home Max.We've heard from a lot of people that adding ``Hey Google'' before each follow-up question for the Assistant doesn't feel as natural as they'd like. We announced Continued Conversation at I/O as an optional setting which lets you have a natural back-and-forth conversation with the Assistant without repeating ``Hey Google'' for each follow-up request. The new feature is starting to roll out today, and you can turn it on in the Google Assistant app by going to Settings \textrightarrow{} Preferences \textrightarrow{} Continued Conversation and hitting the toggle.With Continued Conversation turned on, after you ask the Assistant a question, you can ask a follow-up, set a reminder, or add something to your shopping list without having to say ``Hey Google'' each time. You can say ``thank you'' or ``stop'' once you're done, or we'll end the conversation once we detect that you're no longer talking to the Assistant. You'll still need to activate your Assistant devices with ``Ok Google,'' ``Hey Google,'' or with a physical trigger, but with this new optional setting turned on, the Assistant will stay active for long enough to respond to follow up questions so you don't have to say ``Hey Google'' as often.So next time you wake up and the skies are grey, just ask ``Hey Google, what's the weather today?''... ``And what about tomorrow?''... ``Can you add a rain jacket to my shopping list''... ``And remind me to bring an umbrella tomorrow morning''...``Thank you!''},
+  langid = {american},
+  keywords = {chatbots,google}
 }
 
 @article{kornDefiningClinicalOutcome2022a,
@@ -2987,6 +3176,20 @@
   langid = {english},
   keywords = {archived},
   annotation = {https://web.archive.org/web/20211210010015/https://www.theverge.com/2021/12/7/22822332/amazon-server-aws-down-disney-plus-ring-outage}
+}
+
+@article{lazaridouInternetaugmentedLanguageModels2022,
+  title = {Internet-Augmented Language Models through Few-Shot Prompting for Open-Domain Question Answering},
+  author = {Lazaridou, Angeliki and Gribovskaya, Elena and Stokowiec, Wojciech and Grigorev, Nikolai},
+  year = {2022},
+  publisher = {{arXiv}},
+  doi = {10.48550/ARXIV.2203.05115},
+  url = {https://arxiv.org/abs/2203.05115},
+  urldate = {2023-03-31},
+  abstract = {In this work, we aim to capitalize on the unique few-shot capabilities of large-scale language models (LSLMs) to overcome some of their challenges with respect to grounding to factual and up-to-date information. Motivated by semi-parametric language models (LMs), which ground their decisions in external retrieved evidence, we use few-shot prompting to learn to condition LMs on information returned from the web using Google Search, a broad and constantly updated knowledge source. Our approach does not involve fine-tuning or learning additional parameters, thus making it applicable to any LM, offering therefore a strong baseline. Indeed, we find that LMs conditioned on the web surpass performance of closed-book models of similar, or even larger, model sizes in open-domain question answering. Finally, we find that increasing the inference-time compute of models, achieved via using multiple retrieved evidences to generate multiple answers followed by a reranking stage that uses scores generated by the same LMs, leads to better performance and alleviates lower performance of smaller few-shot LMs. All in all, our findings suggest that it might be beneficial to slow down the race towards the biggest model and instead shift attention towards finding more effective ways to use models, including but not limited to, better prompting or increasing inference-time compute.},
+  copyright = {Creative Commons Attribution 4.0 International},
+  keywords = {chatbots,Computation and Language (cs.CL),FOS: Computer and information sciences,google,knowledge graphs,Machine Learning (cs.LG)},
+  file = {/Users/jonny/Dropbox/papers/zotero/L/LazaridouA/lazaridou_2022_internet-augmented_language_models_through_few-shot_prompting_for_open-domain.pdf}
 }
 
 @article{lecueRoleKnowledgeGraphs2020,
@@ -3404,6 +3607,16 @@
   keywords = {archived}
 }
 
+@inproceedings{mercurioMixedMethodsApproachUnderstanding2023,
+  title = {A {{Mixed-Methods Approach}} to {{Understanding User Trust}} after {{Voice Assistant Failures}}},
+  author = {Mercurio, Allison and Baughan, Amanda Elizabeth and Liu, Ariel and Chen, Jilin and Ma, Xiao and Wang, Xuezhi},
+  year = {2023},
+  url = {https://arxiv.org/abs/2303.00164},
+  urldate = {2023-03-31},
+  keywords = {chatbots,google,trust},
+  file = {/Users/jonny/Dropbox/papers/zotero/M/MercurioA/mercurio_2023_a_mixed-methods_approach_to_understanding_user_trust_after_voice_assistant.pdf}
+}
+
 @misc{metzlerRethinkingSearchMaking2021,
   title = {Rethinking {{Search}}: {{Making Domain Experts}} out of {{Dilettantes}}},
   shorttitle = {Rethinking {{Search}}},
@@ -3441,6 +3654,21 @@
   archiveprefix = {arxiv},
   keywords = {archived,chatbots,Computer Science - Computation and Language},
   file = {/Users/jonny/Dropbox/papers/zotero/M/MialonG/mialon_2023_augmented_language_models.pdf}
+}
+
+@article{mialonAugmentedLanguageModels2023a,
+  title = {Augmented {{Language Models}}: A {{Survey}}},
+  shorttitle = {Augmented {{Language Models}}},
+  author = {Mialon, Gr{\'e}goire and Dess{\`i}, Roberto and Lomeli, Maria and Nalmpantis, Christoforos and Pasunuru, Ram and Raileanu, Roberta and Rozi{\`e}re, Baptiste and Schick, Timo and {Dwivedi-Yu}, Jane and Celikyilmaz, Asli and Grave, Edouard and LeCun, Yann and Scialom, Thomas},
+  year = {2023},
+  publisher = {{arXiv}},
+  doi = {10.48550/ARXIV.2302.07842},
+  url = {https://arxiv.org/abs/2302.07842},
+  urldate = {2023-03-31},
+  abstract = {This survey reviews works in which language models (LMs) are augmented with reasoning skills and the ability to use tools. The former is defined as decomposing a potentially complex task into simpler subtasks while the latter consists in calling external modules such as a code interpreter. LMs can leverage these augmentations separately or in combination via heuristics, or learn to do so from demonstrations. While adhering to a standard missing tokens prediction objective, such augmented LMs can use various, possibly non-parametric external modules to expand their context processing ability, thus departing from the pure language modeling paradigm. We therefore refer to them as Augmented Language Models (ALMs). The missing token objective allows ALMs to learn to reason, use tools, and even act, while still performing standard natural language tasks and even outperforming most regular LMs on several benchmarks. In this work, after reviewing current advance in ALMs, we conclude that this new research direction has the potential to address common limitations of traditional LMs such as interpretability, consistency, and scalability issues.},
+  copyright = {arXiv.org perpetual, non-exclusive license},
+  keywords = {chatbots,Computation and Language (cs.CL),facebook,FOS: Computer and information sciences,knowledge graphs,meta},
+  file = {/Users/jonny/Dropbox/papers/zotero/M/MialonG/mialon_2023_augmented_language_models2.pdf}
 }
 
 @book{mikaSemanticWebISWC2014,
@@ -4029,6 +4257,18 @@
   isbn = {978-1-4503-4143-1},
   langid = {english},
   file = {/Users/jonny/Dropbox/papers/zotero/P/Pellissier TanonT/pellissier_tanon_2016_from_freebase_to_wikidata.pdf}
+}
+
+@misc{PersonalGoogleJust2016,
+  title = {A Personal {{Google}}, Just for You},
+  year = {2016},
+  month = oct,
+  journal = {Google},
+  url = {https://blog.google/products/assistant/personal-google-just-you/},
+  urldate = {2023-03-31},
+  abstract = {We want to help you get things done in your world. That means building the Google Assistant and other amazing software into the hardware that you depend on every day.},
+  langid = {american},
+  keywords = {google}
 }
 
 @misc{pichaiBuildingNextEvolution2016,
@@ -5128,6 +5368,14 @@
   file = {/Users/jonny/Dropbox/papers/zotero/T/TayY/tay_2021_hypergrid_transformers.pdf}
 }
 
+@inproceedings{tayTransformerMemoryDifferentiable2022,
+  title = {Transformer {{Memory}} as a {{Differentiable Search Index}}},
+  booktitle = {{{NeurIPS}} 2022},
+  author = {Tay, Yi and Tran, Vinh Q. and Dehghani, Mostafa and Ni, Jianmo and Bahri, Dara and Mehta, Harsh and Qin, Zhen and Hui, Kai and Zhao, Zhe and Gupta, Jai and Schuster, Tal and Cohen, William W. and Metzler, Don},
+  year = {2022},
+  keywords = {chatbots,google,search,transformer}
+}
+
 @book{tiddiKnowledgeGraphsEXplainable2020,
   title = {Knowledge {{Graphs}} for {{eXplainable Artificial Intelligence}}: {{Foundations}}, {{Applications}} and {{Challenges}}},
   shorttitle = {Knowledge {{Graphs}} for {{eXplainable Artificial Intelligence}}},
@@ -5744,6 +5992,21 @@
   langid = {english},
   keywords = {graph database,information extraction,knowledge base,knowledge graph,logical reasoning},
   file = {/Users/jonny/Dropbox/papers/zotero/Y/YanJ/yan_2018_a_retrospective_of_knowledge_graphs.pdf}
+}
+
+@article{yaoWebShopScalableRealWorld2022,
+  title = {{{WebShop}}: {{Towards Scalable Real-World Web Interaction}} with {{Grounded Language Agents}}},
+  shorttitle = {{{WebShop}}},
+  author = {Yao, Shunyu and Chen, Howard and Yang, John and Narasimhan, Karthik},
+  year = {2022},
+  publisher = {{arXiv}},
+  doi = {10.48550/ARXIV.2207.01206},
+  url = {https://arxiv.org/abs/2207.01206},
+  urldate = {2023-03-31},
+  abstract = {Existing benchmarks for grounding language in interactive environments either lack real-world linguistic elements, or prove difficult to scale up due to substantial human involvement in the collection of data or feedback signals. To bridge this gap, we develop WebShop -- a simulated e-commerce website environment with \$1.18\$ million real-world products and \$12,087\$ crowd-sourced text instructions. Given a text instruction specifying a product requirement, an agent needs to navigate multiple types of webpages and issue diverse actions to find, customize, and purchase an item. WebShop provides several challenges for language grounding including understanding compositional instructions, query (re-)formulation, comprehending and acting on noisy text in webpages, and performing strategic exploration. We collect over \$1,600\$ human demonstrations for the task, and train and evaluate a diverse range of agents using reinforcement learning, imitation learning, and pre-trained image and language models. Our best model achieves a task success rate of \$29\textbackslash\%\$, which outperforms rule-based heuristics (\$9.6\textbackslash\%\$) but is far lower than human expert performance (\$59\textbackslash\%\$). We also analyze agent and human trajectories and ablate various model components to provide insights for developing future agents with stronger language understanding and decision making abilities. Finally, we show that agents trained on WebShop exhibit non-trivial sim-to-real transfer when evaluated on amazon.com and ebay.com, indicating the potential value of WebShop in developing practical web-based agents that can operate in the wild.},
+  copyright = {Creative Commons Attribution 4.0 International},
+  keywords = {Artificial Intelligence (cs.AI),Computation and Language (cs.CL),FOS: Computer and information sciences,Machine Learning (cs.LG)},
+  file = {/Users/jonny/Dropbox/papers/zotero/Y/YaoS/yao_2022_webshop.pdf}
 }
 
 @article{yeungDecentralizationFutureOnline,

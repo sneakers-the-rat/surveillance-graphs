@@ -16,8 +16,27 @@ The development of large language models (LLMs) is also intertwined with this li
 
 
 - changing goals of what search is (knowledge boxes, AMP)
-	- enter personal assistants!
+	- enter personal assistants! {% cite adolphsBoostingSearchEngines2022 %}
+	- chatbots are interfaces to kgs: {% cite adolphsReasonFirstThen2021 huebscherZeroShotRetrievalSearch2022 %}
+	> All in all, our findings suggest that it might be beneficial to slow down the race towards the biggest model and instead shift attention towards finding more effective ways to use models, including but not limited to, better prompting or increasing inference-time compute.
+	> 
+	> The deterioration of search results for multi-hop questions highlights the importance of a better approach to interacting with the Internet. This is particularly challenging for the general-purpose and powerful, yet black-box, search engines, where gradient-based learning is infeasible due to the discrete bottleneck introduced by working directly with words. We expect that “learning to search” approaches could boost performance of the overall system [22, 10, 11], where complex queries could be decomposed into simpler sub-queries, akin to approaches in question decomposition [40, 41]. While these tasks have not yet been tackled with LSLMs and few-shot prompting, we believe that it would be a reasonable first approach
+	>
+	> - google {% cite lazaridouInternetaugmentedLanguageModels2022 %}
+	- chatbots do continued searches: {% cite konzelmannChattingYourGoogle2018 %}
+	- chatbots do everything: {% cite mialonAugmentedLanguageModels2023a %}
+	- directly through latent space: {% cite adolphsDecodingNeuralRetriever2022 %}
+	- researching how to maintain trust: "This has led many practitioners and researchers alike to imagine a near future where voice assistants can be used in increasingly complex ways, including supporting healthcare tasks [41, 55], giving mental health advice [52, 66], and high stakes decision-making [17]." {% cite mercurioMixedMethodsApproachUnderstanding2023 %}
 	- {% cite pichaiBuildingNextEvolution2016 sGoogle2016Keynote2016 %}
+- To be concise:
+	- Yes the LLMs are generating statistical garbage,
+	- but look across the aisle at the OTHER TECH that search engines develop: search
+	- that necessarily involves mapping natural language to concepts and using that to constrain the results of information
+	- so it's not an argument about whether these things can "reason on their own" - they're not even supposed to. They're just a translation layer between natural language and a knowledge graph
+	- u better believe they will be able to constrain the output of a model based on parsing its output and comparing it to search engine query on matched entities.
+- then enter the multimodal learning bots, and that's just a recipe for polyvalent surveillance.
+- they are not genius level AI, but that's a feature
+- they are not sentient, but that's also a feature
 
 > Here’s a common situation. It’s a Friday night. I’m sure many of you can relate to it. Back home, and I want to take my family to a movie. You know, you normally pull out your phone, research movies, look at the reviews, find shows nearby, and try to book a ticket. We want to be there in these moments helping you.
 > 
@@ -27,13 +46,29 @@ The development of large language models (LLMs) is also intertwined with this li
 > 
 > Every single conversation is different. Every single context is different. And we are working hard to do this for billions of conversations, for billions of users around the world, for everyone. We think of the assistant as an ambient experience that extends across devices. I think computing is poised to evolve beyond just phones. It will be in the context of a user’s daily life. It will be on their phones, devices they wear, in their cars, and even in their living rooms. For example, if you’re in one of the hundred different android auto models and you’re driving and you say, “Let’s have curry tonight,” we know the Warriors are on tonight and Steph Curry is playing but you know, all you’re looking for is food, and we should be smart, order that food and let you know when it is ready, and maybe even have it waiting for you at your home.
 > 
-> Talking about your home, we’ve already built many, many products for your home. Today, we have sold over 25 million Chromecast devices. So we’ve been thinking hard about how to bring this vision of Google Assistant into your home. Credit to the team at Amazon for creating a lot of excitement in this space, we’ve been thinking about our own unique approach and we are getting ready to launch something later this year. To give you a preview, I’m going to invite Mario from the Chromecast team. {% cite sGoogle2016Keynote2016 %}
+> Talking about your home, we’ve already built many, many products for your home. Today, we have sold over 25 million Chromecast devices. So we’ve been thinking hard about how to bring this vision of Google Assistant into your home. Credit to the team at Amazon for creating a lot of excitement in this space, we’ve been thinking about our own unique approach and we are getting ready to launch something later this year. To give you a preview, I’m going to invite Mario from the Chromecast team. 
+>
+> Thanks, Erik. As you heard earlier, the Google Assistant is an ongoing dialogue between you and Google that helps you get things done in your world. It’s also designed as an ambient experience. It’s there for you whenever you need it. And in messaging that really means bringing the Google Assistant right into your conversation with friends. So I’m going to show you how the Assistant can help in Amit’s and Joy’s conversation.
+> 
+> So they’re planning a dinner and Joy now says she would like Italian food. The Assistant intelligently recognizes that they could use some tips for Italian restaurants nearby and you can see its proactive suggestions at the bottom of the screen there. Tapping this brings up restaurant cards that everyone in the chat can see. These are powered by Google’s Knowledge Graph which means that Allo can help with all kinds of information in the real world. So there’s some back and forth about which restaurant to go to. And it looks like they’re leaning towards Cucina at 7 o’clock.
+> 
+> So what we’re seeing here — what we’re seeing here is completely new. In the past, Amit would have had to leave the chat to do a Google search, return with some restaurant options, switch back again to share the options, go out again to make the reservation at OpenTable and then come back in to share the details with the rest of the group.
+>
+> Okay. So you just saw how the Google Assistant can be really helpful in groups. You can also have a one-on-one chat with Google. What we’re seeing now is Amit’s contact list and Google’s appearing at the top there. So let’s jump in and have a chat.
+> 
+> Just like with any other conversation, this one picks up right where you left off and the Assistant will remember things like your name and even tell you how it’s feeling. So let’s try something more interesting. Amit’s a big Real Madrid fan and he wants to know how they got on in their last match. So he asks the Assistant: did my team win? It looks like they did. They won their — yeah. Some Real Madrid fans out there. Cool. And so they won their last match on Saturday. Let’s see when they are playing next. That’s pretty cool. They are through the Champion’s League final at the end of the month. We can keep going like this and find more news about the team just by tapping on the suggestions there.
+{% cite sGoogle2016Keynote2016 %}
 
 - KGs & personal assistants can prompt you through information: {% cite maChallengesSupportingExploratory2020a %}
 
 Rather than treating searches as traditional keyword queries 
 
-
+>  The utility of a search stems from its straightforwardness and the immense reduction of complexity it affords. Search engines flatten a complex topology of networked contents into an ordered list fitting the user's ongoing task and intentions.
+> 
+> Not unlike a library or archival catalogue, the results page both orders and locates knowledge resources, yet it breaks away from stable classifications and the importance of categories as the basis of such order
+>
+> Even if the SERP and the matching online resources are served as separate webpages, it is difficult to draw a definitive line between them. The boundary between the SERP and target pages is fluid
+> {% cite kallinikosAmbivalentOntologyDigital2013 %}
 
 - parsing semantics is the next stage, but some fundamental problems: ambiguous subjects, etc.
 - enter chatbots: chatbots are a means of expanding context
@@ -41,6 +76,7 @@ Rather than treating searches as traditional keyword queries
 	- Specifically layering KGs in between LLMS: {% cite huEmpoweringLanguageModels2022 %} (from microsoft)
 - but it gets deeper!now the goal is to rethink search away from directing you to other resources, but provide the information directly. 
 	- these are entertwined with the dreams for personal assistants et al.
+	- home assistants have not worked before because they sort of sucked and just were search engines... but if they can sort of prompt you and talk back to you and people legit start asking them everything as people are doing with chatGPT then that sort of changes the game right?
 
 - These are all done 'behind the scenes' because the ideology of the Cloud Service Provider is that things are hard and the role of the platform is to provide convenience. 
 
@@ -62,6 +98,7 @@ So if web 2.0 was about the platformatization of the web, what is up next? In th
 
 > To enable all of these updates, Search has to understand interests and how they progress over time. So we’ve taken our existing Knowledge Graph—which understands connections between people, places, things and facts about them—and added a new layer, called the Topic Layer, engineered to deeply understand a topic space and how interests can develop over time as familiarity and expertise grow. {% cite %}
 
+**Academics in particular should be extremely wary of powering a knowledge graph of factual information that then directly fuels the ownership of all information by a few search engines**
 
 - **Review**: {% cite mialonAugmentedLanguageModels2023 %}
 	- Also be sure to read and cite: {% cite shahSituatingSearch2022 %}
