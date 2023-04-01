@@ -135,3 +135,8 @@
 [^mitchell]: "Such personalized page ranks may have a number of applications, including personal search engines. These search engines could save users a great deal of trouble by efficiently guessing a large part of their interests given simple input such as their bookmarks or home page." {% cite pagePageRankCitationRanking1999 %}
 
 [^harnesses]: Literally "Harnessing the wisdom of the crowds" {% cite pascaOrganizingSearchingWorld2007 %}
+
+[^timestealing]: The notion of presenting services as free by virtualizing computing resources is as old as time sharing on digital computers, eg. Tung-Hui Hu relates this history to the creation of the atomized individual digital subject described below: 
+    > "In this, time-sharing anticipated the way that the contemporary cloud encourages its users to take things free of charge. By making each online resource freely available—computer storage, processing time, content, even software—the cloud encourages the pleasurable and quasi-illicit feeling that we are getting away with something: that we, too, have stolen time. [...]
+    >
+    > Virtualization is itself a logical map, a topography that results from creating a set of personal channels that isolate us into individual users (and therefore seems to give us as much data, storage, computing power, etc., as we personally want).{% cite huPrehistoryCloud2015 %}

@@ -12,8 +12,34 @@ The semantic structure of natural language queries is another means of recoverin
 
 Of course, to *use* a knowledge graph one must first *have* a knowledge graph. Google and other search-adjacent researchers were writing about the need for extracting factual information from the web (eg. {% cite halevyUnreasonableEffectivenessData2009 pascaTurningWebText2008 pascaWeaklysupervisedDiscoveryNamed2007 pascaOrganizingSearchingWorld2007 pascaOrganizingSearchingWorld2006 pascaAcquisitionCategorizedNamed2004 %}) around the same time Freebase and other Semantic Web technologies began to mutate into the era of Linked Data and become usable. The deepening entanglements and arguable capture of the semantic web follow shortly thereafter. 
 
-The development of large language models (LLMs) is also intertwined with this line of question answering research. Language and knowledge graphs alike have the unfortunate quality of having long-range dependencies between terms, where eg. in language one needs to use contextual information sometimes separated by many paragraphs to understand any given term. Enter Google's research on Transformer architectures for neural networks {% cite vaswaniAttentionAllYou2017 %}, which spawned their BERT model {% cite devlinBERTPretrainingDeep2019 %} --- which is used in their search products to parse natural language queries and match them to entities in their Knowledge Graph {% cite nayakUnderstandingSearchesBetter2019 %}.
+The development of large language models (LLMs) is similarly entwined with the need for semantically parsing search queries. Language and knowledge graphs alike have the unfortunate quality of having long-range dependencies between terms, where eg. in language one needs to use contextual information sometimes separated by many paragraphs to understand any given term. Enter Google's research on Transformer architectures for neural networks {% cite vaswaniAttentionAllYou2017 %}, which spawned their BERT model {% cite devlinBERTPretrainingDeep2019 %} --- which is used in their search products to parse natural language queries and match them to entities in their Knowledge Graph {% cite nayakUnderstandingSearchesBetter2019 %}. To extend these models, Google and others then developed architectures to better accomodate multimodal information like browser history, image contents, and, importantly, sequential behavioral information like the multiple searches someone will do for a single topic {% cite tayHyperGridTransformersSingle2021 huUniTMultimodalMultitask2021 %}. 
 
+These threads --- search, public/private knowledge graphs, large language models, and the Cloud Orthdoxy --- converge at the push across information conglomerates towards personal assistants and **chatbots.** 
+
+It is impossible to understand the purpose of LLMs and chatbots without the context of knowledge graphs. Specifically: ***Large Language Models are interfaces to knowledge graphs.***
+
+
+Large language models have been, and will certainly continue to be richly criticized for their obvious capacity for harm, but many criticisms remain focused on the technologies *as such, in their current form* rather than their intended use as a weapon in a bareknuckle fight for informational dominance. The most common strain of criticism 
+
+when turning to KGs, goto "semantic web has always been about AI too. now is the moment where that could become real in a really bad way" {% cite daquinNewGenerationSemantic2008 %}. Watson was a freaking semweb robot...
+
+As an extension to providing constraints to convenience-oriented search, chatbots allow 
+
+
+
+BUT like the knowledge graph and its introduction of information panes, chatbots present an entirely different modality of interacting with information. Where prior information retrieval systems were passthrough systems, this system allows arbitrary information laundering - it is possible to render information even with some reasonable degree of confidence without revealing where the information comes from or even that you have a particular modality of information - "how do i beat my competitor" can give you some response without showing u ur competitors data, and so on. so as much as these things argue bout hwo they will always be based on provenance, the fact that that's impossible to know is why they are promising for new profit mechanisms
+
+> But Copilot doesn’t just supercharge individual productivity. It creates a new knowledge model for every organization — harnessing the massive reservoir of data and insights that lies largely inaccessible and untapped today.  https://blogs.microsoft.com/blog/2023/03/16/introducing-microsoft-365-copilot-your-copilot-for-work/
+
+> But Google has not yet begun exploring how to make money from Bard itself, said Dan Taylor, a company vice president of global ads. It considers the technology “experimental,” he said, and is focused on using the so-called large language models that power chatbots to improve traditional search.
+> 
+> “The discourse on A.I. is rather narrow and focused on text and the chat experience,” Mr. Taylor said. “Our vision for search is about understanding information and all its forms: language, images, video, navigating the real world.”
+> 
+> Sridhar Ramaswamy, who led Google’s advertising division from 2013 to 2018, said Microsoft and Google recognized that their current search business might not survive. “The wall of ads and sea of blue links is a thing of the past,” said Mr. Ramaswamy, who now runs Neeva, a subscription-based search engine.
+>
+>  {% cite mickleChatbotsAreHere2023 %}
+
+SO YES ppl are talking about chatbots and controlling information flow on the web, but still missing how this fits in the larger picture of how we design our information infrastructures! there are other options!
 
 - changing goals of what search is (knowledge boxes, AMP)
 	- enter personal assistants! {% cite adolphsBoostingSearchEngines2022 %}
@@ -28,6 +54,13 @@ The development of large language models (LLMs) is also intertwined with this li
 	- directly through latent space: {% cite adolphsDecodingNeuralRetriever2022 %}
 	- researching how to maintain trust: "This has led many practitioners and researchers alike to imagine a near future where voice assistants can be used in increasingly complex ways, including supporting healthcare tasks [41, 55], giving mental health advice [52, 66], and high stakes decision-making [17]." {% cite mercurioMixedMethodsApproachUnderstanding2023 %}
 	- {% cite pichaiBuildingNextEvolution2016 sGoogle2016Keynote2016 %}
+	- also amazon wants to put a freaking drone in your house - this is all continuous with ring and google home and whatnot.
+	- Interestingly Siri's team couldn't figure out what they wanted it to do along these lines: "Siri’s various teams morphed into an unwieldy apparatus that engaged in petty turf battles and heated arguments over what an ideal version of Siri should be—a quick and accurate information fetcher or a conversant and intuitive assistant capable of complex tasks. [...]  One team member said their vision of an ideal Siri was similar to the 2013 Spike Jonze movie “Her,” in which Joaquin Phoenix plays a lonely man who falls in love with “Samantha,” a conversant operating system." {% cite tilleySevenYearItchHow2018 %}
+	- Also massive waves of AI generated misinformation are a feature not a bug for Google and other information giants: the internet being awash in a bunch of garbage is great for companies who want to be the sole source of reliable information! Only Google will be able to protect you from misinformation! 
+	- Google is very concerned with its image that it is not trying to monopolize information, it is sending people to the rest fo the web all the time: {% cite sullivanGoogleSearchSends2021 %} they just want you to use their system! https://www.google.com/business/
+	- Moving from query to queryless: https://www.blog.google/products/search/introducing-google-discover/
+	- Microsoft v. google
+		- {% cite kurianNextGenerationAI2023 %}
 - To be concise:
 	- Yes the LLMs are generating statistical garbage,
 	- but look across the aisle at the OTHER TECH that search engines develop: search
@@ -136,24 +169,6 @@ Scraps:
 - Microsoft's very fun assistant: {% cite IntroducingMicrosoft3652023 %}
 
 Tim BL actually really wanted to be able to talk to the computers, he specifically imagined chatbots working on top of the semantic web: https://www.w3.org/DesignIssues/Evolution.html
-
-The 'one bar' search paradigm is powerful and inculcates a very specific expectation of use...  (expectations from search results)
-
-the problem is that it naturally sacrifices all the extra query structure inherent in any "advanced search" interface. 
-
-But even an "advanced search" interface is the wrong metaphor, because (depending) those still give the expectation that, were you to parameterize your search correctly, you would receive a list of all matching results. So even if ordered by some anonymous "relevance" parameter, one could see "all" of something.
-
-One-bar search sacrifices more than that and gives an expectation that getting exhaustive answers is not possible, no matter how hard one were to search, and that 'best enough' with some ranking is the best one can ask for. The ranking then takes on a different character, rather than ordering some finite list, it defines the contents of the list. So algorithmic search as we know it.
-
-That relates to the initial goal of semantic web, to be able to give additional parameters/handles/structuring information to the web so that it was possible to do those kinds of "advanced searches" on your own, without needing a search engine. 
-
-What is lost in the single bar search has to be made up for in some way, so that falls on the ability to parse semantic meaning in the search query, as well as inject context from surveillance data. 
-
-Chatbots then are a means of expanding that context, specifically in such a way that the "local neighborhood" of some decision tree were being presented to you in plain language. But rather than, again, an indexical cognitive pattern where you expect to see everything, your being constrained to a particular 'neighborhood' of the graph space and how you are steered then becomes the product.
-
-So chatbot search is a very natural match for the knowledge graphs that already parameterize the search and compute semantic meaning in the query. 
-
-Thus the criticism that LLM's don't "know anything" won't be true for long - they will be part of a joint system that decodes the search query, constructs a context, and then queries databases of structured data. (cite google paper to this effect)
 
 Think broader than search engines though, the pernicious and dangerous part here is that we could merge several classes of platform and surveillance harm: individual surveillance could merge with medical and public information and insurance information and the rest in an interoperable interchange format so that the data brokering economy woudl effectively explode. Imagine the splintering of infinitely many platforms that each owned some subset of the data, each platform holder owning all of them and slicing them off to you and pocketing the costs.
 
