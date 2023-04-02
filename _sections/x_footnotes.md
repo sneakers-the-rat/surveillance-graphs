@@ -142,3 +142,9 @@
     > Virtualization is itself a logical map, a topography that results from creating a set of personal channels that isolate us into individual users (and therefore seems to give us as much data, storage, computing power, etc., as we personally want).{% cite huPrehistoryCloud2015 %}
 
 [^longtermists]: In addition to already thoroughly problematized ideologies like immortality cults and their many branches like longtermism, etc.
+
+[^SERPfuzziness]: > "The utility of a search stems from its straightforwardness and the immense reduction of complexity it affords. Search engines flatten a complex topology of networked contents into an ordered list fitting the user's ongoing task and intentions.
+    > 
+    > Not unlike a library or archival catalogue, the results page both orders and locates knowledge resources, yet it breaks away from stable classifications and the importance of categories as the basis of such order
+    >
+    > Even if the SERP and the matching online resources are served as separate webpages, it is difficult to draw a definitive line between them. The boundary between the SERP and target pages is fluid" {% cite kallinikosAmbivalentOntologyDigital2013 %}

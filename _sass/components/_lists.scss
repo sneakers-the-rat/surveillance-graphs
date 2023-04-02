@@ -1,0 +1,19 @@
+.post {
+	ul {
+		list-style: {
+			position: outside;
+			type: disc;
+		}
+
+		padding: {
+			left: 1em;
+		}
+
+		li {
+			&::marker {
+				font-size: 0.8em;
+			}
+		}
+
+	}
+}

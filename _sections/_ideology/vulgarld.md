@@ -22,4 +22,7 @@ The problem of belief: what should these things do? present us instantly with re
 
 - YOU ONLY NEED TO DO THIS SCALE OF AUTOMATED EXTRACTION IF YOU PRESUPPOSE A UNIVERSE OF A FEW MASSIVE PLATFORMS OWNING EVERYTHING IN THE FIRST PLACE re: amazon product graph example in {% cite chaudhriKnowledgeGraphsIntroduction2022 %}
 
+- cognitive expectations of search
+	- 2002 RDF Core WG talking about whether we want things to work like google or not... {% cite sticklerReMonotonicityWas2002 %} - https://lists.w3.org/Archives/Public/w3c-rdfcore-wg/2002Sep/0276.html
+
 *Why does it always feel like there is a hollow middle?* - eg. I can't even index across the different projects in the translator. I feel like I always need to subscribe to some additional platform or service, rather than making cumulative progress on a single thing. Always tossed around in an endless sea. This is a reflection of platforms necessarily generating the fundamental lack which they can exploit - typically informational organization. Why do our public information infrastructures which shoudln't be subject to the same profit-based constraints as cloud platforms, also feel this way? Because the cloud paradigm is specifically designed to favor a particular paradigm of computing.
