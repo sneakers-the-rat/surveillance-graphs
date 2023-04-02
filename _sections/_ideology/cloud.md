@@ -2,6 +2,8 @@
 
 Ideology evades any singular definition, and I'm not obnoxious enough to claim I had a Complete and True Perspective[^nonuniversal] on something as multifarious as the belief system underlying The Cloud as an infrastructural pattern. To set the Terms and Conditions of this section: this definition is a necessary strawman to make sense of patterns of outcomes and pose as contrast to our alternative. I describe the Cloud Orthodoxy as a belief *system* because none of its components are unique or necessary for any one person to believe, but they are mostly mutually reinforcing and self-compatible. Many of these beliefs are not "bad" in themselves - assuming that the adherents of an ideology don't believe they are "bad" people is a foundational part of trying to understand them. These ideas of course draw on a mountain of prior thought[^priorthought], and I admit my relative inexperience and will certainly need to completely rewrite them in future work.
 
+My argument here is that the people and companies involved with these technologies don't have an "ethical deficit" that might call for "more ethics in AI," but that The Cloud[^longtermists] poses its own strong and underexamined ethical doctrine.
+
 The Terms and Conditions having been settled, in no particular order:
 
 A cardinal value of Cloud Orthodoxy is **convenience.** The internet should be *fast,* *reliable,* and everything[^IP] should be available on demand. Convenience is elevated at the exclusion of other values when in conflict like shared power or flexibility. **Complexity is a cognitive nuisance** for people with otherwise busy full lives, so it should be hidden as much as possible. **Interface design** is a major point of competition between platforms because it is a primary point of comparison when consuming a platform --- again, to the exclusion of others.
@@ -18,7 +20,7 @@ The world is **asymmetrical and hierarchical.** I am a consumer, a *user* and I 
 	Do we even need an outro here or just roll into the future?
 </div>
 
-That positive caricature of Cloud Orthodoxy of course omits the brutality of the capitalistic system it is embedded within and reproduces the logic of.
+That positive caricature of Cloud Orthodoxy of course omits the brutality of the capitalistic system it is embedded within and reproduces the logic of. This also is a relatively constrained ideology --- specifically that of the cloud --- that doesn't attempt to stray into clearly coproductive ideologies like that of longtermist beliefs about an infinite spanse of humans-as-ai-forever.
 
 **close with describing the outcomes: so given these beliefs, one creates a technology which validates the beliefs. given the backdrop of capitalsim it takes an extractive form, and so on and so forth**
 

@@ -18,8 +18,42 @@ These threads --- search, public/private knowledge graphs, large language models
 
 It is impossible to understand the purpose of LLMs and chatbots without the context of knowledge graphs. Specifically: ***Large Language Models are interfaces to knowledge graphs.***
 
+Microsoft explicitly says as much in a March 2023 presentation "[The Future of Work With AI](https://www.youtube.com/watch?v=Bf-dbS9CcRU)" (emphases mine):
 
-Large language models have been, and will certainly continue to be richly criticized for their obvious capacity for harm, but many criticisms remain focused on the technologies *as such, in their current form* rather than their intended use as a weapon in a bareknuckle fight for informational dominance. The most common strain of criticism 
+> "The Copilot System harnesses the power of three foundational technologies: Microsoft 365 Apps, the Microsoft Graph --- **that's all your content and context, your e-mails, files, meetings, chats, and calendar** --- and a large language model. [...] Copilot preprocesses the prompt through an approach called grounding [...] one of the most important parts of grounding is making a call to the Microsoft Graph to retrieve your business content and context. Copilot combines this user data from the graph with other inputs to improve the prompt. It then sends that modified prompt to the LLM. Copilot takes the response from the LLM and post-processes it. This post-processing includes additional grounding calls to the graph. [...] Copilot iteratively processes and orchestrates these sophisticated services to produce a result that feels like magic." {% cite microsoftFutureWorkAI2023 %}
+
+LLMs elaborate on the cognitive model of single bar search powered by knowledge graphs, displacing it with the *prompt.* Remodeling search as an iterative process of bidirectional natural language queries reclaims additional context lost in the single bar, single shot model. The language model serves two roles: first, as with previous generations of language models, they *parse natural language into computer-readable queries.* Transformers and other recent models support greater long-range contextual input, which can condition a continuous search process with queries spanning multiple sessions and with longer-term user profile data --- something that Google describes as its "shift from answers to journeys" {% cite gomesImprovingSearchNext2018 konzelmannChattingYourGoogle2018 %}. Second, they are capable of *generating* plausible text that can be used to prompt intermediate responses or answer questions.
+
+Large language models have been so richly criticized because of their obvious capacity for harm that it's difficult to provide a sample that even approaches reasonable coverage. Most criticisms focus on the effects of generated model output, including from biases in its training data, from failure to contextualize their limitations, and from functioning as a weapon in the class war. The "Stochastic Parrots" paper {% cite benderDangersStochasticParrots2021 %} and surrounding work is an important line of criticism here. They argue that large language models have a large and inequitably distributed environmental cost, their training data inevitably reinforces hegemonic and commercially compatible language bias, and that a realignment of research goals and development practices is needed to mitigate harm and reclaim the opportunity costs spent on pursuing "AI." They continue their critique [in response](https://www.dair-institute.org/blog/letter-statement-March2023) to an [open letter](https://futureoflife.org/open-letter/pause-giant-ai-experiments/) from a longtermist organization {% cite futureoflifeinstitutePauseGiantAI2023 %}, arguing for increased transparency and accountability regulation and citing three ongoing harms: 
+
+> "1) worker exploitation and massive data theft to create products that profit a handful of entities, 2) the explosion of synthetic media in the world, which both reproduces systems of oppression and endangers our information ecosystem, and 3) the concentration of power in the hands of a few people which exacerbates social inequities." {% cite gebruStatementListedAuthors2023 %}
+
+Core to their argument is that large language models cannot understand the language they parse and generate {% cite benderClimbingNLUMeaning2020 %}. Shah & Bender specifically explore Google's conceptualization of LLMs in search in "Situating Search" against the longer backdrop of information retrieval research {% cite shahSituatingSearch2022 %}. They identify how Google's LLM-mediated search paradigm ignores the varying needs of different kinds of information seeking, eg. searching for specific information vs. browsing among a category of information, ultimately pointing towards a need for public information infrastructures. 
+
+These criticisms are of course *all true and valuable.* The arguments about whether or not the language models understand the text the parse and generate is directed towards what is likely an ideological minority in the longtermists and their ilk, however. Adherents of the Cloud Orthodoxy explicitly disavow the notion that these language models "know" anything, and 
+
+So by downplaying the risk of how they will really be deployed by saying they are simply pattern recognition robots, we are limited in our ability to identify their purpose and articulate alternatives. 
+
+By approaching from the lens of the semantic web and knowledge graphs we get a different perspective. 
+
+> that what’s important is not whether AI’s representations of the world are accurate but how AI acts as an apparatus that directly helps to produce the world. {% cite mcquillanResistingAIAntifascist2022 %}
+
+
+- stochastic parrots crit & situating serach
+- but really we need to think of the other side, the parsing side, and these things as interfaces to KGs
+- if we approach from the semweb side, AI has ALWAYS been part of the dream - these are finally the autonomous agents that ppl have been waiting for (cite "where are all the agents" paper) (actually go back and cite where are all the agents paper in the cloud orthodoxy section)
+
+ - google engineer in entity oriented search literally has a diagram that excludes 
+
+{% cite huEmpoweringLanguageModels2022 %}
+
+{% cite renLegoLatentExecutionguided2021 %}
+
+Research into being understood and correcting for errors:
+- {% cite horvitz2000grounding %}
+
+
+
 
 when turning to KGs, goto "semantic web has always been about AI too. now is the moment where that could become real in a really bad way" {% cite daquinNewGenerationSemantic2008 %}. Watson was a freaking semweb robot...
 
@@ -49,7 +83,6 @@ SO YES ppl are talking about chatbots and controlling information flow on the we
 	> The deterioration of search results for multi-hop questions highlights the importance of a better approach to interacting with the Internet. This is particularly challenging for the general-purpose and powerful, yet black-box, search engines, where gradient-based learning is infeasible due to the discrete bottleneck introduced by working directly with words. We expect that “learning to search” approaches could boost performance of the overall system [22, 10, 11], where complex queries could be decomposed into simpler sub-queries, akin to approaches in question decomposition [40, 41]. While these tasks have not yet been tackled with LSLMs and few-shot prompting, we believe that it would be a reasonable first approach
 	>
 	> - google {% cite lazaridouInternetaugmentedLanguageModels2022 %}
-	- chatbots do continued searches: {% cite konzelmannChattingYourGoogle2018 %}
 	- chatbots do everything: {% cite mialonAugmentedLanguageModels2023a %}
 	- directly through latent space: {% cite adolphsDecodingNeuralRetriever2022 %}
 	- researching how to maintain trust: "This has led many practitioners and researchers alike to imagine a near future where voice assistants can be used in increasingly complex ways, including supporting healthcare tasks [41, 55], giving mental health advice [52, 66], and high stakes decision-making [17]." {% cite mercurioMixedMethodsApproachUnderstanding2023 %}

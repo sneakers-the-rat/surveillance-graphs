@@ -3,6 +3,10 @@
 
 vulgar LD is when we own it, rather than merely annotate things to be owned by google. what is the point where the owner of the graph can just say... no?
 
+Stuff we draw from:
+- feminist standpoint epistem. (cite data feminism and relationality lit!) {% cite mcquillanResistingAIAntifascist2022 %}
+> Instead of seeing AI as an outside apparatus that takes in data about the world and spits out useful representations, we can see it as immersed in the process of shaping what things, including us, actually become. {% cite mcquillanResistingAIAntifascist2022 %}
+
 Scraps: 
 
 **Critically: Openness has failed us as an alternative** - it has been deeply coopted already!

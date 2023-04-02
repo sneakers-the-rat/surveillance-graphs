@@ -140,3 +140,5 @@
     > "In this, time-sharing anticipated the way that the contemporary cloud encourages its users to take things free of charge. By making each online resource freely available—computer storage, processing time, content, even software—the cloud encourages the pleasurable and quasi-illicit feeling that we are getting away with something: that we, too, have stolen time. [...]
     >
     > Virtualization is itself a logical map, a topography that results from creating a set of personal channels that isolate us into individual users (and therefore seems to give us as much data, storage, computing power, etc., as we personally want).{% cite huPrehistoryCloud2015 %}
+
+[^longtermists]: In addition to already thoroughly problematized ideologies like immortality cults and their many branches like longtermism, etc.
