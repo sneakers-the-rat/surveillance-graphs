@@ -148,3 +148,30 @@
     > Not unlike a library or archival catalogue, the results page both orders and locates knowledge resources, yet it breaks away from stable classifications and the importance of categories as the basis of such order
     >
     > Even if the SERP and the matching online resources are served as separate webpages, it is difficult to draw a definitive line between them. The boundary between the SERP and target pages is fluid" {% cite kallinikosAmbivalentOntologyDigital2013 %}
+
+[^linguisticgrounding]: Language modeling research has developed its own ad-hoc definitions of "grounding" that move goal posts until one could trivially describe what LLMs have as "understanding," eg. a 2000 technical report from Microsoft Research {% cite horvitz2000grounding %} constructs an unconvincing probabilistic definition of mutual understanding based on utility maximization. The problem of symbol grounding has a long and broad history, and since the argument here is that it is a red herring to understanding the purpose of large language models, I won't attempt a review. 
+
+[^antifascistai]: eg. from "Resisting AI:"
+    > What’s important is not whether AI’s representations of the world are accurate but how AI acts as an apparatus that directly helps to produce the world. {% cite mcquillanResistingAIAntifascist2022 %}
+
+[^useofai]: Throughout this section, my use of "AI" is not to indicate endorsement of large language models or any other algorithmic system as being "artificially intelligent," but rather to be able to speak in the parlance of the domain texts without a profusion of scare quotes and qualifiers.
+
+[^immortalitycults]: As part of a long lineage of immortality cults (eg. {% cite diazImmortalityAttainable20302023 %}) like cryogenics, the longtermists believe that we will "merge" with artificial general intelligence through eg. "brain uploading" or brain-computer interfaces in a fully digital civilization of infinitely many potential consciousnesses and resolve all world problems. 
+
+[^hypeorsincerity]: some papers will flatly claim they are at least in-category of systems that could have "artificial general intelligence," given some noncommittal wash of definitions (eg {% cite bubeckSparksArtificialGeneral2023 %}), but others are more conservative and provide repeated caveats like "loosely speaking" to play both sides by invoking the language of intelligence as a metaphor that the reader can interpret as literal or not {% cite raffelExploringLimitsTransfer2020 %}.
+
+[^notbusinessplans]: Each different kind of information here needs its own set of caveats --- press-release-like sources of course are intended only the present the company in a positive light, patents are often defensive and might ever be realized, and whitepapers from researchers don't necessarily represent business plans, but each are indicative of the thinking and strategies of these companies in their own right.
+
+[^siristrugs]: Interestingly Siri's team struggled because they couldn't figure out whether they wanted it to be merely search or a more personal assistant: 
+    > "Siri’s various teams morphed into an unwieldy apparatus that engaged in petty turf battles and heated arguments over what an ideal version of Siri should be—a quick and accurate information fetcher or a conversant and intuitive assistant capable of complex tasks. [...]  One team member said their vision of an ideal Siri was similar to the 2013 Spike Jonze movie “Her,” in which Joaquin Phoenix plays a lonely man who falls in love with “Samantha,” a conversant operating system." {% cite tilleySevenYearItchHow2018 %}
+
+[^googleknows]: Though Google specifically is very aware of multiple search strategies and address the need to better accomodate them elsewhere.
+
+[^iterativesearch]: Again, invoking convenience:
+    > It has been a powerful vision for more than 20 years to design search engines that are intuitive and simple to use. Despite their remarkable success, search engines are not perfect and may not yield the most relevant result(s) in one shot. This is particularly true for rare and intrinsically difficult queries, which may require interactive exploration by the user to be answered correctly and exhaustively. [...] It seems natural to envision artificial search agents that mimic this interactive process. {% cite adolphsBoostingSearchEngines2022 %}
+
+[^wherearetheagents]: The question "Where are the agents?" was answered in 2007 with "busy doing business-to-business stuff," and this model of LLM-powered knowledge graphs is a continuation of that pattern {% cite mcburneyAgentsAreAll2007 %}.
+
+[^timblagents]: > We see that search engines, remarkably, do scale - but at the moment produce very unreliable answers. Now, on a semantic web we can imagine a combination of the two. For example, a search engine could [retrieve] all the documents which reference the terms used in the query, and then a logical system [could] act on that closed finite world of information to determine a reliable solution if one exists. {% cite berners-leeEvolutionSpecificationCommentary1998 %}
+
+[^compositional]: rather than considering input elements separately
