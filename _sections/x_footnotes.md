@@ -175,3 +175,15 @@
 [^timblagents]: > We see that search engines, remarkably, do scale - but at the moment produce very unreliable answers. Now, on a semantic web we can imagine a combination of the two. For example, a search engine could [retrieve] all the documents which reference the terms used in the query, and then a logical system [could] act on that closed finite world of information to determine a reliable solution if one exists. {% cite berners-leeEvolutionSpecificationCommentary1998 %}
 
 [^compositional]: rather than considering input elements separately
+
+[^critihype]: "[criti-hype](https://sts-news.medium.com/youre-doing-it-wrong-notes-on-criticism-and-technology-hype-18b08b4307e5)" {% cite vinselYouReDoing2021 %}
+
+[^kidsandvoiceinterfaces]: To some degree these assistants feel like a generational marketing campaign like McDonald's Happy Meals, where the animacy of a phone might seem ridiculous to people who grew up with them as inert objects, but that might not be the case for future generations. In 2021, Google's Director of Product Management described this expectation for animacy: "My four-year-old talks to everything with a screen, expecting it to answer" {% cite googledevelopersWhatNewGoogle2021 %}
+
+[^ctrlf]: Again, it is the combination of large machine learning models and knowledge graphs that makes some dream of convenience possible: "Scene Exploration uses computer vision to instantly connect the multiple frames that make up the scene and identify all the objects within it. Simultaneously, it tapes into the richness of the web and Google's Knowledge Graph to surface the most helpful results. [...] this is like having a supercharged ctrl+f for the world around you." {% cite googleGoogleKeynoteGoogle2022 %}
+
+[^failureresearch]: These companies are acutely aware of this, and their research into understanding user expectations and trust of assistants also has a strong strain of animism, eg. describing how people will only use their assistants for simple tasks like playing music "while trust [...] was being repaired." {% cite mercurioMixedMethodsApproachUnderstanding2023 %}
+
+[^bard]: The Assistant team is being reorganized under Google's LLM-powered search product Bard as of March 2023, again highlighting the continuity of these projects {% cite eliasGoogleReshufflesVirtual2023 %}
+
+[^zeroquery]: > "The zero-query search paradigm can be expressed with the slogan “the query is the user.” In practice, the context of the user is used to infer information needs." {% cite balogEntityOrientedSearch2018 %}

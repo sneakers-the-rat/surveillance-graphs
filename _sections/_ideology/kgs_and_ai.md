@@ -52,16 +52,55 @@ Interest in these multipart systems is widespread, and arguably the norm: A grou
 
 Dreams of these hybrid "AI" systems, described as "agents," that can translate between human and computer languages to compute over knowledge graphs to answer questions were present in the first conceptualizations of the Semantic Web[^timblagents][^wherearetheagents] {% cite berners-leeSemanticWeb2001 %}. We have reached a point where the available semantically-annotated data via wikidata and others is sufficient to be useful as "factual" grounding, internal knowledge graphs have accumulated enough personal information to be useful as personalized services, and the computational models are sophisticated enough to deliver them. Semantic web agents are another useful lens to expand a potentially narrow focus on LLMs as they currently exist. Beyond knowledge graphs as a way to condition LLMs in a chat-based question answering context, the clear intention is to connect language models to external services to control them from the prompt {% cite bubeckSparksArtificialGeneral2023 %} --- the language model parses natural language prompts into the syntax used to control the target system. Microsoft's integration with its Office365 apps is a starting point for understanding what that could look like, but the authors of relevant papers repeatedly assert that the space of possible integrations is unbounded.
 
-To be very clear: I am not arguing that just because the tech conglomerates are promising magic that they will deliver it, almost precisely the opposite. I am using research and public communications from these companies to project how they intend to use them as weapons to wrest increasing dominance in a surveillance-backed information economy. One clear pattern in "AI's" deployment thus far is that it *does not have to work to be an effective tool for information capitalists,* look no further than Tesla's autonomous driving system (and see eg. {% cite broussardArtificialUnintelligenceHow2018 %}). As with search, the fuzziness and uninspectable failure of these systems is a *feature not a bug.* To explore this, we will explore what these systems might look like in their two primary applications, personal assistants and enterprise platforms, and the truly spectacular potential for harm they pose.
+To be very clear: I am not arguing that just because the tech conglomerates are promising magic that they will deliver it, almost precisely the opposite. I am not taking the claims made in research and public communications from these companies at face value and projecting theoretical risks[^critihype]. My argument is that these technologies *won't work* and that's *worse.* As with search, the fuzziness and uninspectable failure of these systems is a *feature not a bug.*  The harms I will describe are not theoretical future apocalypses, but deepen existing patterns of harm. Most of them don't require mass gullibility or even particularly sophisticated technologies, but are impacts of a particular ideological mode of infrastructure development that includes bypassing much of the agency individual people might otherwise have to avoid them. 
+
+Two prominent forms of the combined knowledge graph + LLM infrastructure that are in focus are their use in "personal assistants" and tailored enterprise platforms. Their impacts are intertwined, but I'll try to use them as a way of keeping loose order.
 
 ---
 
-Personal assistants and enterprise
+Personal assistants powered by contemporary LLMs continue the same patterns of Apple's Siri, Google Assistant, and Amazon's Alexa with a few new twists. The wildest dreams of information executives and academics here are remarkably mundane, but usefully illustrate their intention:
 
----
+From the 2016 Google I/O where its Assistant[^bard] was announced. Emphases mine, abbreviations omitted for clarity:
 
-then harms
+> So you should be able to ask Google, “What’s playing tonight?” We want to **understand your context** and maybe suggest three relevant movies which you would like nearby. I should be able to look at it and maybe tell Google, **“We want to bring the kids this time.”** and then if that’s the case, Google should refine the answer and suggest family-friendly options. And maybe even ask me, “Would you like four tickets to any of these?” And if I say, “Sure, let’s do Jungle Book,” **it should go ahead and get the tickets** and have them ready waiting for me when I need it. Every single conversation is different. Every single context is different. 
+>
+> We think of the assistant as **an ambient experience that extends across devices.** I think computing is poised to evolve beyond just phones. **It will be in the context of a user’s daily life.** It will be on their phones, devices they wear, in their cars, and even in their living rooms.
+>
+> And in messaging that really means bringing the Google Assistant right into your conversation with friends. So they’re planning a dinner and Joy now says she would like Italian food. **The Assistant intelligently recognizes that they could use some tips for Italian restaurants** nearby and you can see its proactive suggestions at the bottom of the screen there. **These are powered by Google’s Knowledge Graph** which means that Allo can help with all kinds of information in the real world. 
+>
+> Okay. So you just saw how the Google Assistant can be really helpful in groups. You can also have a one-on-one chat with Google. What we’re seeing now is **Amit’s contact list and Google’s appearing at the top there.** So let’s jump in and have a chat. Just like with any other conversation, this one picks up right where you left off and **the Assistant will remember things like your name and even tell you how it’s feeling.** 
+{% cite sGoogle2016Keynote2016 %}
 
+The assistant is imagined as the ultimate *convenience* device, something that you can boss around with extraordinarily vague commands and have it fill in the details according to *context.*Of course *context* is synonymous with *surveillance* here: the assistant should know how old your kids are and be able to infer the logical restriction that poses on movie rating. The surveillance is *intimate,* and positions itself as being a friend[^kidsandvoiceinterfaces] in your contact list that *tells you how it's feeling.* Its intimate surveillance should always be watching and it should feel welcome to jump in on a group chat with a suggestion of its own. 
+
+2022's vision is very similar, except the focus on enclosed spaces like home and auto integrations has expanded to the rest of the world with joint language and image search. The setting is again the mundane reality of a bored middle class, restaurants and shopping, where I can "scan the entire shelf with my camera and see helpful insights overlaid in front of me[^ctrlf]" and integrate personal information like my friend's aversion to nuts in a product recommendation {% cite googleGoogleKeynoteGoogle2022 %}.
+
+Historically, these personal assistants have been underwhelming[^failureresearch], but the greater ability for the language models to accomodate the context of the recent past as well as synthesize text to prompt you through an interaction changes their form significantly. Google's Android and Apple's iOS, with a combined 99% of the mobile operating system market {% cite statistaGlobalMobileOS2023 %}, have also moved towards a model of crowdsourcing functionality for these assistants via their app ecosystems. Android is in the process of sunsetting the "Conversational Action" system in favor of a unified App Actions system that makes all points of interactions with apps available to Google Assistant {% cite nathensonHelpingDevelopersCreate2022 %}. Apple's App Intents framework behaves similarly {% cite appledeveloperdocumentationAppIntents %}. Most built in Google Assistant intents specifically present the objects in a voice query as schema.org entities --- aka keyed to their generalized knowledge graph schema {% cite androiddeveloperdocumentationBuildAppActions %}. So the voice assistants are explicitly LLM-powered interfaces to control other apps in concert with a knowledge graph.
+
+Regardless of how well this new iteration of assistants *work,* the intention of their design is to **dramatically deepen the intimacy and intensity of surveillance** and **further consolidate the means of information access.**
+
+
+
+The shift from *reactive* to *prospective* information presentation is echoed across these and other parts of the "AI" landscape, where rather than searching for information, the algorithms predict when I need it[^zeroquery]. The promise to app developers integrating with their assistants is the opportunity for the assistant to *proactively recommend* the services of the app. 
+
+
+- these all have the effect of homogenizing your relatinoship with information, searching the internet is not a discrete action from turning your lights on and off. the interface becomes the same. "the internet" is not part of the picture anymore
+
+> "We have primed the model to focus on the topic of dogs... If i start asking about cricket, which I probably would, the model brings the topic back to dogs in a fun way."
+
+Example of "plant a vegetable garden" and it guides me through all the subproblems within it. "It's much more than just coming up with a list of vegetables to grow."
+
+
+- Google/Android consolidated its voice actions into app actions to give a uniform interface by which an assistant can interact with apps. 
+- Siri:
+- personal assistants mostly sucked before (their research says they know this and are actively working on modeling trust and whatnot), but the difference now is that they can prompt you
+- combination of all ur data
+	- health
+	- calendar
+	- contacts
+	- location
+	- etc.
+	- personal kgs
 
 
 
@@ -85,6 +124,7 @@ Re: public/private knowledge graphs and compositional AI {% cite chaudhriKnowled
 	 		- google engineer in entity oriented search literally has a diagram that excludes the rest of the web
 	 		- re: AMP.
 	 		- Google is very sensitive about this! (nyt article) {% cite sullivanGoogleSearchSends2021 %}
+ 		- killing social information system, enclosing the public organization of information into a private interaction with your assistant.
 		- while simultaneously injecting themselves into every web service - if everyone is renting chatGPT, then every service is a deeply detailed surveillance platform.
 		- concentrating in the hands of a few tech giants under the guise of 'safety'
 			> "Aside from intentional misuse, there are many domains where large language models should be deployed only with great care, or not at all. Examples include high-stakes domains such as medical diagnoses, classifying people based on protected characteristics, determining eligibility for credit, employment, or housing, generating political advertisements, and law enforcement. If these models are open-sourced, it becomes challenging to limit harmful applications in these and other domains without proper regulation. On the other hand, if large language model access is restricted to a few organizations with the resources required to train them, this excludes most people from access to cutting-edge ML technology. Another option is for an organization to own the end-to-end infrastructure of model deployment, and make it accessible via an API." {% cite ouyangTrainingLanguageModels2022 %}
@@ -128,26 +168,6 @@ Re: public/private knowledge graphs and compositional AI {% cite chaudhriKnowled
 		- always limited to *only exactly what the developers could imagine you wanting to do* - why should we *have to* always have our digital reality defined by someone else's ideology
 
 
-> Here’s a common situation. It’s a Friday night. I’m sure many of you can relate to it. Back home, and I want to take my family to a movie. You know, you normally pull out your phone, research movies, look at the reviews, find shows nearby, and try to book a ticket. We want to be there in these moments helping you.
-> 
-> So you should be able to ask Google, “What’s playing tonight?” and by the way, today, if you ask that question, we do return movie results, but we want to go a step further. We want to understand your context and maybe suggest three relevant movies which you would like nearby. I should be able to look at it and maybe tell Google, “We want to bring the kids this time.” and then if that’s the case, Google should refine the answer and suggest family-friendly options. And maybe even ask me, “Would you like four tickets to any of these?” And if I say, “Sure, let’s do Jungle Book,” it should go ahead and get the tickets and have them ready waiting for me when I need it.
-> 
-> As you can see, I engaged in a conversation with Google and it helped me get things done in my context. And by the way, this is just one version of the conversation. This could have gone many, many, different ways. For example, when Google returned the results, I could have asked, “Is jungle book any good?” And Google could have given me the reviews and maybe even shown me a trailer. And by the way, I saw the movie, it’s terrific. And hope you get to see it as well.
-> 
-> Every single conversation is different. Every single context is different. And we are working hard to do this for billions of conversations, for billions of users around the world, for everyone. We think of the assistant as an ambient experience that extends across devices. I think computing is poised to evolve beyond just phones. It will be in the context of a user’s daily life. It will be on their phones, devices they wear, in their cars, and even in their living rooms. For example, if you’re in one of the hundred different android auto models and you’re driving and you say, “Let’s have curry tonight,” we know the Warriors are on tonight and Steph Curry is playing but you know, all you’re looking for is food, and we should be smart, order that food and let you know when it is ready, and maybe even have it waiting for you at your home.
-> 
-> Talking about your home, we’ve already built many, many products for your home. Today, we have sold over 25 million Chromecast devices. So we’ve been thinking hard about how to bring this vision of Google Assistant into your home. Credit to the team at Amazon for creating a lot of excitement in this space, we’ve been thinking about our own unique approach and we are getting ready to launch something later this year. To give you a preview, I’m going to invite Mario from the Chromecast team. 
->
-> Thanks, Erik. As you heard earlier, the Google Assistant is an ongoing dialogue between you and Google that helps you get things done in your world. It’s also designed as an ambient experience. It’s there for you whenever you need it. And in messaging that really means bringing the Google Assistant right into your conversation with friends. So I’m going to show you how the Assistant can help in Amit’s and Joy’s conversation.
-> 
-> So they’re planning a dinner and Joy now says she would like Italian food. The Assistant intelligently recognizes that they could use some tips for Italian restaurants nearby and you can see its proactive suggestions at the bottom of the screen there. Tapping this brings up restaurant cards that everyone in the chat can see. These are powered by Google’s Knowledge Graph which means that Allo can help with all kinds of information in the real world. So there’s some back and forth about which restaurant to go to. And it looks like they’re leaning towards Cucina at 7 o’clock.
-> 
-> So what we’re seeing here — what we’re seeing here is completely new. In the past, Amit would have had to leave the chat to do a Google search, return with some restaurant options, switch back again to share the options, go out again to make the reservation at OpenTable and then come back in to share the details with the rest of the group.
->
-> Okay. So you just saw how the Google Assistant can be really helpful in groups. You can also have a one-on-one chat with Google. What we’re seeing now is Amit’s contact list and Google’s appearing at the top there. So let’s jump in and have a chat.
-> 
-> Just like with any other conversation, this one picks up right where you left off and the Assistant will remember things like your name and even tell you how it’s feeling. So let’s try something more interesting. Amit’s a big Real Madrid fan and he wants to know how they got on in their last match. So he asks the Assistant: did my team win? It looks like they did. They won their — yeah. Some Real Madrid fans out there. Cool. And so they won their last match on Saturday. Let’s see when they are playing next. That’s pretty cool. They are through the Champion’s League final at the end of the month. We can keep going like this and find more news about the team just by tapping on the suggestions there.
-{% cite sGoogle2016Keynote2016 %}
 
 
 
