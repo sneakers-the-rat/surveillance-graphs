@@ -47,7 +47,7 @@ main>div.container {
   }
 
   &-title {
-    color: $default-shade;
+    // color: var(--text-shade);
     font-family: "Source Serif Pro";
     font-weight: 900;
     font-size: 3rem;

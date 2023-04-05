@@ -19,6 +19,8 @@ bibliography: true
 1. toc
 {:toc}
 
+{% include options.html %}
+
 **Subpages:**
 
 - [Outline](outline.html)

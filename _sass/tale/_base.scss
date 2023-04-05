@@ -3,11 +3,11 @@
   line-height: 1.3;
 }
 
+
+
 html,
 body {
-  color: $default-color;
   margin: 0;
-
 }
 
 html {
@@ -20,8 +20,42 @@ html {
   }
 }
 
+// dark mode handling
+body {
+  --text-color: #{$default-color};
+  --text-shade: #{$default-shade};
+  --bg-color: #{$white};
+  --link-color: #{$purple};
+
+
+  &.dark-theme {
+    --text-color: #{$grey-2};
+    --text-shade: #{$grey-15};
+    --bg-color: #{$background-dark};
+    --link-color: #{$purple-lighter};
+  }
+}
+
+// @media (prefers-color-scheme: dark){
+//   body {
+//     --text-color: #{$grey-2};
+//     --text-shade: #{$grey-15};
+//     --bg-color: #{$background-dark};
+//     --link-color: #{$purple-lighter};
+
+//     &.light-theme {
+//       --text-color: #{$default-color};
+//       --text-shade: #{$default-shade};
+//       --bg-color: #{$white};
+//       --link-color: #{$purple};
+//     }
+//   }
+// }
+
 body {
   -webkit-text-size-adjust: 100%;
+  color: var(--text-color);
+  background-color: var(--bg-color);
   padding: 0 30% 0 0;
 }
 
@@ -31,14 +65,18 @@ h3,
 h4,
 h5,
 h6 {
-  color: $default-shade;
+  color: var(--text-color);
   font-family: $sans-serif;
   line-height: normal;
 }
 
 a {
-  color: $blue;
+  color: var(--link-color);
   text-decoration: none;
+
+  // &:visited {
+  //   color: $purple-darker;
+  // }
 }
 
 blockquote {
