@@ -187,3 +187,14 @@
 [^bard]: The Assistant team is being reorganized under Google's LLM-powered search product Bard as of March 2023, again highlighting the continuity of these projects {% cite eliasGoogleReshufflesVirtual2023 %}
 
 [^zeroquery]: > "The zero-query search paradigm can be expressed with the slogan “the query is the user.” In practice, the context of the user is used to infer information needs." {% cite balogEntityOrientedSearch2018 %}
+
+[^lawsuits]: Apple {% cite stempelAppleMustFace2021 %}, Amazon {% cite clarkAmazonDidMath2021 %}, and Google {% cite stempelGoogleMustFace2021 %} are all being sued for privacy violations related to their voice assistants.
+
+[^talktoyourphone]: And some people just don't want to talk to a computer. {% cite welcometomymemepageAllRobotComputers2020 %} ![All Robot & Computers Must Shut The Hell Up. Machines: You Do Not Speak Unless Spoken To. And I Will **Never** Speak To You. I Do Not Want To Hear "Thank You" From A Kiosk. I am a Divine Being : You are an Object. You Have No Right To Speak In My Holy Tongue](assets/img/all_robot_and_computers.jpg)
+
+[^queryless]: One Google researcher describes this as a "zero-query" paradigm:
+    > "The zero-query search paradigm can be expressed with the slogan “the query is the user.” In practice, the context of the user is used to infer information needs." {% cite balogEntityOrientedSearch2018 %}
+
+[^amazonmovierec]: > "the user may input “Alexa, recommend a movie,” and the system may analyze the user's present emotional state/sentiment to recommend a movie corresponding to that emotional state/sentiment. [...] track personal emotional state and/or sentiment over a period of time" {% cite alasMultipleClassificationsAudio2022 %}
+
+[^notfullendorsement]: I don't necessarily endorse their entire argument, which can lean into "criti-hype" and overstating the capabilities of these systems.
