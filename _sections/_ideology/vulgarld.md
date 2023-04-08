@@ -1,6 +1,11 @@
 
 ## Vulgar Linked Data
 
+- transition to next section
+	- the hollow middle: these things don't even *work* anyway {% cite broussardArtificialUnintelligenceHow2018 %}
+		- always limited to *only exactly what the developers could imagine you wanting to do* - why should we *have to* always have our digital reality defined by someone else's ideology
+
+
 vulgar LD is when we own it, rather than merely annotate things to be owned by google. what is the point where the owner of the graph can just say... no?
 
 Stuff we draw from:
@@ -13,6 +18,8 @@ Scraps:
 
 - Search engine web was not inevitable either: {% cite intronaShapingWebWhy2000 %}
 - as we saw with search! surveillance (in extreme part lmao) is encouraged by convenience - to make robots be maximally responsive and accurate in their responses to us, they need to fill in some missing context somewhere. surveillance is just an extremely valuable signal there. 
+- open source and openness is not the alternative! FOSS can't compete with the KG part and is just a reflection of the same kind of ideology that drives the rest of the harms anyway. we need to hink of not only different tools but a fundamentally different ethos than the cloud service model. 
+	- also this is why open platforms also don't work
 
 - the poltics of ontologies are neatly illustrated by the fact that "a woman is a woman" means precisely the opposite thing w.r.t trans woman to transmisics as compared to normal people.
 

@@ -198,3 +198,11 @@
 [^amazonmovierec]: > "the user may input “Alexa, recommend a movie,” and the system may analyze the user's present emotional state/sentiment to recommend a movie corresponding to that emotional state/sentiment. [...] track personal emotional state and/or sentiment over a period of time" {% cite alasMultipleClassificationsAudio2022 %}
 
 [^notfullendorsement]: I don't necessarily endorse their entire argument, which can lean into "criti-hype" and overstating the capabilities of these systems.
+
+[^autoads]: Perhaps by an assistant or an assistant-like search?
+
+[^googleissensi]: Google is very sensitive about the perception that it is walling off the web, and argues that it directs more clicks to other websites every year {% cite sullivanGoogleSearchSends2021 %} --- which is just as easily explained as an effect of dominating ever more of the means of access to information as it is evidence of their intention to support other information companies.
+
+[^msgrounding]: "While large language models are brilliantly creative, they're also fallibile. That's why grounding the LLM in data is so important." {% cite microsoftFutureWorkAI2023 %}
+
+[^copilotcopyleft]: The original Github Copilot model probably didn't *need* to be trained on the copyleft and proprietary code it is able to reproduce line by line, but the additional training data probably didn't hurt its viability as a product.
