@@ -17,7 +17,7 @@ gem "minima", "~> 2.5"
 group :jekyll_plugins do
   gem "tale"
   # gem "jekyll-scholar", "~>7.0"
-  gem "jekyll-scholar", :git => "https://github.com/sneakers-the-rat/jekyll-scholar", :branch => "cache"
+  gem "jekyll-scholar", :git => "https://github.com/sneakers-the-rat/jekyll-scholar", :branch => "surveillance-graphs"
   gem "jekyll-seo-tag"
   # gem "jekyll-jupyter-notebook"
   gem "liquid_reading_time" 

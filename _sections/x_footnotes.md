@@ -206,3 +206,9 @@
 [^msgrounding]: "While large language models are brilliantly creative, they're also fallibile. That's why grounding the LLM in data is so important." {% cite microsoftFutureWorkAI2023 %}
 
 [^copilotcopyleft]: The original Github Copilot model probably didn't *need* to be trained on the copyleft and proprietary code it is able to reproduce line by line, but the additional training data probably didn't hurt its viability as a product.
+
+[^medicalalgos]: Medical algorithms are currently in a legal gray area in the US, and enforcement and coverage of FDA protections is patchy at best {% cite dolivaDosingDiscriminationRegulating2021 ordishAlgorithmsMedicalDevices2019 el-sayedMedicalAlgorithmsNeed2021 %}
+
+[^adsdontwork]: Arguably, the fact that ever more surveillance data needs to be gathered is a sign that ads *don't* work all that well, and some have made the case that targeted advertising is a bubble {% cite edelmanAdTechCould2020 %}
+
+[^downplaybackfires]: One way that downplaying the capability of these models by focusing on the question of sentience could backfire and create a shield against liability.
