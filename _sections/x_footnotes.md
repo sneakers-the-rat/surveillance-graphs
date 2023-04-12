@@ -212,3 +212,12 @@
 [^adsdontwork]: Arguably, the fact that ever more surveillance data needs to be gathered is a sign that ads *don't* work all that well, and some have made the case that targeted advertising is a bubble {% cite edelmanAdTechCould2020 %}
 
 [^downplaybackfires]: One way that downplaying the capability of these models by focusing on the question of sentience could backfire and create a shield against liability.
+
+[^asidefrom]: Aside from the global economic order.
+
+[^crimethinc]: > Don’t sighingly sign petitions, pose for the cameras, await some window of opportunity. Do participate in town parades and street festivals, break into abandoned buildings to throw great banners down the sides, start conversations with strangers, challenge everything you thought you knew about yourself in bed, maintain a constant feeling in the air that *something  is  happening.* Live as if the future depends on your every deed, and it will. Don’t wait for yourself to show up—you already have. Grant yourself license to live and tear those shackles to ribbons: Create momentum! {% cite crimethincex-workerscollectiveFightingOurLives2007 %}
+
+[^crimethinc2]: In the words of CrimethInc: I am not giving instructions, but license. 
+    > Above all! It means not accepting this or any manifesto or definition as it is, but making and remaking it for yourself. {% cite crimethincex-workerscollectiveFightingOurLives2007 %}
+
+[^platformstudies]: > "The costs of this approach, as platform studies has shown, come in the form of constraints, constant revisions forced by platform updates, and lock-in to the platform’s conception of users, functionality, and design values." {% cite plantinInfrastructureStudiesMeet2018 %}

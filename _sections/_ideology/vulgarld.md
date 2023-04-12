@@ -1,5 +1,53 @@
-
 ## Vulgar Linked Data
+
+> "The popular vernaculars are vast speech-jungles, in which old forms are decaying and new ones continually springing into life; and this fermentation results in the creation of numberless new terms, which come to birth and live and die in tropical profusion. They are formed in living response to the needs of the moment; the greater number of them hardly survive the occasion that brought them forth; but others, on account of their expressive power and their usefulness, establish themselves, spread from district to district. [...]
+>
+> For human speech is after all a democratic product, the creation, not of scholars and grammarians, but of unschooled and unlettered people. Scholars and men of education may cultivate and enrich it, and make it flower into all the beauty of a literary language; but its rarest blooms are grafted on a wild stock, and its roots are deep-buries in the common soil. From that soil it must still draw its sap and nourishment, if it is not to perish, as the other standard languages of the past have perished, when, in the course of their history, they have been separated and cut off from the popular vernacular --- from that vulgar speech which has ultimately replaced their outworn and archaic forms." 
+>
+> --- L.P. Smith (1925) *"Words and Idioms"* {% cite smithWordsIdiomsStudies1925 %}
+
+> Control, control for who? for what?<br>I'm no robot, they can get fucked.
+>
+> --- Black Flag (1981) *"No More"*
+
+Is it still possible to imagine a different world than the one the information conglomerates have planned for us? Can we imagine a properly *human* information infrastructure?
+
+We can start by identifying the harms of the world as it exists to understand why a new world is needed, as I have attempted some small part of in this piece. Harm, in this case, is not some speculative future of superintelligent sentient AI, but elaboration of ongoing harms of the surveillance and platform economies. 
+
+Building a better informational world is not a matter of choosing a different set of technologies --- I argue that in this case some of the masters tools can help us rebuild his house. At the same time we can't overcorrect in our focus on social problems and dismiss technology as a strategy, a tool, and a manifestation of values, belief, and labor. We must have an answer to the well meaning liberal that mistakes the dynamics of surveillance capitalism or their role in it: that understands that these knowledge graphs are not truly universal, that the LLMs are not sentient, but embraces their logic because they're so *useful.* We have to understand why simply building open source LLMs or nonprofit linked data platforms is not a liberatory strategy. We have to appreciate how the unmet needs of information organization are caused by the very systems that claim to meet them.
+
+At the same time, we can't dismiss those needs. How could we possibly tell someone with vision impairments not to use "AI" tools for summarizing images, or someone with motor or speech impairments not to use LLMs as a communication aid? It is true that making better use of biomedical data could lead to better treatments. Indecipherable government bureaucracy due to ancient data infrastructure is an informational injustice. So simple abstinence or resistance to universalizing knowledge graphs and LLMs is also not an effective strategy, especially if our alternative is an embrace of the same cloud platform systems whose logic spawned them. 
+
+The constant partial satisfaction and construction of new needs, *the hollow middle* at the center of every cloud platform, is a powerful opening. The structure of contemporary platforms always pose a fundamental lack[^platformstudies]:  
+- platforms create enough of their own problems
+- some of the arrangements of the cloud platform world are ridiculous when said plainly. Why on earth is it possible for a medical system to volunteer my medical information without me knowing or . Why is the alternative for me to "grant permission" to access something that they are still the owners of --- why is that even *possible* in the first place? 
+
+We also need a change in *belief.* We need to unlearn what we have been taught to want, what we believe information technologies should do, and how they are supposed to work. We need to rethink our role in information technology, to move beyond the learned helplessness of the platform consumer and the petty tyranny of the platform operator. We need to reorganize our expectations of agency, beyond the division of labor that gives the power of final say over informational systems in the hands of a cadre of experts that the rest of us just make the best of. We don't have time to argue about whether we *can* build a better world[^crimethinc], to list all the many ways we are hemmed in by infrastructure and incentives, or to wait for another powerful entity with decidedly divergent interests like a government to save us --- we need to believe we too can be powerful.
+
+An attempt to define another "Correct" counter-belief system would be missing the point, but we can't ignore the importance of naming and articulating belief in opening the possibility for and aligning action[^crimethinc2]. Our old belief systems are getting musty.
+**"Openness" has failed as a liberatory strategy.** All we make and take and offer up to each other freely is stolen ten times over by those who have much grander visions of enclosure. Without a strategy to resist co-option, our openness puts tools in the hands of the powerful. 
+
+
+
+
+
+---
+
+- Maybe good things are bad
+	- Maybe we shouldn't want to have the seamless information world where everything can connect to everything and some information executive can come by and scoop it all up
+	- Maybe having utterly seamless interfaces is not the most important part of computing - we have lost the ethical core of what 
+	- Openness has failed!
+	- nothing is inevitable in this world!
+- The hollow middle
+	- Why are we constantly bouncing around to a dozen different platforms to fill different needs, or else having to submit to comprehensive surveillance to do the basic actions of digital life
+- Self-posed problems
+	- you only need to automatically parse the web if you imagine yourself as providing a service that depends on having consumed all of the web!
+
+---
+
+**We** are the principle value of vulgar linked data. We have no dreams of world domination nor do we aspire to always make sense.
+
+---
 
 - transition to next section
 	- the hollow middle: these things don't even *work* anyway {% cite broussardArtificialUnintelligenceHow2018 %}
