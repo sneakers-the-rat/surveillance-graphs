@@ -215,9 +215,31 @@
 
 [^asidefrom]: Aside from the global economic order.
 
-[^crimethinc]: > Don’t sighingly sign petitions, pose for the cameras, await some window of opportunity. Do participate in town parades and street festivals, break into abandoned buildings to throw great banners down the sides, start conversations with strangers, challenge everything you thought you knew about yourself in bed, maintain a constant feeling in the air that *something  is  happening.* Live as if the future depends on your every deed, and it will. Don’t wait for yourself to show up—you already have. Grant yourself license to live and tear those shackles to ribbons: Create momentum! {% cite crimethincex-workerscollectiveFightingOurLives2007 %}
+[^crimethinc]: > Don’t sighingly sign petitions, pose for the cameras, await some window of opportunity. Do participate in town parades and street festivals, break into abandoned buildings to throw great banners down the sides, start conversations with strangers, challenge everything you thought you knew about yourself in bed, maintain a constant feeling in the air that *something  is  happening.* Live as if the future depends on your every deed, and it will. Don’t wait for yourself to show up—you already have. Grant yourself license to live and tear those shackles to ribbons: Create momentum! {% cite crimethincex-workerscollectiveFightingOurLives2002 %}
 
 [^crimethinc2]: In the words of CrimethInc: I am not giving instructions, but license. 
-    > Above all! It means not accepting this or any manifesto or definition as it is, but making and remaking it for yourself. {% cite crimethincex-workerscollectiveFightingOurLives2007 %}
+    > Above all! It means not accepting this or any manifesto or definition as it is, but making and remaking it for yourself. {% cite crimethincex-workerscollectiveFightingOurLives2002 %}
 
 [^platformstudies]: > "The costs of this approach, as platform studies has shown, come in the form of constraints, constant revisions forced by platform updates, and lock-in to the platform’s conception of users, functionality, and design values." {% cite plantinInfrastructureStudiesMeet2018 %}
+
+[^decentralizedplatforms]: A common pattern described by platform studies literature, eg. see {% cite blankeMaterialConditionsPlatforms2020 %} and their description of the role of extended and tangled software ecosystems in the maintenance of platform dominance.
+
+[^listicles]: The preponderance of listicle "life hack" threads on Twitter and other social media systems that blast "top 10 ways you're using Google Docs wrong" or "10 platforms and apps that will next level your calendar," bulleted by emoji and suffixed with a substack link, is a very visible symptom of this fundamental contradiction of providing and withholding functionality in the platform economy.
+
+[^amongothers]: I give a fuller description of these dispersed influences in {% cite saundersDecentralizedInfrastructureNeuro2022 %}
+
+[^notjustme]: Of course no idea is original, and I draw from many people and disciplines and traditions either explicitly or implicitly. I have done my best to cite them and provide credit as I go, but I will of course never be able to exhaustively list all the things that have influenced my thinking. If I have missed a citation I assure the reader it was not with purposeful malice, and welcome annotations and pull requests to provide credit where it is due.
+
+[^searchenginesnotinevitable]: Before search engines were seen as an invisible, inevitable part of interacting with the web, there was a wealth of discussion of possible alternatives, eg. in a "Journal of Internet Cataloging" {% cite jjournalofinternetcatalogingJournalInternetCataloging1999 %}, and criticism warning about the risks of search engines, including biases in results and demands for algorithmic transparency {% cite intronaShapingWebWhy2000 %}. It is the now-audacious possibility that there could be an alternative to search engines that is striking about writing from this era, and some of it is still quite prescient --- eg. this message in the archive of w3c's RDF mailing list contrasting an explicit reasoning system vs. Google's "best guess" strategy:
+    > I think it all boils down to whether we want inference engines to function more like Google, with potentially lots of false positives which *might* be useful, or like a reasoning engine where a positive result can be trusted (insofar as the quality and integrity of the knowledge base) and the inability to obtain a result simply means more information is needed.
+    >
+    > I myself have always presumed that SW agents would exhibit
+the latter behavior. [...] **If we are to 
+have a future where we deploy SW agents to do real-world tasks for 
+us, I'd prefer that they wouldn't be guessing.** {% cite sticklerReMonotonicityWas2002 %}
+
+[^smartcity]: See {% cite shapiroDesignControlPredict2020 %} for discussion of algorithmic governance in a "smart city."
+
+[^humanlabor]: Supplemented by a large amount of curation labor outsourced to the global south so the platform can pay as little as possible for its "magical" appearance.
+
+[^enlargespace]: "Forking" in digital social spaces is different than in physical spaces, where resources can be duplicated and split - "[You can't overgraze the infinity.](http://meatballwiki.org/wiki/EnlargeSpace)" {% cite MeatballWikiEnlargeSpace %}
