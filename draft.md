@@ -10,7 +10,7 @@ author:
     email: j@nny.fyi
 navigation: false
 bibtex: false # render bibtex for each reference
-canonical_url: "https://jon-e.net/surveillance-graphs"
+canonical_url: "https://jon-e.net/surveillance-graphs/draft"
 toc_levels: "1..3"
 toc: true
 bibliography: true
