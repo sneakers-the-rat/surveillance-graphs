@@ -242,4 +242,8 @@ us, I'd prefer that they wouldn't be guessing.** {% cite sticklerReMonotonicityW
 
 [^humanlabor]: Supplemented by a large amount of curation labor outsourced to the global south so the platform can pay as little as possible for its "magical" appearance.
 
-[^enlargespace]: "Forking" in digital social spaces is different than in physical spaces, where resources can be duplicated and split - "[You can't overgraze the infinity.](http://meatballwiki.org/wiki/EnlargeSpace)" {% cite MeatballWikiEnlargeSpace %}
+[^righttofork]: "Forking" in digital social spaces is different than in physical spaces, where resources can be duplicated and split {% cite MeatballWikiRightToFork %}
+
+[^aiwar]: Particularly when unregulated AI is wrapped up in "national security concerns," I don't see a reason to believe governments will meaningfully regulate "AI," except in such a way thats shores up the power of large conglomerates under the guise of safety.
+
+[^realp2p]: Unfortunately, the blockchain and cryptocurrency cult has muddied the waters by laying claim to the phrase "peer to peer" to mean something entirely different. Here I mean it as real, actual peer to peer systems built for abundance rather than generating artificial scarcity, in the lineage of BitTorrent, among others.
