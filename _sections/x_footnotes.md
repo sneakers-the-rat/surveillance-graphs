@@ -190,7 +190,7 @@
 
 [^lawsuits]: Apple {% cite stempelAppleMustFace2021 %}, Amazon {% cite clarkAmazonDidMath2021 %}, and Google {% cite stempelGoogleMustFace2021 %} are all being sued for privacy violations related to their voice assistants.
 
-[^talktoyourphone]: And some people just don't want to talk to a computer. {% cite welcometomymemepageAllRobotComputers2020 %} ![All Robot & Computers Must Shut The Hell Up. Machines: You Do Not Speak Unless Spoken To. And I Will **Never** Speak To You. I Do Not Want To Hear "Thank You" From A Kiosk. I am a Divine Being : You are an Object. You Have No Right To Speak In My Holy Tongue](assets/img/all_robot_and_computers.jpg)
+[^talktoyourphone]: And some people just don't want to talk to a computer. {% cite welcometomymemepageAllRobotComputers2020 %} ![All Robot & Computers Must Shut The Hell Up. Machines: You Do Not Speak Unless Spoken To. And I Will **Never** Speak To You. I Do Not Want To Hear "Thank You" From A Kiosk. I am a Divine Being : You are an Object. You Have No Right To Speak In My Holy Tongue](/surveillance-graphs/assets/img/RELX_Pipeline_2022.png)
 
 [^queryless]: One Google researcher describes this as a "zero-query" paradigm:
     > "The zero-query search paradigm can be expressed with the slogan “the query is the user.” In practice, the context of the user is used to infer information needs." {% cite balogEntityOrientedSearch2018 %}

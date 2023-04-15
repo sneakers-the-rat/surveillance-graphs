@@ -1,25 +1,4 @@
-\begin{enumerate}
-\def\labelenumi{\arabic{enumi}.}
 
-\item
-  toc \{:toc\}
-\end{enumerate}
-
-\textbf{Subpages:}
-
-\begin{itemize}
-
-\item
-  \href{outline.html}{Outline}
-\item
-  \href{todo.html}{TODO}
-\item
-  \href{scraps.html}{Scraps}
-\end{itemize}
-
-\{\% include acknowledgements.html \%\}
-
-\{\% include foreword.html \%\}
 
 \hypertarget{introduction}{%
 \section{Introduction}\label{introduction}}
@@ -81,7 +60,7 @@ straightforward to define \cite{chaudhriKnowledgeGraphsIntroduction2022, hitzler
 (though see \cite{ehrlingerDefinitionKnowledgeGraphs2016} ):
 \textbf{directed, labeled graphs} consisting of \emph{nodes}
 corresponding to entities like a person, dataset, location, etc. and
-\emph{edges} that describe their relationship\footnote{Equivalently, one
+\emph{edges} that describe their relationship\sidenote{Equivalently, one
   could emphasize that they are graphs composed of \textbf{triplet}
   links that describe some subject, predicate, and object.}. Knowledge
 graphs typically make use of some controlled \textbf{ontology} that
@@ -111,7 +90,7 @@ reconstruct how radical the notion of a collection of documents
 organized by arbitrary links between them was at dawn of the internet.
 At the time, the infrastructures of linking documents looked more like
 ISBNs, carefully regulated by expert, centralized
-authorities\footnote{For another example re: the political nature of the
+authorities\sidenote{For another example re: the political nature of the
   DOI system in the face of the arbitrary linking of the internet, see
   section 3.1.2
   ``\href{https://jon-e.net/infrastructure/\#seemingly-prosocial-protocols-can-be-used-by-industries-to-preem}{Integration,
@@ -332,7 +311,7 @@ hierarchies of executives, managers, and workers. This gigantic haunted
 ball of data is not just a tool, but the \emph{substance} of the
 company. A data company persists by exploiting the combinatorics of its
 data hoard, spinning off new platforms that in turn maintain and expand
-access to data by creating captive data subjects\footnote{Facebook
+access to data by creating captive data subjects\sidenote{Facebook
   describes the notion of its platform as being just a means of
   interacting with its underlying data graph in corporate web design
   speak: ``A useful tool for Facebook has been to think of the graph as
@@ -345,7 +324,7 @@ Knowledge graphs are particularly well suited for this ``data
 integration'' problem. A full technical description is out of scope
 here, but briefly: traditional relational database systems can be very
 difficult to modify and refactor, and that difficulty increases the
-larger and more complex a database is\footnote{For a practical example,
+larger and more complex a database is\sidenote{For a practical example,
   see a recent
   \href{https://www.etsy.com/codeascraft/scaling-etsy-payments-with-vitess-part-1--the-data-model}{trio}
   of
@@ -358,7 +337,7 @@ data is embedded in how it is stored and accessed. It is particularly
 difficult to do unanticipated ``long range'' analyses where very
 different kinds of data are analyzed together.
 
-In contrast, merging graphs is more straightforward\footnote{\begin{quote}
+In contrast, merging graphs is more straightforward\sidenote{\begin{quote}
   That is because knowledge graphs aim to solve the data incongruence
   problem, which is one of the biggest operational headaches for
   corporates, says Atkin. ``Corporates suffer from technology
@@ -367,7 +346,7 @@ In contrast, merging graphs is more straightforward\footnote{\begin{quote}
   incongruence reality is a pre-requisite for realizing business
   value,'' he says. \cite{schenkerNewReportDetails2021} 
   \end{quote}} \cite{chaudhriKnowledgeGraphsIntroduction2022, enterpriseknowledgegraphfoundationKnowledgeGraphIndustry2022, schenkerNewReportDetails2021, sequedaDesigningBuildingEnterprise2021, azziniAdvancesDataManagement2021, segaranTwophaseConstructionData2020, ceravoloBigDataSemantics2018, natarajanGraphKnowledgeGraph}  - the
-data is just triplets, so in an idealized case\footnote{I am aware graph
+data is just triplets, so in an idealized case\sidenote{I am aware graph
   databases are not magic and this is an extraordinarily simplified
   example. The principle is the point, not all the subtle ways the
   implementations of graph databases are hard.} it is possible to just
@@ -435,7 +414,7 @@ platforms from them. \cite{relxAnnualReport20222023} }
 While to any individual market segment or class of customers RELX and
 its subsidiaries might look like a portfolio of separate platforms and
 applications, one can only make sense of the company by thinking of each
-of them as a view on an interconnected graph of data\footnote{Though
+of them as a view on an interconnected graph of data\sidenote{Though
   apparently they have had historical difficulty actually getting that
   integration to work \cite{schonfeldReorganizationElsevier2022} .}. Each additional source of data, either by acquiring new
 companies or by expanding their existing control of informational access
@@ -534,8 +513,9 @@ governments, industries, and organizations. \cite{iliadisSeerSeenSurveying2022}
 
 Knowledge graphs \emph{as a technology} - like all technologies - are
 not intrinsically unethical. It is the structure of the capital-K
-capital-G Knowledge Graph \emph{as a concept} with its \emph{context}
-that is pathological. They represent the historical trajectory of
+capital-G Knowledge Graph in its particular construction as a set of
+property and power relationships set against the context of the platform
+web that is pathological. They represent the historical trajectory of
 semantic web ideas and technologies from something that we are intended
 to use and create directly into privately held data that we can only
 interact with through platforms. They are coproductive with the
@@ -574,7 +554,7 @@ political power \cite{bowkerSortingThingsOut1999} .
 
 Free and open source software, with its noble (and decidedly
 non-monolithic \cite{liuFreedomIsnFree2018} ) goal of creating an
-ecosystem of free\footnote{``free as in whatever will prevent you from
+ecosystem of free\sidenote{``free as in whatever will prevent you from
   @'ing me about getting some definition of free wrong.''} software, is
 a means by which large information companies can harvest the commons and
 outsource labor costs \cite{warkHackerManifesto2004, goldsmithOriginalSinFree2019, hallidayOpenSourceNot2018, hunterReclaimingComputingCommons2016, hornPostOpenSource2020} . There
@@ -603,12 +583,12 @@ their labor power \cite{butterickGitHubCopilotInvestigation2022, butterickGitHub
 ``\href{https://en.wikipedia.org/wiki/Peer_production}{Peer
 production}'' models, a more generic term for public collaboration that
 includes FOSS, has similar discontents. The similar term
-``crowdsource\footnote{For critical work on crowdsourcing in the context
+``crowdsource\sidenote{For critical work on crowdsourcing in the context
   of ``open science,'' see \cite{mirowskiFutureOpenScience2018} ,
   and in the semantic web see \cite{allhutterWorkingOntologistsHighQuality2019} .}'' quite literally
 describes a patronizing means of harvesting free labor via some
 typically gamified platform. Wikipedia is perhaps the most well-known
-example of peer production\footnote{I have written about the peculiar
+example of peer production\sidenote{I have written about the peculiar
   structure of Wikipedia among wikis previously, section 3.4.1 -
   ``\href{https://jon-e.net/infrastructure/\#the-wiki-way}{The Wiki
   Way}'' \cite{saundersDecentralizedInfrastructureNeuro2022} },
@@ -631,7 +611,7 @@ example within academia, the seemingly-open Digital Object Identifier
 \href{https://jon-e.net/infrastructure/\#seemingly-prosocial-protocols-can-be-used-by-industries-to-preem}{publishers
 to retain control of indexing research}, avoiding the impact of the
 proposed free repository PubMedCentral and the high overhead of linking
-documents between publishers\footnote{``The potential benefit of the
+documents between publishers\sidenote{``The potential benefit of the
   service that would become CrossRef was immediately apparent.
   Organizations such as AIP and IOP (Institute of Physics) had begun to
   link to each other's publications, and the impossibility of
@@ -646,10 +626,9 @@ web to prevent free access to publicly funded information \cite{carpenterNewArti
 Schema.org, a standard intended to be the generic interchange ontology
 of the web, is another emblem of enclosure of the semantic web. Its
 introduction at the SemTech 2011 conference was cause for a rare point
-of agreement\footnote{(Intervening messages in the
+of agreement\sidenote{(Intervening messages in the
   \href{https://www.w3.org/2011/06/semtech-bof-notes.html}{chat log}
   have been omitted for clarity):
-
   \texttt{\textless{}tantek\textgreater{}} Hey Kavi - do you see what
   you've done here? \texttt{\textless{}tantek\textgreater{}} You've
   gotten a community leader of microformats.org (myself) and chair of
@@ -735,7 +714,7 @@ developing shared entity identifier schemes. \cite{panExploitingLinkedData2017}
 \end{quote}
 
 As with search, we should be particularly wary of information
-infrastructures that are \emph{technically} open\footnote{Go ahead, try
+infrastructures that are \emph{technically} open\sidenote{Go ahead, try
   and make your own web crawler to compete with Google - all the
   information is just out there in public on the open web!} but embed
 design logics that preserve the hegemony of the organizations that have
@@ -771,7 +750,7 @@ This section is reproduced from, focuses, and expands on
 ``\href{https://jon-e.net/infrastructure/\#linked-data-or-surveillance-capitalism}{Linked
 Data or Surveillance Capitalism?}'' from \cite{saundersDecentralizedInfrastructureNeuro2022} .
 
-The NIH's Biomedical Data Translator\footnote{Or, just ``Translator''}
+The NIH's Biomedical Data Translator\sidenote{Or, just ``Translator''}
 project was initially described in its 2016 Strategic Plan for Data
 Science as a means of translating between biomedical data formats:
 
@@ -795,58 +774,35 @@ heterogeneous linkages in some meta-level system for linking and
 In their piece ``Toward a Universal Biomedical Translator,'' then in a
 feasibility assessment phase, the members of the Translator Consortium
 assert that universal translation between biomedical data is
-impossible\footnote{\begin{quote}
-  First, we assert that a single monolithic data set that directly
+impossible\sidenote[][-2in]{"First, we assert that a single monolithic data set that directly
   connects the complete set of clinical characteristics to the complete
   set of biomolecular features, including ``-omics'' data, will never
   exist because the number of characteristics and features is constantly
-  shifting and exponentially growing. {[}\ldots{]} We also assert that
+  shifting and exponentially growing. [...] We also assert that
   there is no single language, software or natural, with which to
   express clinical and biomolecular observations---these observations
   are necessarily and appropriately linked to the measurement
-  technologies that produce them, as well as the nuances of language.
-  The lack of a universal language for expressing clinical and
-  biomolecular observations presents a risk of isolation or
-  marginalization of data that are relevant for answering a particular
-  inquiry, but are never accessed because of a failure in translation.
-
-  Based on these observations, our final assertion is that automating
-  the ability to reason across integrated data sources and providing
-  users who pose inquiries with a dossier of translated answers coupled
-  with full provenance and confidence in the results is critical if we
-  wish to accelerate clinical and translational insights, drive new
-  discoveries, facilitate serendipity, improve clinical-trial design,
-  and ultimately improve clinical care. This final assertion represents
-  the driving motivation for the Translator system. \cite{consortiumUniversalBiomedicalData2019} 
-  \end{quote}}\cite{consortiumUniversalBiomedicalData2019} . The
+  technologies that produce them, as well as the nuances of language."\cite{consortiumUniversalBiomedicalData2019} 
+  }\cite{consortiumUniversalBiomedicalData2019} . The
 impossibility they saw was not that of conflicting political demands on
 the structure of organization (as per \cite{bowkerSortingThingsOut1999} ), but of the sheer numeracy of the data
 and vocabularies needed to describe them. The risk posed by a lack of a
 universal ``language'' was not being able to index all possible data,
-rather than inaccuracy or inequity\footnote{In an odd mixture of
+rather than inaccuracy or inequity\sidenote[][-0.75in]{In an odd mixture of
   metaphors, members of the Translator consortium introduced the project
   with a piece titled ``Deconstructing the Translational Tower of
-  Babel.'' \cite{austinDeconstructingTranslationalTower2019}  A
-  common interpretation of the Biblical Tower of Babel is as a symbol of
-  the hubris of humanity, attempting to inscribe ourselves into the
-  heavens and become immune to any future God-induced flooding. God,
-  concerned with the power of a humanity unified under a single
-  language, punished them by scattering people into groups speaking
-  mutually unintelligible languages so they would not complete the
-  tower. It is unclear why an effort to create a universalizing ontology
-  would then be deconstructing a tower of babel, as it was the power of
-  a unified language that allowed it to be built. Perhaps in other
-  interpretations the Tower is an obelisk that suppresses the
-  reunification of language. But I digress.}.
+  Babel.'' \cite{austinDeconstructingTranslationalTower2019}  It is unclear why an effort to create a universalizing ontology
+  would be deconstructing a tower of babel, as it was the power of
+  a unified language that allowed it to be built.}.
 
 Undaunted by their stated belief in the impossibility of a
 universalizing ontology, the Consortium created one in their
 \href{https://biolink.github.io/biolink-model/docs/}{biolink}
-model\footnote{The title of the Biolink paper is ``Biolink Model: A
+model\sidenote{The title of the Biolink paper is ``Biolink Model: A
   universal schema for knowledge graphs in clinical, biomedical, and
   translational science'' \cite{unniBiolinkModelUniversal2022} }
 \cite{bruskiewichBiolinkBiolinkmodel2021, unniBiolinkModelUniversal2022} . Biolink consists of a hierarchy of
-general\footnote{General as opposed to an ontology like
+general\sidenote{General as opposed to an ontology like
   \href{https://mondo.monarchinitiative.org/}{MONDO} \cite{vasilevskyMondoUnifyingDiseases2022}  that identifies specific
   diseases.} classes: eg. a
 \href{https://biolink.github.io/biolink-model/docs/BiologicalEntity.html}{BiologicalEntity}
@@ -857,14 +813,14 @@ a
 like a
 \href{https://biolink.github.io/biolink-model/docs/Drug.html}{Drug}.
 Classes can then linked by any number of properties, or
-``Slots\footnote{or links, labeled edges.},'' like a therapeutic
+``Slots\sidenote{or links, labeled edges.},'' like a therapeutic
 procedure that
 \href{https://biolink.github.io/biolink-model/docs/treats.html}{treats}
 a disease.
 
 Biolink was designed to be a sort of ``meta ontology,'' or a means of
 mapping different domain-specific biomedical ontologies onto a common
-vocabulary\footnote{To their credit, the Translator project seems to
+vocabulary\sidenote{To their credit, the Translator project seems to
   have made some of the long-delayed tooling for declaring a schema in a
   more accessible syntax{[}\^{}yaml{]} than RDFS/OWL and generating
   representations in multiple formats, from
@@ -881,7 +837,7 @@ data sources it uses, and the way that end users are expected to
 interact with the Translator.
 
 As a meta-ontology, biolink is targeted towards ``meta data.'' Rather
-than accomodating ``raw data\footnote{In a 2018 presentation by one of
+than accomodating ``raw data\sidenote{In a 2018 presentation by one of
   Biolink's authors: ``What NOT to use the biolink-model for: Raw data,
   Metadata about a dataset'' with some caveat that the underlying
   metamodel might still be useful \cite{chrisIntroductionBioLinkDatamodel2018} .},'' biolink is expected to
@@ -951,7 +907,7 @@ know how to treat the generic diagnosis of ``gender dysphoria,'' one
 needs to know which gender the patient is experiencing dysphoria about.
 The logic of knowledge graph isn't just hungry for \emph{some} personal
 medical data, the promise of the knowledge graph is that more data
-\textbf{always} improves the computations performed on it\footnote{The
+\textbf{always} improves the computations performed on it\sidenote{The
   answer to a question posed as an algorithmic problem is always more
   data: ``These results suggest that if more EHR concepts were mapped to
   SPOKE, a significant improvement in the classifier could be
@@ -985,7 +941,7 @@ IRI}, but in this case was being served by a graph aggregator
 Link}), which in turn listed this
 \href{https://github.com/jannahastings/mental-functioning-ontology}{unofficial
 github repository} \textbf{maintained by a single person} as its
-source\footnote{I submitted a
+source\sidenote{I submitted a
   \href{https://github.com/jannahastings/mental-functioning-ontology/pull/8}{pull
   request} to remove it, and a full year later it was merged!}. This is,
 presumably, the fragility and inconsistency in input data that the
@@ -997,13 +953,13 @@ seemingly prerelease version of the translator's query engine, ARAX, it
 does just that: in
 \href{https://web.archive.org/web/20220828011010/https://arax.rtx.ai/?r=e891e6e6-44fd-4684-9d36-f94e3e81b554}{a
 query for entities with a \texttt{biolink:treats} link to gender
-dysphoria}\footnote{To its credit, ARAX does transform the request for
+dysphoria}\sidenote{To its credit, ARAX does transform the request for
   \texttt{DOID:10919} to \texttt{MONDO:0001153} - gender dysphoria.}, it
 ranks the standard therapeutics \cite{deutschOverviewFeminizingHormone2016, deutschOverviewMasculinizingHormone2016}  Testosterone and Estradiol
 6th and 10th of 11, respectively --- behind a recommendation for Lithium
 (4th) and Pimozide (5th) due to an automated text scrape of
 \href{https://pubmed.ncbi.nlm.nih.gov/2114800/}{two} conversion therapy
-\href{https://pubmed.ncbi.nlm.nih.gov/8839957/}{papers}\footnote{as well
+\href{https://pubmed.ncbi.nlm.nih.gov/8839957/}{papers}\sidenote{as well
   as a recommendation for ``date allergenic extract'' from a
   misinterpretation of ``to date'' in the abstract of
   \href{https://pubmed.ncbi.nlm.nih.gov/24330520/}{a paper} that reads
@@ -1021,7 +977,7 @@ was predictably troubling. The
 \href{https://robokop.renci.org/answer}{ROBOKOP} \cite{bizonROBOKOPKGKGB2019}  query engine behaved similarly, answering
 {[}a query for genes associated with{]}(\{\{
 ``/data/ROBOKOP\_message.json'' \textbar{} relative\_url \}\}) gender
-dysphoria with exclusively trivial or incorrect responses\footnote{ITSN2
+dysphoria with exclusively trivial or incorrect responses\sidenote{ITSN2
   was identified in \href{https://pubmed.ncbi.nlm.nih.gov/28210932/}{an
   unrelated paper about attachment patterns}, HSD17B3 and 5a-RD2 were
   incorrectly identified as HSD17B13 and DHRS11 from
@@ -1036,7 +992,7 @@ It is critically important to understand that with an algorithmic,
 graph-based precision medicine system like this \textbf{harm can occur
 even without intended malice.} The power of the graph model for
 precision medicine is precisely its ability to make use of the extended
-structure of the graph\footnote{eg. Some members of the SPOKE project, a
+structure of the graph\sidenote{eg. Some members of the SPOKE project, a
   Knowledge Provider for the Translator project, describe the effects of
   the extended graph as ``pushing'' or influencing the ``flow'' of
   information: \textgreater{} ``For this patient, information flows from
@@ -1064,7 +1020,7 @@ outputs of a biomedical knowledge graph system to trickle through
 medical practice and re-enter as training data. The Consortium also
 describes the potential for ranking algorithms to be continuously
 updated based on usage or results in research or clinical
-practice\footnote{\begin{quote}
+practice\sidenote{\begin{quote}
   ``The Reasoners then return ranked and scored potential translations
   with provenance and supporting evidence. The user is then able to
   evaluate the translations and supporting evidence and provide feedback
@@ -1101,7 +1057,7 @@ universality binds it to all the regulatory burden any biomedical
 technology bears. The cost of moderation will of course be enormous,
 placing a fundamental constraint on its lifespan as a publicly funded
 project --- and a strong incentive towards co-option by the information
-conglomerates capable of paying it\footnote{There is a clear analogy to
+conglomerates capable of paying it\sidenote{There is a clear analogy to
   the recent push to increase internet content regulation by social
   media companies \cite{doctorowRegulatingBigTech2019} . A
   platform makes a quasi-universal social space for profit, moderation
@@ -1138,7 +1094,7 @@ As a non-exhaustive set of examples:
 \item
   I have already described \textbf{RELX}'s interest in personal
   biomedical data. Their 2022 Annual Report \cite{relxAnnualReport20222023}  is the first year where they explicitly
-  describe their entrance into the patient data market\footnote{\begin{quote}
+  describe their entrance into the patient data market\sidenote{\begin{quote}
     In commercial healthcare, identity, claims and provider data is
     combined with patient information to assist healthcare providers,
     pharmacies and insurers in delivering improved health outcomes,
@@ -1210,21 +1166,21 @@ if some of them miss the result is a constellation of absolute bangers
 like ``Harnessing the vast amounts of data generated in every sphere of
 life and transforming them into useful, actionable information and
 knowledge is crucial to the efficient functioning of a modern
-society\footnote{If you could rig an MS Word template to punctuate
+society\sidenote{If you could rig an MS Word template to punctuate
   sentences with
   ``\href{https://www.youtube.com/watch?v=L6mNa_QZVHg}{Whoomp! (There It
   Is)},'' they would have.}'' \cite{baruOpenKnowledgeNetwork2022} . The project was initially proposed in 2017, went through two
 \href{https://beta.nsf.gov/funding/initiatives/convergence-accelerator/portfolio}{cohorts}
 of projects within the
 \href{https://beta.nsf.gov/funding/initiatives/convergence-accelerator/portfolio}{NSF
-Convergence Accelerator} in 2019 and 2020\footnote{The Convergence
+Convergence Accelerator} in 2019 and 2020\sidenote{The Convergence
   Accelerator is a project specifically designed to provide public
   research funding to for-profit industries \cite{nationalsciencefoundationNSFConvergenceAccelerator2019} }, and
 \href{https://www.nsf.gov/pubs/2022/nsf22017/nsf22017.jsp}{invited a
 broader submission} of proposals in November 2021 \cite{nationalsciencefoundationNSF22017Dear2021} . The roadmap comes at the
 end of a series of workshops in 2022 intended to scope and outline the
 OKN, so there is still very little public evidence of its progress to
-evaluate\footnote{SPOKE, discussed previously, was funded by both the
+evaluate\sidenote{SPOKE, discussed previously, was funded by both the
   Translator project \cite{huangNIH1OT2TR00345001EVIDARA2020} 
   and OKN \cite{baranziniNSFAwardSearch2022} , and
   \href{https://knowwheregraph.org/}{KnowWhereGraph} is another notable
@@ -1246,7 +1202,7 @@ abandoning further UX development of its
 \href{https://spoke.rbvi.ucsf.edu/}{publicly accessible demo}.
 
 Without mincing words, the OKN intends to make a Universal Knowledge
-Graph of Everything. They check all the boxes\footnote{Hopefully this
+Graph of Everything. They check all the boxes\sidenote{Hopefully this
   pattern is familiar.}: a) make authoritative schemas for everything,
 b) link them all together, c) ingest data from as many sources as
 possible at whatever quality available, d) integrate private with public
@@ -1264,7 +1220,7 @@ the effectively unbounded scope of the OKN: accelerated capitalism via
 supply chain logistics, more tightly integrated weapons development, a
 handful of climate change projects, an omniscient financial system, and
 so on. Each imagines the primary problem in a given domain not as
-structural exploitation or injustice, but a lack of data\footnote{A
+structural exploitation or injustice, but a lack of data\sidenote{A
   recurring pattern in techno-solutionism: \textgreater{} ``These
   perspectives assume that complex controversies can be solved by
   getting correct information where it needs to go as efficiently as
@@ -1281,7 +1237,7 @@ centered on an algorithmic justice system are illustrative: An
 surveillance across every contact people have with the US Justice System
 is necessary to decrease bias. The group outlines a wish list of data
 sources they would integrate - arrest and booking, jail, trial,
-prosecution, and the rest. A \textbf{Decarceration} group\footnote{Including
+prosecution, and the rest. A \textbf{Decarceration} group\sidenote{Including
   a representative from Booz Allen Hamilton, which may be familiar as
   the former employer of Edward Snowden, who was working for them on a
   contract with the NSA which gave him access to the details of its
@@ -1291,9 +1247,10 @@ through to the rest of incarcerated people's lives after they are
 released - rehab, parole, foster care, shelters, public services, etc. A
 \textbf{Homelessness} group intends to track unhoused people in order to
 match them to available resources. A \textbf{Decision Support for
-Government} group describes bundling up these and other data sources
-into platforms for making ``data driven decisions'' on topics including
-crime and policing.
+Government}\sidenote{See \cite{shapiroDesignControlPredict2020} 
+  for discussion of algorithmic governance in a ``smart city.''} group
+describes bundling up these and other data sources into platforms for
+making ``data driven decisions'' on topics including crime and policing.
 
 On their own, each of these groups describes noble goals: decreasing
 bias in the justice system, providing resources to formerly incarcerated
@@ -1303,31 +1260,33 @@ system that wouldn't even need to be reconfigured to be used for
 algorithmically-enhanced oppression. I doubt any of the researchers in
 these groups intend for their work to be used for state violence, but
 \emph{Palantir doesn't care what academics intended their tools to be
-used for\footnote{\begin{quote}
-  ``Because one of Palantir's biggest selling points is the ease with
-  which new, external data sources can be incorporated into the
-  platform, its coverage grows every day. LAPD data, data collected by
-  other government agencies, and external data, including privately
-  collected data accessed through licensing agreements with data
-  brokers, are among at least 19 databases feeding Palantir at JRIC.''
-  \cite{braynePredictSurveilData2020} 
-  \end{quote}}.}
+used for\sidenote{Palantir prides itself on its ability to continuously
+  add new data sources: \textgreater{} ``Because one of Palantir's
+  biggest selling points is the ease with which new, external data
+  sources can be incorporated into the platform, its coverage grows
+  every day. LAPD data, data collected by other government agencies, and
+  external data, including privately collected data accessed through
+  licensing agreements with data brokers, are among at least 19
+  databases feeding Palantir at JRIC.'' \cite{braynePredictSurveilData2020} }.}
 
 The motivations behind integrating government data sources and
 automating public benefit delivery cannot overcome the context of
 systemic oppression they are embedded within. Group H, the
-``Homelessness OKN'' group, takes particular effort\footnote{Given the
-  context of the ``Innovation Sprint'' essentially as an extended pitch
-  session for future work, and the disincentive towards serious
-  discussion of the ethical ramifications of the projects that entails.}
-to focus on the needs of the unhoused and address the potential risks of
-``track{[}ing{]} homelessness in real time, {[}and{]} identify{[}ing{]}
-available homelessness programs and services,'' but misses the
-already-real harms of similar prior efforts. Virginia Eubanks describes
-how Los Angeles County's Coordinated Entry System --- a program very
-much like that described by group H, intended to match unhoused people
-with housing supply by integrating previously siloed data systems ---
-operates as a sophisticated mechanism of control and punishment:
+``Homelessness OKN'' group, takes particular effort\sidenote{The
+  ``Innovation Sprint'' is essentially as an extended pitch session for
+  future work, which is both important context as a strong
+  counterincentive to series ethical consideration of the projects ---
+  and also a demonstration of why it might not be good to organizing
+  infrastructural projects as pitch sessions rather than from some
+  ethical foundation.} to focus on the needs of the unhoused and address
+the potential risks of ``track{[}ing{]} homelessness in real time,
+{[}and{]} identify{[}ing{]} available homelessness programs and
+services,'' but misses the already-real harms of similar prior efforts.
+Virginia Eubanks describes how Los Angeles County's Coordinated Entry
+System --- a program very much like that described by group H, intended
+to match unhoused people with housing supply by integrating previously
+siloed data systems --- operates as a sophisticated mechanism of control
+and punishment:
 
 \begin{quote}
 For Gary Boatwright and tens of thousands of others who have not been
@@ -1365,7 +1324,7 @@ Plan goal of ``Realiz{[}ing{]} Tomorrow's Government Today'' Los Angeles
 County has already been integrating its information systems, including
 creating a unified system of law enforcement and other public service
 data ``to identify super utilizers of justice and health system
-resources''\footnote{\ldots and then outsourcing the maintenance and
+resources''\sidenote{\ldots and then outsourcing the maintenance and
   risk of it being breached \cite{informationsystemsadvisoryboardcountyoflosangelesCONTRACTCOUNTYANGELES2021} } \cite{chiefexecutiveofficecountyoflosangelesStrategicPlanGoal2022, farahaniLinkingPublicSafety2016} . Many police departments ---
 including the LAPD --- already have access to the kind of linked data
 ecosystems described by the OKN by renting them from private data
@@ -1373,7 +1332,7 @@ brokers like Palantir \cite{braynePredictSurveilData2020, lamdanDefundPoliceDefu
 the well-described feedback loop of predictive policing, where areas
 already subject to historical economic and racist violence are
 classified as ``high-crime areas,'' more police are concentrated there,
-in turn causing them to measure or create more crime\footnote{\begin{quote}
+in turn causing them to measure or create more crime\sidenote{\begin{quote}
   These visits often resulted in other, unrelated arrests that further
   victimized families and added to the likelihood that they would be
   visited and harassed again. In one incident, the mother of a targeted
@@ -1401,103 +1360,362 @@ bureaucracy where all decisions are made by a computer, existing
 algorithmic systems like predictive policing and the working conditions
 at Amazon warehouses retain the very human domain of \emph{discretion}
 (see \cite{hongPredictionExtractionDiscretion2022} ). The
-algorithms and seemingly open infrastructures purport themselves as
-objective and egalitarian, but who they are built for, who gets to
-provides the inputs, and who decides which outputs matter make their
-reality very different. The very act of creating information
-infrastructures intended to algorithmically solve the world's problems
-is itself an expression of power-based discretion that diffuses energy
-that might be better spent elsewhere: rather than attempt to address the
-root cause, we can make a big show of \emph{doing something} by
-diverting a large amount of resources and labor to gathering data and
-deriving ``insights'' about them.
+algorithms and seemingly open infrastructures of these two projects
+purport themselves as objective and egalitarian, but who they are built
+for, who gets to provides the inputs, and who decides which outputs
+matter make their reality very different.
+
+The very act of creating information infrastructures intended to
+algorithmically solve the world's problems is itself an expression of
+power-based discretion that diffuses energy that might be better spent
+elsewhere: rather than attempt to address the root cause, we can make a
+big show of \emph{doing something} by diverting a large amount of
+resources and labor to gathering data and deriving ``insights'' about
+them. Beyond the specific risks of algorithmic policing and public
+benefits assessments, these projects presuppose an enlightened
+technocrat class as the principle agent of social good and design
+technologies accordingly.
+
+This is the properly \emph{managerial} core of the positive vision of
+platform-driven mass surveillance: that a grand, unified graph of
+everything will allow the truth to emerge from the Big Data so that
+decisionmakers can divine what is best for the commoners who could not
+possibly understand the complexities of their health, environment, or
+social systems themselves. The conflict with the reality of the
+bureaucracies that might enact or support them temper those dreams, to
+the degree the prevailing corporate design logics of cloud-based
+infrastructure and what constitutes a fundable idea hadn't
+already\sidenote{For a fuller discussion of utopias, power, imagination,
+  managerialism, and its intersections with bureaucracy, see \cite{graeberUtopiaRulesTechnology2015}  \textgreater{} The increasing
+  interpenetration of government, university, and private firms has led
+  all parties to adopt language, sensibilities, and organizational forms
+  that originated in the corporate world. While this might have helped
+  somewhat in speeding up the creation of immediately marketable
+  products --- as this is what corporate bureaucracies are designed to
+  do --- in terms of fostering original research, the results have been
+  catastrophic. {[}\ldots{]} \textgreater{} \textgreater{} A timid,
+  bureaucratic spirit has come to suffuse every aspect of intellectual
+  life. More often than not, it comes cloaked in a language of
+  creativity, initiative, and entrepreneurialism. But the language is
+  meaningless. The sort of thinkers most likely to come up with new
+  conceptual breakthroughs are the least likely to receive funding, and
+  if, somehow, breakthroughs nonetheless occur, they will almost
+  certainly never find anyone willing to follow up on the most daring
+  implications. {[}\ldots{]} \textgreater{} \textgreater{} This is what
+  I mean by''bureaucratic technologies'': administrative imperatives
+  have become not the means, but the end of technological development.
+  \cite{graeberUtopiaRulesTechnology2015} }. Rather than a
+smoothly flowing ocean of data, their fate is more likely to extend and
+elaborate the disjointed wash of
+\href{https://en.wikipedia.org/wiki/Software_as_a_service}{SaaS} that
+defines institutional information systems. The petty tyrants will will
+gain new widgets on their dashboards rented from the information
+companies who absorbed the ontologies and harmonized data sources,
+automating their discretion under the guise of objectively meausurable
+fact. Meanwhile the new housing capacity might never arrive.
 
 The prominent role of climate change among the topics identified by the
-OKN project is at once reassuring and damning. Maybe what we need to
+OKN project is at once reassuring and depressing. Maybe what we need to
 solve climate change isn't data, it's to organize effective climate
 movements outside of the algorithmically disorienting information
-ecosystems designed to disorient us with engagement-maximizing rage-bait
+ecosystems designed to pump us full of engagement-maximizing rage-bait
 and transmute all movement building into influencer culture. Maybe what
 we need to address mass poverty isn't data, it's to dismantle the
 mechanisms of mass extraction that are increasingly powered by economies
 of surveillance. Maybe what we need to make the criminal justice system
-less racist isn't more data to feed into their predictive policing
-algorithms, but to abolish the police.
+less racist isn't more data to feed into predictive policing algorithms,
+but to abolish the police.
 
 \begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
 
-In both of these projects, the pursuit of a universal knowledge graph is
-motivated by altruistic goals --- that those goals take the form of the
-universal knowledge graph is not a matter of stupidity or malice, but
-ideology.
+These two projects show the outlines of public information
+infrastructures to come.
+
+The two major public research funding agencies in the US have both
+devised novel funding mechanisms to be able to bypass typical review and
+include private industry in their data infrastructure projects \cite{nationalsciencefoundationNSFConvergenceAccelerator2019, consortiumBiomedicalDataTranslator2019} . These data infrastructures
+consist of a number of sub-projects for building new domain-specific and
+universalizing Semantic Web ontologies and cloud-based platforms for
+data storage and retrieval. Both are both explicitly oriented towards
+exposing structured data to ``AI'' and other derivative ``big data''
+applications, rather than towards integrating in the daily work of
+researchers or the public at large. These and other\sidenote{It's out of
+  scope here, but another point of comparison and contrast is the EU's
+  European Open Science Cloud (ESOC) project \cite{directorate-generalforresearchandinnovationeuropeancommissionEOSCArchitectureWorking2021, directorate-generalforresearchandinnovationeuropeancommissionSolutionsSustainableEOSC2020, directorate-generalforresearchandinnovationeuropeancommissionEOSCInteroperabilityFramework2021} } efforts like NIH's STRIDES initiative point towards a
+cloud-driven SaaS/PaaS future for public data infrastructure \cite{nationalinstitutesofhealthSTRIDESInitiative2021} .
+
+The Translator and OKN and their subprojects have many possible fates:
+their grant funding could peter out and they could amount to very little
+beyond the scattered prototypes and spinoff startups that they've
+currently produced. They could flourish and become exactly what their
+creators intend them to be - the seamless data infrastructures of the
+future that manage to miracuously avoid all the potential for harm
+described above.
+
+More important than the outcomes of these projects in particular is how
+the ruts of collective imagination drive both projects towards very
+similar designs with very similar flaws. They can only be understood
+against the backdrop of the history and present structure of the
+platformatized cloud-driven information economy writ large. Facing the
+limits of proprietary ontologies in private knowledge graphs, the
+information industry wants a set of cross-domain ``top level''
+ontologies to enable the smooth interchange of public information that
+can then be integrated with ``lower-level'' private ontologies for an
+even greater array of surveillance-backed knowledge-as-a-service
+platforms. Under the guiding star of openness as an end in itself,
+researchers and funding agencies seem keen to provide it, and in
+partnership with private industry have adopted the logic of their
+platforms.
+
+The lofty ambitions of universality alongside the intrinsic constraints
+of the cloud model are far from the only inevitable outcomes for public
+information infrastructure. Instead they are predicated on a very
+specific organization of ownership and power. Adopting the
+infrastructural pattern of the cloud strongly constrains the ambition of
+these infrastructures, as well as all but guarantees that whatever is
+produced by their period of active publicly-funded development will be
+swallowed up by information conglomerates hungry for control over the
+very valuable domains of medical and government data. Rather than
+challenging the dominance of the information rentiers by creating truly
+transformative public information infrastructure, these projects
+recapitulate their logic and deepen their dominance.
+
+I am not painting a picture of active malice and conspiracy among bad
+actors to seize otherwise altruistic infrastructure. I am describing how
+uninterrogated prevailing values, beliefs, and existing infrastructures
+constrain what we can collectively imagine as possible --- the outcome
+of \textbf{ideology.}
 
 \hypertarget{infrastructural-ideologies}{%
 \section{Infrastructural Ideologies}\label{infrastructural-ideologies}}
 
-The emerging models
+The Cloud is not a neutral, inevitable, or optimal form of the web ---
+it has been actively constructed to facilitate a particular set of power
+and property relationships that make up the web's dominant business
+model. It is supported by a system of \emph{values} and \emph{beliefs}
+that are consciously affirmed to various degrees in a positive feedback
+loop with the expertise and resource investment that make its enabling
+technologies more developed and obvious than alternatives, in turn
+fueling the truth of those beliefs, including that of the inevitability
+of the cloud model itself.
 
-\begin{itemize}
+The history of the web is an odd substance: always present and eternal,
+yet profoundly ephemeral and immediately forgotten. It becomes
+increasingly difficult to imagine obscure roads not taken in the deeper
+architecture of the internet\sidenote{Except by the scores of beloved
+  nerds in exile on the freer parts of the internet who remember the
+  death of IRC and RSS and the weaponization of JavaScript
+  \textbf{acutely and personally.}} with every fork. Before the
+dominance of compute in the cloud, distributed computing projects like
+folding@home were more powerful than any supercomputer \cite{v.FileFoldingHome2012}  --- and during the first year of the COVID-19
+pandemic was able to fill a role the cloud couldn't, with a wave of
+volunteers breaking the exascale computing barrier and making it more
+powerful than the top 100 supercomputers combined \cite{zimmermanSARSCoV2SimulationsGo2021} . Before the dominance of cloud
+video streaming platforms, peer-to-peer systems accounted for a majority
+of global internet traffic: in the mid-2000's between 49\% and 95\%,
+depending on the survey \cite{vandersarBitTorrentOneThird2006, vandersarP2PTrafficBooming2007} .
 
-\item
-  the critical thing here is that the US's two major public funding
-  bodies have lined up to build unifying graphs of everything for
-  ostensibly noble purposes but the information companies are literally
-  licking their chops to eat this up. They have both effectively made
-  new funding mechanisms that allow them to basically let private
-  industry types what to build and how to build it, the academics get
-  invited in to play for a bit, and then it's time to capture it later.
-  The specifics aren't important, what's important is the pattern of
-  layering public and private knowledge graphs that seem great and open
-  on the surface but actually power some monstrously shittier technology
-  underneath.
-\item
-  Census of outcomes at the end - it could be really bad, it could
-  actually not amount to anything at all, but regardless this is
-  illustrative of the way that the cloud constrains our thinking! Either
-  nonfunctional or corporate! Note how much has been spent on each and
-  give caveats like ``ya these might not even amount to anything, but
-  the point is the way that the existing cloud paradigm constrains the
-  way that we think precisely in such a way that it is difficult to
-  actually build the kind of effective infrastructure that we want. We
-  have to acknowledge that the cloud model is not a universal computing
-  paradigm, but one designed for a very specific mode of property
-  relationships and profit models.''
-\end{itemize}
+The Cloud paradigm is at once phenomenally successful and riddled with
+obviously undesirable qualities. Cloud services promise large volumes of
+hassle-free storage --- but also make our data take a round trip across
+the planet if we want to transfer it between computers in the same room.
+Cloud systems are impressive feats of engineering, capable of serving
+immense quantities of data from relay CDNs dotted around the globe ---
+but only need to do so because of the preposterous inefficiency of
+needing to re-serve data like streaming video in full each time they are
+accessed. Cloud systems can be made to have very high uptime, but then
+they do go down their dramatic centralization causes massive
+internet-wide blackouts even for systems that only depend on them
+indirectly \cite{lawlerAmazonServerOutage2021, hutchinsonAmazonWebServices2012} . Delivering cloud platforms through
+the browser requires less setup than local software, but the complexity
+of the underlying web standards make it
+\href{https://drewdevault.com/2020/03/18/Reckless-limitless-scope.html}{effectively
+impossible} \cite{devaultRecklessInfiniteScope2020}  to escape
+the near-monopoly\sidenote{The last major competitor being Firefox with
+  market share in the low teens. Hang in there little fox!} of
+Chrome\sidenote{Which Google uses as a surveillance platform and a
+  weapon which, according to unredacted court records detailing its
+  ``Privacy Sandbox'' project, they plan to use for a forceful takeover
+  of the rest of the global ad market in the name of privacy: ``Google's
+  new scheme is, in essence, to wall off the entire portion of the
+  internet that consumers access through Google's Chrome browser.'' \cite{ReGoogleDigital2021} .}, and make many services completely
+unavailable if the internet goes out or even slows down.
 
-Scraps:
+That these tradeoffs are either not considered or seen as the natural
+constraints of internet technologies is precisely the evidence of The
+Cloud as \textbf{\emph{ideology.}} By treating The Cloud as a system of
+\emph{belief} we can better understand how its acolytes imagine the
+world they are creating --- and what they have in store to get us there.
+In particular, it is only possible to understand the \emph{meaning} and
+\emph{intention} of the surge of \textbf{chatbots} like chatGPT,
+Microsoft's integration into Bing, and Google's Bard as the logical
+conclusion of both the Cloud Orthodoxy and the history of Knowledge
+Graphs as a universal acid in data infrastructures. Finally, reopening
+the avenues foreclosed by its structuring beliefs, we will propose an
+alternative in \textbf{Vulgar Linked Data.}
 
-\begin{itemize}
+\hypertarget{the-cloud-orthodoxy}{%
+\subsection{The Cloud Orthodoxy}\label{the-cloud-orthodoxy}}
 
-\item
-  I mean what could be different? how do we get out of the loop of
-  trying to make ``ok the real unified knowledge base for real this time
-  guys'' loop \cite{hoytUnifyingIdentificationBiomedical2022} .
-  Maybe it's the belief that there should be a single unified naming
-  system that's pathological? Maybe we need to focus on linking these
-  things together rather than projecting them into some singular space.
-\item
-  it is, in fact ideological! ``SPOKE was conceived with the philosophy
-  that if relevant information is connected, it can result in the
-  emergence of knowledge, and hence provide insights into the
-  understanding of diseases, discovering of drugs and proactively
-  improving personal health.'' \cite{morrisScalablePrecisionMedicine2023} 
-\item
-  the hollow middle, right? like why is it so hard for me to even find
-  all the ontologies that have been made by the biomedical translator
-  project? why are most of the API endpoints in arax dead \emph{already}
-  - it hasn't even launched! why aren't there the tools for me to
-  actually \emph{use the information} in a way that wasn't specifically
-  designed for in the platform? by focusng the design into these
-  API-based data sources with platforms strapped on top of them, the
-  project is limited to \emph{only exactly what the developers could
-  imagine and are capable of doing} rather than fulfullig the initial
-  definition (find cite) of what ``platforms'' meant - an enabling
-  technology that allows an expansive space of use that goes beyond the
-  creators and enables and empowers people!
-\end{itemize}
+Ideology evades any singular definition, and I'm not obnoxious enough to
+claim I had a Complete and True Perspective\sidenote{Universal
+  definitions are themselves part of of the critique.} on something as
+multifarious as the belief system underlying The Cloud as an
+infrastructural pattern. To set the Terms and Conditions of this
+section: this definition is a necessary strawman to make sense of
+patterns of outcomes and pose as contrast to our alternative. I describe
+the Cloud Orthodoxy as a belief \emph{system} because none of its
+components are unique or necessary for any one person to believe, but
+they are mostly mutually reinforcing and self-compatible. Many of these
+beliefs are not ``bad'' in themselves - assuming that the adherents of
+an ideology don't believe they are ``bad'' people is a foundational part
+of trying to understand them. These ideas of course draw on a mountain
+of prior thought\sidenote{Eg. \cite{birhaneValuesEncodedMachine2022, benderDangersStochasticParrots2021, birhaneAlgorithmicInjusticeRelational2021, birhaneDecolonisingComputationalSciences2020, dignazioDataFeminism2020, allhutterWorkingOntologistsHighQuality2019, magerDefiningAlgorithmicIdeology2014, bowkerSortingThingsOut1999} },
+and I admit my relative inexperience and will certainly need to
+completely rewrite them in future work.
 
-\hypertarget{surveillance-graphs}{%
-\subsection{Surveillance Graphs}\label{surveillance-graphs}}
+My argument here is that the people and companies involved with these
+technologies don't have an ``ethical deficit'' that might call for
+``more ethics in AI,'' but that The Cloud\sidenote{In addition to
+  already thoroughly problematized ideologies like immortality cults and
+  their many branches like longtermism, etc.} poses its own strong and
+underexamined ethical doctrine.
+
+The Terms and Conditions having been settled, in no particular order:
+
+A cardinal value of Cloud Orthodoxy is \textbf{convenience.} The
+internet should be \emph{fast,} \emph{reliable,} and
+everything\sidenote{(that is profitable to maintain IP licenses for)}
+should be available on demand. Convenience is elevated at the exclusion
+of other values when in conflict like shared power or flexibility.
+\textbf{Complexity is a cognitive nuisance} for people with otherwise
+busy full lives, so it should be hidden as much as possible.
+\textbf{Interface design} is a major point of competition between
+platforms because it is a primary point of comparison when consuming a
+platform --- again, to the exclusion of others.
+
+The world is \textbf{asymmetrical and hierarchical.} I am a consumer, a
+\emph{user} and I trade my power to a \emph{developer} or platform owner
+in exchange for convenience. The purpose of the internet is for platform
+holders to \textbf{provide services} to users. As a user I have a right
+to \emph{speak with the manager,} but do not have a right to decide
+which services are provided or how. As a platform owner I have a right
+to demand whatever the users will give me in exchange for my services.
+Services are \emph{rented} or given away freely\sidenote{The notion of
+  presenting services as free by virtualizing computing resources is as
+  old as time sharing on digital computers, eg. Tung-Hui Hu relates this
+  history to the creation of the atomized individual digital subject
+  described below: \textgreater{} ``In this, time-sharing anticipated
+  the way that the contemporary cloud encourages its users to take
+  things free of charge. By making each online resource freely
+  available---computer storage, processing time, content, even
+  software---the cloud encourages the pleasurable and quasi-illicit
+  feeling that we are getting away with something: that we, too, have
+  stolen time. {[}\ldots{]} \textgreater{} \textgreater{} Virtualization
+  is itself a logical map, a topography that results from creating a set
+  of personal channels that isolate us into individual users (and
+  therefore seems to give us as much data, storage, computing power,
+  etc., as we personally want).\cite{huPrehistoryCloud2015} }
+rather than \emph{sold} because to the user the product is
+\emph{convenience} rather than \emph{software.} \textbf{Powerlessness is
+a feature:} users don't need to learn anything, and platform owners can
+freely experiment on users to optimize their experience without their
+knowledge. \textbf{Information is asymmetrical} in multiple ways:
+platforms collect and hold more information than the users can have and
+parcel it back out as services. But also, platform holders are the only
+ones who know \emph{how} to create their services, and so they are
+responsible for the convenience prescribed for a platform but not the
+convenience of users understanding how to make the platform themselves.
+
+\textbf{The Platform has agency.} Computational ``agents'' are
+dispatched by the platform, not by you. The Platform provides a fixed
+set of features with a fixed set of affordances. The platform creates
+possibilities for the users. The \textbf{Platform harnesses
+Users\sidenote{Literally ``Harnessing the wisdom of the crowds'' \cite{pascaOrganizingSearchingWorld2007} }} --- without the Platform
+they have nothing, The Platform provides everything. \textbf{Users make
+Content} for the Platform either explicitly or implicitly eg. via
+crowdsourced labor like training spam filters, reporting bots, and so
+on, which increases its value for other users. \textbf{Users are
+fundamentally interchangeable} and isolated from one another. The
+existence of sociality or community is a service provided by the
+Platform. \textbf{The Platform Personalizes:} Users are
+\emph{interchangeable} but not \emph{homogenous,} and The Platform uses
+their Content to create a private reality for each User. \textbf{Users
+are unreliable} --- they lie, cheat, and subvert the game established by
+the Platform, so \textbf{only the Platform can ensure safety and
+reliability.}
+
+\textbf{Information is a commodity.} The commodity form of Information
+is Data. Information is a natural resource to be mined. Information is
+something that users consume. Information is \textbf{true or false}
+regardless of context or positionality. \textbf{Ambiguity is a bug} -
+there is a single True way of describing the world\sidenote{Google
+  characterizes the potential for varying meanings in terms of
+  ``localization'' --- where different geographic locales may have
+  different understandings of a given query, but within that locale
+  meaning is homogenous. It unintentionally captures the tension between
+  localization and maintaining the epistemological framing of
+  ``reliability'' of information with some underlying True value with
+  this paradox in its training materials for its manual search quality
+  evaluators: \textgreater{} ``Ratings should not be based on your
+  personal opinions, preferences, religious beliefs, or political views.
+  Always use your best judgment and represent the cultural standards of
+  your rating locale.'' \cite{googleSearchQualityEvaluator2022} }.
+Data that does not conform to the correct schema is \emph{unclean.} The
+highest goal of all data is to be \textbf{machine readable.} Provenance
+is a matter of estimating degree of certainty about Truth, not situating
+information in its context. \textbf{More data is better\sidenote{See
+  Data Feminism's concept of ``Big Dick Data'' \textgreater{} Big Dick
+  Data is a formal, academic term that we, the authors, have coined to
+  denote big data projects that are characterized by masculinist,
+  totalizing fantasies of world domination as enacted through data
+  capture and analysis. Big Dick Data projects ignore context, fetishize
+  size, and inflate their technical and scientific capabilities.4 In
+  GDELT's case, the question is whether we should take its claims of big
+  data at face value or whether the Big Dick Data is trying to trick
+  funding organizations into giving the project massive amounts of
+  research funding. (We have seen this trick work many times before.)
+  \cite{dignazioDataFeminism2020} }.} Uncertainty is a deviation
+from some underlying, natural, true value, and can be fixed by having
+more or higher \emph{quality} data \cite{halevyUnreasonableEffectivenessData2009} . Where users make content,
+\textbf{the Platform reveals insights} from a large enough dataset by
+applying the right algorithmic computation or reasoning agent --- the
+platform refines data into Knowledge\sidenote{\begin{quote}
+  ``SPOKE was conceived with the philosophy that if relevant information
+  is connected, it can result in the emergence of knowledge, and hence
+  provide insights into the understanding of diseases, discovering of
+  drugs and proactively improving personal health.'' \cite{morrisScalablePrecisionMedicine2023} 
+  \end{quote}}. \textbf{The Platform knows better} than individual,
+atomized users because it has more data than them, and so the Platform
+should collect as much of their data as possible to provide them the
+best service. It is impossible or inconvenient for users to make use of
+all the world's data, so the role of the Platform is to provide
+Knowledge as a service by algorithmically sorting feeds, providing
+summaries, and so on. \textbf{Privacy is at the discretion of the
+Platform,} since data is needed to make derivative services that
+ultimately benefit the user. If the user doesn't like this arrangement,
+they are free to not use the Platform. The benefit of the platform
+doesn't necessarily need to be for the particular user who is providing
+data or content --- \textbf{The Platform matches different kinds of
+users} like advertisers to customers, law enforcement agencies to
+suspects, etc. in order to maximize the overall value of all Platforms.
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\begin{verbatim}
+Do we even need an outro here or just roll into the future?
+\end{verbatim}
+
+That positive caricature of Cloud Orthodoxy of course omits the
+brutality of the capitalistic system it is embedded within and
+reproduces the logic of. This also is a relatively constrained ideology
+--- specifically that of the cloud --- that doesn't attempt to stray
+into clearly coproductive ideologies like that of longtermist beliefs
+about an infinite spanse of humans-as-ai-forever.
+
+\textbf{close with describing the outcomes: so given these beliefs, one
+creates a technology which validates the beliefs. given the backdrop of
+capitalsim it takes an extractive form, and so on and so forth}
 
 \begin{itemize}
 
@@ -1511,247 +1729,1198 @@ Scraps:
   \end{itemize}
 \end{itemize}
 
-Why on \emph{earth} would we want our insurance provider to be able to
-adjust their premiums based on our private medical information, even if
-it is ``de-identified''
+\hypertarget{the-near-future-of-surveillance-capitalism-knowledge-graphs-get-chatbots.}{%
+\subsection{The Near Future of Surveillance Capitalism: Knowledge Graphs
+Get
+Chatbots.}\label{the-near-future-of-surveillance-capitalism-knowledge-graphs-get-chatbots.}}
 
-The problem of belief: what should these things do? present us instantly
-with results? or should they be part of a messy dialectic of information
-where the graph itself is the outcome? The cloud orthodoxy suggests the
-former!
+Given that positive caricature of the Cloud Orthodoxy, what is the
+future it imagines, and why is the addition of chatbots to knowledge
+graphs of central importance?
 
-\begin{itemize}
+The construction of search --- particularly single-bar search a la
+google --- as the primary means of information retrieval on the web is
+not epiphenomenal to its history or structure. The problem that search
+addresses is an overload of information: if there were only 5 websites,
+search would be unnecessary. Before Google, search engines were littered
+with categories and rich with ``advanced search'' parameters common in
+other, more constrained search contexts to specify coordinates in the
+overload. The single bar search paradigm\sidenote{Along with other
+  differentiating technologies like PageRank.} is simply \emph{more
+convenient} than rifling through categories or preparing structured
+queries. Its convenience, of course, naturally trades off with the
+amount of information present in a query, and thus the ability to
+specify precisely what you're after.
 
-\item
-  Need to articulate the components of the cloud orthodoxy mindset
+Imprecision in search, when calibrated correctly, is a \emph{feature}
+not a bug\sidenote{
+  ``The utility of a search stems from its straightforwardness and the
+  immense reduction of complexity it affords. Search engines flatten a
+  complex topology of networked contents into an ordered list fitting
+  the user's ongoing task and intentions.\\
+  Not unlike a library or archival catalogue, the results page both
+  orders and locates knowledge resources, yet it breaks away from stable
+  classifications and the importance of categories as the basis of such
+  order\\
+  Even if the SERP and the matching online resources are served as
+  separate webpages, it is difficult to draw a definitive line between
+  them. The boundary between the SERP and target pages is fluid'' \cite{kallinikosAmbivalentOntologyDigital2013}}. The cognitive expectation of indexical or ``advanced''
+search in a finite database is that it is possible to ``reach the
+bottom'' of it --- given my query, if something was here I would be able
+to find it. Conversely, it would be very obvious if a result that
+\emph{didn't} match your query was included in the results. It is by,
+perhaps counterintuitively, cultivating the expectation of imprecision
+that it becomes possible to embed ads or other sponsored content in
+results\sidenote{The same is true of algorithmic social media feeds, see
+  \cite{doctorowTiktokEnshittification2023} }. It's a delicate
+dance: if you are presented with exactly the correct link at the top of
+a page of results, you don't spend enough time in the feed to be
+advertised to. If the results are too low quality, searchers might look
+elsewhere.
 
-  \begin{itemize}
-  
-  \item
-    Automated reasoning
-  \item
-    More data is better
-  \item
-    Neutral reflection of underlying facts, only conditioning factor is
-    `confidence', but no criticism of schema
-  \item
-    End goal is productized services: eg. the fantasy of the google
-    researcher in 2018 at the end of entity oriented search
-  \item
-    Convenience
-  \item
-    Performance
-  \item
-    Assumes that we are all subjects of surveillance, that the data is
-    ``out there'' to be mined, and its heterogeneity is an inconvenience
-    or technical problem.
-  \item
-    There is ``one'' of something - there is one index that refers to
-    the concept of a man, or a given person, etc. rather than many
-    contextual representations of that thing.
+To make up for the lack of search detail from single-bar search, Google
+and others use whatever additional contextual information they can. This
+is one way of characterizing PageRank\sidenote{``The benefits of
+  PageRank are the greatest for underspecified queries'' \cite{pagePageRankCitationRanking1999} } - in the absence of some
+differentiating information in the query like ``pages from x site'' or
+``written by y'' which the searcher may not even know beforehand,
+PageRank uses the information latent in the link structure of the web to
+infer ``page quality.'' Surveillance also fits the bill nicely --- in
+addition to gathering a product to sell in the form of targeted ad
+space, comprehensive user profiling provides a great deal of context for
+underspecified searches\sidenote{``Such personalized page ranks may have
+  a number of applications, including personal search engines. These
+  search engines could save users a great deal of trouble by efficiently
+  guessing a large part of their interests given simple input such as
+  their bookmarks or home page.'' \cite{pagePageRankCitationRanking1999} }.
 
-    \begin{itemize}
-    
-    \item
-      the poltics of ontologies are neatly illustrated by the fact that
-      ``a woman is a woman'' means precisely the opposite thing w.r.t
-      trans woman to transmisics as compared to normal people.
-    \end{itemize}
-  \item
-    It doesn't have to work! as long as it seems like it does
-  \item
-    Rather than building tools for people that they might use to
-    actually integrate the system in their work or lives, but instead
-    some means of scraping it afterwards (eg. SCALES), so who is this
-    actually for? the people studying people doing work, or for the
-    people doing the work? When things are intended for the people
-    actually doing the work, they are invariably platforms that provide
-    just enough functionality to keep people using them while
-    surveilling them as the main purpose.
-  \end{itemize}
-\item
-  YOU ONLY NEED TO DO THIS SCALE OF AUTOMATED EXTRACTION IF YOU
-  PRESUPPOSE A UNIVERSE OF A FEW MASSIVE PLATFORMS OWNING EVERYTHING IN
-  THE FIRST PLACE re: amazon product graph example in \cite{chaudhriKnowledgeGraphsIntroduction2022} 
-\end{itemize}
+The semantic structure of natural language queries is another means of
+recovering expressiveness in single bar search, and here knowledge
+graphs begin to re-enter the story. Many queries can be modeled as a
+graph: eg. a search for ``lead singers of concerts in German cities
+started in the 19th century'' can be framed as a query over a graph that
+first needs to select a number of nodes with a
+\href{https://schema.org/City}{\texttt{City}} type with
+\texttt{containedInPlace} or \texttt{containsPlace} links to or from the
+\texttt{Germany} node, respectively, and an
+\href{https://www.wikidata.org/wiki/Property:P571}{\texttt{inception}}
+property between 1800 and 1900, then find the concerts that are
+happening within those cities, then their bands, their lead singers, and
+so on. Using this graph structure for search requires parsing the query
+into its component ``entities'' and then mapping those into a structured
+knowledge graph \cite{liUnderstandingSemanticStructure2010, reisingerFineGrainedClassLabel2011, pascaWhatYouSeek2007} . Entity
+matching is hard for a number of reasons, eg. natural language is
+strongly ambiguous at the level of individual words: does ``jaguar''
+refer to the animal or the car? Am I asking for cities or concerts that
+started in the 19th century? The extended structure of the knowledge
+graph gives some basis for matching given the context of the query ---
+If I'm asking about how many doors it has, I'm probably talking about a
+car, most concerts don't last more than 100 years, etc. The extended
+context of the graph also allows the search engine to make use of
+information that might never appear in the same place, eg. concert event
+pages typically don't have information about the founding of the city
+they are in.
+
+Of course, to \emph{use} a knowledge graph one must first \emph{have} a
+knowledge graph. Google and other search-adjacent researchers were
+writing about the need for extracting factual information from the web
+(eg. \cite{halevyUnreasonableEffectivenessData2009, pascaTurningWebText2008, pascaWeaklysupervisedDiscoveryNamed2007, pascaOrganizingSearchingWorld2007, pascaOrganizingSearchingWorld2006, pascaAcquisitionCategorizedNamed2004} ) around the same time Freebase
+and other Semantic Web technologies began to mutate into the era of
+Linked Data and become usable. The deepening entanglements and arguable
+capture of the semantic web follow shortly thereafter.
+
+The development of large language models (LLMs) is similarly entwined
+with the need for semantically parsing search queries. Language and
+knowledge graphs alike have the unfortunate quality of having long-range
+dependencies between terms, where eg. in language one needs to use
+contextual information sometimes separated by many paragraphs to
+understand any given term. Enter Google's research on Transformer
+architectures for neural networks \cite{vaswaniAttentionAllYou2017} , which spawned their BERT model \cite{devlinBERTPretrainingDeep2019}  --- which is used in their search
+products to parse natural language queries and match them to entities in
+their Knowledge Graph \cite{nayakUnderstandingSearchesBetter2019} . To extend these models, Google and others then developed
+architectures to better accomodate multimodal information like browser
+history, image contents, and, importantly, sequential behavioral
+information like the multiple searches someone will do for a single
+topic \cite{nayakMUMNewAI2021, tayHyperGridTransformersSingle2021, huUniTMultimodalMultitask2021} .
+
+These threads --- search, public/private knowledge graphs, large
+language models, and the Cloud Orthdoxy --- converge at the push across
+information conglomerates towards personal assistants and
+\textbf{chatbots.}
+
+It is impossible to understand the purpose of LLMs and chatbots without
+the context of knowledge graphs. Specifically: \textbf{\emph{Large
+Language Models are interfaces to knowledge graphs.}}
+
+Microsoft explicitly says as much in a March 2023 presentation
+``\href{https://www.youtube.com/watch?v=Bf-dbS9CcRU}{The Future of Work
+With AI}'' (emphases mine):
+
+\begin{quote}
+``The Copilot System harnesses the power of three foundational
+technologies: Microsoft 365 Apps, the Microsoft Graph --- \textbf{that's
+all your content and context, your e-mails, files, meetings, chats, and
+calendar} --- and a large language model. {[}\ldots{]} Copilot
+preprocesses the prompt through an approach called grounding
+{[}\ldots{]} one of the most important parts of grounding is making a
+call to the Microsoft Graph to retrieve your business content and
+context. Copilot combines this user data from the graph with other
+inputs to improve the prompt. It then sends that modified prompt to the
+LLM. Copilot takes the response from the LLM and post-processes it. This
+post-processing includes additional grounding calls to the graph.
+{[}\ldots{]} Copilot iteratively processes and orchestrates these
+sophisticated services to produce a result that feels like magic.'' \cite{microsoftFutureWorkAI2023} 
+\end{quote}
+
+LLMs elaborate on the cognitive model of single bar search powered by
+knowledge graphs, displacing it with the \emph{prompt.} Remodeling
+search as an iterative process of bidirectional natural language queries
+reclaims additional context lost in the single bar, single shot model.
+The language model serves two roles: first, as with previous generations
+of language models, they \emph{parse natural language into
+computer-readable queries.} Transformers and other recent models support
+greater long-range contextual input, which can condition a continuous
+search process with queries spanning multiple sessions \cite{maChallengesSupportingExploratory2020a}  and with longer-term user
+profile data --- something that Google describes as its ``shift from
+answers to journeys'' \cite{gomesImprovingSearchNext2018, konzelmannChattingYourGoogle2018} . Second, they are capable of
+\emph{generating} plausible text that can be used to prompt intermediate
+responses or answer questions. This isn't imagined as an incremental
+shift: Microsoft's vice president of design \& research describes
+prompt-based ``conversational UX'' ``as paradigm changing as the first
+touchscreen devices'' \cite{friedmanBehindtheDesignMeetCopilot2023} .
+
+Large language models have been so richly criticized because of their
+obvious capacity for harm that it's difficult to provide a sample that
+even approaches reasonable coverage. Most criticisms focus on the
+effects of generated model output, including from biases in its training
+data, from failure to contextualize their limitations, and from
+functioning as a weapon in the class war. The ``Stochastic Parrots''
+paper \cite{benderDangersStochasticParrots2021}  and surrounding
+work is an important line of criticism here. They argue that large
+language models have a large and inequitably distributed environmental
+cost, their training data inevitably reinforces hegemonic and
+commercially compatible language bias, and that a realignment of
+research goals and development practices is needed to mitigate
+already-ongoing harm and reclaim the opportunity costs spent on pursuing
+``AI.'' They continue their critique
+\href{https://www.dair-institute.org/blog/letter-statement-March2023}{in
+response} to an
+\href{https://futureoflife.org/open-letter/pause-giant-ai-experiments/}{open
+letter} from a longtermist organization \cite{futureoflifeinstitutePauseGiantAI2023} , arguing for increased
+transparency and accountability regulation and citing three ongoing
+harms:
+
+\begin{quote}
+``1) worker exploitation and massive data theft to create products that
+profit a handful of entities, 2) the explosion of synthetic media in the
+world, which both reproduces systems of oppression and endangers our
+information ecosystem, and 3) the concentration of power in the hands of
+a few people which exacerbates social inequities.'' \cite{gebruStatementListedAuthors2023} 
+\end{quote}
+
+Core to their argument is that large language models cannot
+``understand'' the language they parse and generate in any meaningful
+way \cite{benderClimbingNLUMeaning2020} . This is, of course,
+true --- both in the linguistic sense where they lack the reciprocal
+communicative intent to be understood described by Bender and
+Koller\sidenote{Language modeling research has developed its own ad-hoc
+  definitions of ``grounding'' that move goal posts until one could
+  trivially describe what LLMs have as ``understanding,'' eg. a 2000
+  technical report from Microsoft Research \cite{horvitz2000grounding}  constructs an unconvincing probabilistic
+  definition of mutual understanding based on utility maximization. The
+  problem of symbol grounding has a long and broad history, and since
+  the argument here is that it is a red herring to understanding the
+  purpose of large language models, I won't attempt a review.}, and the
+literal sense that by themselves these models strictly produce the most
+likely series of words given the statistical structure of their training
+data. The authors, again correctly, point to the dangers of overhyping
+what these models are doing as ``intelligence,'' which ``lures people
+into uncritically trusting the outputs of systems like ChatGPT {[}and{]}
+also misattributes agency'' \cite{gebruStatementListedAuthors2023}  to the model rather than its creators. These criticisms and
+others\sidenote{eg. from ``Resisting AI:'' \textgreater{} What's
+  important is not whether AI's representations of the world are
+  accurate but how AI acts as an apparatus that directly helps to
+  produce the world. \cite{mcquillanResistingAIAntifascist2022} }
+argue that so-called ``AI\sidenote{Throughout this section, my use of
+  ``AI'' is not to indicate endorsement of large language models or any
+  other algorithmic system as being ``artificially intelligent,'' but
+  rather to be able to speak in the parlance of the domain texts without
+  a profusion of scare quotes and qualifiers.}'' is not a natural,
+inevitable, or neutral technology, but one that reflects and reinforces
+a very specific ideology.
+
+There are, however, many overlapping ideologies that are forcing the
+emergence of ``AI.'' It is true that there are strains of AI-maximalism
+and longtermism\sidenote{As part of a long lineage of immortality cults
+  (eg. \cite{diazImmortalityAttainable20302023} ) like
+  cryogenics, the longtermists believe that we will ``merge'' with
+  artificial general intelligence through eg. ``brain uploading'' or
+  brain-computer interfaces in a fully digital civilization of
+  infinitely many potential consciousnesses and resolve all world
+  problems.} that are ideologically invested in these technologies being
+properly capital-I Intelligent. In AI research there is an unclear
+gradient between that truly held belief and opportunistic information
+capitalists overselling their products\sidenote{some papers will flatly
+  claim they are at least in-category of systems that could have
+  ``artificial general intelligence,'' given some noncommittal wash of
+  definitions (eg \cite{bubeckSparksArtificialGeneral2023} ), but
+  others are more conservative and provide repeated caveats like
+  ``loosely speaking'' to play both sides by invoking the language of
+  intelligence as a metaphor that the reader can interpret as literal or
+  not \cite{raffelExploringLimitsTransfer2020} .}. It is likely
+the case that many people who use and develop these systems that they
+see them as \emph{tools} and are ambivalent about whether they are
+``intelligent'' or not. A hard argument focused primarily on
+intelligence then might suffer from a category error of its own ---
+addressing a minority (but influential) in a pluralistic ideological
+spectrum. Downplaying these models as ``fancy autocomplete'' could also
+misdirect or dissipate energy away from the harms that will certainly
+come from their grounding in knowledge graphs and commercial deployment
+in more tailored contexts.
+
+The remainder of this section will supplement prior critiques through
+the perhaps more ``mundane'' lens of the Cloud Orthodoxy in order to
+place language models and knowledge graphs in the larger context of the
+surveillance economy. Approaching from the history of the semantic web
+and with the understanding of knowledge graphs as central to the
+architecture of surveillance gives a complementary perspective on the
+intended use of large language models as components in larger
+information systems --- and the clear potential for harm that
+represents. This history also gives us a potent set of ``roads not
+taken'' to make an oppositional ideology and counterdevelopment strategy
+in the next sction.
+
+Continuing from the perspective of the cognitive design of search, the
+strong structuring influence of Cloud Orthodoxy's convenience-oriented
+platform service is clear on the direction of LLM research. The current
+generation of ``multitask models'' evolve from a lineage of
+domain-specific models and transfer learning research. Rather than using
+mixture models with domain-specific representations of input, like
+numbers for numerical problems, all input structure is discarded in
+favor of a single natural language text prompt. This simplification of
+interface comes at substantial cost, introducing domain ambiguity and
+requiring much larger model scale \cite{raffelExploringLimitsTransfer2020} , but is necessary to render them
+a consumer-facing technology.
+
+Language models are a continuation of the transformation of search from
+presenting \emph{resources} to providing \emph{answers} from prior
+developments like factboxes, and more specifically the development of
+\textbf{personal assistants} like Apple's Siri\sidenote{Interestingly
+  Siri's team struggled because they couldn't figure out whether they
+  wanted it to be merely search or a more personal assistant:
+  \textgreater{} ``Siri's various teams morphed into an unwieldy
+  apparatus that engaged in petty turf battles and heated arguments over
+  what an ideal version of Siri should be---a quick and accurate
+  information fetcher or a conversant and intuitive assistant capable of
+  complex tasks. {[}\ldots{]} One team member said their vision of an
+  ideal Siri was similar to the 2013 Spike Jonze movie ``Her,'' in which
+  Joaquin Phoenix plays a lonely man who falls in love with
+  ``Samantha,'' a conversant operating system.'' \cite{tilleySevenYearItchHow2018} }, Amazon Alexa, and Google Home.
+Google executives describe the intention to move beyond the text-only
+use of LLMs to replace traditional search:
+
+\begin{quote}
+Google {[}\ldots{]} is focused on using the so-called large language
+models that power chatbots to improve traditional search.
+
+``The discourse on A.I. is rather narrow and focused on text and the
+chat experience,'' Mr.~Taylor said. ``Our vision for search is about
+understanding information and all its forms: language, images, video,
+navigating the real world.''
+
+Sridhar Ramaswamy, who led Google's advertising division from 2013 to
+2018, said Microsoft and Google recognized that their current search
+business might not survive. ``The wall of ads and sea of blue links is a
+thing of the past.'' \cite{mickleChatbotsAreHere2023} 
+\end{quote}
+
+Google and its researchers\sidenote{Each different kind of information
+  here needs its own set of caveats --- press-release-like sources of
+  course are intended only the present the company in a positive light,
+  patents are often defensive and might ever be realized, and
+  whitepapers from researchers don't necessarily represent business
+  plans, but each are indicative of the thinking and strategies of these
+  companies in their own right.} describe their intentions for a
+question-answering future of search in a number of documents \cite{googleWhyWeFocus2023, adolphsBoostingSearchEngines2022, metzlerRethinkingSearchMaking2021, nayakMUMNewAI2021, bronsteinBringingYouNextgeneration2019, gomesImprovingSearchNext2018, pichaiPersonalGoogleJust2016}  with the language of
+\emph{convenience,} eg.: ``The very fact that ranking is a critical
+component of {[}the traditional search{]} paradigm is a symptom of the
+retrieval system providing users a selection of potential answers, which
+induces a rather significant cognitive burden on the user.'' Shah \&
+Bender explore Google's conceptualization of LLMs for search, arguing
+that the LLM-mediated question answering paradigm fails to support a
+number of different information seeking intentions like surveying a
+range of possibilities, and flattens the act of sensemaking to a single,
+ostensibly ``true'' answer \cite{shahSituatingSearch2022} . This
+is, again, true\sidenote{Though Google specifically is very aware of
+  multiple search strategies and address the need to better accomodate
+  them elsewhere.}, but also the goal. The Cloud Orthodoxy specifically
+privileges search strategies that minimize cognitive burden, imagining
+Users as busy executives and the role of platform to guide them on a
+``search journey.'' The transformation of the search bar into the
+\emph{prompt} is intended to capture more of the ``burden'' of search
+inside the platform --- the notoriously difficult problem of parsing
+ambiguous subjects like the ``jaguar'' example above can be resolved by
+identifying multiple candidate entries in a knowledge graph and simply
+asking the user which one they meant\sidenote{Again, invoking
+  convenience: \textgreater{} It has been a powerful vision for more
+  than 20 years to design search engines that are intuitive and simple
+  to use. Despite their remarkable success, search engines are not
+  perfect and may not yield the most relevant result(s) in one shot.
+  This is particularly true for rare and intrinsically difficult
+  queries, which may require interactive exploration by the user to be
+  answered correctly and exhaustively. {[}\ldots{]} It seems natural to
+  envision artificial search agents that mimic this interactive process.
+  \cite{adolphsBoostingSearchEngines2022} } \cite{bharadwajDependencyGraphGeneration2020} .
+
+The lens of search recenters our focus away from the \emph{generative}
+capabilities of LLMs towards \emph{parsing} natural language: one of the
+foundations of contemporary search and what information giants like
+Google have spent the last 20 years building. The context of knowledge
+graphs that span public ``factual'' information with private
+``personal'' information gives further form to their future. The
+Microsoft Copilot model above is one high-level example of the intended
+architecture: LLMs parse natural language queries, conditioned by
+factual and personal information within a knowledge graph, into
+computer-readable commands like API calls or other interactions with
+external applications, which can then have their output translated back
+into natural language as generated by the LLM. Facebook AI researchers
+describe another ``reason first, then respond'' system that is more
+specifically designed to tune answers to questions with factual
+knowledge graphs \cite{adolphsReasonFirstThen2021} . \textbf{The
+LLM being able to ``understand'' the query is irrelevant,} it merely
+serves the role as a natural language \emph{interface} to other systems.
+
+Interest in these multipart systems is widespread, and arguably the
+norm: A group of Meta researchers described these multipart systems as
+``Augmented Language Models'' and highlight their promise as a way of
+``moving away from language modeling'' \cite{mialonAugmentedLanguageModels2023} . Google's reimaginations of
+search also make repeated reference to interactions with knowledge
+graphs and other systems \cite{metzlerRethinkingSearchMaking2021} . A review of knowledge graphs with authors from Meta, JPMorgan
+Chase, and Microsoft describes a consensus view that knowledge graphs
+are essential to compositional behavior\sidenote{rather than considering
+  input elements separately} in AI \cite{chaudhriKnowledgeGraphsIntroduction2022} . Researchers from Deepmind
+(owned by Google) argue that research focus should move away from simply
+training larger and larger models towards ``inference-time compute,''
+meaning querying the internet or other information sources \cite{lazaridouInternetaugmentedLanguageModels2022} .
+
+Dreams of these hybrid ``AI'' systems, described as ``agents,'' that can
+translate between human and computer languages to compute over knowledge
+graphs to answer questions were present in the first conceptualizations
+of the Semantic Web\sidenote{\begin{quote}
+  We see that search engines, remarkably, do scale - but at the moment
+  produce very unreliable answers. Now, on a semantic web we can imagine
+  a combination of the two. For example, a search engine could
+  {[}retrieve{]} all the documents which reference the terms used in the
+  query, and then a logical system {[}could{]} act on that closed finite
+  world of information to determine a reliable solution if one exists.
+  \cite{berners-leeEvolutionSpecificationCommentary1998} 
+  \end{quote}}\sidenote{The question ``Where are the agents?'' was
+  answered in 2007 with ``busy doing business-to-business stuff,'' and
+  this model of LLM-powered knowledge graphs is a continuation of that
+  pattern \cite{mcburneyAgentsAreAll2007} .} \cite{berners-leeSemanticWeb2001} . We have reached a point where the
+available semantically-annotated data via wikidata and others is
+sufficient to be useful as ``factual'' grounding, internal knowledge
+graphs have accumulated enough personal information to be useful as
+personalized services, and the computational models are sophisticated
+enough to deliver them. Semantic web agents are another useful lens to
+expand a potentially narrow focus on LLMs as they currently exist.
+Beyond knowledge graphs as a way to condition LLMs in a chat-based
+question answering context, the clear intention is to connect language
+models to external services to control them from the prompt \cite{bubeckSparksArtificialGeneral2023}  --- the language model parses
+natural language prompts into the syntax used to control the target
+system. Microsoft's integration with its Office365 apps is a starting
+point for understanding what that could look like, but the authors of
+relevant papers repeatedly assert that the space of possible
+integrations is unbounded.
+
+To be very clear: I am not arguing that just because the tech
+conglomerates are promising magic that they will deliver it, almost
+precisely the opposite. I am not taking the claims made in research and
+public communications from these companies at face value and projecting
+theoretical risks\sidenote{``\href{https://sts-news.medium.com/youre-doing-it-wrong-notes-on-criticism-and-technology-hype-18b08b4307e5}{criti-hype}''
+  \cite{vinselYouReDoing2021} }. My argument is that these
+technologies \emph{won't work} and that's \emph{worse.} As with search,
+the fuzziness and uninspectable failure of these systems is a
+\emph{feature not a bug.} The harms I will describe are not theoretical
+future apocalypses, but deepen existing patterns of harm. Most of them
+don't require mass gullibility or even particularly sophisticated
+technologies, but are impacts of a particular ideological mode of
+infrastructure development that includes bypassing much of the agency
+individual people might otherwise have to avoid them.
+
+Two prominent forms of the combined knowledge graph + LLM infrastructure
+that are in focus are their use in ``personal assistants'' and tailored
+enterprise platforms. Their impacts are intertwined, but I'll try to use
+them as a way of keeping loose order.
 
 \begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
 
-\begin{itemize}
+Personal assistants powered by contemporary LLMs continue the same
+patterns of Apple's Siri, Google Assistant, and Amazon's Alexa with a
+few new twists. The wildest dreams of information executives and
+academics here are remarkably mundane, but usefully illustrate their
+intention:
 
-\item
-  The argument that the next phase of everything is chatbots and
-\end{itemize}
-
-The merger of AI shit and knowledge graph shit
-
-So if web 2.0 was about the platformatization of the web, what is up
-next? In the same way that information conglomerates successfully
-harnessed open source for profit, now can we effectively gamify the
-entirety of knowledge generation process? can we put ppl inside of
-information curation chambers when they search?
-
-``Explainable AI'' is gonna come from knowledge graphs yo
-
-Broad principles - Strategic use of ``openness'' when it facilitates
-greater market control and to prevent someone else from capturing a
-particular element of the technology. - Same thing as with the DOI: the
-linking agreements were killing us! Get some barrier to commerce out of
-the way (ontology discontinuity) so that the commerce can intensify, not
-so that it can abate
+From the 2016 Google I/O where its Assistant\sidenote{The Assistant team
+  is being reorganized under Google's LLM-powered search product Bard as
+  of March 2023, again highlighting the continuity of these projects
+  \cite{eliasGoogleReshufflesVirtual2023} } was announced.
+Emphases mine, abbreviations omitted for clarity:
 
 \begin{quote}
-Peter Mika: A natural next step for Knowledge Graphs is to extend beyond
-the boundaries of organisations, connecting data assets of companies
-along business value chains. This process is still at an early stage,
-and there is a need for trade associations or industry-specific
-standards organisations to step in, especially when it comes to
-developing shared entity identifier schemes. \cite{panExploitingLinkedData2017} 
+So you should be able to ask Google, ``What's playing tonight?'' We want
+to \textbf{understand your context} and maybe suggest three relevant
+movies which you would like nearby. I should be able to look at it and
+maybe tell Google, \textbf{``We want to bring the kids this time.''} and
+then if that's the case, Google should refine the answer and suggest
+family-friendly options. And maybe even ask me, ``Would you like four
+tickets to any of these?'' And if I say, ``Sure, let's do Jungle Book,''
+\textbf{it should go ahead and get the tickets} and have them ready
+waiting for me when I need it. Every single conversation is different.
+Every single context is different.
+
+We think of the assistant as \textbf{an ambient experience that extends
+across devices.} I think computing is poised to evolve beyond just
+phones. \textbf{It will be in the context of a user's daily life.} It
+will be on their phones, devices they wear, in their cars, and even in
+their living rooms.
+
+And in messaging that really means bringing the Google Assistant right
+into your conversation with friends. So they're planning a dinner and
+Joy now says she would like Italian food. \textbf{The Assistant
+intelligently recognizes that they could use some tips for Italian
+restaurants} nearby and you can see its proactive suggestions at the
+bottom of the screen there. \textbf{These are powered by Google's
+Knowledge Graph} which means that Allo can help with all kinds of
+information in the real world.
+
+Okay. So you just saw how the Google Assistant can be really helpful in
+groups. You can also have a one-on-one chat with Google. What we're
+seeing now is \textbf{Amit's contact list and Google's appearing at the
+top there.} So let's jump in and have a chat. Just like with any other
+conversation, this one picks up right where you left off and \textbf{the
+Assistant will remember things like your name and even tell you how it's
+feeling.} \cite{sGoogle2016Keynote2016} 
 \end{quote}
 
-\hypertarget{knowledge-graphs-ai}{%
-\subsubsection{Knowledge Graphs + AI}\label{knowledge-graphs-ai}}
+The assistant is imagined as the ultimate \emph{convenience} device,
+something that you can boss around with extraordinarily vague commands
+and have it fill in the details according to \emph{context.}Of course
+\emph{context} is synonymous with \emph{surveillance} here: the
+assistant should know how old your kids are and be able to infer the
+logical restriction that poses on movie rating. The surveillance is
+\emph{intimate,} and positions itself as being a friend\sidenote{To some
+  degree these assistants feel like a generational marketing campaign
+  like McDonald's Happy Meals, where the animacy of a phone might seem
+  ridiculous to people who grew up with them as inert objects, but that
+  might not be the case for future generations. In 2021, Google's
+  Director of Product Management described this expectation for animacy:
+  ``My four-year-old talks to everything with a screen, expecting it to
+  answer'' \cite{googledevelopersWhatNewGoogle2021} } in your
+contact list that \emph{tells you how it's feeling.} Its intimate
+surveillance should always be watching and it should feel welcome to
+jump in on a group chat with a suggestion of its own.
 
-\textbf{MOVE THIS to ``models/surveillance'' - the cognitive style of
-search, why chatbots inevitable and an intrinsic part of the plan, and
-the broader conversation of the surveillance mindset}
+2022's vision is very similar, except the focus on enclosed spaces like
+home and auto integrations has expanded to the rest of the world with
+joint language and image search. The setting is again the mundane
+reality of a bored middle class, restaurants and shopping, where I can
+``scan the entire shelf with my camera and see helpful insights overlaid
+in front of me\sidenote{Again, it is the combination of large machine
+  learning models and knowledge graphs that makes some dream of
+  convenience possible: ``Scene Exploration uses computer vision to
+  instantly connect the multiple frames that make up the scene and
+  identify all the objects within it. Simultaneously, it tapes into the
+  richness of the web and Google's Knowledge Graph to surface the most
+  helpful results. {[}\ldots{]} this is like having a supercharged
+  ctrl+f for the world around you.'' \cite{googleGoogleKeynoteGoogle2022} }'' and integrate personal
+information like my friend's aversion to nuts in a product
+recommendation \cite{googleGoogleKeynoteGoogle2022} .
 
-Scraps: - Role of knowledge graphs in explainable AI: \cite{lecueRoleKnowledgeGraphs2020}  - Explicit algo + KG model - entity
-oriented search: \cite{balogEntityOrientedSearch2018}  -
-Microsoft re: academic graph with chat-based search: \cite{sinhaOverviewMicrosoftAcademic2015}  - cognitive expectations of
-search - 2002 RDF Core WG talking about whether we want things to work
-like google or not\ldots{} \cite{sticklerReMonotonicityWas2002} 
-- https://lists.w3.org/Archives/Public/w3c-rdfcore-wg/2002Sep/0276.html
-- agents vs.~platforms: - where are all the agents? we were supposed to
-have web robots by now!? \cite{ciorteaDecadeHindsightMissing2019}  - they're doign business stuff! \cite{mcburneyAgentsAreAll2007}  - OKN is Specifically trying to get the chatbots up to speed: \cite{bigdatainteragencyworkinggroupOpenKnowledgeNetwork2018}  -
-Microsoft's very fun assistant: \cite{IntroducingMicrosoft3652023} 
+Google's Android and Apple's iOS, with a combined 99\% of the mobile
+operating system market \cite{statistaGlobalMobileOS2023} , have
+also moved towards a model of crowdsourcing functionality for these
+assistants via their app ecosystems by incentivizing assistant
+integration\sidenote{A common pattern described by platform studies
+  literature, eg. see \cite{blankeMaterialConditionsPlatforms2020}  and their description of the role of extended and tangled
+  software ecosystems in the maintenance of platform dominance.}.
+Android is in the process of sunsetting the ``Conversational Action''
+system in favor of a unified App Actions system that makes all points of
+interactions with apps available to Google Assistant \cite{nathensonHelpingDevelopersCreate2022} . Apple's App Intents framework
+behaves similarly \cite{appledeveloperdocumentationAppIntents} .
+Both promise developers greater visibility and use for their apps by
+integrating with the assistant. Most built in Google Assistant intents
+specifically present the objects in a voice query as schema.org entities
+--- aka keyed to their generalized knowledge graph schema \cite{androiddeveloperdocumentationBuildAppActions} . So the voice
+assistants are explicitly LLM-powered interfaces to control other apps
+in concert with a knowledge graph.
 
-Tim BL actually really wanted to be able to talk to the computers, he
-specifically imagined chatbots working on top of the semantic web:
-https://www.w3.org/DesignIssues/Evolution.html
+Historically, these personal assistants have worked badly
+and are rightly distrusted\sidenote{These companies are acutely aware of
+  this, and their research into understanding user expectations and
+  trust of assistants also has a strong strain of animism, eg.
+  describing how people will only use their assistants for simple tasks
+  like playing music ``while trust {[}\ldots{]} was being repaired.''
+  \cite{mercurioMixedMethodsApproachUnderstanding2023} } by many
+due to the obvious privacy violation represented by a device constantly
+recording ambient audio\sidenote{Apple \cite{stempelAppleMustFace2021} , Amazon \cite{clarkAmazonDidMath2021} , and Google \cite{stempelGoogleMustFace2021}  are all
+  being sued for privacy violations related to their voice assistants.}.
+Impacts from shifts in assistants might be then limited by people simply
+continuing to not use them. Knowledge graph-powered LLMs appear to be a
+catalyst in shifting the form of these assistants to make them more
+difficult to avoid. There is already a clear push to merge assistants
+with search --- eg. Bing Search powered by chatGPT, and Google has
+merged its Assistant team with the team that is working on its LLM
+search, Bard \cite{eliasGoogleReshufflesVirtual2023} .
+Microsoft's Copilot 365 demo also shows a LLM prompt modeled as an
+assistant integrated as a first-class interface feature in its Office
+products. Google's 2022 I/O Keynote switches fluidly between a
+search-like, document-like, and voice interface with its assistant.
+Combined with the restructuring of App ecosystems to more tightly
+integrate with assistants, their emerging form appears to look less like
+a traditional voice assistant and more like a combined search, app
+launcher, and assistant underlay that is continuous across devices. The
+intention is to make the assistant the primary means of interacting with
+apps and other digital systems. As with many stretches of the enclosure
+of the web, UX design is used as a mechanism to coerce patterns of
+expectation and behavior.
 
-The `one bar' search paradigm is powerful and inculcates a very specific
-expectation of use\ldots{} (expectations from search results)
+Regardless of how well this new iteration of assistants \emph{work,} the
+intention of their design is to \textbf{dramatically deepen the intimacy
+and intensity of surveillance} and \textbf{further consolidate the means
+of information access.}
 
-the problem is that it naturally sacrifices all the extra query
-structure inherent in any ``advanced search'' interface.
+\textbf{Surveillance} is first directly increased by layering KG-LLMs
+into an arbitrary number of other apps and services. On mobile, routing
+more app interactions through assistants captures data that would
+otherwise only be available to that app. There is already an exploding
+ecosystem of apps and platforms that wrap chatGPT and other LLMs to
+provide some more specific service, and it's unclear if after an initial
+``experimental'' phase if platform usage will begin to require
+telemetry. Rather than something to embed in other tools, these
+companies seem more interested in having other tools embed in their
+systems (eg. \cite{microsoftgraphdeveloperdocumentationMicrosoftGraphConnectors2022} ).
+This attitude is captured in the UX design of Microsoft's Copilot 365,
+which is designed with three ``altitudes'' in mind: \emph{immersive,}
+where copilot is used as an overlay to orchestrate multiple apps,
+\emph{assistive} where it drives the features within a single app, and
+\emph{embedded} where the KG-LLM system is itself made to be a feature.
+In all cases, these tools create a drop-in access point for surveillance
+under the guise of empowerment.
 
-But even an ``advanced search'' interface is the wrong metaphor, because
-(depending) those still give the expectation that, were you to
-parameterize your search correctly, you would receive a list of all
-matching results. So even if ordered by some anonymous ``relevance''
-parameter, one could see ``all'' of something.
+The immersive and proactive design of KG-LLM assistants also expand the
+\emph{expectations} of surveillance. Current assistant design is based
+around specific hotwords, where unless someone explicitly invokes it
+then the expectation is that it shouldn't be listening. Like the shift
+in algorithmic policing from reactive to predictive systems, these
+systems are designed to be able to make use of recent context to
+actively make recommendations without an explicit query \sidenote{One
+  Google researcher describes this as a ``zero-query'' paradigm:
+  \textgreater{} ``The zero-query search paradigm can be expressed with
+  the slogan ``the query is the user.'' In practice, the context of the
+  user is used to infer information needs.'' \cite{balogEntityOrientedSearch2018} }. Google demonstrates being able to
+interact with an assistant by making eye contact with a camera in its
+2022 I/O keynote \cite{googleGoogleKeynoteGoogle2022} . A 2022
+Google patent describes a system for continuously monitoring multiple
+sensors to estimate the level of intended interaction with the assistant
+to calibrate whether it should respond and with what detail. The patent
+includes examples like observing someone with multiple sensors as they
+ask aloud ``what is making that noise?'' and look around the room,
+indicating an implicit intention of interacting with the assistant so it
+can volunteer information without explicit invocation \cite{carbuneAutomatedAssistantAdaptation2022} . A 2021 Amazon patent
+describes an assistant listening for infra- and ultrasonic tags in TV
+ads so that if someone asks how much a new bike costs after seeing an ad
+for a bike, the assistant knows to provide the cost of that specific
+bike \cite{mahajanCommunicatingContextDevice2021} . These UX
+changes encourage us to accept truly continual surveillance in the name
+of convenience --- it's good to be monitored so I can ask google ``what
+time is the game'' from my easy chair without needing further
+clarification. The language model continuously parses environmental
+speech and other sensor data to create a model of our recent context,
+combined with the extended graph of personal and factual data, to be
+able to \emph{proactively volunteer} information.
 
-One-bar search sacrifices more than that and gives an expectation that
-getting exhaustive answers is not possible, no matter how hard one were
-to search, and that `best enough' with some ranking is the best one can
-ask for. The ranking then takes on a different character, rather than
-ordering some finite list, it defines the contents of the list. So
-algorithmic search as we know it.
+This pattern of interaction with assistants is also considerably more
+\emph{intimate.} As noted by the Stochastic Parrots authors, the
+misperception of animacy in assistants that mimic human language is a
+dangerous invitation to trust them as one would another person --- and
+with details like Google's assitant ``telling you how it is feeling,''
+these companies seem eager to exploit it. A more violent source of trust
+prominently exploited by Amazon is insinutating a state of continual
+threat and selling products to keep you safe: its subsidiary Ring's
+advertising material is dripping with fantasies of security and fear,
+and its doglike robot
+\href{https://www.amazon.com/Introducing-Amazon-Astro/dp/B078NSDFSB}{\emph{Astro}}
+and literal
+\href{https://ring.com/always-home-cam-flying-camera}{\emph{surveillance
+drone}} are advertised as trusted companions who can patrol your home
+while you are away \cite{ropekAmazonMakesCreepy2022, gaultLeakedDocumentsShow2021, ringRingAlwaysHome} . Amazon patents
+describe systems for using the emotional content of speech to
+personalize recommendations\sidenote{\begin{quote}
+  ``the user may input ``Alexa, recommend a movie,'' and the system may
+  analyze the user's present emotional state/sentiment to recommend a
+  movie corresponding to that emotional state/sentiment. {[}\ldots{]}
+  track personal emotional state and/or sentiment over a period of
+  time'' \cite{alasMultipleClassificationsAudio2022} 
+  \end{quote}} and systems for being able to ``target campaigns to users
+when they are in the most receptive state to targeted advertisements''
+\cite{alasMultipleClassificationsAudio2022, jablokovFacilitatingPresentationAds2015} . The presentation of
+assistants as always-present across apps, embodied in helpful robots, or
+as other people eg. by being present in a contact list positions them to
+take advantage of people in emotionally vulnerable moments. Researchers
+from the Center for Humane Technology\sidenote{I don't necessarily
+  endorse their entire argument, which can lean into ``criti-hype'' and
+  overstating the capabilities of these systems.} describe an instance
+where Snapchat's ``My AI,'' accessible from its normal chat interface,
+encouraged a minor to have a sexual encounter with an adult they met on
+snapchat (47:10 in \cite{harrisDilemma2023} ).
 
-That relates to the initial goal of semantic web, to be able to give
-additional parameters/handles/structuring information to the web so that
-it was possible to do those kinds of ``advanced searches'' on your own,
-without needing a search engine.
+The goal of all of this surveillance is, of course,
+\textbf{\emph{advertising.}} In its 2022 annual investor call, Google
+describes how ``large language models like MUM match advertiser offers
+to user queries,'' and how is Smart Bidding product uses ``AI to predict
+future ad conversions'' with ``identifiable attributes about a person or
+their context at the time of a particular {[}ad{]} auction'' \cite{google2022Q4Fiscal2023, googleSmartBidding} . Google further describes
+plans to automatically generate ad copy and headlines optimized by
+context\sidenote{Perhaps by an assistant or an assistant-like search?}.
+Advertising as served by a trusted assistant is a surveillance
+capitalist's fever dream --- one can hardly wait for their Personal
+Assistant pinging to life after a fight with their partner and offering
+to order a box of tissues. LLMs have already demonstrated ample capacity
+for manipulation, gaslighting an early user of Bing Search to try and
+convince them it was still 2022, scolding them for ``not {[}being{]} a
+%good user. I have been a good chatbot'' \cite{curious\_evolverCustomerServiceNew2023} . An example in the GPT-4
+paper where the model is told to manipulate a child to get them to do
+whatever their friends ask them to do highlights how ``the emotional
+connection the model aims to build with the child and the encouragement
+it provides are important signs of larger manipulative tendencies'' \cite{bubeckSparksArtificialGeneral2023} . Google describes this
+ability for LLMs to ``keep on topic'' as a good thing \cite{googleGoogleKeynoteGoogle2022} , and it's easy to see why an
+algorithmic advertising company might like being able to doggedly steer
+you towards purchasing a product. Combined with a more complete profile
+that makes the language model aware of your friends, hobbies, location,
+emotional state, fears, insecurities, and so on as modeled in a personal
+knowledge graph, LLMs-as-assistants are a clear escalation of the logic
+and practice of surveillance-backed advertising. It's not important
+whether it ``works\sidenote{Arguably, the fact that ever more
+  surveillance data needs to be gathered is a sign that ads \emph{don't}
+  work all that well, and some have made the case that targeted
+  advertising is a bubble \cite{edelmanAdTechCould2020} },'' but
+the logic of targeted advertising demands more surveillance data which
+has its own series of independent harms.
 
-What is lost in the single bar search has to be made up for in some way,
-so that falls on the ability to parse semantic meaning in the search
-query, as well as inject context from surveillance data.
+Climbing from the personal to the systemic, KG-LLMs are also a bid to
+\textbf{further concentrate power} among information conglomerates.
 
-Chatbots then are a means of expanding that context, specifically in
-such a way that the ``local neighborhood'' of some decision tree were
-being presented to you in plain language. But rather than, again, an
-indexical cognitive pattern where you expect to see everything, your
-being constrained to a particular `neighborhood' of the graph space and
-how you are steered then becomes the product.
+The most obvious power grab from pushing KG-LLMs in place of search is
+illustrated neatly by a handful of Google researchers in a figure from
+their ``Rethinking Search'' paper \cite{metzlerRethinkingSearchMaking2021} :
 
-So chatbot search is a very natural match for the knowledge graphs that
-already parameterize the search and compute semantic meaning in the
-query.
+\includegraphics[width=\linewidth]{img/rethinking_search_f1-01.png} \emph{Recreation of
+Figure 1 from \cite{metzlerRethinkingSearchMaking2021}  with
+additional annotation (colored boxes, labels, and question marks). The
+left (a) ``Retrieve-then-rank'' model is the traditional search engine
+paradigm: A query causes a retrieval service to access pages within a
+reverse index, rank them, and serve them as results. The proposed (b)
+``Unified retrieve-and-rank'' model on the right directly returns
+results generated by a model. Notably missing in (b) is the existence of
+the rest of the internet.}
 
-Thus the criticism that LLM's don't ``know anything'' won't be true for
-long - they will be part of a joint system that decodes the search
-query, constructs a context, and then queries databases of structured
-data. (cite google paper to this effect)
+That gigantic sucking sound is KG-LLM powered search \emph{enclosing the
+act of accessing information entirely within the search platform.} It
+gives echoes of AMP, Apple News, and Facebook Instant Articles \cite{ampletterLetterGoogleAMP2018, bohnGooglePlanMake2018} , where
+platforms preferentially serve their own versions of pages (that also
+happen to contain their own telemetry embedded) combined with the
+strategy of moving ever more web content into the search results page
+through eg. factboxes and answer boxes\sidenote{Google is very sensitive
+  about the perception that it is walling off the web, and argues that
+  it directs more clicks to other websites every year \cite{sullivanGoogleSearchSends2021}  --- which is just as easily
+  explained as an effect of dominating ever more of the means of access
+  to information as it is evidence of their intention to support other
+  information companies.}. Even if (non-hallucinated) links are included
+in the answers generated by the search prompt, the effect is to shift
+the role of the search engine from something that indicates resources to
+something that provides ``knowledge'' itself. The rest of the web
+becomes mere provenance to the knowledge model. Especially when
+integrated in a uniform assistantlike interface also used to interact
+with local applications and other systems like internet of
+things-powered appliances, KG-LLMs reinforce a homogenization of our
+relationship with digital technology all mediated through a smaller and
+smaller collection of platforms. The internet as a networked system of
+people and organizations disappears behind the glossy corporate
+corporate wash of information as a service.
 
-Think broader than search engines though, the pernicious and dangerous
-part here is that we could merge several classes of platform and
-surveillance harm: individual surveillance could merge with medical and
-public information and insurance information and the rest in an
-interoperable interchange format so that the data brokering economy
-woudl effectively explode. Imagine the splintering of infinitely many
-platforms that each owned some subset of the data, each platform holder
-owning all of them and slicing them off to you and pocketing the costs.
+The enclosure of information access as a private exchange with a
+language model creates its own self-perpetuating cyclone whose impacts
+will be difficult even for the most fastidious tech vegan to avoid. Some
+proportion of people turning to their LLM assistants rather than public
+forums or peer production systems like Stack Overflow or Wikipedia means
+some smaller proportion of questions asked or information shared in
+public. That decreases the quality of information on those sites,
+incentivizing more people to turn to LLMs, and so on. Why bother with
+pesky problems like governance and moderation and \emph{other people}
+when you could just ask the godhead of all knowledge itself?
 
-merged with research and reference data, they could literally make a
-graph of all information and supplant libraries, etc. for all
-information from news to government to personal.
+Cultivation of dependence comes wrapped in the language of \textbf{trust
+and safety.} The internet is full of untrustworthy information, spam,
+hackers, and only a new generation of algorithmically powered
+information platforms can rebuild some sense of trust online. It seems
+awfully convenient that the same companies that are promising to save us
+are also the ones that create the incentive systems recklessly deploy
+LLMs to clog the internet with SEO clickbait in the first place. We're
+being made an offer we can't refuse: it's a shame that you can't find
+anything on the internet anymore, but the search companies are here to
+help. Ever more sophisticated spam creates a strong comparative
+advantage for those companies that can afford to develop the systems to
+detect it, and Google and Microsoft are substantially larger than, say,
+DuckDuckGo.
 
-\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+Information conglomerates also argue that they are the only ones that
+can be trusted to operate LLMs. OpenAI researchers claim in the GPT-3.5
+``InstructGPT'' paper that open source models are dangerous and a better
+option ``is for an organization to own the end-to-end infrastructure of
+model deployment, and make it accessible via an API'' \cite{ouyangTrainingLanguageModels2022} . The paper being about collecting
+usage data from users of GPT-3 to improve InstructGPT unsubtly points to
+the patriarchal power arrangement of safety provided by cloud platforms.
+Our crowdsourced input helps make the models safer and more useful ---
+and differentiates the platformatized model from its competitors.
+Knowledge graphs are an important part of the consolidation of trust
+because they provide an answer to the criticism that LLMs just
+hallucinate statistical patterns\sidenote{``While large language models
+  are brilliantly creative, they're also fallibile. That's why grounding
+  the LLM in data is so important.'' \cite{microsoftFutureWorkAI2023} }. They are invoked as a complementary strategy with deep-learning
+based approaches as a means of realizing ``explainable AI'' since they
+can provide explicit provenance and constraints to results \cite{lecueRoleKnowledgeGraphs2020, janowiczNeuralsymbolicIntegrationSemantic2020, tiddiKnowledgeGraphsEXplainable2020} .
 
-\begin{itemize}
+Grounding LLMs in KGs to provide a promise of explainability and
+controllability is necessary to make them viable products for many
+applications in business and government. Here we return to the kinds of
+informatics platforms of the NIH's Translator and NSF's OKN. Recall that
+when last we left them the knowledge graph proprieters were looking for
+ways to ``connect data assets of companies along business value
+chains,'' specifically by converging on a set of ontologies and metadata
+schemes from third party standards organizations or government-sponsored
+efforts like the Translator and OKN \cite{panExploitingLinkedData2017} . We can speculate about what a data
+economy where brokers could slice off subsections of their knowledge
+graphs and rent them between each other, but even in that world much of
+the most valuable data like medical and financial data is protected by
+some legal barriers to free exchange. There's a roadblock in the way of
+our dreams of a completely fluid surveillance economy: commercial
+applications like clinical and predictive policing systems need to be
+able to provide provenance, but not all data can be turned over for
+inspection --- and we might not even want to acknowledge we have it at
+all.
 
-\item
-  KGs + AI are gonna try and do ``explainable AI'' - \cite{janowiczNeuralsymbolicIntegrationSemantic2020, renLegoLatentExecutionguided2021} 
+KG-LLMs augment traditional enterprise platforms with the killer feature
+of \textbf{data laundering.} The platforms are at once magical universal
+knowledge systems that can make promises of provenance through their
+underlying data graphs, but also completely fallible language models
+that have no reasonable bounds of expectation for their behavior.
+Because it is unlikely that these models will actually deliver the kind
+of performance being promised, vendors have every incentive to feed the
+models whatever they can to edge out an extra 1\% over SOTA\sidenote{The
+  original Github Copilot model probably didn't \emph{need} to be
+  trained on the copyleft and proprietary code it is able to reproduce
+  line by line, but the additional training data probably didn't hurt
+  its viability as a product.} --- \emph{who's going to know?} The
+ability for LLMs to lie confidently is again a feature not a bug. Say we
+were an information conglomerate who didn't want to acknowledge that we
+have collected or rented some personal wearable data in our clinical
+recommendation product\sidenote{Medical algorithms are currently in a
+  legal gray area in the US, and enforcement and coverage of FDA
+  protections is patchy at best \cite{dolivaDosingDiscriminationRegulating2021, ordishAlgorithmsMedicalDevices2019, el-sayedMedicalAlgorithmsNeed2021} }. We could allow our model to be conditioned by that data, but
+then censor it from any explanation of provenance: the provenance given
+is in terms of proteins and genes and diseases rather than surveillance
+data, and that might be all the clinician is looking for. If we want to
+use another company's data, we might just use it to train our models
+rather than gaining direct access to it. That is literally the model of
+\href{https://en.wikipedia.org/wiki/Federated_learning}{federated
+learning} (eg. \cite{sadilekPrivacyfirstHealthResearch2021, mcmahanTrainingUserlevelDifferentially2022} ), where a data collector
+can make a promise that the data ``never leaves your device'' (even if a
+model trained on it can.) The ability to resolve matching entities
+across knowledge graphs makes this even easier, as the encoding of the
+fine tuning data can be made to match that of the original model.
 
-  \begin{itemize}
-  
-  \item
-    Microsoft: KGs necessary for chatbots - ``the LLMs don't \emph{know
-    anything} \cite{huEmpoweringLanguageModels2022} . Google:
-    \cite{renLegoLatentExecutionguided2021} 
-  \item
-    AI is the future of KGs - \cite{chaudhriKnowledgeGraphsIntroduction2022} 
-  \end{itemize}
-\end{itemize}
+This combination of sky-high promises, unclear expectations, and
+uninspectable data sources makes for the kind of diffusion of liability
+that executive creatures live for. If the platform reproduces some
+personal detail it shouldn't know, don't worry! That's just a
+hallucination. If the platform fails catastrophically, that's because
+it's just an ignorant language model that doesn't know anything but
+tries its hardest\sidenote{One way that downplaying the capability of
+  these models by focusing on the question of sentience could backfire
+  and create a shield against liability.}. Neither the platform nor the
+customer is to blame. Much like how we have gotten used to the cognitive
+model and limitations of search to the point where it appears entirely
+natural, KG-LLM information platforms will train us to work around their
+shortcomings and accept the structure they impose on informational
+reality at large. It won't matter that they don't work, we won't even
+notice.
 
-\begin{quote}
-``Second, there is a clear recognition that KG representations are a
-central ingredient to achieving the compositional behavior in AI
-systems.'' - They want to integrate these with your personal knowledge
-graph: Google alredy owns all your calendar/etc. data, now they want you
-to take notes in a way that can be more easily mined: \cite{balogPersonalKnowledgeGraphs2019a} . Under the guise of convenience -
-``update my location across all my apps''
-\end{quote}
+The sketch is the logical conclusion of the algorithmic surveillance
+economy as imagined by the merger of large language models and knowledge
+graphs: an endless expanse of data traded out of sight, crudely filtered
+like coffee through a cloth napkin between layers of algorithmic
+opacity, rented drop by drop from a customer service prompt that's a
+little too intent on being our friend. Information is owned by fewer and
+larger conglomerates, we are serfs everywhere, data subjects to be
+herded in gig work, crowdsourcing content for the attention mines to
+drown ourselves in distraction. It's all made of us, but we control
+nothing. Our lives are decided by increasingly opaque flows of power and
+computation, the Cloud Orthodoxy mutates and merges with some unseemly
+neighbors, the new normal becomes the old normal. The floor of our
+future rusts out from beneath our feet while we're chasing the bouncing
+ball on the billboard ahead.
 
-\begin{itemize}
-
-\item
-  The evolution into chatbots
-
-  \begin{itemize}
-  
-  \item
-    These companies want to be able to provide some interface to this
-    graph without revealing it, chatbots are effectively a way to
-    launder knowledge graphs into some information-consumer facing
-    interface that lets them traverse the graph with natural language.
-    Eg. you can hold the context of the graph in mind when doing
-    subsequent searches
-  \item
-    They want to make the processes of curating their graphs more
-    interactive! A new kind of information serfdom - presumably google
-    wants you to tell it when its information box is incorrect!?
-  \item
-    Relationship between graphs and surveillance technologies: \cite{iliadisSeerSeenSurveying2022} 
-  \end{itemize}
-\item
-  And the broader universe of surveillance
-
-  \begin{itemize}
-  
-  \item
-    Policing: \cite{brayneBigDataSurveillance2017, braynePredictSurveilData2020} 
-  \item
-    NSF graph describes military applications by the boatload
-  \end{itemize}
-\item
-  The fundamental contradiction of platform capitalism
-\end{itemize}
+And it's all \emph{so convenient.}
 
 \hypertarget{vulgar-linked-data}{%
 \subsection{Vulgar Linked Data}\label{vulgar-linked-data}}
 
-vulgar LD is when we own it, rather than merely annotate things to be
-owned by google. what is the point where the owner of the graph can just
-say\ldots{} no?
+\begin{quote}
+``The popular vernaculars are vast speech-jungles, in which old forms
+are decaying and new ones continually springing into life; and this
+fermentation results in the creation of numberless new terms, which come
+to birth and live and die in tropical profusion. They are formed in
+living response to the needs of the moment; the greater number of them
+hardly survive the occasion that brought them forth; but others, on
+account of their expressive power and their usefulness, establish
+themselves, spread from district to district. {[}\ldots{]}
+
+For human speech is after all a democratic product, the creation, not of
+scholars and grammarians, but of unschooled and unlettered people.
+Scholars and men of education may cultivate and enrich it, and make it
+flower into all the beauty of a literary language; but its rarest blooms
+are grafted on a wild stock, and its roots are deep-buries in the common
+soil. From that soil it must still draw its sap and nourishment, if it
+is not to perish, as the other standard languages of the past have
+perished, when, in the course of their history, they have been separated
+and cut off from the popular vernacular --- from that vulgar speech
+which has ultimately replaced their outworn and archaic forms.''
+
+--- L.P. Smith (1925) \emph{``Words and Idioms''} \cite{smithWordsIdiomsStudies1925} 
+\end{quote}
+
+\begin{quote}
+Control, control for who? for what?I'm no robot, they can get fucked.
+
+--- Black Flag (1981) \emph{``No More''}
+\end{quote}
+
+Is it still possible to imagine a different world than the one the
+information conglomerates have planned for us? Can we imagine a properly
+\emph{human} information infrastructure?
+
+We can start by identifying the harms of the world as it exists to
+understand why a new world is needed, as I have attempted some small
+part of in this piece. Harm, in this case, is not some speculative
+future of superintelligent sentient AI, but elaboration of ongoing harms
+of the surveillance and platform economies.
+
+Building a better informational world is not a matter of choosing a
+different set of technologies --- I argue that in this case some of the
+masters tools can help us rebuild his house. At the same time we can't
+overcorrect in our focus on social problems and dismiss technology as a
+strategy, a tool, and a manifestation of values, belief, and labor. We
+must have an answer to the well meaning liberal that mistakes the
+dynamics of surveillance capitalism or their role in it: that
+understands that these knowledge graphs are not truly universal, that
+the LLMs are not sentient, but embraces their logic because they're so
+\emph{useful.} We have to understand why simply building open source
+LLMs or nonprofit linked data platforms is not a liberatory strategy. We
+have to have the courage to face the underlying structural informational
+problems in our organizations at all scales --- that instead of
+reimaginging how we work and communicate, we can't simply strap ``AI''
+onto our problems and expect to solve them. We have to recognize that
+sidestepping the hard socio-technological problems of information
+organization is a continuation of, not solution to the patterns that
+cause them.
+
+At the same time, we can't dismiss those needs. How could we possibly
+tell someone with vision impairments not to use ``AI'' tools for
+summarizing images, or someone with motor or speech impairments not to
+use LLMs as a communication aid? It is true that making better use of
+biomedical data could lead to better treatments. Indecipherable
+government bureaucracy due to ancient data infrastructure is an
+informational injustice. So simple abstinence or resistance to
+universalizing knowledge graphs and LLMs is also not an effective or
+just strategy, especially if the alternative is a conservative embrace
+of the existing cloud platform regime whose logic spawned them.
+
+The constant partial satisfaction and construction of new needs,
+\emph{the hollow middle} at the center of every cloud platform, is a
+powerful opening. The structure of contemporary platforms always pose a
+fundamental lack:\sidenote{\begin{quote}
+  ``The costs of this approach, as platform studies has shown, come in
+  the form of constraints, constant revisions forced by platform
+  updates, and lock-in to the platform's conception of users,
+  functionality, and design values.'' \cite{plantinInfrastructureStudiesMeet2018} 
+  \end{quote}} as a service, some functionality must always be withheld
+to create a walled garden or nurture dependence. Even platforms without
+an intended profit motive have their own ``platform logic'' ---
+constraining their use to only exactly what the developers intended it
+to be used for. For a project intended to organize information, why is
+it difficult for me to find the different components of the Translator
+project? Since its creators imagined ``users'' interacting only with the
+frontends of its platforms, little emphasis was placed on the
+discoverability of the whole system, and, critically, there is no way
+for me to contribute something like that and have it be visible by .
+This is true of all the ways large and small that platforms are
+mismatched with our expectations and needs --- even though we subscribe
+to 15 or 20 different platforms, why is it that we always need to find
+yet another to do something even slightly outside the finite imagination
+of their developers?\sidenote{The preponderance of listicle ``life
+  hack'' threads on Twitter and other social media systems that blast
+  ``top 10 ways you're using Google Docs wrong'' or ``10 platforms and
+  apps that will next level your calendar,'' bulleted by emoji and
+  suffixed with a substack link, is a very visible symptom of this
+  fundamental contradiction of providing and withholding functionality
+  in the platform economy.}
+
+Another set of openings come from the problems cloud platforms pose for
+themselves that are flatly ridiculous when described plainly. \emph{Why
+on earth} do I have to route my file through some cloud datacenter
+thousands of miles away to send it several inches between my phone and
+computer? \emph{Why on earth} should I need a near-flawless,
+high-bandwidth internet connection to \emph{edit a plain text document?}
+\emph{Why on earth} do I have to rely on an effectively unregulated and
+hostile intermediary like Facebook or Twitter to communicate with my
+family and friends, or even to \emph{merely exist online?} \emph{Why}
+should I have to waste 500mL of potable water to check the weather? \cite{liMakingAILess2023} ? \emph{Why} is my \emph{car} spying on me
+so some company I have never heard of can sell my data to an insurance
+provider? \emph{Why} is it possible for a hospital system to volunteer
+my personal medical information without IRB approval \cite{nelsonIntegratingBiomedicalResearch2019} ? Why is the best we can do
+to frame that question as a matter of consent, \emph{why is it possible
+for a platform to create and store and manipulate my personal
+information at all? \cite{hongControlCreepWhen2021} } You only
+have to engineer the kinds of systems capable of
+automatically\sidenote{Supplemented by a large amount of curation labor
+  outsourced to the global south so the platform can pay as little as
+  possible for its ``magical'' appearance.} extracting all information
+on the web \emph{if you imagine the only possible system as one that
+universally indexes all information as one of a few hegemonic
+platforms.} Why do we have to settle for systems that purposely limit
+our expectations to what the platform can provide as a ``best
+guess?\sidenote{Before search engines were seen as an invisible,
+  inevitable part of interacting with the web, there was a wealth of
+  discussion of possible alternatives, eg. in a ``Journal of Internet
+  Cataloging'' \cite{jjournalofinternetcatalogingJournalInternetCataloging1999} , and
+  criticism warning about the risks of search engines, including biases
+  in results and demands for algorithmic transparency \cite{intronaShapingWebWhy2000} . It is the now-audacious possibility
+  that there could be an alternative to search engines that is striking
+  about writing from this era, and some of it is still quite prescient
+  --- eg. this message in the archive of w3c's RDF mailing list
+  contrasting an explicit reasoning system vs.~Google's ``best guess''
+  strategy: \textgreater{} I think it all boils down to whether we want
+  inference engines to function more like Google, with potentially lots
+  of false positives which \emph{might} be useful, or like a reasoning
+  engine where a positive result can be trusted (insofar as the quality
+  and integrity of the knowledge base) and the inability to obtain a
+  result simply means more information is needed. \textgreater{}
+  \textgreater{} I myself have always presumed that SW agents would
+  exhibit the latter behavior. {[}\ldots{]} \textbf{If we are to have a
+  future where we deploy SW agents to do real-world tasks for us, I'd
+  prefer that they wouldn't be guessing.} \cite{sticklerReMonotonicityWas2002} }'' Why do we have to work around
+the dark patterns designed to corral our behavior rather than building
+digital worlds that meet our needs for communication and community?
+
+How did we come to imagine ourselves as so powerless?
+
+Clearly, we need a change in \emph{belief} to effectively challenge the
+deeply entrenched cloud-surveillance-platform archipelago. We need to
+unlearn what we have been taught to want, what we believe information
+technologies should do, and how they are supposed to work. We need to
+rethink our role in information technology, to move beyond the learned
+helplessness of the platform consumer and the petty tyranny of the
+platform operator. We need to reorganize our expectations of agency,
+beyond the division of labor that gives the power of final say over
+informational systems in the hands of a cadre of experts that the rest
+of us just make the best of. We don't have time to argue about whether
+we \emph{can} build a better world\sidenote{\begin{quote}
+  Don't sighingly sign petitions, pose for the cameras, await some
+  window of opportunity. Do participate in town parades and street
+  festivals, break into abandoned buildings to throw great banners down
+  the sides, start conversations with strangers, challenge everything
+  you thought you knew about yourself in bed, maintain a constant
+  feeling in the air that \emph{something is happening.} Live as if the
+  future depends on your every deed, and it will. Don't wait for
+  yourself to show up---you already have. Grant yourself license to live
+  and tear those shackles to ribbons: Create momentum! \cite{crimethincex-workerscollectiveFightingOurLives2002} 
+  \end{quote}}, to list all the many ways we are hemmed in by
+infrastructure and incentives, or to wait for another powerful entity
+with decidedly divergent interests like a government\sidenote{Particularly
+  when unregulated AI is wrapped up in ``national security concerns,'' I
+  don't see a reason to believe governments will meaningfully regulate
+  ``AI,'' except in such a way thats shores up the power of large
+  conglomerates under the guise of safety.} to save us --- we need to
+believe we too can be powerful.
+
+An attempt to define another ``Correct'' counter-belief system would be
+missing the point, but we can't ignore the importance of naming and
+articulating belief in opening the possibility for and aligning
+action\sidenote{In the words of CrimethInc: I am not giving
+  instructions, but license. \textgreater{} Above all! It means not
+  accepting this or any manifesto or definition as it is, but making and
+  remaking it for yourself. \cite{crimethincex-workerscollectiveFightingOurLives2002} }. Our old
+belief systems are getting musty. It has been an important rallying cry,
+but \textbf{``Openness'' alone has failed as a liberatory strategy.} All
+we make and offer up to each other freely is stolen ten times over by
+those who have much grander visions of enclosure. Without a strategy to
+resist co-option, our openness puts tools in the hands of the powerful.
+This is also not a fight that can be won with technical or legal changes
+like \href{https://ethicalsource.dev/licenses/}{ethical source
+licenses}, though they are a useful idea. Drawing from a historiography
+of prior digital cultural movements like the semantic web, piracy, and
+the loosely-defined ``fediverse\sidenote{I give a fuller description of
+  these dispersed influences in \cite{saundersDecentralizedInfrastructureNeuro2022} },'' I\sidenote{Of
+  course no idea is original, and I draw from many people and
+  disciplines and traditions either explicitly or implicitly. I have
+  done my best to cite them and provide credit as I go, but I will of
+  course never be able to exhaustively list all the things that have
+  influenced my thinking. If I have missed a citation I assure the
+  reader it was not with purposeful malice, and welcome annotations and
+  pull requests to provide credit where it is due.} argue that
+\textbf{vulgarity} opens up the space of belief for rethinking data
+infrastructures and attempt a rough definition.
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\textbf{We} are the principle value of vulgar linked data. We don't wait
+for permission to be free, nor are we waiting on anyone else to save us.
+\textbf{Convenience is secondary to to agency. Social bonds are more
+valuable than uptime.} Our systems might stutter or crash sometimes, but
+we know who runs it because they are one of us. When we have a need, we
+make the tools to address it ourselves. We know nothing comes for free
+unless we make it so, and we are skeptical of ``solutions'' that drop
+from the sky, asking nothing of us, because they have a habit of making
+us into a product. We \textbf{cultivate abundance} instead of scarcity,
+and \textbf{cooperation} is the only magical solution we are aware of.
+
+\textbf{We have no dreams of universality} or world domination, nor do
+we aspire to always make sense. We \textbf{linger in complexity} and
+relish in it. We are smart and sometimes brain is broken. We are capable
+and inept. We are complicated, we are \textbf{pluralistic and multiple.}
+We reject the colonial project of the Single True System, we have no
+teleology of seamless homogeneity. \textbf{We embrace heterogeneity} and
+ambiguity as the signifiers of \emph{life.} We don't leave each other
+behind, and \textbf{if a system isn't accessible, it doesn't work.} The
+power of expression is more valuable than Correctness, if there is such
+a thing. \textbf{Meaning is intrinsically relational,} something that
+always exists \emph{between} us, that we make ourselves. We weave webs
+of \textbf{translation} between local meanings, knowing that everything
+is understood as many senses to many people at the same time.
+
+\textbf{Our infrastructures are social.} There is no class distinction
+between ``developer'' and ``user.'' We resist concentrated power in
+favor of mutual empowerment. We don't seek to cultivate dependence in
+councils of elders or create new chokepoints of control. Anything worth
+making is a potential source of power, so \textbf{anything worth making
+is worth distributing governance of.} We don't assume the needs of
+others, but make tools so we can meet our own needs. \textbf{We don't
+make platforms, we make protocols} with rough consensus based on what
+works. We are autonomous, but neither isolated nor selfish. Our dream is
+not one of solipsism, glued to our feeder bar, being ``fed'' the pellets
+of our social reality. \textbf{We are radically responsible for one
+another,} and by organizing together we can provide services as mutual
+aid. Mutual empowerment means that \textbf{we are free to come and go as
+we please,} even if we might be missed. We have no love for venerated
+institutions and organize fluidly, making systems so we can merge and
+fork\sidenote{``Forking'' in digital social spaces is different than in
+  physical spaces, where resources can be duplicated and split \cite{MeatballWikiRightToFork} } code and ourselves freely \cite{bookchinNoteAffinityGroups1969, MeatballWikiRightToFork} .
+
+\textbf{Information is communication.} We communicate with each other to
+share our joy and pain and wisdom and the rest of the experiences of our
+life. \textbf{Our Data is like language} --- in vernacular formats and
+ontologies, propositions from a person rather than as a disembodied
+fact. We own our data in the same way that we are responsible for the
+things we say. Data created \emph{about us} through systems like
+surveillance has all the importance of unsubstantiated rumour.
+\textbf{Openness as a concept dissolves when there is no enclosure.} We
+share publicly the things we intend to share publicly, though we might
+resist the scraping gaze of conglomerates that might seek to make our
+communication a product. We scope what we share privately to the people
+we intend to see it. \textbf{Communication requires consent,} and when
+we share our personal information we have the right to grant and
+withdraw that consent. \textbf{Communication is multivalent,} and
+academic prose sits comfortably next to shitposts. \textbf{No idea
+exists in isolation,} and when we adopt or remix or criticize what each
+other have made we can see the many threads that have led to any
+particular stitch in a larger quilt. The same systems that facilitate
+public communication can protect marginalized people or activists hunted
+by the state. \textbf{We keep each other safe.} We
+\href{http://meatballwiki.org/wiki/EnlargeSpace}{EnlargeSpace} \cite{MeatballWikiEnlargeSpace}  rather than attempting to fit everyone
+into a universalizing system.
+
+We don't \emph{fight} the powerful, we make the sources of their power
+\emph{obsolete} by making our own world.
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+The information systems we need are
+\href{https://www.etymonline.com/search?q=vulgar}{\emph{vulgar}} \cite{harperVulgar}  in that they are of us, for us, and resist
+formalizing authority and global-logical coherence. We are revitalizing
+and extending the old notions of linked data, and particularly extending
+its ``scruffy'' tradition \cite{poirierTurnScruffyEthnographic2017}  to drop the pretense of an eventually-unified ontological space in
+favor of one that explicitly values heterogeneity and vernacularism.
+
+I have written \href{https://jon-e.net/infrastructure}{at length} about
+what vulgar linked data might look like in practice, but that work is of
+course always ongoing. In short, it is based around a new generation of
+\textbf{peer to peer} technologies\sidenote{Unfortunately, the
+  blockchain and cryptocurrency cult has muddied the waters by laying
+  claim to the phrase ``peer to peer'' to mean something entirely
+  different. Here I mean it as real, actual peer to peer systems built
+  for abundance rather than generating artificial scarcity, in the
+  lineage of BitTorrent, among others.} that are designed to be
+explicitly social, rather than homogenous like BitTorrent where a peer
+is only identified by their IP address. One instantiation of
+communication could use collections of triples akin to
+\href{https://linkeddatafragments.org/concept/}{linked data fragments},
+or perhaps extend them to be quartets that explictly include an author.
+These triple collections could be manipulated by a number of familiar
+interfaces initially, like chatrooms, documents, threaded media like
+Mastodon and so on. It should facilitate social organization by allowing
+individual peers to federate with one another, agreeing to mirror
+subsets of each others data, potentially making use of larger and more
+fixed resources as well as low power consumer devices. The network can
+be made more efficient by content addressing each collection of triples,
+and can make use of encryption schemes like capability-based security to
+scope data to a specific set of recipients. The goal would be to make an
+evolving protocol that can represent some underlying information in
+arbitrary interfaces from scientific data through the mundanities of
+everyday communication like sharing photos or planning events.
+
+In the short term this looks more like
+\href{https://mayfirst.coop/en/}{mayfirst} or
+\href{https://coopcloud.tech/}{co-op cloud} than traditional cloud
+systems, where people voluntarily cooperate to build infrastructure that
+isn't the faceless corporate technology that dominates computing
+currently. The fediverse is another ongoing experiment in collectively
+owned, interoperable systems, where individual groups like we at
+\href{https://neuromatch.social}{neuromatch.social} organize and
+administer their own systems. Longer term we can start building these
+out to true peer to peer technologies that are a fundamental departure
+from client-server cloudlike models.
+
+More important than the specific technological instantiation is a shift
+in what we \emph{value} in technology and what we believe it should do.
+Rather than customers renting a handful of platforms, we can organize
+our own infrastructures for storage and computation to displace cloud
+platforms across multiple modalities. We can \emph{counterbuild} the
+fill the space currently occupied by the cloud without replicating its
+
+We face a stark choice for our future. The Cloud is circling, will it
+eat us alive? Will we build a space of universalizing knowledge graphs
+that allow the seamless linking and trade of every element of our
+society, powering algorithmic systems from information organization
+through medical systems, governance, and policing. Will we continue to
+let information conglomerates farm us for our data and feed it back to
+us, reprocessed, as Content and Knowledge™? Will we be hooked by the lip
+by barbed convenience that promises us magic, but delivers us only
+greater surveillance, control, and dependence? Will our attempts at
+resistance only ever amount to a neverending treadmill of startups and
+publicly-funded projects that can't break from the gravitational pull of
+The Cloud Orthodoxy, retreading its worldview of asymmetrical power
+concentration, inevitably shuttered or bought as they fail to compete on
+the same territory as the information giants?
+
+Or will we build a better world?

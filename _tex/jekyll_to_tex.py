@@ -191,7 +191,8 @@ if __name__ == "__main__":
             strip=(r'\\tightlist',),
             replace=(
                 (r'/surveillance-graphs/assets/', ''),
-                (r'(?<=\\includegraphics)(\{[^}]*})', r'[width=\\linewidth]\1')
+                (r'(?<=\\includegraphics)(\{[^}]*})', r'[width=\\linewidth]\1'),
+                (r'\.svg', '.png')
                 ),
             output=out_fn
             )
