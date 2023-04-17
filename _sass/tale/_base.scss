@@ -26,31 +26,43 @@ body {
   --text-shade: #{$default-shade};
   --bg-color: #{$white};
   --link-color: #{$purple};
+  --note-color: #{$default-color};
+  --custom-highlight-color: #{$purple-lighter-highlight};
+  --highlight-text-color: #{$default-color};
 
 
   &.dark-theme {
     --text-color: #{$grey-2};
-    --text-shade: #{$grey-15};
+    --text-shade: #{$default-tint};
     --bg-color: #{$background-dark};
     --link-color: #{$purple-lighter};
+    --note-color: #{$default-color};
+    --custom-highlight-color: #{$purple-darker};
+    --highlight-text-color: #{$grey-2};
   }
 }
 
-// @media (prefers-color-scheme: dark){
-//   body {
-//     --text-color: #{$grey-2};
-//     --text-shade: #{$grey-15};
-//     --bg-color: #{$background-dark};
-//     --link-color: #{$purple-lighter};
+@media (prefers-color-scheme: dark){
+  body {
+    --text-color: #{$grey-2};
+    --text-shade: #{$default-tint};
+    --bg-color: #{$background-dark};
+    --link-color: #{$purple-lighter};
+    --note-color: #{$default-color};
+    --custom-highlight-color: #{$purple-darker};
+    --highlight-text-color: #{$grey-2};
 
-//     &.light-theme {
-//       --text-color: #{$default-color};
-//       --text-shade: #{$default-shade};
-//       --bg-color: #{$white};
-//       --link-color: #{$purple};
-//     }
-//   }
-// }
+    &.light-theme {
+      --text-color: #{$default-color};
+      --text-shade: #{$default-shade};
+      --bg-color: #{$white};
+      --link-color: #{$purple};
+      --note-color: #{$default-color};
+      --custom-highlight-color: #{$purple-lighter-highlight};
+      --highlight-text-color: #{$default-color};
+    }
+  }
+}
 
 body {
   -webkit-text-size-adjust: 100%;
@@ -81,7 +93,7 @@ a {
 
 blockquote {
   border-left: .25rem solid $grey-2;
-  color: $grey-0;
+  color: var(--text-shade);
   margin: .8rem 0;
   padding: .5rem 1rem;
 

@@ -12,21 +12,45 @@ layout: default
         <div class="post-line"></div>
 
         {% if page.author %}
+        <div id='authors'>
           {% for author in page.author %}
+          {% assign idx = forloop.index %}
           <span property="author" resource="#au:{{ author.name | slugify: "ascii" }}" typeof="Person">
             <span class="post-author" property="name">{{ author.name }}</span>
+           {% if author.affiliation %}
+            <a href="#affil-{{author.name | slugify: "ascii" }}">
+                <sup>{{ idx }}</sup>
+            </a>
+            {% endif %}
+            {% if author.email %}
             <span property="email" content="{{ author.email }}"> 
             <a href="mailto:{{ author.email }}">
-                <i class="far fa-envelope"></i>
+                ✉
             </a>
             </span>
+            {% endif %}
           </span>
           {% endfor %}
+        </div>
         {% else %}
           <span class="post-author">{{ site.author.name }}</span>
         {% endif %}
 
-        <br>
+        {% if page.author %}
+        <div id="affiliations">
+            {% for author in page.author %}
+            {% assign idx = forloop.index %}
+            {% if author.affiliation %}
+            <span class="author-affiliations" resource="#au:{{ author.name | slugify: "ascii" }}"></span>
+            <sup>{{ idx }} </sup>
+            {% for affil in author.affiliation %}
+                <span class="affiliation" property="affiliation">{{ affil }}</span>{% if forloop.index < forloop.length %},{% endif %}
+            {% endfor %}
+            </span>
+            {% endif %}
+            {% endfor %}
+        </div>
+        {% endif %}
 
         {% if page.date %}
         <div class="post-date">
@@ -40,7 +64,10 @@ layout: default
 
         <div class="post-date">
             <span>Rendered: </span>
-            <time datetime="{{ site.time | date: "%Y-%M-%d"}}"> {{ site.time | date: "%Y-%m-%d" }}</time> - <span style="color:#444; font-style:none">permalink:</span> <a href="/infrastructure/versions/{{ site.data['hash'] }}"><code>{{ site.data['hash'] }}</code></a> {% if page.pdf_link %} - <a href="{{ page.pdf_link }}"><code>PDF VERSION</code></a> {% endif %}
+            <time datetime="{{ site.time | date: "%Y-%M-%d"}}"> {{ site.time | date: "%Y-%m-%d" }}</time>
+            {% if site.versioned %} - <span style="color:#444; font-style:none">permalink:</span> <a href="/infrastructure/versions/{{ site.data['hash'] }}"><code>{{ site.data['hash'] }}</code></a> 
+            {% endif %}
+            {% if page.pdf_link %} - <a href="{{ page.pdf_link }}"><code>PDF VERSION</code></a> {% endif %}
 
         </div>
 
@@ -61,6 +88,7 @@ layout: default
     </div>
 
     {% if page.bibliography == true %}
+    BIBLIOGRAPHY
     {% bibliography --cited %}
     {% endif %}
 

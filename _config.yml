@@ -52,6 +52,9 @@ scholar:
   style: ./citations.csl
   bibliography_template: bib
 
+# If we are making a specific rendered version and permalinking it...
+versioned: false
+
 
 # Exclude from processing.
 # The following items will not be processed, by default.

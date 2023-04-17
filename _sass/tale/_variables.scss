@@ -11,10 +11,11 @@ $white: #fff !default;
 $blue: #4a9ae1 !default;
 $purple: #9933CC !default;
 $purple-lighter: lighten($purple, 20%);
+$purple-lighter-highlight: lighten($purple, 45%);
 $purple-darker: darken($purple, 20%);
 $shadow-color: rgba(0, 0, 0, .2) !default;
 $code-color: #bf616a !default;
-$highlight-color: #f80 !default;
+$highlight-color: $purple !default;
 $background-dark: #121212;
 
 //  breakpoints

@@ -14,6 +14,15 @@
 	.st8{font-family:'Helvetica-Bold';}
 	.st9{fill:#FFFFFF;}
 	.st10{fill:#FF0000;}
+	:root {
+		background-color: #fff;
+	}
+
+	@media (prefers-color-scheme: dark){
+	.st0{fill: #fff;}
+	.st4{fill: #fff;}
+	:root {background-color: #111;}
+	}
 </style>
 <text transform="matrix(1 0 0 1 36.625 195.7175)" class="st0 st1">(a) Retrieve-then-rank</text>
 <text transform="matrix(1 0 0 1 194.8714 195.7175)" class="st0 st1">(b) Unified retrieve-and-rank</text>
