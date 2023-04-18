@@ -25,7 +25,6 @@ bibliography: true
 
 {% include foreword.html %}
 
-
 # Introduction
 
 {% include_relative _sections/intro.md %}
