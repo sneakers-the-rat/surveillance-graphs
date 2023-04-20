@@ -6,7 +6,7 @@ author:
   - name: Jonny L. Saunders
     affiliation: 
       - UCLA - Department of Neurology
-      - The Institute of Pirate Technology
+      - Institute of Pirate Technology
     email: j@nny.fyi
 navigation: false
 bibtex: false # render bibtex for each reference
