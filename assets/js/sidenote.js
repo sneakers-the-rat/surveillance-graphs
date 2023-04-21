@@ -79,9 +79,9 @@ function getOffset(element)
                 "position": "absolute",
                 "left": `calc(${ww}px - 0.5em)`,
                 "top": new_top,
-                "min-width": ww > 420 ? `${ww/4}px` : `%{ww/3}px`,
-                "max-width": `${ww/2}px`,
-                "width": `${ww/2}px`,
+                "min-width": ww > 420 ? `${ww/4}px` : `${ww/2}px`,
+                "max-width": `${ww*(2/3)}px`,
+                "width": ww > 420 ? `${ww/2}px` : `${ww*(2/3)}px`,
                 "margin-right": "1em"
             };
             Object.entries(div_style).forEach(([key, value]) => {
