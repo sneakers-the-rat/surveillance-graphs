@@ -20,6 +20,9 @@
 
 [^integration]: > That is because knowledge graphs aim to solve the data incongruence problem, which is one of the biggest operational headaches for corporates, says Atkin.  “Corporates suffer from technology fragmentation and as a result have a lot of data that doesn’t align across the organization. Doing the hard work to fix this data incongruence reality is a pre-requisite for realizing business value,” he says. {% cite schenkerNewReportDetails2021 %}
 
+[^tripletstatements]: Another way of looking at the capacity for heterogeneity in triplet graphs is by thinking of links as statements:
+    > One person may define a `vehicle` as having a `number of wheels` and a `weight` and a `length`, but not foresee a `color`. This will not stop another person making the assertion that a given car is `red`, using the color vocabulary from elsewhere. {% cite berners-leeWhatSemanticWeb1998 %}
+
 [^freesoftware]: "free as in whatever will prevent you from @'ing me about getting some definition of free wrong."
 
 [^wikipedia]: I have written about the peculiar structure of Wikipedia among wikis previously, section 3.4.1 - "[The Wiki Way](https://jon-e.net/infrastructure/#the-wiki-way)" {% cite saundersDecentralizedInfrastructureNeuro2022 %}
@@ -48,11 +51,11 @@
 
 [^biolinkpaper]: The title of the Biolink paper is "Biolink Model: A universal schema for knowledge graphs in clinical, biomedical, and translational science" {% cite unniBiolinkModelUniversal2022 %}
 
-[^tooling]: To their credit, the Translator project seems to have made some of the long-delayed tooling for declaring a schema in a more accessible syntax[^yaml] than RDFS/OWL and generating representations in multiple formats, from [JSON-LD to pydantic models](https://github.com/biolink/biolink-model). The Biolink paper also mentions a "[Node Normalization Service](https://github.com/TranslatorSRI/NodeNormalization)" for being able to resolve Linked Data entities from different vocabularies that have been declared to be the same thing, but at the time of writing development seems to have [slowed](https://web.archive.org/web/20230316031655/https://github.com/TranslatorSRI/NodeNormalization/graphs/contributors)
+[^tooling]: To their credit, the Translator project seems to have made some of the long-delayed tooling for declaring a schema in a more accessible syntax than RDFS/OWL and generating representations in multiple formats, from [JSON-LD to pydantic models](https://github.com/biolink/biolink-model). The Biolink paper also mentions a "[Node Normalization Service](https://github.com/TranslatorSRI/NodeNormalization)" for being able to resolve Linked Data entities from different vocabularies that have been declared to be the same thing, but at the time of writing development seems to have [slowed](https://web.archive.org/web/20230316031655/https://github.com/TranslatorSRI/NodeNormalization/graphs/contributors)
 
-[^babel]: In an odd mixture of metaphors, members of the Translator consortium introduced the project with a piece titled "Deconstructing the Translational Tower of Babel." {% cite austinDeconstructingTranslationalTower2019 %} A common interpretation of the Biblical Tower of Babel is as a symbol of the hubris of humanity, attempting to inscribe ourselves into the heavens and become immune to any future God-induced flooding. God, concerned with the power of a humanity unified under a single language, punished them by scattering people into groups speaking mutually unintelligible languages so they would not complete the tower. It is unclear why an effort to create a universalizing ontology would then be deconstructing a tower of babel, as it was the power of a unified language that allowed it to be built. Perhaps in other interpretations the Tower is an obelisk that suppresses the reunification of language. But I digress.
+[^babel]: In an odd mixture of metaphors, members of the Translator consortium introduced the project with a piece titled "Deconstructing the Translational Tower of Babel." {% cite austinDeconstructingTranslationalTower2019 %}. It is unclear why an effort to create a universalizing ontology would be deconstructing a tower of babel, as in its common interpretation it was the hubristic power of a unified language that caused it to be built and incurred the wrath of God. But I digress.
 
-[^slots]: or links, labeled edges.
+[^slots]: or links, labeled edges, predicates. The terminology is more or less interchangeable.
 
 [^norawdata]: In a 2018 presentation by one of Biolink's authors: "What NOT to use the biolink-model for: Raw data, Metadata about a dataset" with some caveat that the underlying metamodel might still be useful {% cite chrisIntroductionBioLinkDatamodel2018 %}.
 
