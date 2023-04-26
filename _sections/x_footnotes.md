@@ -53,7 +53,7 @@
 
 [^tooling]: To their credit, the Translator project seems to have made some of the long-delayed tooling for declaring a schema in a more accessible syntax than RDFS/OWL and generating representations in multiple formats, from [JSON-LD to pydantic models](https://github.com/biolink/biolink-model). The Biolink paper also mentions a "[Node Normalization Service](https://github.com/TranslatorSRI/NodeNormalization)" for being able to resolve Linked Data entities from different vocabularies that have been declared to be the same thing, but at the time of writing development seems to have [slowed](https://web.archive.org/web/20230316031655/https://github.com/TranslatorSRI/NodeNormalization/graphs/contributors)
 
-[^babel]: In an odd mixture of metaphors, members of the Translator consortium introduced the project with a piece titled "Deconstructing the Translational Tower of Babel." {% cite austinDeconstructingTranslationalTower2019 %}. It is unclear why an effort to create a universalizing ontology would be deconstructing a tower of babel, as in its common interpretation it was the hubristic power of a unified language that caused it to be built and incurred the wrath of God. But I digress.
+[^babel]: In an odd mixture of metaphors, members of the Translator consortium introduced the project with a piece titled "Deconstructing the Translational Tower of Babel." {% cite austinDeconstructingTranslationalTower2019 %}. It is unclear why an effort to create a universalizing ontology would be deconstructing a tower of babel, as in one common interpretation it was the hubristic power of a unified language that caused it to be built and incurred the wrath of God. But I digress.
 
 [^slots]: or links, labeled edges, predicates. The terminology is more or less interchangeable.
 
@@ -81,6 +81,8 @@
 [^reasoner-training]: >"The Reasoners then return ranked and scored potential translations with provenance and supporting evidence. The user is then able to evaluate the translations and supporting evidence and provide feedback to the Reasoners, thus promoting continuous improvement of the prototype system." {% cite consortiumUniversalBiomedicalData2019 %}
 
 [^section206]: There is a clear analogy to the recent push to increase internet content regulation by social media companies {% cite doctorowRegulatingBigTech2019 %}. A platform makes a quasi-universal social space for profit, moderation then has to scale with the size of the platform, then it lobbies to increase regulatory burden to a point that is impossible to maintain for all but already-scaled companies. It is only the quasi-universality of the platform that makes the moderation burden so high in the first place, however, compared to eg. a decentralized medium that might have a structurally different disposition to moderation ( see {% cite rozenshteinModeratingFediverseContent2022 %}).
+
+[^techtransfer]: Although through the extremely cursed neoliberal lens of "tech transfer," many might be very willing.
 
 [^whoomp]: If you could rig an MS Word template to punctuate sentences with "[Whoomp! (There It Is)](https://www.youtube.com/watch?v=L6mNa_QZVHg)," they would have.
 
