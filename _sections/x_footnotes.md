@@ -88,7 +88,9 @@
 
 [^NSFconvergence]: The Convergence Accelerator is a project specifically designed to provide public research funding to for-profit industries {% cite nationalsciencefoundationNSFConvergenceAccelerator2019 %}
 
-[^pattern]: Hopefully this pattern is familiar.
+[^ainationalsecurity]: The Open Knowledge Network is described in the National Security Commission on Artificial Intelligence's Final Report, an "integrated national strategy to reorganize the government, reorient the nation, and rally our closest allies and partners to defend and compete in the coming era of AI-accelerated competition and conflict," as part of a strategy to maintain US AI research competitiveness in the "race for AI supremacy" against (primarily) China {% cite nationalsecuritycommissiononartificialintelligenceFinalReport2021 %}.
+
+[^bigdataworkinggroup]: The [Big Data Interagency Working Group](https://www.nitrd.gov/coordination-areas/big-data/)'s 2017 workshop summary describes the desire for the OKN as a way to overcome "walled gardens" in existing commercial knowledge graphs so that future AI-powered technologies can benefit from "synergies that use both open and proprietary data," specifically to power "conversational" knowledge services, which we will discuss in the next section. {% cite bigdatainteragencyworkinggroupOpenKnowledgeNetwork2018 %}
 
 [^spoke]: SPOKE, discussed previously, was funded by both the Translator project {% cite huangNIH1OT2TR00345001EVIDARA2020 %} and OKN {% cite baranziniNSFAwardSearch2022 %}, and [KnowWhereGraph](https://knowwheregraph.org/) is another notable early prototype {% cite janowiczKnowKnowWhere2022 %}
 
@@ -97,18 +99,18 @@
 [^palantirexternaldata]: Palantir prides itself on its ability to continuously add new data sources: 
     > “Because one of Palantir’s biggest selling points is the ease with which new, external data sources can be incorporated into the platform, its coverage grows every day. LAPD data, data collected by other government agencies, and external data, including privately collected data accessed through licensing agreements with data brokers, are among at least 19 databases feeding Palantir at JRIC.” {% cite braynePredictSurveilData2020 %}
 
-[^sprint]: The "Innovation Sprint" is essentially as an extended pitch session for future work, which is both important context as a strong counterincentive to series ethical consideration of the projects --- and also a demonstration of why it might not be good to organizing infrastructural projects as pitch sessions rather than from some ethical foundation.
+[^sprint]: The "Innovation Sprint" is essentially as an extended pitch session for future work, which is both important context as a strong counterincentive to serious ethical consideration of the projects --- and also a demonstration of why it might not be good to organize infrastructural projects as pitch sessions rather than from some ethical foundation.
 
 [^systemsengineers]: A recurring pattern in techno-solutionism: 
     > "These perspectives assume that complex controversies can be solved by getting correct information where it needs to go as efficiently as possible. In this model, political conflict arises primarily from a lack of information. If we just gather all the facts, systems engineers assume, the correct answers to intractable policy problems like homelessness will be simple, uncontroversial, and widely shared.
     >
     > But, for better or worse, **this is not how politics work.**" {% cite eubanksAutomatingInequalityHow2019 %}
 
-[^cfive]: ...and then outsourcing the maintenance and risk of it being breached {% cite informationsystemsadvisoryboardcountyoflosangelesCONTRACTCOUNTYANGELES2021 %}
+[^cfive]: ...and then outsourcing its maintenance to an external company along with liability in the case of a data breach {% cite informationsystemsadvisoryboardcountyoflosangelesCONTRACTCOUNTYANGELES2021 %}
 
 [^acab]: > These visits often resulted in other, unrelated arrests that further victimized families and added to the likelihood that they would be visited and harassed again. In one incident, the mother of a targeted teenager was issued a $2,500 fine when police sent to check in on her child saw chickens in the backyard. In another incident, a father was arrested when police looked through the window of the house and saw a 17-year-old smoking a cigarette. These are the kinds of usually unreported crimes that occur in all neighborhoods, across all economic strata—but which only those marginalized people who live under near constant policing are penalized for. {% cite guarigliaTechnologyCanPredict2020 kathleenTargeted2020 %}
 
-[^utopiaofrules]: For a fuller discussion of utopias, power, imagination, managerialism, and its intersections with bureaucracy, see {% cite graeberUtopiaRulesTechnology2015 %}
+[^utopiaofrules]: For a fuller discussion of academic utopias, power, imagination, managerialism, and its intersections with corporate reality, see {% cite graeberUtopiaRulesTechnology2015 %}
     > The increasing interpenetration of government, university, and private firms has led all parties to adopt language, sensibilities, and organizational forms that originated in the corporate world. While this might have helped somewhat in speeding up the creation of immediately marketable products --- as this is what corporate bureaucracies are designed to do --- in terms of fostering original research, the results have been catastrophic. [...]
     >
     > A timid, bureaucratic spirit has come to suffuse every aspect of intellectual life. More often than not, it comes cloaked in a language of creativity, initiative, and entrepreneurialism. But the language is meaningless. The sort of thinkers most likely to come up with new conceptual breakthroughs are the least likely to receive funding, and if, somehow, breakthroughs nonetheless occur, they will almost certainly never find anyone willing to follow up on the most daring implications. [...]
@@ -116,6 +118,8 @@
     > This is what I mean by"bureaucratic technologies": administrative imperatives have become not the means, but the end of technological development. {% cite graeberUtopiaRulesTechnology2015 %}
 
 [^EOSC]: It's out of scope here, but another point of comparison and contrast is the EU's European Open Science Cloud (ESOC) project {% cite directorate-generalforresearchandinnovationeuropeancommissionEOSCArchitectureWorking2021 directorate-generalforresearchandinnovationeuropeancommissionSolutionsSustainableEOSC2020 directorate-generalforresearchandinnovationeuropeancommissionEOSCInteroperabilityFramework2021 %}
+
+[^fahcovid]: During the first year of the COVID-19 pandemic a wave of folding@home volunteers broke the exascale computing barrier and made it more powerful than the top 100 supercomputers combined --- filling a need that the cloud either *couldn't* or *wouldn't* {% cite zimmermanSARSCoV2SimulationsGo2021 %}.
 
 [^loveyanerds]: Except by the scores of beloved nerds in exile on the freer parts of the internet who remember the death of IRC and RSS and the weaponization of JavaScript **acutely and personally.**
 
@@ -130,7 +134,7 @@
 [^bigdickdata]: See Data Feminism's concept of "Big Dick Data"
     > Big Dick Data is a formal, academic term that we, the authors, have coined to denote big data projects that are characterized by masculinist, totalizing fantasies of world domination as enacted through data capture and analysis. Big Dick Data projects ignore context, fetishize size, and inflate their technical and scientific capabilities.4 In GDELT’s case, the question is whether we should take its claims of big data at face value or whether the Big Dick Data is trying to trick funding organizations into giving the project massive amounts of research funding. (We have seen this trick work many times before.) {% cite dignazioDataFeminism2020 %}
 
-[^priorthought]: Eg. {% cite birhaneValuesEncodedMachine2022 benderDangersStochasticParrots2021 birhaneAlgorithmicInjusticeRelational2021 birhaneDecolonisingComputationalSciences2020 dignazioDataFeminism2020 allhutterWorkingOntologistsHighQuality2019 magerDefiningAlgorithmicIdeology2014 bowkerSortingThingsOut1999 %}
+[^priorthought]: Eg. {% cite bowkerSortingThingsOut1999 birhaneValuesEncodedMachine2022 birhaneAlgorithmicInjusticeRelational2021 allhutterWorkingOntologistsHighQuality2019   benderDangersStochasticParrots2021 dignazioDataFeminism2020 birhaneDecolonisingComputationalSciences2020  magerDefiningAlgorithmicIdeology2014  %}
 
 [^spokeknowledge]: > "SPOKE was conceived with the philosophy that if relevant information is connected, it can result in the emergence of knowledge, and hence provide insights into the understanding of diseases, discovering of drugs and proactively improving personal health." {% cite morrisScalablePrecisionMedicine2023 %}
 
@@ -152,7 +156,6 @@
     >
     > Virtualization is itself a logical map, a topography that results from creating a set of personal channels that isolate us into individual users (and therefore seems to give us as much data, storage, computing power, etc., as we personally want).{% cite huPrehistoryCloud2015 %}
 
-[^longtermists]: In addition to already thoroughly problematized ideologies like immortality cults and their many branches like longtermism, etc.
 
 [^SERPfuzziness]: > "The utility of a search stems from its straightforwardness and the immense reduction of complexity it affords. Search engines flatten a complex topology of networked contents into an ordered list fitting the user's ongoing task and intentions.
     > 

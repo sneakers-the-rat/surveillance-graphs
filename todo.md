@@ -28,6 +28,7 @@ canonical_url: "https://jon-e.net/surveillance-graphs/todo"
 - Freebase was a folksonomy that used types like tags!!!! See entity oriented search p 46. how did i forget to write about this lmao
 	- make sure to refer to the sections on search in entity based search when writing the "ai and kgs" section
 - Go back through Andrew's comments on the Translator section and update what needs to be updated!
+- Duplicated idea at intro to intra ideologies and in conclusion about paradoxes of cloud. 
 
 # Criticism
 
