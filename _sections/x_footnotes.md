@@ -202,9 +202,11 @@
 
 [^zeroquery]: > "The zero-query search paradigm can be expressed with the slogan “the query is the user.” In practice, the context of the user is used to infer information needs." {% cite balogEntityOrientedSearch2018 %}
 
+[^talktoyourphone]: And some people just don't want to talk to a computer. {% cite welcometomymemepageAllRobotComputers2020 %} ![All Robot & Computers Must Shut The Hell Up. Machines: You Do Not Speak Unless Spoken To. And I Will **Never** Speak To You. I Do Not Want To Hear "Thank You" From A Kiosk. I am a Divine Being : You are an Object. You Have No Right To Speak In My Holy Tongue](/surveillance-graphs/assets/img/all_robot_and_computers.jpg)
+
 [^lawsuits]: Apple {% cite stempelAppleMustFace2021 %}, Amazon {% cite clarkAmazonDidMath2021 %}, and Google {% cite stempelGoogleMustFace2021 %} are all being sued for privacy violations related to their voice assistants.
 
-[^talktoyourphone]: And some people just don't want to talk to a computer. {% cite welcometomymemepageAllRobotComputers2020 %} ![All Robot & Computers Must Shut The Hell Up. Machines: You Do Not Speak Unless Spoken To. And I Will **Never** Speak To You. I Do Not Want To Hear "Thank You" From A Kiosk. I am a Divine Being : You are an Object. You Have No Right To Speak In My Holy Tongue](/surveillance-graphs/assets/img/RELX_Pipeline_2022.png)
+
 
 [^queryless]: One Google researcher describes this as a "zero-query" paradigm:
     > "The zero-query search paradigm can be expressed with the slogan “the query is the user.” In practice, the context of the user is used to infer information needs." {% cite balogEntityOrientedSearch2018 %}
@@ -223,7 +225,7 @@
 
 [^medicalalgos]: Medical algorithms are currently in a legal gray area in the US, and enforcement and coverage of FDA protections is patchy at best {% cite dolivaDosingDiscriminationRegulating2021 ordishAlgorithmsMedicalDevices2019 el-sayedMedicalAlgorithmsNeed2021 %}
 
-[^adsdontwork]: Arguably, the fact that ever more surveillance data needs to be gathered is a sign that ads *don't* work all that well, and some have made the case that targeted advertising is a bubble {% cite edelmanAdTechCould2020 %}
+[^adsdontwork]: Arguably, the fact that ever more surveillance data needs to be gathered is a sign that targeted ads **don't** work all that well, and some have made the case that targeted advertising is a bubble {% cite edelmanAdTechCould2020 %}
 
 [^downplaybackfires]: One way that downplaying the capability of these models by focusing on the question of sentience could backfire and create a shield against liability.
 
@@ -244,7 +246,7 @@
 
 [^notjustme]: Of course no idea is original, and I draw from many people and disciplines and traditions either explicitly or implicitly. I have done my best to cite them and provide credit as I go, but I will of course never be able to exhaustively list all the things that have influenced my thinking. If I have missed a citation I assure the reader it was not with purposeful malice, and welcome annotations and pull requests to provide credit where it is due.
 
-[^searchenginesnotinevitable]: Before search engines were seen as an invisible, inevitable part of interacting with the web, there was a wealth of discussion of possible alternatives, eg. in a "Journal of Internet Cataloging" {% cite jjournalofinternetcatalogingJournalInternetCataloging1999 %}, and criticism warning about the risks of search engines, including biases in results and demands for algorithmic transparency {% cite intronaShapingWebWhy2000 %}. It is the now-audacious possibility that there could be an alternative to search engines that is striking about writing from this era, and some of it is still quite prescient --- eg. this message in the archive of w3c's RDF mailing list contrasting an explicit reasoning system vs. Google's "best guess" strategy:
+[^searchenginesnotinevitable]: Before search engines were seen as an invisible, inevitable part of interacting with the web, there was a wealth of discussion of possible alternatives, eg. in a "Journal of Internet Cataloging" {% cite journalofinternetcatalogingJournalInternetCataloging1999 %}, and criticism warning about the risks of search engines, including biases in results and demands for algorithmic transparency {% cite intronaShapingWebWhy2000 %}. It is the now-audacious possibility that there could be an alternative to search engines that is striking about writing from this era, and some of it is still quite prescient --- eg. this message in the archive of w3c's RDF mailing list contrasting an explicit reasoning system vs. Google's "best guess" strategy:
     > I think it all boils down to whether we want inference engines to function more like Google, with potentially lots of false positives which *might* be useful, or like a reasoning engine where a positive result can be trusted (insofar as the quality and integrity of the knowledge base) and the inability to obtain a result simply means more information is needed.
     >
     > I myself have always presumed that SW agents would exhibit
