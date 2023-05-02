@@ -53,7 +53,7 @@ scholar:
   bibliography_template: bib
 
 # If we are making a specific rendered version and permalinking it...
-versioned: false
+versioned: true
 
 
 # Exclude from processing.

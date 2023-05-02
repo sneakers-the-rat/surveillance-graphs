@@ -39,3 +39,5 @@ gem 'profile'
 
 
 gem "webrick", "~> 1.7"
+
+gem "jekyll-inline-svg", "~> 1.1"

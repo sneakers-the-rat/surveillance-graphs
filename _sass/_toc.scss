@@ -101,6 +101,14 @@ body {
 
 }
 
+#markdown-toc {
+  li::marker {
+     content: counters(list-item, '.') '. '; 
+  }
+
+}
+
+
 .mobile-toc-drawer {
   ol>li ol {
     max-height: 1000px;

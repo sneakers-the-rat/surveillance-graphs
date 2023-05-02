@@ -11,7 +11,7 @@ canonical_url: "https://jon-e.net/surveillance-graphs/todo"
 # Copy Editing
 
 - Capitalization
-	- Biolink
+	- [x] Biolink
 
 # Clarification
 

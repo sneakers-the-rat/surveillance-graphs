@@ -1,0 +1,12 @@
+.logo-background {
+	position: absolute;
+	top: 5rem;
+	width: 50%;
+	right: -20%;
+	max-width: 800px;
+
+  @media (max-width: $width-tablet) {
+    top: -2rem;
+
+  }
+}

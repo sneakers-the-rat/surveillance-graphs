@@ -54,8 +54,8 @@ layout: default
 
         {% if page.date %}
         <div class="post-date">
-            <span>First Published &nbsp;</span>
-            <time datetime="{{ page.date }}">{{ page.date | date: "%B %d, %Y" }}</time>
+            <span>First Published:&nbsp;</span>
+            <time datetime="{{ page.date }}">{{ page.date | date: "%Y-%m-%d" }}</time>
         </div>
         {% endif %}
 
@@ -63,23 +63,31 @@ layout: default
         {% capture words %}{{ content | count_words }}{% endcapture %}
 
         <div class="post-date">
-            <span>Rendered: </span>
-            <time datetime="{{ site.time | date: "%Y-%M-%d"}}"> {{ site.time | date: "%Y-%m-%d" }}</time>
-            {% if site.versioned %} - <span style="color:#444; font-style:none">permalink:</span> <a href="/infrastructure/versions/{{ site.data['hash'] }}"><code>{{ site.data['hash'] }}</code></a> 
+            <span>Rendered:&nbsp;</span>
+            <time datetime="{{ site.time | date: "%Y-%m-%d"}}"> {{ site.time | date: "%Y-%m-%d" }}</time>
+            {% if site.versioned %} - <span style="font-style:none">permalink:</span> <a href="{{ page.repository }}commit/{{ site.data['hash'] }}"><code>{{ site.data['hash'] }}</code></a> 
             {% endif %}
             {% if page.pdf_link %} - <a href="{{ page.pdf_link }}"><code>PDF VERSION</code></a> {% endif %}
 
         </div>
 
         <div class="wordcount">
-            <p>Estimated Reading Time: {{ time }} minutes (<span property="wordCount">{{ words }}</span> words)</p>
+            <span>Estimated Reading Time: {{ time }} minutes (<span property="wordCount">{{ words }}</span> words)</span>
         </div>
-
+        {% include options.html %}
+        <div class="post-line"></div>
     </div>
     {% if page.abstract %}
         <div class="abstract" property="abstract">
             {{ page.abstract }}
         </div>
+        <div class="post-line"></div>
+    {% endif %}
+
+    {% if page.logo %}
+    <div class="logo-background">
+        {% include_relative {{ page.logo | relative_path }} %}
+    </div>
     {% endif %}
 
 

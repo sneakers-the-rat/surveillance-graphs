@@ -1,9 +1,10 @@
-- name: Fabián Heredia
-  handle: "@fabianhjr@sunbeam.city"
-  url: https://sunbeam.city/@fabianhjr
-  comment: "for recommending a number of resources on FOSS and industry, see [context:foss-and-industry](#context_foss-and-industry)"
 - name: Ed Summers
   handle: "@edsu@social.coop"
   url: https://social.coop/@edsu
-  comment: "for providing context on some historical Linked Data questions"
+  comment: "for providing context on Linked Data history, among other topics."
+- name: Fabián Heredia
+  handle: "@fabianhjr@sunbeam.city"
+  url: https://sunbeam.city/@fabianhjr
+  comment: "for recommending a number of resources on FOSS exploitation."
+
   

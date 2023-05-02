@@ -56,6 +56,9 @@ GEM
       webrick (~> 1.7)
     jekyll-feed (0.17.0)
       jekyll (>= 3.7, < 5.0)
+    jekyll-inline-svg (1.1.4)
+      jekyll (>= 3.3, < 5.0)
+      svg_optimizer (~> 0.2.5)
     jekyll-paginate (1.1.0)
     jekyll-sass-converter (3.0.0)
       sass-embedded (~> 1.54)
@@ -102,6 +105,8 @@ GEM
     safe_yaml (1.0.5)
     sass-embedded (1.62.0-x86_64-darwin)
       google-protobuf (~> 3.21)
+    svg_optimizer (0.2.6)
+      nokogiri
     tale (0.2.3)
       jekyll (~> 4.0)
       jekyll-feed (~> 0.10)
@@ -117,6 +122,7 @@ PLATFORMS
 
 DEPENDENCIES
   jekyll (~> 4.3.2)
+  jekyll-inline-svg (~> 1.1)
   jekyll-scholar!
   jekyll-seo-tag
   jekyll-toc
