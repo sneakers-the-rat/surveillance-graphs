@@ -1,4 +1,4 @@
-### Linked Data: Platforms
+## Linked Data: Platforms
 
 Much of the work of the semantic web project in the early 2000s focused on the "global" side of this tension at the expense of the "local" - creating ontologies and related technologies intended to serve as a foundation for expressing basic things in a common vocabulary {% cite hitzlerReviewSemanticWeb2021 %}. This work had many successes, but began a schism between the priesthood of people concerned with making systems that were *correct* and those that were more concerned with making things that *worked* - or supported "local" expression (eg {% cite palmerDitchingSemanticWeb2008 %}). Aaron Swartz captured this frustration in his unfinished book:
 

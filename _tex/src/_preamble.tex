@@ -14,6 +14,8 @@
 \usepackage{natbib}
 \usepackage{sidenotes}
 \usepackage{parskip}
+\usepackage{framed}
+\usepackage[framemethod=tikz]{mdframed}% http://ctan.org/pkg/mdframed
 
 \geometry{
 	left=0.5in,
@@ -38,6 +40,24 @@
 
 
 
+\newenvironment{acknowledgements}{%
+\vspace{1em}
+\par\vspace*{\fill}
+\begin{mdframed}[
+     linewidth=1pt,
+     linecolor=black,
+     leftline=false,bottomline=false,rightline=false,
+     innerrightmargin=0pt,innertopmargin=1em,innerbottommargin=0pt,
+     innerleftmargin=1em,% Distance between vertical rule & proof content
+     skipabove=.5\baselineskip
+   ]
+}{%
+\end{mdframed}\newpage
+}
+
+\renewenvironment{leftbar}
+{\vspace{6pt}\def\FrameCommand{\hspace{0em}\vrule width 0.5pt \hspace{1em}}\MakeFramed {\advance\hsize-\width \FrameRestore}}
+{\endMakeFramed}
 
 
 
@@ -60,5 +80,11 @@
 \maketitle
 
 \tableofcontents
+
+\begin{acknowledgements}
+With gratitude to Ed Summers (\href{https://social.coop/@edsu}{@edsu@social.coop}) for providing context on Linked Data history, among other topics, Fabián Heredia (\href{https://sunbeam.city/@fabianhjr}{@fabianhjr@sunbeam.city}) for recommending a number of resources on FOSS exploitation, Leslie Harka for supporting me at every step of this work, Daniel Aharoni and the Miniscope Lab for welcoming me and tolerating me writing one more piece before it's time to get down to building some peer-to-peer systems, the greater Fediverse for constant inspiration, and Rumbly Tumbly Lawnmower for being the light of my life.
+\end{acknowledgements}
+
+
 \restoregeometry
 \clearpage

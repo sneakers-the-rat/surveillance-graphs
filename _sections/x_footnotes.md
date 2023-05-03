@@ -1,6 +1,6 @@
 [^triplets]: Equivalently, one could emphasize that they are graphs composed of **triplet** links (or just **triplets**) that describe some subject, predicate, and object.
 
-[^dois]: For another example re: the political nature of the DOI system in the face of the arbitrary linking of the internet, see section 3.1.2 "[Integration, not Invention](https://jon-e.net/infrastructure/#seemingly-prosocial-protocols-can-be-used-by-industries-to-preem)" in {% cite saundersDecentralizedInfrastructureNeuro2022 %}
+[^dois]: For another example re: the political nature of the DOI system in the face of the arbitrary linking of the internet, see [section 3.1 below](#“open”-standards-are-yet-another-fraught-domain-of-openness-for) or section 3.1.2 "[Integration, not Invention](https://jon-e.net/infrastructure/#seemingly-prosocial-protocols-can-be-used-by-industries-to-preem)" in {% cite saundersDecentralizedInfrastructureNeuro2022 %}
 
 [^wikibus]: For example, see the [Tour Bus](http://meatballwiki.org/wiki/TourBusMap) system in early wikis, where each wiki would agree to link to the next wiki in the "bus line," so someone that landed at the Meatball Wiki [Bus Stop](http://meatballwiki.org/wiki/TourBusStop) and was interested in seeing "eclectic" wikis would continue on through (now defunct) WikiTravel and [ToothyWiki](http://toothycat.net/wiki/wiki.pl?TourBusStop). 
 
@@ -179,7 +179,7 @@
 [^siristrugs]: Interestingly Siri's team struggled because they couldn't figure out whether they wanted it to be merely search or a more personal assistant: 
     > "Siri’s various teams morphed into an unwieldy apparatus that engaged in petty turf battles and heated arguments over what an ideal version of Siri should be—a quick and accurate information fetcher or a conversant and intuitive assistant capable of complex tasks. [...]  One team member said their vision of an ideal Siri was similar to the 2013 Spike Jonze movie “Her,” in which Joaquin Phoenix plays a lonely man who falls in love with “Samantha,” a conversant operating system." {% cite tilleySevenYearItchHow2018 %}
 
-[^googleknows]: Though Google specifically is very aware of multiple search strategies and address the need to better accomodate them elsewhere.
+[^googleknows]: Though Google specifically is very aware of multiple search strategies and addresses the need to better accommodate them elsewhere.
 
 [^iterativesearch]: Again, invoking convenience:
     > It has been a powerful vision for more than 20 years to design search engines that are intuitive and simple to use. Despite their remarkable success, search engines are not perfect and may not yield the most relevant result(s) in one shot. This is particularly true for rare and intrinsically difficult queries, which may require interactive exploration by the user to be answered correctly and exhaustively. [...] It seems natural to envision artificial search agents that mimic this interactive process. {% cite adolphsBoostingSearchEngines2022 %}

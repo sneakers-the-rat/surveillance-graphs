@@ -1,6 +1,6 @@
-### Semantic Web: Priesthoods
+## Semantic Web: Priesthoods
 
-The term "Knowledge Graph" evolved out of the Semantic Web project {% cite hitzlerReviewSemanticWeb2021 %}, and so we rewind to the start point of our history at the turn of the millennium. It is difficult to reconstruct how radical the notion of a collection of documents organized by arbitrary links between them was at dawn of the internet. At the time, the infrastructures of linking documents looked more like ISBNs, carefully regulated by expert, centralized authorities[^dois]. Being able to *just link to anything* was *terrifying* and *new* (eg. {% cite berners-leeLinksLaw1997 berners-leeLinksLawMyths1997 %}).
+The term "Knowledge Graph" evolved out of the Semantic Web project {% cite hitzlerReviewSemanticWeb2021 %}, and so we rewind to the start point of our history at the end of the 90's. It is difficult to reconstruct how radical the notion of a collection of documents organized by arbitrary links between them was at dawn of the internet. At the time, the infrastructures of linking documents looked more like ISBNs, carefully regulated by expert, centralized authorities[^dois]. Being able to *just link to anything* was *terrifying* and *new* (eg. {% cite berners-leeLinksLaw1997 berners-leeLinksLawMyths1997 %}).
 
 The initial design of the web imagined it as a self-organizing process, where people would maintain their own websites and organize a collection of links to other websites[^wikibus]. It became clear relatively quickly that the anarchy of a socially self-organizing internet wasn't going to work as planned, where without a formal system of organization "people were frightened of getting lost in it. You could follow links forever." {% cite berners-leeWhatSemanticWeb1998 %} 
 

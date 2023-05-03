@@ -192,7 +192,8 @@ if __name__ == "__main__":
             replace=(
                 (r'/surveillance-graphs/assets/', ''),
                 (r'(?<=\\includegraphics)(\{[^}]*})', r'[width=\\linewidth]\1'),
-                (r'\.svg', '.png')
+                (r'\.svg', '.png'),
+                (r'(?s)\\footnote', r'\\sidenote')
                 ),
             output=out_fn
             )

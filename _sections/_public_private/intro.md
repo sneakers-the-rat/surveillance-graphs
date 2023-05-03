@@ -1,4 +1,4 @@
-### Unqualified Openness Considered Harmful
+## Unqualified Openness Considered Harmful
 
 If the problem is information conglomerates stockpiling a massive quantity of proprietary data and renting use of it, isn't "open data" the answer? "Openness," including open source, open standards, and open data, is a subtle tool that can be used both to dissolve and reinforce economic and political power and is particularly ill-suited as a counter-strategy for corporate knowledge graphs .
 
