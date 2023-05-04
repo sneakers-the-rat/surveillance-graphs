@@ -1,0 +1,2561 @@
+{
+  "message": {
+    "query_graph": {
+      "nodes": {
+        "n0": {
+          "ids": null,
+          "categories": null,
+          "is_set": false,
+          "constraints": [],
+          "name": ""
+        },
+        "n1": {
+          "ids": [
+            "MONDO:0001153"
+          ],
+          "categories": [
+            "biolink:Disease",
+            "biolink:DiseaseOrPhenotypicFeature",
+            "biolink:ThingWithTaxon",
+            "biolink:BiologicalEntity",
+            "biolink:NamedThing",
+            "biolink:Entity"
+          ],
+          "is_set": false,
+          "constraints": [],
+          "name": "gender dysphoria"
+        }
+      },
+      "edges": {
+        "e0": {
+          "subject": "n0",
+          "object": "n1",
+          "knowledge_type": null,
+          "predicates": [
+            "biolink:gene_associated_with_condition"
+          ],
+          "attribute_constraints": [],
+          "qualifier_constraints": []
+        }
+      }
+    },
+    "knowledge_graph": {
+      "nodes": {
+        "MONDO:0001153": {
+          "categories": [
+            "biolink:Disease"
+          ],
+          "name": "gender dysphoria",
+          "attributes": [
+            {
+              "attribute_type_id": "biolink:xref",
+              "value": [
+                "MONDO:0001153",
+                "ORPHANET:459690",
+                "UMLS:C0686346",
+                "MESH:D000068116",
+                "MEDDRA:10078075",
+                "MEDDRA:10078082",
+                "SNOMEDCT:93461009"
+              ],
+              "value_type_id": null,
+              "original_attribute_name": null,
+              "value_url": null,
+              "attribute_source": null,
+              "description": null,
+              "attributes": null
+            },
+            {
+              "attribute_type_id": "biolink:synonym",
+              "value": [
+                "gender dysphoria",
+                "Gender Dysphoria"
+              ],
+              "value_type_id": null,
+              "original_attribute_name": null,
+              "value_url": null,
+              "attribute_source": null,
+              "description": null,
+              "attributes": null
+            }
+          ]
+        },
+        "NCBIGene:5443": {
+          "categories": [
+            "biolink:Gene"
+          ],
+          "name": "POMC",
+          "attributes": [
+            {
+              "attribute_type_id": "biolink:xref",
+              "value": [
+                "NCBIGene:5443",
+                "ENSEMBL:ENSG00000115138",
+                "HGNC:9201",
+                "OMIM:176830",
+                "UMLS:C1337111",
+                "UniProtKB:P01189",
+                "PR:P01189",
+                "ENSEMBL:ENSP00000264708",
+                "ENSEMBL:ENSP00000264708.3",
+                "ENSEMBL:ENSP00000370171",
+                "ENSEMBL:ENSP00000370171.1",
+                "ENSEMBL:ENSP00000379170",
+                "ENSEMBL:ENSP00000379170.2",
+                "ENSEMBL:ENSP00000384092",
+                "ENSEMBL:ENSP00000384092.1",
+                "UMLS:C0050600",
+                "UMLS:C3818725",
+                "UMLS:C3889630"
+              ],
+              "value_type_id": null,
+              "original_attribute_name": null,
+              "value_url": null,
+              "attribute_source": null,
+              "description": null,
+              "attributes": null
+            },
+            {
+              "attribute_type_id": "biolink:synonym",
+              "value": [
+                "POMC",
+                "POMC gene",
+                "COLI_HUMAN Pro-opiomelanocortin (sprot)",
+                "pro-opiomelanocortin (human)",
+                "Melanotropin Alpha, human",
+                "corticotropin, human",
+                "Pro-Opiomelanocortin, human"
+              ],
+              "value_type_id": null,
+              "original_attribute_name": null,
+              "value_url": null,
+              "attribute_source": null,
+              "description": null,
+              "attributes": null
+            }
+          ]
+        },
+        "NCBIGene:2099": {
+          "categories": [
+            "biolink:Gene"
+          ],
+          "name": "ESR1",
+          "attributes": [
+            {
+              "attribute_type_id": "biolink:synonym",
+              "value": [
+                "ESR1",
+                "ESR1 gene",
+                "A0A125SXW3_HUMAN Estrogen receptor (trembl)",
+                "A8KAF4_HUMAN Estrogen receptor (trembl)",
+                "G4XH65_HUMAN Estrogen receptor (trembl)",
+                "H0Y4W6_HUMAN Estrogen receptor (trembl)",
+                "ESR1_HUMAN Estrogen receptor (sprot)",
+                "estrogen receptor (human)",
+                "estrogen receptor alpha, human",
+                "Q9UBT1_HUMAN Estrogen receptor (Fragment) (trembl)"
+              ],
+              "value_type_id": null,
+              "original_attribute_name": null,
+              "value_url": null,
+              "attribute_source": null,
+              "description": null,
+              "attributes": null
+            },
+            {
+              "attribute_type_id": "biolink:xref",
+              "value": [
+                "NCBIGene:2099",
+                "ENSEMBL:ENSG00000091831",
+                "HGNC:3467",
+                "OMIM:133430",
+                "UMLS:C1414461",
+                "UniProtKB:A0A125SXW3",
+                "UniProtKB:A8KAF4",
+                "UniProtKB:G4XH65",
+                "UniProtKB:H0Y4W6",
+                "ENSEMBL:ENSP00000394721",
+                "ENSEMBL:ENSP00000394721.2",
+                "UniProtKB:P03372",
+                "PR:P03372",
+                "UMLS:C1521863",
+                "UniProtKB:Q9UBT1"
+              ],
+              "value_type_id": null,
+              "original_attribute_name": null,
+              "value_url": null,
+              "attribute_source": null,
+              "description": null,
+              "attributes": null
+            }
+          ]
+        },
+        "NCBIGene:414": {
+          "categories": [
+            "biolink:Gene"
+          ],
+          "name": "ARSD",
+          "attributes": [
+            {
+              "attribute_type_id": "biolink:xref",
+              "value": [
+                "NCBIGene:414",
+                "ENSEMBL:ENSG00000006756",
+                "HGNC:717",
+                "OMIM:300002",
+                "UMLS:C1412556",
+                "UniProtKB:A0A140VK06",
+                "UniProtKB:P51689",
+                "PR:P51689"
+              ],
+              "value_type_id": null,
+              "original_attribute_name": null,
+              "value_url": null,
+              "attribute_source": null,
+              "description": null,
+              "attributes": null
+            },
+            {
+              "attribute_type_id": "biolink:synonym",
+              "value": [
+                "ARSD",
+                "ARSD gene",
+                "A0A140VK06_HUMAN Testis tissue sperm-binding protein Li 39a (trembl)",
+                "ARSD_HUMAN Arylsulfatase D (sprot)",
+                "arylsulfatase D (human)"
+              ],
+              "value_type_id": null,
+              "original_attribute_name": null,
+              "value_url": null,
+              "attribute_source": null,
+              "description": null,
+              "attributes": null
+            }
+          ]
+        },
+        "NCBIGene:367": {
+          "categories": [
+            "biolink:Gene"
+          ],
+          "name": "AR",
+          "attributes": [
+            {
+              "attribute_type_id": "biolink:xref",
+              "value": [
+                "NCBIGene:367",
+                "ENSEMBL:ENSG00000169083",
+                "HGNC:644",
+                "OMIM:313700",
+                "UMLS:C1367578",
+                "UniProtKB:A0A087WUX9",
+                "ENSEMBL:ENSP00000479013",
+                "ENSEMBL:ENSP00000479013.1",
+                "UniProtKB:F1D8N5",
+                "UniProtKB:G4VV16",
+                "UniProtKB:P10275",
+                "PR:P10275",
+                "UMLS:C1447749",
+                "UMLS:C4283898",
+                "UMLS:C4283899",
+                "UniProtKB:Q9NUA2"
+              ],
+              "value_type_id": null,
+              "original_attribute_name": null,
+              "value_url": null,
+              "attribute_source": null,
+              "description": null,
+              "attributes": null
+            },
+            {
+              "attribute_type_id": "biolink:synonym",
+              "value": [
+                "AR",
+                "AR gene",
+                "A0A087WUX9_HUMAN Androgen receptor (trembl)",
+                "F1D8N5_HUMAN Androgen nuclear receptor variant 2 (trembl)",
+                "G4VV16_HUMAN Androgen receptor isoform 8 (trembl)",
+                "ANDR_HUMAN Androgen receptor (sprot)",
+                "androgen receptor (human)",
+                "AR protein, human",
+                "Androgen Receptor Splice Variant 5,6,7es, Human",
+                "Androgen Receptor Splice Variant 3, Human",
+                "Q9NUA2_HUMAN Androgen receptor (Fragment) (trembl)"
+              ],
+              "value_type_id": null,
+              "original_attribute_name": null,
+              "value_url": null,
+              "attribute_source": null,
+              "description": null,
+              "attributes": null
+            }
+          ]
+        },
+        "NCBIGene:23481": {
+          "categories": [
+            "biolink:Gene"
+          ],
+          "name": "PES1",
+          "attributes": [
+            {
+              "attribute_type_id": "biolink:xref",
+              "value": [
+                "NCBIGene:23481",
+                "ENSEMBL:ENSG00000100029",
+                "HGNC:8848",
+                "OMIM:605819",
+                "UMLS:C1418467",
+                "UniProtKB:B2RDF2",
+                "UniProtKB:B3KTZ6",
+                "UniProtKB:B3KXD6",
+                "ENSEMBL:ENSP00000384366",
+                "ENSEMBL:ENSP00000384366.1",
+                "ENSEMBL:ENSP00000385654",
+                "ENSEMBL:ENSP00000385654.1",
+                "UniProtKB:O00541",
+                "PR:O00541"
+              ],
+              "value_type_id": null,
+              "original_attribute_name": null,
+              "value_url": null,
+              "attribute_source": null,
+              "description": null,
+              "attributes": null
+            },
+            {
+              "attribute_type_id": "biolink:synonym",
+              "value": [
+                "PES1",
+                "PES1 gene",
+                "B2RDF2_HUMAN Pescadillo homolog (trembl)",
+                "B3KTZ6_HUMAN cDNA FLJ39001 fis, clone NT2RI2022584, highly similar to Pescadillo homolog 1 (trembl)",
+                "B3KXD6_HUMAN Pescadillo homolog (trembl)",
+                "PESC_HUMAN Pescadillo homolog (sprot)",
+                "pescadillo homolog (human)"
+              ],
+              "value_type_id": null,
+              "original_attribute_name": null,
+              "value_url": null,
+              "attribute_source": null,
+              "description": null,
+              "attributes": null
+            }
+          ]
+        },
+        "NCBIGene:2100": {
+          "categories": [
+            "biolink:Gene"
+          ],
+          "name": "ESR2",
+          "attributes": [
+            {
+              "attribute_type_id": "biolink:synonym",
+              "value": [
+                "ESR2",
+                "ESR2 gene",
+                "A0A348FV93_HUMAN Estrogen receptor beta (trembl)",
+                "F1D8N3_HUMAN Estrogen receptor beta (trembl)",
+                "Q0PTK2_HUMAN Estrogen receptor beta (trembl)",
+                "Q7LCB3_HUMAN Estrogen receptor beta (trembl)",
+                "ESR2_HUMAN Estrogen receptor beta (sprot)",
+                "estrogen receptor beta (human)",
+                "estrogen receptor beta, human"
+              ],
+              "value_type_id": null,
+              "original_attribute_name": null,
+              "value_url": null,
+              "attribute_source": null,
+              "description": null,
+              "attributes": null
+            },
+            {
+              "attribute_type_id": "biolink:xref",
+              "value": [
+                "NCBIGene:2100",
+                "ENSEMBL:ENSG00000140009",
+                "HGNC:3468",
+                "OMIM:601663",
+                "UMLS:C1414462",
+                "UniProtKB:A0A348FV93",
+                "UniProtKB:F1D8N3",
+                "UniProtKB:Q0PTK2",
+                "UniProtKB:Q7LCB3",
+                "UniProtKB:Q92731",
+                "PR:Q92731",
+                "UMLS:C1523984"
+              ],
+              "value_type_id": null,
+              "original_attribute_name": null,
+              "value_url": null,
+              "attribute_source": null,
+              "description": null,
+              "attributes": null
+            }
+          ]
+        },
+        "NCBIGene:51478": {
+          "categories": [
+            "biolink:Gene"
+          ],
+          "name": "HSD17B7",
+          "attributes": [
+            {
+              "attribute_type_id": "biolink:synonym",
+              "value": [
+                "HSD17B7",
+                "HSD17B7 gene",
+                "A0A024R913_HUMAN 3-beta-hydroxysteroid 3-dehydrogenase (trembl)",
+                "DHB7_HUMAN 3-keto-steroid reductase/17-beta-hydroxysteroid dehydrogenase 7 (sprot)",
+                "3-keto-steroid reductase/17-beta-hydroxysteroid dehydrogenase 7 (human)",
+                "17-Beta-Hydroxysteroid Dehydrogenase 7",
+                "Q9H9C0_HUMAN HCG2024989, isoform CRA_i (trembl)"
+              ],
+              "value_type_id": null,
+              "original_attribute_name": null,
+              "value_url": null,
+              "attribute_source": null,
+              "description": null,
+              "attributes": null
+            },
+            {
+              "attribute_type_id": "biolink:xref",
+              "value": [
+                "NCBIGene:51478",
+                "ENSEMBL:ENSG00000132196",
+                "HGNC:5215",
+                "OMIM:606756",
+                "UMLS:C1333927",
+                "UniProtKB:A0A024R913",
+                "UniProtKB:P56937",
+                "PR:P56937",
+                "UMLS:C1334066",
+                "UniProtKB:Q9H9C0"
+              ],
+              "value_type_id": null,
+              "original_attribute_name": null,
+              "value_url": null,
+              "attribute_source": null,
+              "description": null,
+              "attributes": null
+            }
+          ]
+        },
+        "NCBIGene:611": {
+          "categories": [
+            "biolink:Gene"
+          ],
+          "name": "OPN1SW",
+          "attributes": [
+            {
+              "attribute_type_id": "biolink:xref",
+              "value": [
+                "NCBIGene:611",
+                "ENSEMBL:ENSG00000128617",
+                "HGNC:1012",
+                "OMIM:613522",
+                "UMLS:C1412770",
+                "UniProtKB:P03999",
+                "PR:P03999",
+                "ENSEMBL:ENSP00000249389",
+                "ENSEMBL:ENSP00000249389.3",
+                "UniProtKB:Q0PJU0"
+              ],
+              "value_type_id": null,
+              "original_attribute_name": null,
+              "value_url": null,
+              "attribute_source": null,
+              "description": null,
+              "attributes": null
+            },
+            {
+              "attribute_type_id": "biolink:synonym",
+              "value": [
+                "OPN1SW",
+                "OPN1SW gene",
+                "OPSB_HUMAN Short-wave-sensitive opsin 1 (sprot)",
+                "short-wave-sensitive opsin 1 (human)",
+                "Q0PJU0_HUMAN Short-wave-sensitive opsin 1 (trembl)"
+              ],
+              "value_type_id": null,
+              "original_attribute_name": null,
+              "value_url": null,
+              "attribute_source": null,
+              "description": null,
+              "attributes": null
+            }
+          ]
+        },
+        "NCBIGene:50618": {
+          "categories": [
+            "biolink:Gene"
+          ],
+          "name": "ITSN2",
+          "attributes": [
+            {
+              "attribute_type_id": "biolink:xref",
+              "value": [
+                "NCBIGene:50618",
+                "ENSEMBL:ENSG00000198399",
+                "HGNC:6184",
+                "OMIM:604464",
+                "UMLS:C1416521",
+                "UniProtKB:A6H8W8",
+                "UniProtKB:Q9NZM3",
+                "PR:Q9NZM3"
+              ],
+              "value_type_id": null,
+              "original_attribute_name": null,
+              "value_url": null,
+              "attribute_source": null,
+              "description": null,
+              "attributes": null
+            },
+            {
+              "attribute_type_id": "biolink:synonym",
+              "value": [
+                "ITSN2",
+                "ITSN2 gene",
+                "A6H8W8_HUMAN Intersectin 2 (trembl)",
+                "ITSN2_HUMAN Intersectin-2 (sprot)",
+                "intersectin-2 (human)"
+              ],
+              "value_type_id": null,
+              "original_attribute_name": null,
+              "value_url": null,
+              "attribute_source": null,
+              "description": null,
+              "attributes": null
+            }
+          ]
+        },
+        "NCBIGene:3293": {
+          "categories": [
+            "biolink:Gene"
+          ],
+          "name": "HSD17B3",
+          "attributes": [
+            {
+              "attribute_type_id": "biolink:xref",
+              "value": [
+                "NCBIGene:3293",
+                "ENSEMBL:ENSG00000130948",
+                "HGNC:5212",
+                "OMIM:605573",
+                "UMLS:C1415739",
+                "UniProtKB:P37058",
+                "PR:P37058",
+                "UMLS:C3537348",
+                "UniProtKB:Q6FH62"
+              ],
+              "value_type_id": null,
+              "original_attribute_name": null,
+              "value_url": null,
+              "attribute_source": null,
+              "description": null,
+              "attributes": null
+            },
+            {
+              "attribute_type_id": "biolink:synonym",
+              "value": [
+                "HSD17B3",
+                "HSD17B3 gene",
+                "DHB3_HUMAN 17-beta-hydroxysteroid dehydrogenase type 3 (sprot)",
+                "17-beta-hydroxysteroid dehydrogenase type 3 (human)",
+                "Testosterone 17-beta-Dehydrogenase 3",
+                "Q6FH62_HUMAN HSD17B3 protein (trembl)"
+              ],
+              "value_type_id": null,
+              "original_attribute_name": null,
+              "value_url": null,
+              "attribute_source": null,
+              "description": null,
+              "attributes": null
+            }
+          ]
+        },
+        "NCBIGene:345275": {
+          "categories": [
+            "biolink:Gene"
+          ],
+          "name": "HSD17B13",
+          "attributes": [
+            {
+              "attribute_type_id": "biolink:xref",
+              "value": [
+                "NCBIGene:345275",
+                "ENSEMBL:ENSG00000170509",
+                "HGNC:18685",
+                "OMIM:612127",
+                "UMLS:C1425705",
+                "UniProtKB:Q7Z5P4",
+                "PR:Q7Z5P4"
+              ],
+              "value_type_id": null,
+              "original_attribute_name": null,
+              "value_url": null,
+              "attribute_source": null,
+              "description": null,
+              "attributes": null
+            },
+            {
+              "attribute_type_id": "biolink:synonym",
+              "value": [
+                "HSD17B13",
+                "HSD17B13 gene",
+                "DHB13_HUMAN 17-beta-hydroxysteroid dehydrogenase 13 (sprot)",
+                "17-beta-hydroxysteroid dehydrogenase 13 (human)"
+              ],
+              "value_type_id": null,
+              "original_attribute_name": null,
+              "value_url": null,
+              "attribute_source": null,
+              "description": null,
+              "attributes": null
+            }
+          ]
+        },
+        "NCBIGene:6433": {
+          "categories": [
+            "biolink:Gene"
+          ],
+          "name": "SFSWAP",
+          "attributes": [
+            {
+              "attribute_type_id": "biolink:xref",
+              "value": [
+                "NCBIGene:6433",
+                "ENSEMBL:ENSG00000061936",
+                "HGNC:10790",
+                "OMIM:601945",
+                "UMLS:C1419999",
+                "UniProtKB:Q12872",
+                "PR:Q12872",
+                "UniProtKB:Q8IV81"
+              ],
+              "value_type_id": null,
+              "original_attribute_name": null,
+              "value_url": null,
+              "attribute_source": null,
+              "description": null,
+              "attributes": null
+            },
+            {
+              "attribute_type_id": "biolink:synonym",
+              "value": [
+                "SFSWAP",
+                "SFSWAP gene",
+                "SFSWA_HUMAN Splicing factor, suppressor of white-apricot homolog (sprot)",
+                "splicing factor, suppressor of white-apricot homolog (human)",
+                "Q8IV81_HUMAN SFRS8 protein (Fragment) (trembl)"
+              ],
+              "value_type_id": null,
+              "original_attribute_name": null,
+              "value_url": null,
+              "attribute_source": null,
+              "description": null,
+              "attributes": null
+            }
+          ]
+        },
+        "NCBIGene:79154": {
+          "categories": [
+            "biolink:Gene"
+          ],
+          "name": "DHRS11",
+          "attributes": [
+            {
+              "attribute_type_id": "biolink:xref",
+              "value": [
+                "NCBIGene:79154",
+                "ENSEMBL:ENSG00000278535",
+                "HGNC:28639",
+                "OMIM:616159",
+                "UMLS:C2681414",
+                "UniProtKB:A0A024R0T1",
+                "UniProtKB:Q6UWP2",
+                "PR:Q6UWP2"
+              ],
+              "value_type_id": null,
+              "original_attribute_name": null,
+              "value_url": null,
+              "attribute_source": null,
+              "description": null,
+              "attributes": null
+            },
+            {
+              "attribute_type_id": "biolink:synonym",
+              "value": [
+                "DHRS11",
+                "DHRS11 gene",
+                "A0A024R0T1_HUMAN Short-chain dehydrogenase/reductase, isoform CRA_b (trembl)",
+                "DHR11_HUMAN Dehydrogenase/reductase SDR family member 11 (sprot)",
+                "dehydrogenase/reductase SDR family member 11 (human)"
+              ],
+              "value_type_id": null,
+              "original_attribute_name": null,
+              "value_url": null,
+              "attribute_source": null,
+              "description": null,
+              "attributes": null
+            }
+          ]
+        }
+      },
+      "edges": {
+        "46fd465c3db7": {
+          "subject": "MONDO:0001153",
+          "object": "NCBIGene:5443",
+          "predicate": "biolink:condition_associated_with_gene",
+          "qualifiers": null,
+          "attributes": [
+            {
+              "attribute_type_id": "biolink:aggregator_knowledge_source",
+              "value": [
+                "infores:biothings-explorer",
+                "infores:mydisease-info"
+              ],
+              "value_type_id": "biolink:InformationResource",
+              "original_attribute_name": null,
+              "value_url": null,
+              "attribute_source": null,
+              "description": null,
+              "attributes": null
+            },
+            {
+              "attribute_type_id": "disgenet-DPI",
+              "value": [
+                0.846
+              ],
+              "value_type_id": null,
+              "original_attribute_name": null,
+              "value_url": null,
+              "attribute_source": null,
+              "description": null,
+              "attributes": null
+            },
+            {
+              "attribute_type_id": "biolink:primary_knowledge_source",
+              "value": [
+                "infores:disgenet"
+              ],
+              "value_type_id": "biolink:InformationResource",
+              "original_attribute_name": null,
+              "value_url": null,
+              "attribute_source": null,
+              "description": null,
+              "attributes": null
+            },
+            {
+              "attribute_type_id": "biolink:publications",
+              "value": [
+                "PMID:31827460"
+              ],
+              "value_type_id": null,
+              "original_attribute_name": null,
+              "value_url": null,
+              "attribute_source": null,
+              "description": null,
+              "attributes": null
+            },
+            {
+              "attribute_type_id": "disgenet-score",
+              "value": [
+                0.01
+              ],
+              "value_type_id": null,
+              "original_attribute_name": null,
+              "value_url": null,
+              "attribute_source": null,
+              "description": null,
+              "attributes": null
+            },
+            {
+              "attribute_type_id": "disgenet-DSI",
+              "value": [
+                0.356
+              ],
+              "value_type_id": null,
+              "original_attribute_name": null,
+              "value_url": null,
+              "attribute_source": null,
+              "description": null,
+              "attributes": null
+            },
+            {
+              "attribute_type_id": "biolink:aggregator_knowledge_source",
+              "value": "infores:aragorn",
+              "value_type_id": "biolink:InformationResource",
+              "original_attribute_name": null,
+              "value_url": null,
+              "attribute_source": "infores:aragorn",
+              "description": null,
+              "attributes": null
+            },
+            {
+              "attribute_type_id": "disgenet_source",
+              "value": [
+                "BEFREE"
+              ],
+              "value_type_id": null,
+              "original_attribute_name": null,
+              "value_url": null,
+              "attribute_source": null,
+              "description": null,
+              "attributes": null
+            },
+            {
+              "attribute_type_id": "disgenet-EI",
+              "value": [
+                1
+              ],
+              "value_type_id": null,
+              "original_attribute_name": null,
+              "value_url": null,
+              "attribute_source": null,
+              "description": null,
+              "attributes": null
+            }
+          ]
+        },
+        "e27bc5a7970b": {
+          "subject": "MONDO:0001153",
+          "object": "NCBIGene:2099",
+          "predicate": "biolink:condition_associated_with_gene",
+          "qualifiers": null,
+          "attributes": [
+            {
+              "attribute_type_id": "biolink:aggregator_knowledge_source",
+              "value": [
+                "infores:biothings-explorer",
+                "infores:mydisease-info"
+              ],
+              "value_type_id": "biolink:InformationResource",
+              "original_attribute_name": null,
+              "value_url": null,
+              "attribute_source": null,
+              "description": null,
+              "attributes": null
+            },
+            {
+              "attribute_type_id": "disgenet-DSI",
+              "value": [
+                0.324
+              ],
+              "value_type_id": null,
+              "original_attribute_name": null,
+              "value_url": null,
+              "attribute_source": null,
+              "description": null,
+              "attributes": null
+            },
+            {
+              "attribute_type_id": "biolink:publications",
+              "value": [
+                "PMID:30247609",
+                "PMID:28117266",
+                "PMID:30165284",
+                "PMID:28539237"
+              ],
+              "value_type_id": null,
+              "original_attribute_name": null,
+              "value_url": null,
+              "attribute_source": null,
+              "description": null,
+              "attributes": null
+            },
+            {
+              "attribute_type_id": "disgenet-score",
+              "value": [
+                0.04
+              ],
+              "value_type_id": null,
+              "original_attribute_name": null,
+              "value_url": null,
+              "attribute_source": null,
+              "description": null,
+              "attributes": null
+            },
+            {
+              "attribute_type_id": "biolink:primary_knowledge_source",
+              "value": [
+                "infores:disgenet"
+              ],
+              "value_type_id": "biolink:InformationResource",
+              "original_attribute_name": null,
+              "value_url": null,
+              "attribute_source": null,
+              "description": null,
+              "attributes": null
+            },
+            {
+              "attribute_type_id": "disgenet-DPI",
+              "value": [
+                0.962
+              ],
+              "value_type_id": null,
+              "original_attribute_name": null,
+              "value_url": null,
+              "attribute_source": null,
+              "description": null,
+              "attributes": null
+            },
+            {
+              "attribute_type_id": "biolink:aggregator_knowledge_source",
+              "value": "infores:aragorn",
+              "value_type_id": "biolink:InformationResource",
+              "original_attribute_name": null,
+              "value_url": null,
+              "attribute_source": "infores:aragorn",
+              "description": null,
+              "attributes": null
+            },
+            {
+              "attribute_type_id": "disgenet_source",
+              "value": [
+                "BEFREE"
+              ],
+              "value_type_id": null,
+              "original_attribute_name": null,
+              "value_url": null,
+              "attribute_source": null,
+              "description": null,
+              "attributes": null
+            },
+            {
+              "attribute_type_id": "disgenet-EI",
+              "value": [
+                1
+              ],
+              "value_type_id": null,
+              "original_attribute_name": null,
+              "value_url": null,
+              "attribute_source": null,
+              "description": null,
+              "attributes": null
+            }
+          ]
+        },
+        "9240142be580": {
+          "subject": "MONDO:0001153",
+          "object": "NCBIGene:414",
+          "predicate": "biolink:condition_associated_with_gene",
+          "qualifiers": null,
+          "attributes": [
+            {
+              "attribute_type_id": "disgenet-DSI",
+              "value": [
+                0.535
+              ],
+              "value_type_id": null,
+              "original_attribute_name": null,
+              "value_url": null,
+              "attribute_source": null,
+              "description": null,
+              "attributes": null
+            },
+            {
+              "attribute_type_id": "biolink:aggregator_knowledge_source",
+              "value": [
+                "infores:biothings-explorer",
+                "infores:mydisease-info"
+              ],
+              "value_type_id": "biolink:InformationResource",
+              "original_attribute_name": null,
+              "value_url": null,
+              "attribute_source": null,
+              "description": null,
+              "attributes": null
+            },
+            {
+              "attribute_type_id": "disgenet-score",
+              "value": [
+                0.01
+              ],
+              "value_type_id": null,
+              "original_attribute_name": null,
+              "value_url": null,
+              "attribute_source": null,
+              "description": null,
+              "attributes": null
+            },
+            {
+              "attribute_type_id": "biolink:primary_knowledge_source",
+              "value": [
+                "infores:disgenet"
+              ],
+              "value_type_id": "biolink:InformationResource",
+              "original_attribute_name": null,
+              "value_url": null,
+              "attribute_source": null,
+              "description": null,
+              "attributes": null
+            },
+            {
+              "attribute_type_id": "disgenet-DPI",
+              "value": [
+                0.808
+              ],
+              "value_type_id": null,
+              "original_attribute_name": null,
+              "value_url": null,
+              "attribute_source": null,
+              "description": null,
+              "attributes": null
+            },
+            {
+              "attribute_type_id": "biolink:publications",
+              "value": [
+                "PMID:30552539"
+              ],
+              "value_type_id": null,
+              "original_attribute_name": null,
+              "value_url": null,
+              "attribute_source": null,
+              "description": null,
+              "attributes": null
+            },
+            {
+              "attribute_type_id": "biolink:aggregator_knowledge_source",
+              "value": "infores:aragorn",
+              "value_type_id": "biolink:InformationResource",
+              "original_attribute_name": null,
+              "value_url": null,
+              "attribute_source": "infores:aragorn",
+              "description": null,
+              "attributes": null
+            },
+            {
+              "attribute_type_id": "disgenet_source",
+              "value": [
+                "BEFREE"
+              ],
+              "value_type_id": null,
+              "original_attribute_name": null,
+              "value_url": null,
+              "attribute_source": null,
+              "description": null,
+              "attributes": null
+            },
+            {
+              "attribute_type_id": "disgenet-EI",
+              "value": [
+                1
+              ],
+              "value_type_id": null,
+              "original_attribute_name": null,
+              "value_url": null,
+              "attribute_source": null,
+              "description": null,
+              "attributes": null
+            }
+          ]
+        },
+        "4efec6d4dded": {
+          "subject": "MONDO:0001153",
+          "object": "NCBIGene:367",
+          "predicate": "biolink:condition_associated_with_gene",
+          "qualifiers": null,
+          "attributes": [
+            {
+              "attribute_type_id": "biolink:aggregator_knowledge_source",
+              "value": [
+                "infores:biothings-explorer",
+                "infores:mydisease-info"
+              ],
+              "value_type_id": "biolink:InformationResource",
+              "original_attribute_name": null,
+              "value_url": null,
+              "attribute_source": null,
+              "description": null,
+              "attributes": null
+            },
+            {
+              "attribute_type_id": "disgenet-DPI",
+              "value": [
+                0.846
+              ],
+              "value_type_id": null,
+              "original_attribute_name": null,
+              "value_url": null,
+              "attribute_source": null,
+              "description": null,
+              "attributes": null
+            },
+            {
+              "attribute_type_id": "biolink:primary_knowledge_source",
+              "value": [
+                "infores:disgenet"
+              ],
+              "value_type_id": "biolink:InformationResource",
+              "original_attribute_name": null,
+              "value_url": null,
+              "attribute_source": null,
+              "description": null,
+              "attributes": null
+            },
+            {
+              "attribute_type_id": "disgenet-score",
+              "value": [
+                0.01
+              ],
+              "value_type_id": null,
+              "original_attribute_name": null,
+              "value_url": null,
+              "attribute_source": null,
+              "description": null,
+              "attributes": null
+            },
+            {
+              "attribute_type_id": "biolink:publications",
+              "value": [
+                "PMID:28539237"
+              ],
+              "value_type_id": null,
+              "original_attribute_name": null,
+              "value_url": null,
+              "attribute_source": null,
+              "description": null,
+              "attributes": null
+            },
+            {
+              "attribute_type_id": "disgenet-DSI",
+              "value": [
+                0.351
+              ],
+              "value_type_id": null,
+              "original_attribute_name": null,
+              "value_url": null,
+              "attribute_source": null,
+              "description": null,
+              "attributes": null
+            },
+            {
+              "attribute_type_id": "biolink:aggregator_knowledge_source",
+              "value": "infores:aragorn",
+              "value_type_id": "biolink:InformationResource",
+              "original_attribute_name": null,
+              "value_url": null,
+              "attribute_source": "infores:aragorn",
+              "description": null,
+              "attributes": null
+            },
+            {
+              "attribute_type_id": "disgenet_source",
+              "value": [
+                "BEFREE"
+              ],
+              "value_type_id": null,
+              "original_attribute_name": null,
+              "value_url": null,
+              "attribute_source": null,
+              "description": null,
+              "attributes": null
+            },
+            {
+              "attribute_type_id": "disgenet-EI",
+              "value": [
+                1
+              ],
+              "value_type_id": null,
+              "original_attribute_name": null,
+              "value_url": null,
+              "attribute_source": null,
+              "description": null,
+              "attributes": null
+            }
+          ]
+        },
+        "a6f64d4c6831": {
+          "subject": "MONDO:0001153",
+          "object": "NCBIGene:23481",
+          "predicate": "biolink:condition_associated_with_gene",
+          "qualifiers": null,
+          "attributes": [
+            {
+              "attribute_type_id": "disgenet-DPI",
+              "value": [
+                0.538
+              ],
+              "value_type_id": null,
+              "original_attribute_name": null,
+              "value_url": null,
+              "attribute_source": null,
+              "description": null,
+              "attributes": null
+            },
+            {
+              "attribute_type_id": "biolink:aggregator_knowledge_source",
+              "value": [
+                "infores:biothings-explorer",
+                "infores:mydisease-info"
+              ],
+              "value_type_id": "biolink:InformationResource",
+              "original_attribute_name": null,
+              "value_url": null,
+              "attribute_source": null,
+              "description": null,
+              "attributes": null
+            },
+            {
+              "attribute_type_id": "biolink:publications",
+              "value": [
+                "PMID:30695784"
+              ],
+              "value_type_id": null,
+              "original_attribute_name": null,
+              "value_url": null,
+              "attribute_source": null,
+              "description": null,
+              "attributes": null
+            },
+            {
+              "attribute_type_id": "disgenet-DSI",
+              "value": [
+                0.656
+              ],
+              "value_type_id": null,
+              "original_attribute_name": null,
+              "value_url": null,
+              "attribute_source": null,
+              "description": null,
+              "attributes": null
+            },
+            {
+              "attribute_type_id": "biolink:primary_knowledge_source",
+              "value": [
+                "infores:disgenet"
+              ],
+              "value_type_id": "biolink:InformationResource",
+              "original_attribute_name": null,
+              "value_url": null,
+              "attribute_source": null,
+              "description": null,
+              "attributes": null
+            },
+            {
+              "attribute_type_id": "disgenet-score",
+              "value": [
+                0.01
+              ],
+              "value_type_id": null,
+              "original_attribute_name": null,
+              "value_url": null,
+              "attribute_source": null,
+              "description": null,
+              "attributes": null
+            },
+            {
+              "attribute_type_id": "biolink:aggregator_knowledge_source",
+              "value": "infores:aragorn",
+              "value_type_id": "biolink:InformationResource",
+              "original_attribute_name": null,
+              "value_url": null,
+              "attribute_source": "infores:aragorn",
+              "description": null,
+              "attributes": null
+            },
+            {
+              "attribute_type_id": "disgenet_source",
+              "value": [
+                "BEFREE"
+              ],
+              "value_type_id": null,
+              "original_attribute_name": null,
+              "value_url": null,
+              "attribute_source": null,
+              "description": null,
+              "attributes": null
+            },
+            {
+              "attribute_type_id": "disgenet-EI",
+              "value": [
+                1
+              ],
+              "value_type_id": null,
+              "original_attribute_name": null,
+              "value_url": null,
+              "attribute_source": null,
+              "description": null,
+              "attributes": null
+            }
+          ]
+        },
+        "a02987ef592e": {
+          "subject": "MONDO:0001153",
+          "object": "NCBIGene:2100",
+          "predicate": "biolink:condition_associated_with_gene",
+          "qualifiers": null,
+          "attributes": [
+            {
+              "attribute_type_id": "disgenet-DSI",
+              "value": [
+                0.4
+              ],
+              "value_type_id": null,
+              "original_attribute_name": null,
+              "value_url": null,
+              "attribute_source": null,
+              "description": null,
+              "attributes": null
+            },
+            {
+              "attribute_type_id": "disgenet_source",
+              "value": [
+                "BEFREE"
+              ],
+              "value_type_id": null,
+              "original_attribute_name": null,
+              "value_url": null,
+              "attribute_source": null,
+              "description": null,
+              "attributes": null
+            },
+            {
+              "attribute_type_id": "biolink:aggregator_knowledge_source",
+              "value": [
+                "infores:biothings-explorer",
+                "infores:mydisease-info"
+              ],
+              "value_type_id": "biolink:InformationResource",
+              "original_attribute_name": null,
+              "value_url": null,
+              "attribute_source": null,
+              "description": null,
+              "attributes": null
+            },
+            {
+              "attribute_type_id": "disgenet-DPI",
+              "value": [
+                0.923
+              ],
+              "value_type_id": null,
+              "original_attribute_name": null,
+              "value_url": null,
+              "attribute_source": null,
+              "description": null,
+              "attributes": null
+            },
+            {
+              "attribute_type_id": "biolink:primary_knowledge_source",
+              "value": [
+                "infores:disgenet"
+              ],
+              "value_type_id": "biolink:InformationResource",
+              "original_attribute_name": null,
+              "value_url": null,
+              "attribute_source": null,
+              "description": null,
+              "attributes": null
+            },
+            {
+              "attribute_type_id": "disgenet-score",
+              "value": [
+                0.02
+              ],
+              "value_type_id": null,
+              "original_attribute_name": null,
+              "value_url": null,
+              "attribute_source": null,
+              "description": null,
+              "attributes": null
+            },
+            {
+              "attribute_type_id": "biolink:aggregator_knowledge_source",
+              "value": "infores:aragorn",
+              "value_type_id": "biolink:InformationResource",
+              "original_attribute_name": null,
+              "value_url": null,
+              "attribute_source": "infores:aragorn",
+              "description": null,
+              "attributes": null
+            },
+            {
+              "attribute_type_id": "biolink:publications",
+              "value": [
+                "PMID:28117266",
+                "PMID:28539237"
+              ],
+              "value_type_id": null,
+              "original_attribute_name": null,
+              "value_url": null,
+              "attribute_source": null,
+              "description": null,
+              "attributes": null
+            },
+            {
+              "attribute_type_id": "disgenet-EI",
+              "value": [
+                1
+              ],
+              "value_type_id": null,
+              "original_attribute_name": null,
+              "value_url": null,
+              "attribute_source": null,
+              "description": null,
+              "attributes": null
+            }
+          ]
+        },
+        "ae22fbb6100a": {
+          "subject": "MONDO:0001153",
+          "object": "NCBIGene:51478",
+          "predicate": "biolink:condition_associated_with_gene",
+          "qualifiers": null,
+          "attributes": [
+            {
+              "attribute_type_id": "biolink:aggregator_knowledge_source",
+              "value": [
+                "infores:biothings-explorer",
+                "infores:mydisease-info"
+              ],
+              "value_type_id": "biolink:InformationResource",
+              "original_attribute_name": null,
+              "value_url": null,
+              "attribute_source": null,
+              "description": null,
+              "attributes": null
+            },
+            {
+              "attribute_type_id": "disgenet-DSI",
+              "value": [
+                0.582
+              ],
+              "value_type_id": null,
+              "original_attribute_name": null,
+              "value_url": null,
+              "attribute_source": null,
+              "description": null,
+              "attributes": null
+            },
+            {
+              "attribute_type_id": "disgenet-DPI",
+              "value": [
+                0.5
+              ],
+              "value_type_id": null,
+              "original_attribute_name": null,
+              "value_url": null,
+              "attribute_source": null,
+              "description": null,
+              "attributes": null
+            },
+            {
+              "attribute_type_id": "biolink:primary_knowledge_source",
+              "value": [
+                "infores:disgenet"
+              ],
+              "value_type_id": "biolink:InformationResource",
+              "original_attribute_name": null,
+              "value_url": null,
+              "attribute_source": null,
+              "description": null,
+              "attributes": null
+            },
+            {
+              "attribute_type_id": "disgenet-score",
+              "value": [
+                0.01
+              ],
+              "value_type_id": null,
+              "original_attribute_name": null,
+              "value_url": null,
+              "attribute_source": null,
+              "description": null,
+              "attributes": null
+            },
+            {
+              "attribute_type_id": "biolink:publications",
+              "value": [
+                "PMID:23045263"
+              ],
+              "value_type_id": null,
+              "original_attribute_name": null,
+              "value_url": null,
+              "attribute_source": null,
+              "description": null,
+              "attributes": null
+            },
+            {
+              "attribute_type_id": "biolink:aggregator_knowledge_source",
+              "value": "infores:aragorn",
+              "value_type_id": "biolink:InformationResource",
+              "original_attribute_name": null,
+              "value_url": null,
+              "attribute_source": "infores:aragorn",
+              "description": null,
+              "attributes": null
+            },
+            {
+              "attribute_type_id": "disgenet_source",
+              "value": [
+                "BEFREE"
+              ],
+              "value_type_id": null,
+              "original_attribute_name": null,
+              "value_url": null,
+              "attribute_source": null,
+              "description": null,
+              "attributes": null
+            },
+            {
+              "attribute_type_id": "disgenet-EI",
+              "value": [
+                1
+              ],
+              "value_type_id": null,
+              "original_attribute_name": null,
+              "value_url": null,
+              "attribute_source": null,
+              "description": null,
+              "attributes": null
+            }
+          ]
+        },
+        "239a29e229bc": {
+          "subject": "MONDO:0001153",
+          "object": "NCBIGene:611",
+          "predicate": "biolink:condition_associated_with_gene",
+          "qualifiers": null,
+          "attributes": [
+            {
+              "attribute_type_id": "disgenet-DSI",
+              "value": [
+                0.519
+              ],
+              "value_type_id": null,
+              "original_attribute_name": null,
+              "value_url": null,
+              "attribute_source": null,
+              "description": null,
+              "attributes": null
+            },
+            {
+              "attribute_type_id": "disgenet-DPI",
+              "value": [
+                0.769
+              ],
+              "value_type_id": null,
+              "original_attribute_name": null,
+              "value_url": null,
+              "attribute_source": null,
+              "description": null,
+              "attributes": null
+            },
+            {
+              "attribute_type_id": "biolink:publications",
+              "value": [
+                "PMID:30843609"
+              ],
+              "value_type_id": null,
+              "original_attribute_name": null,
+              "value_url": null,
+              "attribute_source": null,
+              "description": null,
+              "attributes": null
+            },
+            {
+              "attribute_type_id": "biolink:aggregator_knowledge_source",
+              "value": [
+                "infores:biothings-explorer",
+                "infores:mydisease-info"
+              ],
+              "value_type_id": "biolink:InformationResource",
+              "original_attribute_name": null,
+              "value_url": null,
+              "attribute_source": null,
+              "description": null,
+              "attributes": null
+            },
+            {
+              "attribute_type_id": "biolink:primary_knowledge_source",
+              "value": [
+                "infores:disgenet"
+              ],
+              "value_type_id": "biolink:InformationResource",
+              "original_attribute_name": null,
+              "value_url": null,
+              "attribute_source": null,
+              "description": null,
+              "attributes": null
+            },
+            {
+              "attribute_type_id": "disgenet-score",
+              "value": [
+                0.01
+              ],
+              "value_type_id": null,
+              "original_attribute_name": null,
+              "value_url": null,
+              "attribute_source": null,
+              "description": null,
+              "attributes": null
+            },
+            {
+              "attribute_type_id": "biolink:aggregator_knowledge_source",
+              "value": "infores:aragorn",
+              "value_type_id": "biolink:InformationResource",
+              "original_attribute_name": null,
+              "value_url": null,
+              "attribute_source": "infores:aragorn",
+              "description": null,
+              "attributes": null
+            },
+            {
+              "attribute_type_id": "disgenet_source",
+              "value": [
+                "BEFREE"
+              ],
+              "value_type_id": null,
+              "original_attribute_name": null,
+              "value_url": null,
+              "attribute_source": null,
+              "description": null,
+              "attributes": null
+            },
+            {
+              "attribute_type_id": "disgenet-EI",
+              "value": [
+                1
+              ],
+              "value_type_id": null,
+              "original_attribute_name": null,
+              "value_url": null,
+              "attribute_source": null,
+              "description": null,
+              "attributes": null
+            }
+          ]
+        },
+        "eb4c14fb2817": {
+          "subject": "MONDO:0001153",
+          "object": "NCBIGene:50618",
+          "predicate": "biolink:condition_associated_with_gene",
+          "qualifiers": null,
+          "attributes": [
+            {
+              "attribute_type_id": "disgenet-DPI",
+              "value": [
+                0.423
+              ],
+              "value_type_id": null,
+              "original_attribute_name": null,
+              "value_url": null,
+              "attribute_source": null,
+              "description": null,
+              "attributes": null
+            },
+            {
+              "attribute_type_id": "biolink:aggregator_knowledge_source",
+              "value": [
+                "infores:biothings-explorer",
+                "infores:mydisease-info"
+              ],
+              "value_type_id": "biolink:InformationResource",
+              "original_attribute_name": null,
+              "value_url": null,
+              "attribute_source": null,
+              "description": null,
+              "attributes": null
+            },
+            {
+              "attribute_type_id": "disgenet-DSI",
+              "value": [
+                0.711
+              ],
+              "value_type_id": null,
+              "original_attribute_name": null,
+              "value_url": null,
+              "attribute_source": null,
+              "description": null,
+              "attributes": null
+            },
+            {
+              "attribute_type_id": "biolink:primary_knowledge_source",
+              "value": [
+                "infores:disgenet"
+              ],
+              "value_type_id": "biolink:InformationResource",
+              "original_attribute_name": null,
+              "value_url": null,
+              "attribute_source": null,
+              "description": null,
+              "attributes": null
+            },
+            {
+              "attribute_type_id": "disgenet_source",
+              "value": [
+                "BEFREE"
+              ],
+              "value_type_id": null,
+              "original_attribute_name": null,
+              "value_url": null,
+              "attribute_source": null,
+              "description": null,
+              "attributes": null
+            },
+            {
+              "attribute_type_id": "biolink:publications",
+              "value": [
+                "PMID:28210932",
+                "PMID:28238165"
+              ],
+              "value_type_id": null,
+              "original_attribute_name": null,
+              "value_url": null,
+              "attribute_source": null,
+              "description": null,
+              "attributes": null
+            },
+            {
+              "attribute_type_id": "biolink:aggregator_knowledge_source",
+              "value": "infores:aragorn",
+              "value_type_id": "biolink:InformationResource",
+              "original_attribute_name": null,
+              "value_url": null,
+              "attribute_source": "infores:aragorn",
+              "description": null,
+              "attributes": null
+            },
+            {
+              "attribute_type_id": "disgenet-score",
+              "value": [
+                0.02
+              ],
+              "value_type_id": null,
+              "original_attribute_name": null,
+              "value_url": null,
+              "attribute_source": null,
+              "description": null,
+              "attributes": null
+            },
+            {
+              "attribute_type_id": "disgenet-EI",
+              "value": [
+                1
+              ],
+              "value_type_id": null,
+              "original_attribute_name": null,
+              "value_url": null,
+              "attribute_source": null,
+              "description": null,
+              "attributes": null
+            }
+          ]
+        },
+        "3f4a8d89e679": {
+          "subject": "MONDO:0001153",
+          "object": "NCBIGene:3293",
+          "predicate": "biolink:condition_associated_with_gene",
+          "qualifiers": null,
+          "attributes": [
+            {
+              "attribute_type_id": "biolink:aggregator_knowledge_source",
+              "value": [
+                "infores:biothings-explorer",
+                "infores:mydisease-info"
+              ],
+              "value_type_id": "biolink:InformationResource",
+              "original_attribute_name": null,
+              "value_url": null,
+              "attribute_source": null,
+              "description": null,
+              "attributes": null
+            },
+            {
+              "attribute_type_id": "disgenet-DSI",
+              "value": [
+                0.641
+              ],
+              "value_type_id": null,
+              "original_attribute_name": null,
+              "value_url": null,
+              "attribute_source": null,
+              "description": null,
+              "attributes": null
+            },
+            {
+              "attribute_type_id": "disgenet-DPI",
+              "value": [
+                0.346
+              ],
+              "value_type_id": null,
+              "original_attribute_name": null,
+              "value_url": null,
+              "attribute_source": null,
+              "description": null,
+              "attributes": null
+            },
+            {
+              "attribute_type_id": "biolink:primary_knowledge_source",
+              "value": [
+                "infores:disgenet"
+              ],
+              "value_type_id": "biolink:InformationResource",
+              "original_attribute_name": null,
+              "value_url": null,
+              "attribute_source": null,
+              "description": null,
+              "attributes": null
+            },
+            {
+              "attribute_type_id": "disgenet-score",
+              "value": [
+                0.01
+              ],
+              "value_type_id": null,
+              "original_attribute_name": null,
+              "value_url": null,
+              "attribute_source": null,
+              "description": null,
+              "attributes": null
+            },
+            {
+              "attribute_type_id": "biolink:publications",
+              "value": [
+                "PMID:23045263"
+              ],
+              "value_type_id": null,
+              "original_attribute_name": null,
+              "value_url": null,
+              "attribute_source": null,
+              "description": null,
+              "attributes": null
+            },
+            {
+              "attribute_type_id": "biolink:aggregator_knowledge_source",
+              "value": "infores:aragorn",
+              "value_type_id": "biolink:InformationResource",
+              "original_attribute_name": null,
+              "value_url": null,
+              "attribute_source": "infores:aragorn",
+              "description": null,
+              "attributes": null
+            },
+            {
+              "attribute_type_id": "disgenet_source",
+              "value": [
+                "BEFREE"
+              ],
+              "value_type_id": null,
+              "original_attribute_name": null,
+              "value_url": null,
+              "attribute_source": null,
+              "description": null,
+              "attributes": null
+            },
+            {
+              "attribute_type_id": "disgenet-EI",
+              "value": [
+                1
+              ],
+              "value_type_id": null,
+              "original_attribute_name": null,
+              "value_url": null,
+              "attribute_source": null,
+              "description": null,
+              "attributes": null
+            }
+          ]
+        },
+        "87a0c42759d7": {
+          "subject": "MONDO:0001153",
+          "object": "NCBIGene:345275",
+          "predicate": "biolink:condition_associated_with_gene",
+          "qualifiers": null,
+          "attributes": [
+            {
+              "attribute_type_id": "disgenet-DPI",
+              "value": [
+                0.538
+              ],
+              "value_type_id": null,
+              "original_attribute_name": null,
+              "value_url": null,
+              "attribute_source": null,
+              "description": null,
+              "attributes": null
+            },
+            {
+              "attribute_type_id": "biolink:aggregator_knowledge_source",
+              "value": [
+                "infores:biothings-explorer",
+                "infores:mydisease-info"
+              ],
+              "value_type_id": "biolink:InformationResource",
+              "original_attribute_name": null,
+              "value_url": null,
+              "attribute_source": null,
+              "description": null,
+              "attributes": null
+            },
+            {
+              "attribute_type_id": "disgenet-DSI",
+              "value": [
+                0.623
+              ],
+              "value_type_id": null,
+              "original_attribute_name": null,
+              "value_url": null,
+              "attribute_source": null,
+              "description": null,
+              "attributes": null
+            },
+            {
+              "attribute_type_id": "biolink:primary_knowledge_source",
+              "value": [
+                "infores:disgenet"
+              ],
+              "value_type_id": "biolink:InformationResource",
+              "original_attribute_name": null,
+              "value_url": null,
+              "attribute_source": null,
+              "description": null,
+              "attributes": null
+            },
+            {
+              "attribute_type_id": "disgenet-score",
+              "value": [
+                0.01
+              ],
+              "value_type_id": null,
+              "original_attribute_name": null,
+              "value_url": null,
+              "attribute_source": null,
+              "description": null,
+              "attributes": null
+            },
+            {
+              "attribute_type_id": "biolink:publications",
+              "value": [
+                "PMID:23045263"
+              ],
+              "value_type_id": null,
+              "original_attribute_name": null,
+              "value_url": null,
+              "attribute_source": null,
+              "description": null,
+              "attributes": null
+            },
+            {
+              "attribute_type_id": "biolink:aggregator_knowledge_source",
+              "value": "infores:aragorn",
+              "value_type_id": "biolink:InformationResource",
+              "original_attribute_name": null,
+              "value_url": null,
+              "attribute_source": "infores:aragorn",
+              "description": null,
+              "attributes": null
+            },
+            {
+              "attribute_type_id": "disgenet_source",
+              "value": [
+                "BEFREE"
+              ],
+              "value_type_id": null,
+              "original_attribute_name": null,
+              "value_url": null,
+              "attribute_source": null,
+              "description": null,
+              "attributes": null
+            },
+            {
+              "attribute_type_id": "disgenet-EI",
+              "value": [
+                1
+              ],
+              "value_type_id": null,
+              "original_attribute_name": null,
+              "value_url": null,
+              "attribute_source": null,
+              "description": null,
+              "attributes": null
+            }
+          ]
+        },
+        "c723ebb5a456": {
+          "subject": "MONDO:0001153",
+          "object": "NCBIGene:6433",
+          "predicate": "biolink:condition_associated_with_gene",
+          "qualifiers": null,
+          "attributes": [
+            {
+              "attribute_type_id": "disgenet-DSI",
+              "value": [
+                0.78
+              ],
+              "value_type_id": null,
+              "original_attribute_name": null,
+              "value_url": null,
+              "attribute_source": null,
+              "description": null,
+              "attributes": null
+            },
+            {
+              "attribute_type_id": "biolink:aggregator_knowledge_source",
+              "value": [
+                "infores:biothings-explorer",
+                "infores:mydisease-info"
+              ],
+              "value_type_id": "biolink:InformationResource",
+              "original_attribute_name": null,
+              "value_url": null,
+              "attribute_source": null,
+              "description": null,
+              "attributes": null
+            },
+            {
+              "attribute_type_id": "disgenet-DPI",
+              "value": [
+                0.269
+              ],
+              "value_type_id": null,
+              "original_attribute_name": null,
+              "value_url": null,
+              "attribute_source": null,
+              "description": null,
+              "attributes": null
+            },
+            {
+              "attribute_type_id": "biolink:primary_knowledge_source",
+              "value": [
+                "infores:disgenet"
+              ],
+              "value_type_id": "biolink:InformationResource",
+              "original_attribute_name": null,
+              "value_url": null,
+              "attribute_source": null,
+              "description": null,
+              "attributes": null
+            },
+            {
+              "attribute_type_id": "disgenet_source",
+              "value": [
+                "BEFREE"
+              ],
+              "value_type_id": null,
+              "original_attribute_name": null,
+              "value_url": null,
+              "attribute_source": null,
+              "description": null,
+              "attributes": null
+            },
+            {
+              "attribute_type_id": "biolink:publications",
+              "value": [
+                "PMID:28210932",
+                "PMID:28238165"
+              ],
+              "value_type_id": null,
+              "original_attribute_name": null,
+              "value_url": null,
+              "attribute_source": null,
+              "description": null,
+              "attributes": null
+            },
+            {
+              "attribute_type_id": "biolink:aggregator_knowledge_source",
+              "value": "infores:aragorn",
+              "value_type_id": "biolink:InformationResource",
+              "original_attribute_name": null,
+              "value_url": null,
+              "attribute_source": "infores:aragorn",
+              "description": null,
+              "attributes": null
+            },
+            {
+              "attribute_type_id": "disgenet-score",
+              "value": [
+                0.02
+              ],
+              "value_type_id": null,
+              "original_attribute_name": null,
+              "value_url": null,
+              "attribute_source": null,
+              "description": null,
+              "attributes": null
+            },
+            {
+              "attribute_type_id": "disgenet-EI",
+              "value": [
+                1
+              ],
+              "value_type_id": null,
+              "original_attribute_name": null,
+              "value_url": null,
+              "attribute_source": null,
+              "description": null,
+              "attributes": null
+            }
+          ]
+        },
+        "21905759a821": {
+          "subject": "MONDO:0001153",
+          "object": "NCBIGene:79154",
+          "predicate": "biolink:condition_associated_with_gene",
+          "qualifiers": null,
+          "attributes": [
+            {
+              "attribute_type_id": "disgenet-DPI",
+              "value": [
+                0.423
+              ],
+              "value_type_id": null,
+              "original_attribute_name": null,
+              "value_url": null,
+              "attribute_source": null,
+              "description": null,
+              "attributes": null
+            },
+            {
+              "attribute_type_id": "disgenet-DSI",
+              "value": [
+                0.653
+              ],
+              "value_type_id": null,
+              "original_attribute_name": null,
+              "value_url": null,
+              "attribute_source": null,
+              "description": null,
+              "attributes": null
+            },
+            {
+              "attribute_type_id": "biolink:aggregator_knowledge_source",
+              "value": [
+                "infores:biothings-explorer",
+                "infores:mydisease-info"
+              ],
+              "value_type_id": "biolink:InformationResource",
+              "original_attribute_name": null,
+              "value_url": null,
+              "attribute_source": null,
+              "description": null,
+              "attributes": null
+            },
+            {
+              "attribute_type_id": "biolink:primary_knowledge_source",
+              "value": [
+                "infores:disgenet"
+              ],
+              "value_type_id": "biolink:InformationResource",
+              "original_attribute_name": null,
+              "value_url": null,
+              "attribute_source": null,
+              "description": null,
+              "attributes": null
+            },
+            {
+              "attribute_type_id": "disgenet-score",
+              "value": [
+                0.01
+              ],
+              "value_type_id": null,
+              "original_attribute_name": null,
+              "value_url": null,
+              "attribute_source": null,
+              "description": null,
+              "attributes": null
+            },
+            {
+              "attribute_type_id": "biolink:publications",
+              "value": [
+                "PMID:23045263"
+              ],
+              "value_type_id": null,
+              "original_attribute_name": null,
+              "value_url": null,
+              "attribute_source": null,
+              "description": null,
+              "attributes": null
+            },
+            {
+              "attribute_type_id": "biolink:aggregator_knowledge_source",
+              "value": "infores:aragorn",
+              "value_type_id": "biolink:InformationResource",
+              "original_attribute_name": null,
+              "value_url": null,
+              "attribute_source": "infores:aragorn",
+              "description": null,
+              "attributes": null
+            },
+            {
+              "attribute_type_id": "disgenet_source",
+              "value": [
+                "BEFREE"
+              ],
+              "value_type_id": null,
+              "original_attribute_name": null,
+              "value_url": null,
+              "attribute_source": null,
+              "description": null,
+              "attributes": null
+            },
+            {
+              "attribute_type_id": "disgenet-EI",
+              "value": [
+                1
+              ],
+              "value_type_id": null,
+              "original_attribute_name": null,
+              "value_url": null,
+              "attribute_source": null,
+              "description": null,
+              "attributes": null
+            }
+          ]
+        }
+      }
+    },
+    "results": [
+      {
+        "node_bindings": {
+          "n1": [
+            {
+              "id": "MONDO:0001153",
+              "query_id": null,
+              "attributes": null
+            }
+          ],
+          "n0": [
+            {
+              "id": "NCBIGene:367",
+              "query_id": null,
+              "attributes": null
+            }
+          ]
+        },
+        "edge_bindings": {
+          "e0": [
+            {
+              "id": "4efec6d4dded",
+              "attributes": null
+            }
+          ]
+        },
+        "score": null
+      },
+      {
+        "node_bindings": {
+          "n1": [
+            {
+              "id": "MONDO:0001153",
+              "query_id": null,
+              "attributes": null
+            }
+          ],
+          "n0": [
+            {
+              "id": "NCBIGene:6433",
+              "query_id": null,
+              "attributes": null
+            }
+          ]
+        },
+        "edge_bindings": {
+          "e0": [
+            {
+              "id": "c723ebb5a456",
+              "attributes": null
+            }
+          ]
+        },
+        "score": null
+      },
+      {
+        "node_bindings": {
+          "n1": [
+            {
+              "id": "MONDO:0001153",
+              "query_id": null,
+              "attributes": null
+            }
+          ],
+          "n0": [
+            {
+              "id": "NCBIGene:414",
+              "query_id": null,
+              "attributes": null
+            }
+          ]
+        },
+        "edge_bindings": {
+          "e0": [
+            {
+              "id": "9240142be580",
+              "attributes": null
+            }
+          ]
+        },
+        "score": null
+      },
+      {
+        "node_bindings": {
+          "n1": [
+            {
+              "id": "MONDO:0001153",
+              "query_id": null,
+              "attributes": null
+            }
+          ],
+          "n0": [
+            {
+              "id": "NCBIGene:23481",
+              "query_id": null,
+              "attributes": null
+            }
+          ]
+        },
+        "edge_bindings": {
+          "e0": [
+            {
+              "id": "a6f64d4c6831",
+              "attributes": null
+            }
+          ]
+        },
+        "score": null
+      },
+      {
+        "node_bindings": {
+          "n1": [
+            {
+              "id": "MONDO:0001153",
+              "query_id": null,
+              "attributes": null
+            }
+          ],
+          "n0": [
+            {
+              "id": "NCBIGene:51478",
+              "query_id": null,
+              "attributes": null
+            }
+          ]
+        },
+        "edge_bindings": {
+          "e0": [
+            {
+              "id": "ae22fbb6100a",
+              "attributes": null
+            }
+          ]
+        },
+        "score": null
+      },
+      {
+        "node_bindings": {
+          "n1": [
+            {
+              "id": "MONDO:0001153",
+              "query_id": null,
+              "attributes": null
+            }
+          ],
+          "n0": [
+            {
+              "id": "NCBIGene:2099",
+              "query_id": null,
+              "attributes": null
+            }
+          ]
+        },
+        "edge_bindings": {
+          "e0": [
+            {
+              "id": "e27bc5a7970b",
+              "attributes": null
+            }
+          ]
+        },
+        "score": null
+      },
+      {
+        "node_bindings": {
+          "n1": [
+            {
+              "id": "MONDO:0001153",
+              "query_id": null,
+              "attributes": null
+            }
+          ],
+          "n0": [
+            {
+              "id": "NCBIGene:3293",
+              "query_id": null,
+              "attributes": null
+            }
+          ]
+        },
+        "edge_bindings": {
+          "e0": [
+            {
+              "id": "3f4a8d89e679",
+              "attributes": null
+            }
+          ]
+        },
+        "score": null
+      },
+      {
+        "node_bindings": {
+          "n1": [
+            {
+              "id": "MONDO:0001153",
+              "query_id": null,
+              "attributes": null
+            }
+          ],
+          "n0": [
+            {
+              "id": "NCBIGene:2100",
+              "query_id": null,
+              "attributes": null
+            }
+          ]
+        },
+        "edge_bindings": {
+          "e0": [
+            {
+              "id": "a02987ef592e",
+              "attributes": null
+            }
+          ]
+        },
+        "score": null
+      },
+      {
+        "node_bindings": {
+          "n1": [
+            {
+              "id": "MONDO:0001153",
+              "query_id": null,
+              "attributes": null
+            }
+          ],
+          "n0": [
+            {
+              "id": "NCBIGene:611",
+              "query_id": null,
+              "attributes": null
+            }
+          ]
+        },
+        "edge_bindings": {
+          "e0": [
+            {
+              "id": "239a29e229bc",
+              "attributes": null
+            }
+          ]
+        },
+        "score": null
+      },
+      {
+        "node_bindings": {
+          "n1": [
+            {
+              "id": "MONDO:0001153",
+              "query_id": null,
+              "attributes": null
+            }
+          ],
+          "n0": [
+            {
+              "id": "NCBIGene:5443",
+              "query_id": null,
+              "attributes": null
+            }
+          ]
+        },
+        "edge_bindings": {
+          "e0": [
+            {
+              "id": "46fd465c3db7",
+              "attributes": null
+            }
+          ]
+        },
+        "score": null
+      },
+      {
+        "node_bindings": {
+          "n1": [
+            {
+              "id": "MONDO:0001153",
+              "query_id": null,
+              "attributes": null
+            }
+          ],
+          "n0": [
+            {
+              "id": "NCBIGene:79154",
+              "query_id": null,
+              "attributes": null
+            }
+          ]
+        },
+        "edge_bindings": {
+          "e0": [
+            {
+              "id": "21905759a821",
+              "attributes": null
+            }
+          ]
+        },
+        "score": null
+      },
+      {
+        "node_bindings": {
+          "n1": [
+            {
+              "id": "MONDO:0001153",
+              "query_id": null,
+              "attributes": null
+            }
+          ],
+          "n0": [
+            {
+              "id": "NCBIGene:345275",
+              "query_id": null,
+              "attributes": null
+            }
+          ]
+        },
+        "edge_bindings": {
+          "e0": [
+            {
+              "id": "87a0c42759d7",
+              "attributes": null
+            }
+          ]
+        },
+        "score": null
+      },
+      {
+        "node_bindings": {
+          "n1": [
+            {
+              "id": "MONDO:0001153",
+              "query_id": null,
+              "attributes": null
+            }
+          ],
+          "n0": [
+            {
+              "id": "NCBIGene:50618",
+              "query_id": null,
+              "attributes": null
+            }
+          ]
+        },
+        "edge_bindings": {
+          "e0": [
+            {
+              "id": "eb4c14fb2817",
+              "attributes": null
+            }
+          ]
+        },
+        "score": null
+      }
+    ]
+  }
+}
