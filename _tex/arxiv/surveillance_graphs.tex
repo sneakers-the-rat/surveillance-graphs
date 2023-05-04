@@ -1,3 +1,145 @@
+\documentclass{article}
+\usepackage[usenames, dvipsnames,svgnames]{xcolor}
+\usepackage{url}
+\usepackage[colorlinks = true,
+            urlcolor = DarkOrchid,
+            citecolor = DarkOrchid,
+            backref= section,
+            pdfauthor={Jonny L. Saunders},
+            pdftitle={Surveillance Graphs}]{hyperref}
+\usepackage{graphicx}
+\usepackage{microtype}
+\usepackage[default,regular,black]{sourceserifpro}
+\usepackage[square,numbers]{natbib}
+\usepackage[export]{adjustbox}
+\usepackage{geometry}
+\usepackage{natbib}
+\usepackage{sidenotes}
+\usepackage{parskip}
+\usepackage{framed}
+\usepackage[framemethod=tikz]{mdframed}% http://ctan.org/pkg/mdframed
+\usepackage{anyfontsize}
+
+\geometry{
+  left=0.5in,
+  right=3in,
+  marginparwidth=2.5in,
+  bottom=0.75in,
+  top=0.5in,
+  textwidth=5in,
+}
+
+% change sidenote text size
+\makeatletter
+\RenewDocumentCommand\sidenotetext{ o o +m }{%      
+    \IfNoValueOrEmptyTF{#1}{%
+        \@sidenotes@placemarginal{#2}{\textsuperscript{\thesidenote}{}~\footnotesize#3}%
+        \refstepcounter{sidenote}%
+    }{%
+        \@sidenotes@placemarginal{#2}{\textsuperscript{#1}~#3}%
+    }%
+}
+\makeatother
+
+\renewenvironment{abstract}{%
+\vspace{1em}
+\begin{mdframed}[
+     linewidth=1pt,
+     linecolor=black,
+     bottomline=false,topline=false,rightline=false,
+     innerrightmargin=0pt,innertopmargin=0pt,innerbottommargin=0pt,
+     innerleftmargin=1em,% Distance between vertical rule & proof content
+     rightmargin=6pc,
+     skipabove=0\baselineskip
+   ]
+}{%
+\end{mdframed}
+}
+
+
+\newenvironment{acknowledgements}{%
+\vspace{1em}
+\par\vspace*{\fill}
+\begin{mdframed}[
+     linewidth=1pt,
+     linecolor=black,
+     leftline=false,bottomline=false,rightline=false,
+     innerrightmargin=0pt,
+     innertopmargin=1em,innerbottommargin=0pt,
+     innerleftmargin=1em,% Distance between vertical rule & proof content
+     skipabove=.5\baselineskip
+   ]
+}{%
+\end{mdframed}\newpage
+}
+
+\renewenvironment{leftbar}
+{\vspace{6pt}\def\FrameCommand{\hspace{0em}\vrule width 0.5pt \hspace{1em}}\MakeFramed {\advance\hsize-\width \FrameRestore}}
+{\endMakeFramed}
+
+\makeatletter
+\renewcommand{\maketitle}{
+ {\fontsize{11}{14}\selectfont \textbf{\@author} \href{mailto:j@nny.fyi}{@}\\
+ UCLA - Department of Neurology, Institute of Pirate Technology\par}
+ \makebox[0pt][l]{%
+  \raisebox{-20pc}[0pt][0pt]{%
+    \hspace{25pc}\includegraphics[width=5.25in]{img/logo.pdf}}}
+
+ \vspace{4pc}
+ {\bfseries\fontsize{50}{50}\selectfont Surveillance\break Graphs\par}
+ \vspace{12pt}
+ {\fontsize{25}{32}\selectfont\textit{Vulgarity and Cloud Orthodoxy \hfill\break in Linked Data Infrastructures}\\}
+}
+\makeatother
+
+
+
+
+\makeatletter
+\AtBeginDocument{%
+  \def\doi#1{\url{https://doi.org/#1}}}
+\makeatother
+
+\setcounter{tocdepth}{3}
+\title{Surveillance Graphs}
+\author{Jonny L. Saunders}
+\date{\today}
+
+
+\begin{document}
+
+\newgeometry{
+  left = 1in,
+  right = 1in
+}
+
+\maketitle
+
+\begin{abstract}
+Information is power, and that power has been largely enclosed by a handful of information conglomerates. The logic of the surveillance-driven information economy demands systems for handling mass quantities of heterogeneous data, increasingly in the form of knowledge graphs. An archaeology of knowledge graphs and their mutation from the liberatory aspirations of the semantic web gives us an underexplored lens to understand contemporary information systems. I explore how the ideology of cloud systems steers two projects from the NIH and NSF intended to build information infrastructures for the public good to inevitable corporate capture, facilitating the development of a new kind of multilayered public/private surveillance system in the process. I argue that understanding technologies like large language models as interfaces to knowledge graphs is critical to understand their role in a larger project of informational enclosure and concentration of power. I draw from multiple histories of liberatory information technologies to develop Vulgar Linked Data as an alternative to the Cloud Orthodoxy, resisting the colonial urge for universality in favor of vernacular expression in peer to peer systems.
+\end{abstract}
+
+{\vspace{16pt}\fontsize{16}{16}Original Publication: May 3rd, 2023\\%
+Document Source: \\}%
+{\fontsize{12}{16}\url{https://github.com/sneakers-the-rat/surveillance-graphs}}
+
+This document was written for the web. Please see the original at:\\
+{\fontsize{12}{16}\url{https://jon-e.net/surveillance-graphs}}
+
+\clearpage
+
+\tableofcontents
+
+\begin{acknowledgements}
+With gratitude to Ed Summers (\href{https://social.coop/@edsu}{@edsu@social.coop}) for providing context on Linked Data history, among other topics, Fabián Heredia (\href{https://sunbeam.city/@fabianhjr}{@fabianhjr@sunbeam.city}) for recommending a number of resources on FOSS exploitation, Leslie Harka for supporting me at every step of this work, Daniel Aharoni and the Miniscope Lab for welcoming me and tolerating me writing one more piece before it's time to get down to building some peer-to-peer systems, the greater Fediverse for constant inspiration, and Rumbly Tumbly Lawnmower for being the light of my life.
+\end{acknowledgements}
+
+
+\restoregeometry
+\clearpage
+
+\textbf{Note:} This piece is an extension of "\href{https://jon-e.net/infrastructure/#linked-data-or-surveillance-capitalism}{Linked Data or Surveillance Capitalism}" in \textbf{\href{https://jon-e.net/infrastructure}{Decentralized Infrastructure for (Neuro)science}} \cite{saundersDecentralizedInfrastructureNeuro2022} and reproduces text from it in whole and in part.
+
 
 \hypertarget{introduction}{%
 \section{Introduction}\label{introduction}}
@@ -1029,8 +1171,7 @@ was predictably troubling, again prescribing conversion therapy from
 \href{https://pubmed.ncbi.nlm.nih.gov/1176977/}{harmful}
 \href{https://pubmed.ncbi.nlm.nih.gov/14288075/}{research}. The
 \href{https://robokop.renci.org/answer}{ROBOKOP} \cite{bizonROBOKOPKGKGB2019}  query engine behaved similarly, answering
-{[}a query for genes associated with{]}(\{\{
-``/data/ROBOKOP\_message.json'' \textbar{} relative\_url \}\}) gender
+\href{https://jon-e.net/surveillance-graphs/data/ROBOKOP_message.json}{a query for genes associated with} gender
 dysphoria with exclusively trivial or incorrect responses\sidenote{ITSN2
   was identified in \href{https://pubmed.ncbi.nlm.nih.gov/28210932/}{an
   unrelated paper about attachment patterns}, HSD17B3 and 5a-RD2 were
@@ -1575,7 +1716,7 @@ folding@home were more powerful than any supercomputer\sidenote{During
   the first year of the COVID-19 pandemic a wave of folding@home
   volunteers broke the exascale computing barrier and made it more
   powerful than the top 100 supercomputers combined --- filling a need
-  that the cloud either \emph{couldn't} or \emph{wouldn't} \cite{zimmermanSARSCoV2SimulationsGo2021} .} \cite{v.FileFoldingHome2012} . Before the dominance of cloud video
+  that the cloud either \emph{couldn't} or \emph{wouldn't} \cite{zimmermanSARSCoV2SimulationsGo2021}.} \cite{v.FileFoldingHome2012}. Before the dominance of cloud video
 streaming platforms, peer-to-peer systems accounted for a majority of
 global internet traffic: in the mid-2000's between 49\% and 95\%,
 depending on the survey \cite{vandersarBitTorrentOneThird2006, vandersarP2PTrafficBooming2007} .
@@ -1596,9 +1737,9 @@ the browser requires less setup than local software, but the complexity
 of the underlying web standards make it
 \href{https://drewdevault.com/2020/03/18/Reckless-limitless-scope.html}{effectively
 impossible} \cite{devaultRecklessInfiniteScope2020}  to escape
-the near-monopoly\sidenote{The last major competitor being Firefox with
+the near-monopoly\sidenote[][-1.5in]{The last major competitor being Firefox with
   market share in the low teens. Hang in there little fox!} of
-Chrome\sidenote{Which Google uses as a surveillance platform and a
+Chrome\sidenote[][-1in]{Which Google uses as a surveillance platform and a
   weapon which, according to unredacted court records detailing its
   ``Privacy Sandbox'' project, they plan to use for a forceful takeover
   of the rest of the global ad market in the name of privacy: ``Google's
@@ -2250,7 +2391,7 @@ and have it fill in the details according to \emph{context.} Of course
 \emph{context} is synonymous with \emph{surveillance} here: the
 assistant should know how old your kids are and be able to infer the
 logical restriction that poses on movie rating. The surveillance is
-\emph{intimate,} and positions itself as being a friend\sidenote{To some
+\emph{intimate,} and positions itself as being a friend\sidenote[][-1in]{To some
   degree these assistants feel like a generational marketing campaign
   like McDonald's Happy Meals, where the animacy of a phone might seem
   ridiculous to people who grew up with them as inert objects, but that
@@ -2267,7 +2408,7 @@ home and auto integrations has expanded to the rest of the world with
 joint language and image search. The setting is again the mundane
 reality of a bored middle class, restaurants and shopping, where I can
 ``scan the entire shelf with my camera and see helpful insights overlaid
-in front of me\sidenote{Again, it is the combination of large machine
+in front of me\sidenote[][-1in]{Again, it is the combination of large machine
   learning models and knowledge graphs that makes some dream of
   convenience possible: ``Scene Exploration uses computer vision to
   instantly connect the multiple frames that make up the scene and
@@ -2573,7 +2714,7 @@ were an information conglomerate who didn't want to acknowledge that we
 have collected or rented some personal wearable data in our clinical
 recommendation product\sidenote{Medical algorithms are currently in a
   legal gray area in the US, and enforcement and coverage of FDA
-  protections is patchy at best \cite{dolivaDosingDiscriminationRegulating2021, ordishAlgorithmsMedicalDevices2019, el-sayedMedicalAlgorithmsNeed2021} }. We could allow our model to be conditioned by that data, but
+  protections is patchy at best \cite{olivaDosingDiscriminationRegulating2021, ordishAlgorithmsMedicalDevices2019, el-sayedMedicalAlgorithmsNeed2021} }. We could allow our model to be conditioned by that data, but
 then censor it from any explanation of provenance: the provenance given
 is in terms of proteins and genes and diseases rather than surveillance
 data, and that might be all the clinician is looking for. If we want to
@@ -3028,3 +3169,18 @@ concentration, inevitably shuttered or bought as they fail to compete on
 the same territory as the information giants?
 
 Or will we build a better world?
+
+
+\newgeometry{
+  left=0.5in,
+  right=0.5in,
+  bottom=0.75in,
+  top=0.5in,
+  textwidth=8in
+}
+
+\addcontentsline{toc}{section}{References}
+\bibliography{surveillance_graphs}
+\bibliographystyle{unsrtnat}
+
+\end{document}

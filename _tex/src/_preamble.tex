@@ -4,7 +4,9 @@
 \usepackage[colorlinks = true,
             urlcolor = DarkOrchid,
             citecolor = DarkOrchid,
-            backref= section]{hyperref}
+            backref= section,
+            pdfauthor={Jonny L. Saunders},
+            pdftitle={Surveillance Graphs}]{hyperref}
 \usepackage{graphicx}
 \usepackage{microtype}
 \usepackage[default,regular,black]{sourceserifpro}
@@ -16,6 +18,7 @@
 \usepackage{parskip}
 \usepackage{framed}
 \usepackage[framemethod=tikz]{mdframed}% http://ctan.org/pkg/mdframed
+\usepackage{anyfontsize}
 
 \geometry{
 	left=0.5in,
@@ -38,6 +41,20 @@
 }
 \makeatother
 
+\renewenvironment{abstract}{%
+\vspace{1em}
+\begin{mdframed}[
+     linewidth=1pt,
+     linecolor=black,
+     bottomline=false,topline=false,rightline=false,
+     innerrightmargin=0pt,innertopmargin=0pt,innerbottommargin=0pt,
+     innerleftmargin=1em,% Distance between vertical rule & proof content
+     rightmargin=6pc,
+     skipabove=0\baselineskip
+   ]
+}{%
+\end{mdframed}
+}
 
 
 \newenvironment{acknowledgements}{%
@@ -47,7 +64,8 @@
      linewidth=1pt,
      linecolor=black,
      leftline=false,bottomline=false,rightline=false,
-     innerrightmargin=0pt,innertopmargin=1em,innerbottommargin=0pt,
+     innerrightmargin=0pt,
+     innertopmargin=1em,innerbottommargin=0pt,
      innerleftmargin=1em,% Distance between vertical rule & proof content
      skipabove=.5\baselineskip
    ]
@@ -58,6 +76,22 @@
 \renewenvironment{leftbar}
 {\vspace{6pt}\def\FrameCommand{\hspace{0em}\vrule width 0.5pt \hspace{1em}}\MakeFramed {\advance\hsize-\width \FrameRestore}}
 {\endMakeFramed}
+
+\makeatletter
+\renewcommand{\maketitle}{
+ {\fontsize{11}{14}\selectfont \textbf{\@author} \href{mailto:j@nny.fyi}{@}\\
+ UCLA - Department of Neurology, Institute of Pirate Technology\par}
+ \makebox[0pt][l]{%
+  \raisebox{-20pc}[0pt][0pt]{%
+    \hspace{25pc}\includegraphics[width=5.25in]{img/logo.pdf}}}
+
+ \vspace{4pc}
+ {\bfseries\fontsize{50}{50}\selectfont Surveillance\break Graphs\par}
+ \vspace{12pt}
+ {\fontsize{25}{32}\selectfont\textit{Vulgarity and Cloud Orthodoxy \hfill\break in Linked Data Infrastructures}\\}
+}
+\makeatother
+
 
 
 
@@ -70,14 +104,29 @@
 \title{Surveillance Graphs}
 \author{Jonny L. Saunders}
 \date{\today}
+
+
 \begin{document}
 
 \newgeometry{
-  left = 1.5in,
-  right = 1.5in
+  left = 1in,
+  right = 1in
 }
 
 \maketitle
+
+\begin{abstract}
+Information is power, and that power has been largely enclosed by a handful of information conglomerates. The logic of the surveillance-driven information economy demands systems for handling mass quantities of heterogeneous data, increasingly in the form of knowledge graphs. An archaeology of knowledge graphs and their mutation from the liberatory aspirations of the semantic web gives us an underexplored lens to understand contemporary information systems. I explore how the ideology of cloud systems steers two projects from the NIH and NSF intended to build information infrastructures for the public good to inevitable corporate capture, facilitating the development of a new kind of multilayered public/private surveillance system in the process. I argue that understanding technologies like large language models as interfaces to knowledge graphs is critical to understand their role in a larger project of informational enclosure and concentration of power. I draw from multiple histories of liberatory information technologies to develop Vulgar Linked Data as an alternative to the Cloud Orthodoxy, resisting the colonial urge for universality in favor of vernacular expression in peer to peer systems.
+\end{abstract}
+
+{\vspace{16pt}\fontsize{16}{16}Original Publication: May 3rd, 2023\\%
+Document Source: \\}%
+{\fontsize{12}{16}\url{https://github.com/sneakers-the-rat/surveillance-graphs}}
+
+This document was written for the web. Please see the original at:\\
+{\fontsize{12}{16}\url{https://jon-e.net/surveillance-graphs}}
+
+\clearpage
 
 \tableofcontents
 
@@ -88,3 +137,5 @@ With gratitude to Ed Summers (\href{https://social.coop/@edsu}{@edsu@social.coop
 
 \restoregeometry
 \clearpage
+
+\textbf{Note:} This piece is an extension of "\href{https://jon-e.net/infrastructure/#linked-data-or-surveillance-capitalism}{Linked Data or Surveillance Capitalism}" in \textbf{\href{https://jon-e.net/infrastructure}{Decentralized Infrastructure for (Neuro)science}} \cite{saundersDecentralizedInfrastructureNeuro2022} and reproduces text from it in whole and in part.

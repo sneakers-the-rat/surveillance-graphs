@@ -79,7 +79,7 @@ layout: default
     </div>
     {% if page.abstract %}
         <div class="abstract" property="abstract">
-            {{ page.abstract }}
+            {{ page.abstract | markdownify }}
         </div>
         <div class="post-line"></div>
     {% endif %}

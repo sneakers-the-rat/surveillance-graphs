@@ -1,0 +1,2221 @@
+\begin{thebibliography}{279}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Saunders(2022)]{saundersDecentralizedInfrastructureNeuro2022}
+Jonny~L. Saunders.
+\newblock Decentralized {{Infrastructure}} for ({{Neuro}})science, August 2022.
+\newblock URL \url{http://arxiv.org/abs/2209.07493}.
+
+\bibitem[Wark(2021)]{warkCapitalDeadThis2021}
+McKenzie Wark.
+\newblock \emph{Capital {{Is Dead}}: {{Is This Something Worse}}?}
+\newblock {Verso Books}, February 2021.
+\newblock ISBN 978-1-78873-533-9.
+
+\bibitem[Barns(2020)]{barnsWhenWebBecame2020}
+Sarah Barns.
+\newblock When the {{Web Became Platform}}.
+\newblock In \emph{Platform {{Urbanism}}}, Geographies of {{Media}}, pages
+  35--52. {Springer Singapore}, {Singapore}, 2020.
+\newblock ISBN 978-981-329-724-1.
+\newblock URL \url{http://link.springer.com/10.1007/978-981-32-9725-8\_2}.
+
+\bibitem[Plantin et~al.(2018)Plantin, Lagoze, Edwards, and
+  Sandvig]{plantinInfrastructureStudiesMeet2018}
+Jean-Christophe Plantin, Carl Lagoze, Paul~N Edwards, and Christian Sandvig.
+\newblock Infrastructure studies meet platform studies in the age of {{Google}}
+  and {{Facebook}}.
+\newblock \emph{New Media \& Society}, 20\penalty0 (1):\penalty0 293--310,
+  January 2018.
+\newblock ISSN 1461-4448.
+\newblock \doi{10.1177/1461444816661553}.
+\newblock URL \url{https://doi.org/10.1177/1461444816661553}.
+
+\bibitem[Chaudhri et~al.(2022)Chaudhri, Baru, Chittar, Dong, Genesereth,
+  Hendler, Kalyanpur, Lenat, Sequeda, Vrande{\v c}i{\'c}, and
+  Wang]{chaudhriKnowledgeGraphsIntroduction2022}
+Vinay~K. Chaudhri, Chaitanya Baru, Naren Chittar, Xin~Luna Dong, Michael
+  Genesereth, James Hendler, Aditya Kalyanpur, Douglas~B. Lenat, Juan Sequeda,
+  Denny Vrande{\v c}i{\'c}, and Kuansan Wang.
+\newblock Knowledge graphs: {{Introduction}}, history, and perspectives.
+\newblock \emph{AI Magazine}, 43\penalty0 (1):\penalty0 17--29, 2022.
+\newblock ISSN 2371-9621.
+\newblock \doi{10.1002/aaai.12033}.
+\newblock URL \url{https://onlinelibrary.wiley.com/doi/abs/10.1002/aaai.12033}.
+
+\bibitem[Hitzler(2021)]{hitzlerReviewSemanticWeb2021}
+Pascal Hitzler.
+\newblock A review of the semantic web field.
+\newblock \emph{Communications of the ACM}, 64\penalty0 (2):\penalty0 76--83,
+  January 2021.
+\newblock ISSN 0001-0782.
+\newblock \doi{10.1145/3397512}.
+\newblock URL \url{https://doi.org/10.1145/3397512}.
+
+\bibitem[Yan et~al.(2018)Yan, Wang, Cheng, Gao, and
+  Zhou]{yanRetrospectiveKnowledgeGraphs2018}
+Jihong Yan, Chengyu Wang, Wenliang Cheng, Ming Gao, and Aoying Zhou.
+\newblock A retrospective of knowledge graphs.
+\newblock \emph{Frontiers of Computer Science}, 12\penalty0 (1):\penalty0
+  55--74, February 2018.
+\newblock ISSN 2095-2236.
+\newblock \doi{10.1007/s11704-016-5228-9}.
+\newblock URL \url{https://doi.org/10.1007/s11704-016-5228-9}.
+
+\bibitem[Bergman(2019)]{bergmanCommonSenseView2019}
+Mike Bergman.
+\newblock A {{Common Sense View}} of {{Knowledge Graphs}}, July 2019.
+\newblock URL
+  \url{https://www.mkbergman.com/2244/a-common-sense-view-of-knowledge-graphs/}.
+
+\bibitem[Ehrlinger and
+  W{\"o}{\ss}(2016)]{ehrlingerDefinitionKnowledgeGraphs2016}
+Lisa Ehrlinger and Wolfram W{\"o}{\ss}.
+\newblock Towards a {{Definition}} of {{Knowledge Graphs}}.
+\newblock \emph{Semantics}, September 2016.
+
+\bibitem[{Berners-Lee}(1997{\natexlab{a}})]{berners-leeLinksLaw1997}
+Tim {Berners-Lee}.
+\newblock Links and {{Law}}, April 1997{\natexlab{a}}.
+\newblock URL \url{https://www.w3.org/DesignIssues/LinkLaw}.
+
+\bibitem[{Berners-Lee}(1997{\natexlab{b}})]{berners-leeLinksLawMyths1997}
+Tim {Berners-Lee}.
+\newblock Links and {{Law}}: {{Myths}}, April 1997{\natexlab{b}}.
+\newblock URL \url{https://www.w3.org/DesignIssues/LinkMyths.html}.
+
+\bibitem[{Berners-Lee}(1998{\natexlab{a}})]{berners-leeWhatSemanticWeb1998}
+Tim {Berners-Lee}.
+\newblock What the {{Semantic Web}} can {{Represent}}, September
+  1998{\natexlab{a}}.
+\newblock URL \url{https://www.w3.org/DesignIssues/RDFnot.html}.
+
+\bibitem[Tarnoff(2022)]{tarnoffInternetPeopleFight2022}
+Ben Tarnoff.
+\newblock \emph{Internet for the {{People}}: {{The Fight}} for {{Our Digital
+  Future}}}.
+\newblock {Verso Books}, June 2022.
+\newblock ISBN 978-1-83976-202-4.
+
+\bibitem[Zuboff(2019)]{zuboffAgeSurveillanceCapitalism2019}
+Shoshana Zuboff.
+\newblock \emph{The Age of Surveillance Capitalism: The Fight for a Human
+  Future at the New Frontier of Power}.
+\newblock {Profile Books}, {London}, 2019.
+\newblock ISBN 978-1-78125-685-5.
+
+\bibitem[{Berners-Lee}(2009)]{berners-leeSociallyAwareCloud2009}
+Tim {Berners-Lee}.
+\newblock Socially aware cloud storage, August 2009.
+\newblock URL \url{https://www.w3.org/DesignIssues/CloudStorage.html}.
+
+\bibitem[{Berners-Lee}(2006)]{berners-leeLinkedData2006}
+Tim {Berners-Lee}.
+\newblock Linked {{Data}}, July 2006.
+\newblock URL \url{https://www.w3.org/DesignIssues/LinkedData.html}.
+
+\bibitem[{Berners-Lee}(2010)]{berners-leeGoalsHumanDataInterface2010}
+Tim {Berners-Lee}.
+\newblock Goals for a {{Human-Data Interface}}, July 2010.
+\newblock URL \url{https://www.w3.org/DesignIssues/TabulatorGoals.html}.
+
+\bibitem[{Berners-Lee}(1998{\natexlab{b}})]{berners-leeScalefreeNatureWeb1998}
+Tim {Berners-Lee}.
+\newblock The {{Scale-free}} nature of the {{Web}}, 1998{\natexlab{b}}.
+\newblock URL \url{https://www.w3.org/DesignIssues/Fractal.html}.
+
+\bibitem[{Berners-Lee} et~al.(2001){Berners-Lee}, HENDLER, and
+  Lassila]{berners-leeSemanticWeb2001}
+Tim {Berners-Lee}, James HENDLER, and Ora Lassila.
+\newblock The {{Semantic Web}}.
+\newblock \emph{Scientific American}, 284\penalty0 (5):\penalty0 34--43, 2001.
+\newblock ISSN 0036-8733.
+\newblock URL \url{https://www.jstor.org/stable/26059207}.
+
+\bibitem[{Berners-Lee}(2007)]{berners-leeCulturesBoundaries2007}
+Tim {Berners-Lee}.
+\newblock Cultures and {{Boundaries}}, July 2007.
+\newblock URL \url{https://www.w3.org/DesignIssues/Culture.html}.
+
+\bibitem[Palmer(2008)]{palmerDitchingSemanticWeb2008}
+Sean~B. Palmer.
+\newblock Ditching the {{Semantic Web}}?, March 2008.
+\newblock URL \url{http://inamidst.com/whits/2008/ditching}.
+
+\bibitem[Swartz(2013)]{swartzAaronSwartzProgrammable2013}
+Aaron Swartz.
+\newblock Aaron {{Swartz}}'s {{A Programmable Web}}: {{An Unfinished Work}}.
+\newblock \emph{Synthesis Lectures on the Semantic Web: Theory and Technology},
+  3\penalty0 (2):\penalty0 1--64, February 2013.
+\newblock ISSN 2160-4711, 2160-472X.
+\newblock \doi{10.2200/S00481ED1V01Y201302WBE005}.
+\newblock URL
+  \url{http://www.morganclaypool.com/doi/abs/10.2200/S00481ED1V01Y201302WBE005}.
+
+\bibitem[Poirier(2017)]{poirierTurnScruffyEthnographic2017}
+Lindsay Poirier.
+\newblock A {{Turn}} for the {{Scruffy}}: {{An Ethnographic Study}} of
+  {{Semantic Web Architecture}}.
+\newblock In \emph{Proceedings of the 2017 {{ACM}} on {{Web Science
+  Conference}}}, {{WebSci}} '17, pages 359--367, {New York, NY, USA}, June
+  2017. {Association for Computing Machinery}.
+\newblock ISBN 978-1-4503-4896-6.
+\newblock \doi{10.1145/3091478.3091505}.
+\newblock URL \url{https://doi.org/10.1145/3091478.3091505}.
+
+\bibitem[Singhal(2012)]{singhalIntroducingKnowledgeGraph2012}
+Amit Singhal.
+\newblock Introducing the {{Knowledge Graph}}: Things, not strings, May 2012.
+\newblock URL
+  \url{https://blog.google/products/search/introducing-knowledge-graph-things-not/}.
+
+\bibitem[{Iain}(2016)]{iainFreebaseDeadLong2016}
+{Iain}.
+\newblock Freebase is dead, long live {{Freebase}}, May 2016.
+\newblock URL
+  \url{https://medium.com/@iainsproat/freebase-is-dead-long-live-freebase-6c1daff44d19}.
+
+\bibitem[Noy et~al.(2019)Noy, Gao, Jain, Narayanan, Patterson, and
+  Taylor]{noyIndustryscaleKnowledgeGraphs2019}
+Natasha Noy, Yuqing Gao, Anshu Jain, Anant Narayanan, Alan Patterson, and Jamie
+  Taylor.
+\newblock Industry-scale {{Knowledge Graphs}}: {{Lessons}} and {{Challenges}}:
+  {{Five}} diverse technology companies show how it's done.
+\newblock \emph{Queue}, 17\penalty0 (2):\penalty0 Pages 20:48--Pages 20:75,
+  April 2019.
+\newblock ISSN 1542-7730.
+\newblock \doi{10.1145/3329781.3332266}.
+\newblock URL \url{https://doi.org/10.1145/3329781.3332266}.
+
+\bibitem[{Neo4j}()]{neo4jNeo4jCustomers}
+{Neo4j}.
+\newblock Neo4j {{Customers}}.
+\newblock URL \url{https://neo4j.com/customers/}.
+
+\bibitem[{Enterprise Knowledge Graph Foundation} and
+  Atkin(2022)]{enterpriseknowledgegraphfoundationKnowledgeGraphIndustry2022}
+{Enterprise Knowledge Graph Foundation} and Michael Atkin.
+\newblock Knowledge {{Graph Industry Survey Report}}, October 2022.
+\newblock URL
+  \url{https://www.ontotext.com/knowledgehub/white\_paper/knowledge-graph-industry-survey-report/}.
+
+\bibitem[Schenker(2021)]{schenkerNewReportDetails2021}
+Jennifer~L. Schenker.
+\newblock New {{Report Details Industry}}'s {{Use}} of {{Knowledge Graphs}},
+  May 2021.
+\newblock URL
+  \url{https://theinnovator.news/new-report-details-industrys-use-of-knowledge-graphs/}.
+
+\bibitem[Sequeda and Lassila(2021)]{sequedaDesigningBuildingEnterprise2021}
+Juan Sequeda and Ora Lassila.
+\newblock Designing and {{Building Enterprise Knowledge Graphs}}.
+\newblock Synthesis {{Lectures}} on {{Data}}, {{Semantics}}, and {{Knowledge}},
+  {Cham}, 2021. {Springer International Publishing}.
+\newblock ISBN 978-3-031-00788-0 978-3-031-01916-6.
+\newblock \doi{10.1007/978-3-031-01916-6}.
+\newblock URL \url{https://link.springer.com/10.1007/978-3-031-01916-6}.
+
+\bibitem[Azzini et~al.(2021)Azzini, Barbon, Bellandi, Catarci, Ceravolo,
+  {Cudr{\'e}-Mauroux}, Maghool, Pokorny, Scannapieco, Sedes, Tavares, and
+  Wrembel]{azziniAdvancesDataManagement2021}
+Antonia Azzini, Sylvio Barbon, Valerio Bellandi, Tiziana Catarci, Paolo
+  Ceravolo, Philippe {Cudr{\'e}-Mauroux}, Samira Maghool, Jaroslav Pokorny,
+  Monica Scannapieco, Florence Sedes, Gabriel~Marques Tavares, and Robert
+  Wrembel.
+\newblock Advances in {{Data Management}} in the {{Big Data Era}}.
+\newblock In Michael Goedicke, Erich Neuhold, and Kai Rannenberg, editors,
+  \emph{Advancing {{Research}} in {{Information}} and {{Communication
+  Technology}}}, volume 600, pages 99--126, {Cham}, 2021. {Springer
+  International Publishing}.
+\newblock ISBN 978-3-030-81700-8 978-3-030-81701-5.
+\newblock \doi{10.1007/978-3-030-81701-5_4}.
+\newblock URL \url{https://link.springer.com/10.1007/978-3-030-81701-5\_4}.
+
+\bibitem[Segaran(2020)]{segaranTwophaseConstructionData2020}
+Suresh~Toby Segaran.
+\newblock Two-phase construction of data graphs from disparate inputs, April
+  2020.
+\newblock URL \url{https://patents.google.com/patent/US10614127B2/}.
+
+\bibitem[Ceravolo et~al.(2018)Ceravolo, Azzini, Angelini, Catarci,
+  {Cudr{\'e}-Mauroux}, Damiani, Mazak, Van~Keulen, Jarrar, Santucci, Sattler,
+  Scannapieco, Wimmer, Wrembel, and Zaraket]{ceravoloBigDataSemantics2018}
+Paolo Ceravolo, Antonia Azzini, Marco Angelini, Tiziana Catarci, Philippe
+  {Cudr{\'e}-Mauroux}, Ernesto Damiani, Alexandra Mazak, Maurice Van~Keulen,
+  Mustafa Jarrar, Giuseppe Santucci, Kai-Uwe Sattler, Monica Scannapieco,
+  Manuel Wimmer, Robert Wrembel, and Fadi Zaraket.
+\newblock Big {{Data Semantics}}.
+\newblock \emph{Journal on Data Semantics}, 7\penalty0 (2):\penalty0 65--85,
+  June 2018.
+\newblock ISSN 1861-2032, 1861-2040.
+\newblock \doi{10.1007/s13740-018-0086-2}.
+\newblock URL \url{http://link.springer.com/10.1007/s13740-018-0086-2}.
+
+\bibitem[Natarajan()]{natarajanGraphKnowledgeGraph}
+Maya Natarajan.
+\newblock From {{Graph To Knowledge Graph}}: {{A}} short journey to unlimited
+  insights.
+\newblock URL
+  \url{https://neo4j.com/whitepapers/knowledge-graphs-unlimited-insights/thanks/}.
+
+\bibitem[Allemang(2022{\natexlab{a}})]{allemangMergingDataGraphs2022}
+Dean Allemang.
+\newblock Merging data graphs made easy, December 2022{\natexlab{a}}.
+\newblock URL
+  \url{https://scribe.rip/@dallemang/merging-data-graphs-made-easy-8b7e616acfe6}.
+
+\bibitem[Allemang(2022{\natexlab{b}})]{allemangMergingTablesHard2022}
+Dean Allemang.
+\newblock Merging tables is hard, December 2022{\natexlab{b}}.
+\newblock URL
+  \url{https://scribe.citizen4.eu/@dallemang/merging-tables-is-hard-89d8637a081}.
+
+\bibitem[{Villazon-Terrazas} et~al.(2017){Villazon-Terrazas}, {Garcia-Santa},
+  Ren, Faraotti, Wu, Zhao, Vetere, and
+  Pan]{villazon-terrazasKnowledgeGraphFoundations2017}
+Boris {Villazon-Terrazas}, Nuria {Garcia-Santa}, Yuan Ren, Alessandro Faraotti,
+  Honghan Wu, Yuting Zhao, Guido Vetere, and Jeff~Z. Pan.
+\newblock Knowledge {{Graph Foundations}}.
+\newblock In Jeff~Z. Pan, Guido Vetere, Jose~Manuel {Gomez-Perez}, and Honghan
+  Wu, editors, \emph{Exploiting {{Linked Data}} and {{Knowledge Graphs}} in
+  {{Large Organisations}}}, pages 17--55. {Springer International Publishing},
+  {Cham}, 2017.
+\newblock ISBN 978-3-319-45654-6.
+\newblock \doi{10.1007/978-3-319-45654-6_2}.
+\newblock URL \url{https://doi.org/10.1007/978-3-319-45654-6\_2}.
+
+\bibitem[Lamdan(2023)]{lamdanDataCartelsCompanies2023}
+Sarah Lamdan.
+\newblock \emph{Data Cartels: The Companies That Control and Monopolize Our
+  Information}.
+\newblock {Stanford University Press}, {Stanford, California}, 2023.
+\newblock ISBN 978-1-5036-1507-6 978-1-5036-3371-1.
+
+\bibitem[{RELX}(2023)]{relxAnnualReport20222023}
+{RELX}.
+\newblock Annual {{Report}} 2022, February 2023.
+\newblock URL
+  \url{https://www.relx.com/\textasciitilde/media/Files/R/RELX-Group/documents/reports/annual-reports/relx-2022-annual-report.pdf}.
+
+\bibitem[Schonfeld(2022)]{schonfeldReorganizationElsevier2022}
+Roger~C. Schonfeld.
+\newblock A {{Reorganization}} at {{Elsevier}}, May 2022.
+\newblock URL
+  \url{https://scholarlykitchen.sspnet.org/2022/05/02/reorganization-elsevier/}.
+
+\bibitem[{Elsevier} and {EMD
+  Serono}(2021)]{elsevierMakingMedicalInformation2021}
+{Elsevier} and {EMD Serono}.
+\newblock Making medical information easily accessible to healthcare
+  professionals, 2021.
+\newblock URL
+  \url{https://www.elsevier.com/\_\_data/assets/pdf\_file/0004/1276087/Elsevier-EMD-Serono-phactMI-collaboration.pdf}.
+
+\bibitem[{Elsevier}(2020)]{elsevierRethinkClincalContent2020}
+{Elsevier}.
+\newblock Rethink {{Clincal Content}}, April 2020.
+\newblock URL
+  \url{https://www.elsmediakits.com/intelligence/white-paper/white-paper\%3A-rethink-clinical-content}.
+
+\bibitem[Biddle(2021)]{biddleLexisNexisProvideGiant2021}
+Sam Biddle.
+\newblock {{LexisNexis}} to {{Provide Giant Database}} of {{Personal
+  Information}} to {{ICE}}, April 2021.
+\newblock URL
+  \url{https://theintercept.com/2021/04/02/ice-database-surveillance-lexisnexis/}.
+
+\bibitem[Biddle(2022)]{biddleICESearchedLexisNexis2022}
+Sam Biddle.
+\newblock {{ICE Searched LexisNexis Database Over}} 1 {{Million Times}} in
+  {{Just Seven Months}}.
+\newblock \emph{The Intercept}, June 2022.
+\newblock URL
+  \url{https://theintercept.com/2022/06/09/ice-lexisnexis-mass-surveillances/}.
+
+\bibitem[{LexisNexis Risk
+  Solutions}({\natexlab{a}})]{lexisnexisrisksolutionsAccurintTraX}
+{LexisNexis Risk Solutions}.
+\newblock {{Accurint}}\textregistered{} {{TraX}}\texttrademark, {\natexlab{a}}.
+\newblock URL \url{https://risk.lexisnexis.com/products/accurint-trax}.
+
+\bibitem[{LexisNexis Risk
+  Solutions}({\natexlab{b}})]{lexisnexisrisksolutionsTelematicsOnDemand}
+{LexisNexis Risk Solutions}.
+\newblock Telematics {{OnDemand}}, {\natexlab{b}}.
+\newblock URL \url{https://risk.lexisnexis.com/products/telematics-ondemand}.
+
+\bibitem[{LexisNexis Risk
+  Solutions}(2022)]{lexisnexisrisksolutionsAccurintLegalProfessionals2022}
+{LexisNexis Risk Solutions}.
+\newblock Accurint for {{Legal Professionals}}, April 2022.
+\newblock URL
+  \url{https://web.archive.org/web/20230308034302/https://www.lexisnexis.com/pdf/AccurintForLegalProfessionals/24.pdf}.
+
+\bibitem[{LexisNexis Risk
+  Solutions}({\natexlab{c}})]{lexisnexisrisksolutionsLexID}
+{LexisNexis Risk Solutions}.
+\newblock {{LexID}}, {\natexlab{c}}.
+\newblock URL \url{https://risk.lexisnexis.com/our-technology/lexid}.
+
+\bibitem[{Neo4j}(2021)]{neo4jNeo4jArmyCase2021}
+{Neo4j}.
+\newblock Neo4j + {{U}}.{{S}}. {{Army Case Study}}, 2021.
+\newblock URL \url{https://neo4j.com/case-studies/us-army/}.
+
+\bibitem[Cohen et~al.(2015)Cohen, Richards, and
+  Tasinga]{cohenSystemMethodSharing2015}
+David Cohen, Kevin Richards, and Khan Tasinga.
+\newblock System and {{Method}} for {{Sharing Investigation Result Data}},
+  November 2015.
+\newblock URL \url{https://patents.google.com/patent/AU2013251186B2/}.
+
+\bibitem[Mathura et~al.(2017)Mathura, Lemanowicz, and
+  Vergenz]{mathuraAutomatedDatabaseAnalysis2017}
+Shivam Mathura, Lucas Lemanowicz, and Tim Vergenz.
+\newblock Automated database analysis to detect malfeasance, August 2017.
+\newblock URL \url{https://patents.google.com/patent/US20170221063A1/}.
+
+\bibitem[Yousaf et~al.(2018)Yousaf, Mark, Hao, Cohen, Elder, Lidor, Ossher,
+  RICHBOURG, Zavilla, and Zhang]{yousafSystemsMethodsUser2018}
+Timothy Yousaf, Alexander Mark, Sharon Hao, David Cohen, Andrew Elder, Daniel
+  Lidor, Joel Ossher, Christopher RICHBOURG, Joshua Zavilla, and Kevin Zhang.
+\newblock Systems, methods, user interfaces and algorithms for performing
+  database analysis and search of information involving structured and/or
+  semi-structured data, January 2018.
+\newblock URL \url{https://patents.google.com/patent/US9881066B1/}.
+
+\bibitem[Knudson et~al.(2021)Knudson, Gerhardt, Elder, and
+  Rosofsky]{knudsonSystemsMethodsAnnotating2021}
+Eric Knudson, Matthew Gerhardt, Andrew Elder, and Eli Rosofsky.
+\newblock Systems and methods for annotating and linking electronic documents,
+  January 2021.
+\newblock URL \url{https://patents.google.com/patent/US20210004530A1/}.
+
+\bibitem[Iliadis and Acker(2022)]{iliadisSeerSeenSurveying2022}
+Andrew Iliadis and Amelia Acker.
+\newblock The seer and the seen: {{Surveying Palantir}}'s surveillance
+  platform.
+\newblock \emph{The Information Society}, 38\penalty0 (5):\penalty0 334--363,
+  October 2022.
+\newblock ISSN 0197-2243, 1087-6537.
+\newblock \doi{10.1080/01972243.2022.2100851}.
+\newblock URL
+  \url{https://www.tandfonline.com/doi/full/10.1080/01972243.2022.2100851}.
+
+\bibitem[Liu(2018)]{liuFreedomIsnFree2018}
+Wendy Liu.
+\newblock Freedom {{Isn}}'t {{Free}}, August 2018.
+\newblock URL \url{https://logicmag.io/failure/freedom-isnt-free/}.
+
+\bibitem[Wark(2004)]{warkHackerManifesto2004}
+McKenzie Wark.
+\newblock \emph{A {{Hacker Manifesto}}}.
+\newblock {Harvard University Press}, October 2004.
+\newblock ISBN 978-0-674-01543-2.
+\newblock URL \url{https://www.hup.harvard.edu/catalog.php?isbn=9780674015432}.
+
+\bibitem[Goldsmith(2019)]{goldsmithOriginalSinFree2019}
+Daniel Goldsmith.
+\newblock The {{Original Sin}} of {{Free Software}}, 2019.
+\newblock URL \url{https://lipu.dgold.eu/original-sin}.
+
+\bibitem[Halliday(2018)]{hallidayOpenSourceNot2018}
+James Halliday.
+\newblock Open {{Source}} is {{Not Enough}}, May 2018.
+\newblock URL
+  \url{https://notesfrombelow.org/article/open-source-is-not-enough}.
+
+\bibitem[Hunter(2016)]{hunterReclaimingComputingCommons2016}
+Rob Hunter.
+\newblock Reclaiming the {{Computing Commons}}.
+\newblock \emph{Jacobin}, May 2016.
+\newblock URL
+  \url{https://jacobin.com/2016/02/free-software-movement-richard-stallman-linux-open-source-enclosure/}.
+
+\bibitem[Horn(2020)]{hornPostOpenSource2020}
+Melody Horn.
+\newblock Post-{{Open Source}}, August 2020.
+\newblock URL
+  \url{https://www.boringcactus.com/2020/08/13/post-open-source.html}.
+
+\bibitem[Pushkarev(2023)]{pushkarevWhatNext2023}
+Denis Pushkarev.
+\newblock So, what's next?, February 2023.
+\newblock URL
+  \url{https://github.com/zloirock/core-js/blob/76f8648790efe74634874012701f387884d2c549/docs/2023-02-14-so-whats-next.md}.
+
+\bibitem[Marquess(2014)]{marquessSpeedsFeedsMoney2014}
+Steve Marquess.
+\newblock Speeds and {{Feeds}} \guilsinglright{} {{Of Money}},
+  {{Responsibility}}, and {{Pride}}, April 2014.
+\newblock URL
+  \url{https://veridicalsystems.com/blog/of-money-responsibility-and-pride/index.html}.
+
+\bibitem[Gallagher(2016)]{gallagherRagequitCoderUnpublished2016}
+Sean Gallagher.
+\newblock Rage-quit: {{Coder}} unpublished 17 lines of {{JavaScript}} and
+  ``broke the {{Internet}}'', March 2016.
+\newblock URL
+  \url{https://arstechnica.com/information-technology/2016/03/rage-quit-coder-unpublished-17-lines-of-javascript-and-broke-the-internet/}.
+
+\bibitem[Dutz(2022)]{dutzYourFreeTrial2022}
+Christofer Dutz.
+\newblock Your free trial version of ``open-source'' has expired, please update
+  to a commercial plan, January 2022.
+\newblock URL
+  \url{https://github.com/chrisdutz/blog/blob/835dbf45eaa49aa153604e7e0064b29435f43554/plc4x/free-trial-expired.adoc}.
+
+\bibitem[Butterick(2022{\natexlab{a}})]{butterickGitHubCopilotInvestigation2022}
+Matthew Butterick.
+\newblock {{GitHub Copilot}} investigation {$\cdot$} {{Joseph Saveri Law Firm}}
+  \& {{Matthew Butterick}}, October 2022{\natexlab{a}}.
+\newblock URL \url{https://githubcopilotinvestigation.com/}.
+
+\bibitem[Butterick(2022{\natexlab{b}})]{butterickGitHubCopilotLitigation2022}
+Matthew Butterick.
+\newblock {{GitHub Copilot}} litigation, November 2022{\natexlab{b}}.
+\newblock URL \url{https://githubcopilotlitigation.com/}.
+
+\bibitem[O'Leary(2022)]{olearyVSCodeWhat2022}
+Rob O'Leary.
+\newblock {{VS Code}} - {{What}}'s the deal with the telemetry?, April 2022.
+\newblock URL
+  \url{https://www.roboleary.net/tools/2022/04/20/vscode-telemetry.html}.
+
+\bibitem[VSC()]{VSCodiumOpenSource}
+{{VSCodium}} - {{Open Source Binaries}} of {{VSCode}}.
+\newblock URL \url{https://vscodium.com/}.
+
+\bibitem[Mirowski(2018)]{mirowskiFutureOpenScience2018}
+Philip Mirowski.
+\newblock The future(s) of open science.
+\newblock \emph{Social Studies of Science}, 48\penalty0 (2):\penalty0 171--203,
+  April 2018.
+\newblock ISSN 0306-3127.
+\newblock \doi{10.1177/0306312718772086}.
+\newblock URL \url{https://doi.org/10.1177/0306312718772086}.
+
+\bibitem[Allhutter(2019)]{allhutterWorkingOntologistsHighQuality2019}
+Doris Allhutter.
+\newblock Of ``{{Working Ontologists}}'' and ``{{High-Quality Human
+  Components}}'': {{The Politics}} of {{Semantic Infrastructures}}.
+\newblock In \emph{Of ``{{Working Ontologists}}'' and ``{{High-Quality Human
+  Components}}'': {{The Politics}} of {{Semantic Infrastructures}}}, pages
+  326--348. {Princeton University Press}, May 2019.
+\newblock ISBN 978-0-691-19060-0.
+\newblock \doi{10.1515/9780691190600-023}.
+\newblock URL
+  \url{https://www.degruyter.com/document/doi/10.1515/9780691190600-023/html}.
+
+\bibitem[Use(2015)]{UserTalkJimbo2015}
+User talk:{{Jimbo Wales}}/{{Archive}} 192.
+\newblock \emph{Wikipedia}, August 2015.
+\newblock URL
+  \url{https://en.wikipedia.org/w/index.php?title=User\_talk:Jimbo\_Wales/Archive\_192\&oldid=1143087052\#WP\_traffic\_from\_Google\_declining}.
+
+\bibitem[Hinkis(2015)]{hinkisGoogleSteals5502015}
+Roy Hinkis.
+\newblock Google steals 550+ million {{Wikipedia}} clicks in 6 months, traffic
+  drop confirmed by {{Wiki}}'s {{Jimmy Wales}}, August 2015.
+\newblock URL
+  \url{https://web.archive.org/web/20160114172612/http://www.similarweb.com/blog/google-steals-over-550-million-clicks-from-wikipedia-in-6-months}.
+
+\bibitem[White(2016)]{whiteWikimediaTimelineEvents2016}
+Molly White.
+\newblock Wikimedia timeline of events, 2014\textendash 2016, February 2016.
+\newblock URL \url{http://mollywhite.net/wikimedia-timeline/}.
+
+\bibitem[Buetler(2016)]{buetlerSearchDestroyKnowledge2016}
+William Buetler.
+\newblock Search and {{Destroy}}: {{The Knowledge Engine}} and the {{Undoing}}
+  of {{Lila Tretikov}}, February 2016.
+\newblock URL
+  \url{https://thewikipedian.net/2016/02/19/knowledge-engine-lila-tretikov/}.
+
+\bibitem[Pellissier~Tanon et~al.(2016)Pellissier~Tanon, Vrande{\v c}i{\'c},
+  Schaffert, Steiner, and Pintscher]{pellissiertanonFreebaseWikidataGreat2016}
+Thomas Pellissier~Tanon, Denny Vrande{\v c}i{\'c}, Sebastian Schaffert, Thomas
+  Steiner, and Lydia Pintscher.
+\newblock From {{Freebase}} to {{Wikidata}}: {{The Great Migration}}.
+\newblock In \emph{Proceedings of the 25th {{International Conference}} on
+  {{World Wide Web}}}, pages 1419--1428, {Montr\'eal Qu\'ebec Canada}, April
+  2016. {International World Wide Web Conferences Steering Committee}.
+\newblock ISBN 978-1-4503-4143-1.
+\newblock \doi{10.1145/2872427.2874809}.
+\newblock URL \url{https://dl.acm.org/doi/10.1145/2872427.2874809}.
+
+\bibitem[{Wikimedia Meta-Wiki}()]{wikimediameta-wikiGoogleMeta}
+{Wikimedia Meta-Wiki}.
+\newblock Google - {{Meta}}.
+\newblock URL \url{https://meta.wikimedia.org/wiki/Google}.
+
+\bibitem[Goo(2019)]{GoogleStakeWikidata2019}
+Google's stake in {{Wikidata}} and {{Wikipedia}} - {{Wikidata}} -
+  lists.wikimedia.org, 2019.
+\newblock URL
+  \url{https://lists.wikimedia.org/hyperkitty/list/wikidata@lists.wikimedia.org/thread/KOCJRSDG57VYWQ4F2BPF7TH7R7YXGF7G/\#KOCJRSDG57VYWQ4F2BPF7TH7R7YXGF7G}.
+
+\bibitem[Vrande{\v c}i{\'c} and
+  Kr{\"o}tzsch(2014)]{vrandecicWikidataFreeCollaborative2014}
+Denny Vrande{\v c}i{\'c} and Markus Kr{\"o}tzsch.
+\newblock Wikidata: {{A Free Collaborative Knowledge Base}}.
+\newblock \emph{Communications of the ACM}, 57\penalty0 (10):\penalty0 78--85,
+  2014.
+
+\bibitem[{CrossRef}(2009)]{crossrefFormationCrossRefShort2009}
+{CrossRef}.
+\newblock The {{Formation}} of {{CrossRef}}: {{A Short History}}, 2009.
+\newblock URL \url{https://www.crossref.org/pdfs/CrossRef10Years.pdf}.
+
+\bibitem[{NISO}(2008)]{nisoRP82008JournalArticle2008}
+{NISO}.
+\newblock {{RP-8-2008}}, {{Journal Article Versions}} ({{JAV}}):
+  {{Recommendations}}, 2008.
+
+\bibitem[{NISO}(2021)]{nisoRP222021AccessLicense2021}
+{NISO}.
+\newblock {{RP-22-2021}}: {{Access}} \& {{License Indicators}}, 2021.
+\newblock URL \url{https://www.niso.org/publications/rp-22-2021-ali}.
+
+\bibitem[Carpenter(2021)]{carpenterNewArticleSharing2021}
+Todd~A. Carpenter.
+\newblock New {{Article Sharing Framework}} released, May 2021.
+\newblock URL
+  \url{https://scholarlykitchen.sspnet.org/2021/05/17/stm-article-sharing-framework/}.
+
+\bibitem[Sem(2011)]{SemTech2011BOF2011}
+{{SemTech}} 2011 {{BOF}} on structured data in {{HTML}}, June 2011.
+\newblock URL \url{https://www.w3.org/2011/06/semtech-bof-notes.html}.
+
+\bibitem[Iliadis et~al.(2023)Iliadis, Acker, Stevens, and
+  Kavakli]{iliadisOneSchemaRule2023}
+Andrew Iliadis, Amelia Acker, Wesley Stevens, and Sezgi~Ba{\c s}ak Kavakli.
+\newblock One schema to rule them all: {{How Schema}}.org models the world of
+  search.
+\newblock \emph{Journal of the Association for Information Science and
+  Technology}, n/a\penalty0 (n/a), January 2023.
+\newblock ISSN 2330-1643.
+\newblock \doi{10.1002/asi.24744}.
+\newblock URL \url{https://onlinelibrary.wiley.com/doi/abs/10.1002/asi.24744}.
+
+\bibitem[Guha et~al.(2015)Guha, Brickley, and
+  Macbeth]{guhaSchemaOrgEvolution2015}
+R.V. Guha, Dan Brickley, and Steve Macbeth.
+\newblock Schema.org: {{Evolution}} of {{Structured Data}} on the {{Web}},
+  November 2015.
+\newblock URL \url{https://queue.acm.org/detail.cfm?id=2857276}.
+
+\bibitem[Hawke(2011)]{hawkeNotesSessionSemTech2011}
+Sandro Hawke.
+\newblock Notes from {{Q}}\&{{A}} session at {{SemTech}}, {{RichSnippets}}
+  session, June 2011.
+\newblock URL
+  \url{https://lists.w3.org/Archives/Public/public-vocabs/2011Jun/0001.html}.
+
+\bibitem[Wiegmann et~al.(2017)Wiegmann, {de Vries}, and
+  Blind]{wiegmannMultiModeStandardisationCritical2017}
+Paul Wiegmann, Henk {de Vries}, and Knut Blind.
+\newblock Multi-{{Mode Standardisation}}: {{A Critical Review}} and a
+  {{Research Agenda}}.
+\newblock \emph{Research Policy}, 46\penalty0 (9):\penalty0 1370--1386, July
+  2017.
+\newblock ISSN 00487333.
+\newblock \doi{10.1016/j.respol.2017.06.002}.
+\newblock URL \url{https://repub.eur.nl/pub/107374/}.
+
+\bibitem[Heires(2008)]{heiresInternationalOrganizationStandardization2008}
+Marcel Heires.
+\newblock The {{International Organization}} for {{Standardization}} ({{ISO}}).
+\newblock \emph{New Political Economy}, 13\penalty0 (3):\penalty0 357--367,
+  September 2008.
+\newblock ISSN 1356-3467.
+\newblock \doi{10.1080/13563460802302693}.
+\newblock URL \url{https://doi.org/10.1080/13563460802302693}.
+
+\bibitem[Pan et~al.(2017)Pan, Vetere, {Gomez-Perez}, and
+  Wu]{panExploitingLinkedData2017}
+Jeff~Z. Pan, Guido Vetere, Jose~Manuel {Gomez-Perez}, and Honghan Wu, editors.
+\newblock \emph{Exploiting {{Linked Data}} and {{Knowledge Graphs}} in {{Large
+  Organisations}}}.
+\newblock {Springer International Publishing}, {Cham}, 2017.
+\newblock ISBN 978-3-319-45652-2 978-3-319-45654-6.
+\newblock \doi{10.1007/978-3-319-45654-6}.
+\newblock URL \url{http://link.springer.com/10.1007/978-3-319-45654-6}.
+
+\bibitem[{National Institutes of
+  Health}(2018)]{nationalinstitutesofhealthNIHStrategicPlan2018}
+{National Institutes of Health}.
+\newblock {{NIH Strategic Plan}} for {{Data Science}}.
+\newblock Technical report, {National Institutes of Health}, June 2018.
+\newblock URL
+  \url{https://web.archive.org/web/20210907014444/https://datascience.nih.gov/sites/default/files/NIH\_Strategic\_Plan\_for\_Data\_Science\_Final\_508.pdf}.
+
+\bibitem[Consortium(2019{\natexlab{a}})]{consortiumUniversalBiomedicalData2019}
+The Biomedical Data~Translator Consortium.
+\newblock Toward {{A Universal Biomedical Data Translator}}.
+\newblock \emph{Clinical and Translational Science}, 12\penalty0 (2):\penalty0
+  86--90, 2019{\natexlab{a}}.
+\newblock ISSN 1752-8062.
+\newblock \doi{10.1111/cts.12591}.
+\newblock URL \url{https://onlinelibrary.wiley.com/doi/abs/10.1111/cts.12591}.
+
+\bibitem[Bowker and Star(1999)]{bowkerSortingThingsOut1999}
+Geoffrey~C. Bowker and Susan~Leigh Star.
+\newblock \emph{Sorting {{Things Out}}: {{Classification}} and {{Its
+  Consequences}}}.
+\newblock Inside {{Technology}}. {MIT Press}, {Cambridge, MA, USA}, September
+  1999.
+\newblock ISBN 978-0-262-02461-7.
+
+\bibitem[Austin et~al.(2019)Austin, Colvis, and
+  Southall]{austinDeconstructingTranslationalTower2019}
+Christopher~P. Austin, Christine~M. Colvis, and Noel~T. Southall.
+\newblock Deconstructing the {{Translational Tower}} of {{Babel}}.
+\newblock \emph{Clinical and Translational Science}, 12\penalty0 (2):\penalty0
+  85--85, 2019.
+\newblock ISSN 1752-8062.
+\newblock \doi{10.1111/cts.12595}.
+\newblock URL \url{https://onlinelibrary.wiley.com/doi/abs/10.1111/cts.12595}.
+
+\bibitem[Unni et~al.(2022)Unni, Moxon, Bada, Brush, Bruskiewich, Caufield,
+  Clemons, Dancik, Dumontier, Fecho, Glusman, Hadlock, Harris, Joshi, Putman,
+  Qin, Ramsey, Shefchek, Solbrig, Soman, Thessen, Haendel, Bizon, Mungall, and
+  Consortium]{unniBiolinkModelUniversal2022}
+Deepak~R. Unni, Sierra A.~T. Moxon, Michael Bada, Matthew Brush, Richard
+  Bruskiewich, J.~Harry Caufield, Paul~A. Clemons, Vlado Dancik, Michel
+  Dumontier, Karamarie Fecho, Gustavo Glusman, Jennifer~J. Hadlock, Nomi~L.
+  Harris, Arpita Joshi, Tim Putman, Guangrong Qin, Stephen~A. Ramsey, Kent~A.
+  Shefchek, Harold Solbrig, Karthik Soman, Anne~E. Thessen, Melissa~A. Haendel,
+  Chris Bizon, Christopher~J. Mungall, and The Biomedical Data~Translator
+  Consortium.
+\newblock Biolink {{Model}}: {{A}} universal schema for knowledge graphs in
+  clinical, biomedical, and translational science.
+\newblock \emph{Clinical and Translational Science}, n/a\penalty0 (n/a), May
+  2022.
+\newblock ISSN 1752-8062.
+\newblock \doi{10.1111/cts.13302}.
+\newblock URL \url{https://onlinelibrary.wiley.com/doi/abs/10.1111/cts.13302}.
+
+\bibitem[Bruskiewich et~al.(2021)Bruskiewich, Deepak, Moxon, Mungall, Solbrig,
+  {cbizon}, Brush, Shefchek, Hannestad, YaphetKG, Harris, {bbopjenkins},
+  {diatomsRcool}, Wang, Balhoff, Schaper, XIN, Owen, Stupp, JervenBolleman,
+  Badger, Emonet, and {vdancik}]{bruskiewichBiolinkBiolinkmodel2021}
+Richard Bruskiewich, Deepak, Sierra Moxon, Chris Mungall, Harold Solbrig,
+  {cbizon}, Matthew Brush, Kent Shefchek, Lance Hannestad, YaphetKG, Nomi
+  Harris, {bbopjenkins}, {diatomsRcool}, Patrick Wang, Jim Balhoff, Kevin
+  Schaper, {\relax JIWEN}~XIN, Phil Owen, Gregory Stupp, JervenBolleman,
+  The~Gitter Badger, Vincent Emonet, and {vdancik}.
+\newblock Biolink/biolink-model: 2.2.5.
+\newblock Zenodo, September 2021.
+\newblock URL \url{https://zenodo.org/record/5520104}.
+
+\bibitem[Vasilevsky et~al.(2022)Vasilevsky, Matentzoglu, Toro, Flack, Hegde,
+  Unni, Alyea, Amberger, Babb, Balhoff, Bingaman, Burns, Callahan, Carmody,
+  Chan, Chang, Dumontier, Failla, Flowers, Garrett, Gration, Groza, Hanauer,
+  Harris, Helbig, Hilton, Himmelstein, Hoyt, Kane, K{\"o}hler, Lagorce,
+  Larralde, Lock, Santiago, Maglott, Malheiro, Meldal, McMurry, {Munoz-Torres},
+  Nelson, Ochoa, Oprea, {Osumi-Sutherland}, Parkinson, Pendlington, Rath, Rehm,
+  Remennik, Riggs, Roncaglia, Ross, Shadbolt, Shefchek, Similuk, Sioutos,
+  Sparks, Stefancsik, Stephan, Stupp, Sundaramurthi, Tammen, Thaxton, Valasek,
+  Wagner, Welter, Whetzel, Whiteman, Wood, Xu, Zankl, Zhang, Chute, Robinson,
+  Mungall, Hamosh, and Haendel]{vasilevskyMondoUnifyingDiseases2022}
+Nicole~A. Vasilevsky, Nicolas~A. Matentzoglu, Sabrina Toro, Joe~E. Flack,
+  Harshad Hegde, Deepak~R. Unni, Gioconda Alyea, Joanna~S. Amberger, Larry
+  Babb, James~P. Balhoff, Taylor~I. Bingaman, Gully~A. Burns, Tiffany~J.
+  Callahan, Leigh~C. Carmody, Lauren~E. Chan, George~S. Chang, Michel
+  Dumontier, Laura~E. Failla, May~J. Flowers, H.~A. Garrett, Dylan Gration,
+  Tudor Groza, Marc Hanauer, Nomi~L. Harris, Ingo Helbig, Jason~A. Hilton,
+  Daniel~S. Himmelstein, Charles~T. Hoyt, Megan~S. Kane, Sebastian K{\"o}hler,
+  David Lagorce, Martin Larralde, Antonia Lock, Irene~L{\'o}pez Santiago,
+  Donna~R. Maglott, Adriana~J. Malheiro, Birgit~HM Meldal, Julie~A. McMurry,
+  Moni {Munoz-Torres}, Tristan~H. Nelson, David Ochoa, Tudor~I. Oprea, David
+  {Osumi-Sutherland}, Helen Parkinson, Zo{\"e}~M. Pendlington, Ana Rath,
+  Heidi~L. Rehm, Lyubov Remennik, Erin~R. Riggs, Paola Roncaglia, Justyne~E.
+  Ross, Marion~F. Shadbolt, Kent~A. Shefchek, Morgan~N. Similuk, Nicholas
+  Sioutos, Rachel Sparks, Ray Stefancsik, Ralf Stephan, Doron Stupp,
+  Jagadish~Chandrabose Sundaramurthi, Imke Tammen, Courtney~L. Thaxton, Eloise
+  Valasek, Alex~H. Wagner, Danielle Welter, Patricia~L. Whetzel, Lori~L.
+  Whiteman, Valerie Wood, Colleen~H. Xu, Andreas Zankl, Xingmin~A. Zhang,
+  Christopher~G. Chute, Peter~N. Robinson, Christopher~J. Mungall, Ada Hamosh,
+  and Melissa~A. Haendel.
+\newblock Mondo: {{Unifying}} diseases for the world, by the world, April 2022.
+\newblock URL
+  \url{https://www.medrxiv.org/content/10.1101/2022.04.13.22273750v1}.
+
+\bibitem[Chris(2018)]{chrisIntroductionBioLinkDatamodel2018}
+Mungall Chris.
+\newblock Introduction to the {{BioLink}} datamodel, May 2018.
+\newblock URL
+  \url{https://www.slideshare.net/cmungall/introduction-to-the-biolink-datamodel}.
+
+\bibitem[Fecho et~al.(2022)Fecho, Thessen, Baranzini, Bizon, Hadlock, Huang,
+  Roper, Southall, Ta, Watkins, Williams, Xu, Byrd, Dan{\v c}{\'i}k, Duby,
+  Dumontier, Glusman, Harris, Hinderer, Hyde, Johs, Su, Qin, Zhu, and
+  Consortium]{fechoProgressUniversalBiomedical2022}
+Karamarie Fecho, Anne~E. Thessen, Sergio~E. Baranzini, Chris Bizon, Jennifer~J.
+  Hadlock, Sui Huang, Ryan~T. Roper, Noel Southall, Casey Ta, Paul~B. Watkins,
+  Mark~D. Williams, Hao Xu, William Byrd, Vlado Dan{\v c}{\'i}k, Marc~P. Duby,
+  Michel Dumontier, Gustavo Glusman, Nomi~L. Harris, Eugene~W. Hinderer, Greg
+  Hyde, Adam Johs, Andrew~I. Su, Guangrong Qin, Qian Zhu, and The Biomedical
+  Data~Translator Consortium.
+\newblock Progress toward a universal biomedical data translator.
+\newblock \emph{Clinical and Translational Science}, n/a\penalty0 (n/a), May
+  2022.
+\newblock ISSN 1752-8062.
+\newblock \doi{10.1111/cts.13301}.
+\newblock URL \url{https://onlinelibrary.wiley.com/doi/abs/10.1111/cts.13301}.
+
+\bibitem[Morris et~al.(2023)Morris, Soman, Akbas, Zhou, Smith, Meng, Huang,
+  Cerono, Schenk, {Rizk-Jackson}, Harroud, Sanders, Costes, Bharat,
+  Chakraborty, Pico, Mardirossian, Keiser, Tang, Hardi, Shi, Musen, Israni,
+  Huang, Rose, Nelson, and Baranzini]{morrisScalablePrecisionMedicine2023}
+John~H Morris, Karthik Soman, Rabia~E Akbas, Xiaoyuan Zhou, Brett Smith,
+  Elaine~C Meng, Conrad~C Huang, Gabriel Cerono, Gundolf Schenk, Angela
+  {Rizk-Jackson}, Adil Harroud, Lauren Sanders, Sylvain~V Costes, Krish Bharat,
+  Arjun Chakraborty, Alexander~R Pico, Taline Mardirossian, Michael Keiser,
+  Alice Tang, Josef Hardi, Yongmei Shi, Mark Musen, Sharat Israni, Sui Huang,
+  Peter~W Rose, Charlotte~A Nelson, and Sergio~E Baranzini.
+\newblock The scalable precision medicine open knowledge engine ({{SPOKE}}): A
+  massive knowledge graph of biomedical information.
+\newblock \emph{Bioinformatics}, 39\penalty0 (2):\penalty0 btad080, February
+  2023.
+\newblock ISSN 1367-4811.
+\newblock \doi{10.1093/bioinformatics/btad080}.
+\newblock URL \url{https://doi.org/10.1093/bioinformatics/btad080}.
+
+\bibitem[{Renaissance Computing Institute
+  (RENCI)}(2022{\natexlab{a}})]{renaissancecomputinginstituterenciBiomedicalDataTranslator2022}
+{Renaissance Computing Institute (RENCI)}.
+\newblock Biomedical {{Data Translator Platform}} moves to the next phase,
+  March 2022{\natexlab{a}}.
+\newblock URL
+  \url{https://renci.org/blog/biomedical-data-translator-platform-moves-to-the-next-phase/}.
+
+\bibitem[{Renaissance Computing Institute
+  (RENCI)}(2022{\natexlab{b}})]{renaissancecomputinginstituterenciUseCasesShow2022}
+{Renaissance Computing Institute (RENCI)}.
+\newblock Use cases show {{Translator}}'s potential to expedite clinical
+  research, March 2022{\natexlab{b}}.
+\newblock URL
+  \url{https://renci.org/blog/use-cases-show-translators-potential-to-expedite-clinical-research/}.
+
+\bibitem[Goel et~al.(2021)Goel, Johs, Shrestha, and
+  Weber]{goelExplanationContainerCaseBased2021}
+Prateek Goel, Adam~J Johs, Manil Shrestha, and Rosina~O Weber.
+\newblock Explanation {{Container}} in {{Case-Based Biomedical
+  Question-Answering}}.
+\newblock page~10, September 2021.
+\newblock URL
+  \url{https://web.archive.org/web/*/https://gaia.fdi.ucm.es/events/xcbr/papers/ICCBR\_2021\_paper\_100.pdf}.
+
+\bibitem[Hailu(2019)]{hailuNIHfundedProjectAims2019}
+Ruth Hailu.
+\newblock {{NIH-funded}} project aims to build a '{{Google}}' for biomedical
+  data, July 2019.
+\newblock URL
+  \url{https://www.statnews.com/2019/07/31/nih-funded-project-aims-to-build-a-google-for-biomedical-data/}.
+
+\bibitem[Nelson et~al.(2021)Nelson, Bove, Butte, and
+  Baranzini]{nelsonEmbeddingElectronicHealth2021}
+Charlotte~A Nelson, Riley Bove, Atul~J Butte, and Sergio~E Baranzini.
+\newblock Embedding electronic health records onto a knowledge network
+  recognizes prodromal features of multiple sclerosis and predicts diagnosis.
+\newblock \emph{Journal of the American Medical Informatics Association :
+  JAMIA}, 29\penalty0 (3):\penalty0 424--434, December 2021.
+\newblock ISSN 1067-5027.
+\newblock \doi{10.1093/jamia/ocab270}.
+\newblock URL \url{https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8800523/}.
+
+\bibitem[{Translator
+  Consortium}(2020)]{translatorconsortiumClinicalDataServices2020}
+{Translator Consortium}.
+\newblock Clinical {{Data Services Provider}}, April 2020.
+\newblock URL
+  \url{https://github.com/NCATSTranslator/Translator-All/blob/1c44f9a2515d239730a070201ccc7d1083c27fed/presentations/Translator\_2020\_Kick-Off\_Presentation-Clinical\_Data\_Services.pdf}.
+
+\bibitem[Nelson et~al.(2019)Nelson, Butte, and
+  Baranzini]{nelsonIntegratingBiomedicalResearch2019}
+Charlotte~A. Nelson, Atul~J. Butte, and Sergio~E. Baranzini.
+\newblock Integrating biomedical research and electronic health records to
+  create knowledge-based biologically meaningful machine-readable embeddings.
+\newblock \emph{Nature Communications}, 10\penalty0 (1):\penalty0 3045, July
+  2019.
+\newblock ISSN 2041-1723.
+\newblock \doi{10.1038/s41467-019-11069-0}.
+\newblock URL \url{https://www.nature.com/articles/s41467-019-11069-0}.
+
+\bibitem[{University of California San
+  Francisco}()]{universityofcaliforniasanfranciscoBRIDGE}
+{University of California San Francisco}.
+\newblock {{BRIDGE}}.
+\newblock URL \url{https://bridge.ucsf.edu/}.
+
+\bibitem[Birhane et~al.(2022)Birhane, Kalluri, Card, Agnew, Dotan, and
+  Bao]{birhaneValuesEncodedMachine2022}
+Abeba Birhane, Pratyusha Kalluri, Dallas Card, William Agnew, Ravit Dotan, and
+  Michelle Bao.
+\newblock The {{Values Encoded}} in {{Machine Learning Research}}, June 2022.
+\newblock URL \url{http://arxiv.org/abs/2106.15590}.
+
+\bibitem[Birhane(2021)]{birhaneAlgorithmicInjusticeRelational2021}
+Abeba Birhane.
+\newblock Algorithmic injustice: A relational ethics approach.
+\newblock \emph{Patterns}, 2\penalty0 (2), February 2021.
+\newblock ISSN 2666-3899.
+\newblock \doi{10.1016/j.patter.2021.100205}.
+\newblock URL
+  \url{https://www.cell.com/patterns/abstract/S2666-3899(21)00015-5}.
+
+\bibitem[Birhane et~al.(2021)Birhane, Prabhu, and
+  Kahembwe]{birhaneMultimodalDatasetsMisogyny2021}
+Abeba Birhane, Vinay~Uday Prabhu, and Emmanuel Kahembwe.
+\newblock Multimodal datasets: Misogyny, pornography, and malignant
+  stereotypes, October 2021.
+\newblock URL \url{http://arxiv.org/abs/2110.01963}.
+
+\bibitem[Ram et~al.(2021)Ram, Kronk, Eleazer, Goulet, Brandt, and
+  Wang]{ramTransphobiaEncodedExamination2021}
+A~Ram, Clair~A Kronk, Jacob~R Eleazer, Joseph~L Goulet, Cynthia~A Brandt, and
+  Karen~H Wang.
+\newblock Transphobia, encoded: An examination of trans-specific terminology in
+  {{SNOMED CT}} and {{ICD-10-CM}}.
+\newblock \emph{Journal of the American Medical Informatics Association},
+  \penalty0 (ocab200), September 2021.
+\newblock ISSN 1527-974X.
+\newblock \doi{10.1093/jamia/ocab200}.
+\newblock URL \url{https://doi.org/10.1093/jamia/ocab200}.
+
+\bibitem[Deutsch(2016{\natexlab{a}})]{deutschOverviewFeminizingHormone2016}
+Madeline~B. Deutsch.
+\newblock Overview of feminizing hormone therapy, June 2016{\natexlab{a}}.
+\newblock URL
+  \url{https://transcare.ucsf.edu/guidelines/feminizing-hormone-therapy}.
+
+\bibitem[Deutsch(2016{\natexlab{b}})]{deutschOverviewMasculinizingHormone2016}
+Madeline~B. Deutsch.
+\newblock Overview of masculinizing hormone therapy, June 2016{\natexlab{b}}.
+\newblock URL
+  \url{https://transcare.ucsf.edu/guidelines/masculinizing-therapy}.
+
+\bibitem[Womack et~al.(2019)Womack, McClelland, and
+  Koslicki]{womackLeveragingDistributedBiomedical2019}
+Finn Womack, Jason McClelland, and David Koslicki.
+\newblock Leveraging {{Distributed Biomedical Knowledge Sources}} to {{Discover
+  Novel Uses}} for {{Known Drugs}}, September 2019.
+\newblock URL \url{https://www.biorxiv.org/content/10.1101/765305v2}.
+
+\bibitem[Bizon et~al.(2019)Bizon, Cox, Balhoff, Kebede, Wang, Morton, Fecho,
+  and Tropsha]{bizonROBOKOPKGKGB2019}
+Chris Bizon, Steven Cox, James Balhoff, Yaphet Kebede, Patrick Wang, Kenneth
+  Morton, Karamarie Fecho, and Alexander Tropsha.
+\newblock {{ROBOKOP KG}} and {{KGB}}: {{Integrated Knowledge Graphs}} from
+  {{Federated Sources}}.
+\newblock \emph{Journal of Chemical Information and Modeling}, 59\penalty0
+  (12):\penalty0 4968--4973, December 2019.
+\newblock ISSN 1549-9596.
+\newblock \doi{10.1021/acs.jcim.9b00683}.
+\newblock URL \url{https://doi.org/10.1021/acs.jcim.9b00683}.
+
+\bibitem[Ashley(2019)]{ashleyMisuseGenderDysphoria2019}
+Florence Ashley.
+\newblock The {{Misuse}} of {{Gender Dysphoria}}: {{Toward Greater Conceptual
+  Clarity}} in {{Transgender Health}}.
+\newblock \emph{Perspectives on Psychological Science}, page 1745691619872987,
+  November 2019.
+\newblock ISSN 1745-6916.
+\newblock \doi{10.1177/1745691619872987}.
+\newblock URL \url{https://doi.org/10.1177/1745691619872987}.
+
+\bibitem[{MasstrichtU-IDS}(2022)]{masstrichtu-idsKnowledgeCollaboratory2022}
+{MasstrichtU-IDS}.
+\newblock Knowledge {{Collaboratory}}.
+\newblock Maastricht University IDS, December 2022.
+\newblock URL \url{https://github.com/MaastrichtU-IDS/knowledge-collaboratory}.
+
+\bibitem[Rucker et~al.(2023)Rucker, Miller, and
+  Armstrong]{ruckerHowCignaSaves2023}
+Patrick Rucker, Maya Miller, and David Armstrong.
+\newblock How {{Cigna Saves Millions}} by {{Having Its Doctors Reject Claims
+  Without Reading Them}}.
+\newblock \emph{ProPublica}, March 2023.
+\newblock URL
+  \url{https://www.propublica.org/article/cigna-pxdx-medical-health-insurance-rejection-claims}.
+
+\bibitem[Doctorow(2019)]{doctorowRegulatingBigTech2019}
+Cory Doctorow.
+\newblock Regulating {{Big Tech}} makes them stronger, so they need competition
+  instead.
+\newblock \emph{The Economist}, June 2019.
+\newblock ISSN 0013-0613.
+\newblock URL
+  \url{https://www.economist.com/open-future/2019/06/06/regulating-big-tech-makes-them-stronger-so-they-need-competition-instead}.
+
+\bibitem[Rozenshtein(2022)]{rozenshteinModeratingFediverseContent2022}
+Alan~Z. Rozenshtein.
+\newblock Moderating the {{Fediverse}}: {{Content Moderation}} on {{Distributed
+  Social Media}}, November 2022.
+\newblock URL \url{https://papers.ssrn.com/abstract=4213674}.
+
+\bibitem[Bridges(2021)]{bridgesAmazonRingLargest2021}
+Lauren Bridges.
+\newblock Amazon's {{Ring}} is the largest civilian surveillance network the
+  {{US}} has ever seen.
+\newblock \emph{The Guardian}, May 2021.
+\newblock ISSN 0261-3077.
+\newblock URL
+  \url{https://www.theguardian.com/commentisfree/2021/may/18/amazon-ring-largest-civilian-surveillance-network-us}.
+
+\bibitem[AWS(2021)]{AWSAnnouncesAWS2021}
+{{AWS}} announces {{AWS Healthcare Accelerator}} for startups in the public
+  sector, June 2021.
+\newblock URL
+  \url{https://aws.amazon.com/blogs/publicsector/aws-announces-healthcare-accelerator-program-startups-public-sector/}.
+
+\bibitem[Fingas(2023)]{fingasAmazonOfficiallyBecomes2023}
+Jon Fingas.
+\newblock Amazon officially becomes a health care provider after closing
+  purchase of {{One Medical}}, February 2023.
+\newblock URL
+  \url{https://www.engadget.com/amazon-completes-one-medical-acquisition-163431975.html}.
+
+\bibitem[Lerman(2021)]{lermanAmazonBuiltIts2021}
+Rachel Lerman.
+\newblock Amazon built its own health-care service for employees. {{Now}} it's
+  selling it to other companies.
+\newblock \emph{Washington Post}, March 2021.
+\newblock ISSN 0190-8286.
+\newblock URL
+  \url{https://www.washingtonpost.com/technology/2021/03/17/amazon-healthcare-service-care-expansion/}.
+
+\bibitem[Quinn(2021)]{quinnYouCanTrust2021}
+Corey Quinn.
+\newblock You {{Can}}'t {{Trust Amazon When It Feels Threatened}}, March 2021.
+\newblock URL
+  \url{https://www.lastweekinaws.com/blog/you-cant-trust-amazon-when-it-feels-threatened/}.
+
+\bibitem[Krashinsky(2014)]{krashinskyGoogleBrokeCanada2014}
+Susan Krashinsky.
+\newblock Google broke {{Canada}}'s privacy laws with targeted health ads,
+  watchdog says.
+\newblock \emph{The Globe and Mail}, January 2014.
+\newblock URL
+  \url{https://www.theglobeandmail.com/technology/tech-news/google-broke-canadas-privacy-laws-with-targeted-ads-regulator-says/article16343346/}.
+
+\bibitem[Bharat et~al.(2005)Bharat, Lawrence, and
+  Sahami]{bharatGeneratingUserInformation2005}
+Krishna Bharat, Stephen Lawrence, and Mehran Sahami.
+\newblock Generating user information for use in targeted advertising, June
+  2005.
+\newblock URL \url{https://patents.google.com/patent/US20050131762A1/en}.
+
+\bibitem[Bourreau et~al.(2020)Bourreau, Caffarra, Chen, Choe, Crawford, Duso,
+  Genakos, Heidhues, Peitz, R{\o}nde, Schnitzer, Schutz, Sovinsky, Spagnolo,
+  Toivanen, Valletti, and Verg{\'e}]{bourreauGoogleFitbitWill2020}
+Marc Bourreau, Cristina Caffarra, Zhijun Chen, Chongwoo Choe, Gregory~S
+  Crawford, Tomaso Duso, Christos Genakos, Paul Heidhues, Martin Peitz, Thomas
+  R{\o}nde, Monika Schnitzer, Nicolas Schutz, Michelle Sovinsky, Giancarlo
+  Spagnolo, Otto Toivanen, Tommaso Valletti, and Thibaud Verg{\'e}.
+\newblock Google/{{Fitbit}} will monetise health data and harm consumers.
+\newblock \penalty0 (107):\penalty0 13, 2020.
+
+\bibitem[Pifer(2023)]{piferGooglePlansBoost2023}
+Rebecca Pifer.
+\newblock Google plans to boost {{Medicaid}} information during
+  redeterminations, March 2023.
+\newblock URL
+  \url{https://www.healthcaredive.com/news/google-boost-medicaid-information-redeterminations/644944/}.
+
+\bibitem[Matias and Corrado(2023)]{matiasOurLatestHealth2023}
+Yossi Matias and Corrado.
+\newblock Our latest health {{AI}} research updates, March 2023.
+\newblock URL
+  \url{https://blog.google/technology/health/ai-llm-medpalm-research-thecheckup/}.
+
+\bibitem[Singhal et~al.(2022)Singhal, Azizi, Tu, Mahdavi, Wei, Chung, Scales,
+  Tanwani, {Cole-Lewis}, Pfohl, Payne, Seneviratne, Gamble, Kelly, Scharli,
+  Chowdhery, Mansfield, y~Arcas, Webster, Corrado, Matias, Chou, Gottweis,
+  Tomasev, Liu, Rajkomar, Barral, Semturs, Karthikesalingam, and
+  Natarajan]{singhalLargeLanguageModels2022}
+Karan Singhal, Shekoofeh Azizi, Tao Tu, S.~Sara Mahdavi, Jason Wei, Hyung~Won
+  Chung, Nathan Scales, Ajay Tanwani, Heather {Cole-Lewis}, Stephen Pfohl,
+  Perry Payne, Martin Seneviratne, Paul Gamble, Chris Kelly, Nathaneal Scharli,
+  Aakanksha Chowdhery, Philip Mansfield, Blaise~Aguera y~Arcas, Dale Webster,
+  Greg~S. Corrado, Yossi Matias, Katherine Chou, Juraj Gottweis, Nenad Tomasev,
+  Yun Liu, Alvin Rajkomar, Joelle Barral, Christopher Semturs, Alan
+  Karthikesalingam, and Vivek Natarajan.
+\newblock Large {{Language Models Encode Clinical Knowledge}}, December 2022.
+\newblock URL \url{http://arxiv.org/abs/2212.13138}.
+
+\bibitem[{Apple}(2022)]{appleEmpoweringPeopleLive2022}
+{Apple}.
+\newblock Empowering people to live a healthier day, June 2022.
+\newblock URL
+  \url{https://www.apple.com/newsroom/pdfs/Health-Report-September-2022.pdf}.
+
+\bibitem[{Apple}()]{appleHealthcare}
+{Apple}.
+\newblock Healthcare.
+\newblock URL \url{https://www.apple.com/healthcare/}.
+
+\bibitem[Sinha et~al.(2015)Sinha, Shen, Song, Ma, Eide, Hsu, and
+  Wang]{sinhaOverviewMicrosoftAcademic2015}
+Arnab Sinha, Zhihong Shen, Yang Song, Hao Ma, Darrin Eide, Bo-June~(Paul) Hsu,
+  and Kuansan Wang.
+\newblock An {{Overview}} of {{Microsoft Academic Service}} ({{MAS}}) and
+  {{Applications}}.
+\newblock In \emph{Proceedings of the 24th {{International Conference}} on
+  {{World Wide Web}}}, {{WWW}} '15 {{Companion}}, pages 243--246, {New York,
+  NY, USA}, May 2015. {Association for Computing Machinery}.
+\newblock ISBN 978-1-4503-3473-0.
+\newblock \doi{10.1145/2740908.2742839}.
+\newblock URL \url{https://doi.org/10.1145/2740908.2742839}.
+
+\bibitem[Chen et~al.(2016)Chen, Elenee~Argentinis, and
+  Weber]{chenIBMWatsonHow2016}
+Ying Chen, J.~D. Elenee~Argentinis, and Griff Weber.
+\newblock {{IBM Watson}}: {{How Cognitive Computing Can Be Applied}} to {{Big
+  Data Challenges}} in {{Life Sciences Research}}.
+\newblock \emph{Clinical Therapeutics}, 38\penalty0 (4):\penalty0 688--701,
+  April 2016.
+\newblock ISSN 1879-114X.
+\newblock \doi{10.1016/j.clinthera.2015.12.001}.
+
+\bibitem[Baru et~al.(2022)Baru, Halbert, Campbell, {DeBlanc-Knowles}, George,
+  Chang, Pah, Maughan, Zaslavsky, Stathopoulos, Young, Albrecht, Sheth,
+  Sallinger, Osatuke, {Rizk-Jackson}, Jahn, Berkowitz, Kar, Smith, Janowicz,
+  Handspicker, Jackson, Sanders, Chengkai, Hudson, Yeghiazarian, Shimizu,
+  Ricart, Louiqa, Varanka, Seaton, Amaral, Hassenzadeh, Cucerzan, Bishop,
+  Lassila, Israni, Lange, Hitzler, McGranaghan, Cafarella, Wormeli, Bacastow,
+  Omay, Klein, Ding, Ammar, and Baranzini]{baruOpenKnowledgeNetwork2022}
+Chaitan Baru, Martin Halbert, Lara Campbell, Tess {DeBlanc-Knowles}, Jemin
+  George, Wo~Chang, Adam Pah, Douglas Maughan, Ilya Zaslavsky, Amanda
+  Stathopoulos, Ellie Young, Kat Albrecht, Amit Sheth, Emanuel Sallinger,
+  Katerine Osatuke, Angela {Rizk-Jackson}, Eric Jahn, Kenneth Berkowitz,
+  Bandana Kar, Erica Smith, Krzystof Janowicz, Brian Handspicker, Esther
+  Jackson, Lauren Sanders, Li~Chengkai, Florence Hudson, Lilit Yeghiazarian,
+  Cogan Shimizu, Glenn Ricart, Raschid Louiqa, Dalia Varanka, Greg Seaton, Luis
+  Amaral, Oktie Hassenzadeh, Silviu Cucerzan, Matt Bishop, Ora Lassila, Sharat
+  Israni, Matthew Lange, Pascal Hitzler, Ryan McGranaghan, Michael Cafarella,
+  Paul Wormeli, Todd Bacastow, Murat Omay, Sam Klein, Ying Ding, Nariman Ammar,
+  and Sergio Baranzini.
+\newblock Open {{Knowledge Network Roadmap}}: {{Powering The Next Data
+  Revolution}}.
+\newblock September 2022.
+\newblock URL
+  \url{https://nsf-gov-resources.nsf.gov/2022-09/OKN\%20Roadmap\%20-\%20Report\_v03.pdf}.
+
+\bibitem[{Big Data Interagency Working Group} et~al.(2018){Big Data Interagency
+  Working Group}, {Subcommittee on Networking \& Information Technology
+  Research \& Development}, and {Committee on Science \& Technology
+  Enterprise}]{bigdatainteragencyworkinggroupOpenKnowledgeNetwork2018}
+{Big Data Interagency Working Group}, {Subcommittee on Networking \&
+  Information Technology Research \& Development}, and {Committee on Science \&
+  Technology Enterprise}.
+\newblock Open {{Knowledge Network}}: {{Summary}} of the {{Big Data IWG
+  Workshop}}, {{October}} 4-5, 2017.
+\newblock Technical report, November 2018.
+\newblock URL
+  \url{https://www.nitrd.gov/pubs/Open-Knowledge-Network-Workshop-Report-2018.pdf}.
+
+\bibitem[{National Science
+  Foundation}(2019)]{nationalsciencefoundationNSFConvergenceAccelerator2019}
+{National Science Foundation}.
+\newblock {{NSF Convergence Accelerator}} awards bring together scientists,
+  businesses, nonprofits to benefit workers, September 2019.
+\newblock URL
+  \url{https://www.nsf.gov/news/special\_reports/announcements/091019.jsp}.
+
+\bibitem[{National Science
+  Foundation}(2021)]{nationalsciencefoundationNSF22017Dear2021}
+{National Science Foundation}.
+\newblock {{NSF}} 22-017 - {{Dear Colleague Letter}}: {{Encouraging Research}}
+  on {{Open Knowledge Networks}}, November 2021.
+\newblock URL \url{https://www.nsf.gov/pubs/2022/nsf22017/nsf22017.jsp}.
+
+\bibitem[Huang(2020)]{huangNIH1OT2TR00345001EVIDARA2020}
+Sui Huang.
+\newblock {{NIH 1OT2TR003450-01}} - {{EVIDARA}}: {{Automated Evidential
+  Support}} from {{Raw Data}} for relay agents in {{Biomedical KG Queries}},
+  January 2020.
+\newblock URL
+  \url{https://reporter.nih.gov/search/PyKrY9MwK02kM4isuX9HYg/project-details/10057190}.
+
+\bibitem[Baranzini et~al.(2022)Baranzini, Israni, Brase, and
+  Huang]{baranziniNSFAwardSearch2022}
+Sergio Baranzini, Sharat Israni, James Brase, and Sui Huang.
+\newblock {{NSF Award Search}}: {{Award}} \# 2033569 - {{A1}}: {{A Multi-Scale
+  Open Knowledge Network}} for {{Biomedicine}}, September 2022.
+\newblock URL
+  \url{https://www.nsf.gov/awardsearch/showAward?AWD\_ID=2033569\&HistoricalAwards=false}.
+
+\bibitem[Janowicz et~al.(2022)Janowicz, Hitzler, Li, Rehberger, Schildhauer,
+  Zhu, Shimizu, Fisher, Cai, Mai, Zalewski, Zhou, Stephen, Gonzalez, Mecum,
+  Carr, Schroeder, Smith, Wright, Wang, Tian, Liu, Shi, D'Onofrio, Gu, and
+  Currier]{janowiczKnowKnowWhere2022}
+Krzysztof Janowicz, Pascal Hitzler, Wenwen Li, Dean Rehberger, Mark
+  Schildhauer, Rui Zhu, Cogan Shimizu, Colby Fisher, Ling Cai, Gengchen Mai,
+  Joseph Zalewski, Lu~Zhou, Shirly Stephen, Seila Gonzalez, Bryce Mecum, Anna
+  Carr, Andrew Schroeder, Dave Smith, Dawn Wright, Sizhe Wang, Yuanyuan Tian,
+  Zilong Liu, Meilin Shi, Anthony D'Onofrio, Zhining Gu, and Kitty Currier.
+\newblock Know, {{Know Where}}, {{Knowwheregraph}}: {{A Densely Connected}},
+  {{Cross-Domain Knowledge Graph}} and {{Geo-Enrichment Service Stack}} for
+  {{Applications}} in {{Environmental Intelligence}}.
+\newblock \emph{AI Magazine}, 43\penalty0 (1):\penalty0 30--39, March 2022.
+\newblock ISSN 2371-9621, 0738-4602.
+\newblock \doi{10.1609/aimag.v43i1.19120}.
+\newblock URL
+  \url{http://ojs.aaai.org/index.php/aimagazine/article/view/19120}.
+
+\bibitem[{National Security Commission on Artificial
+  Intelligence}(2021)]{nationalsecuritycommissiononartificialintelligenceFinalReport2021}
+{National Security Commission on Artificial Intelligence}.
+\newblock Final {{Report}}, 2021.
+\newblock URL \url{https://www.nscai.gov/2021-final-report/}.
+
+\bibitem[{Mate Bioservices Inc.}(2021)]{matebioservicesinc.SPOKECloud2021}
+{Mate Bioservices Inc.}
+\newblock {{SPOKE Cloud}}, 2021.
+\newblock URL \url{https://www.matebioservices.com/spoke-cloud}.
+
+\bibitem[Eubanks(2019)]{eubanksAutomatingInequalityHow2019}
+Virginia Eubanks.
+\newblock \emph{Automating Inequality: How High-Tech Tools Profile, Police, and
+  Punish the Poor}.
+\newblock {Picador St. Martin's Press}, {New York}, first picador edition
+  edition, 2019.
+\newblock ISBN 978-1-250-21578-9.
+
+\bibitem[Shapiro(2020)]{shapiroDesignControlPredict2020}
+Aaron Shapiro.
+\newblock \emph{Design, Control, Predict: Logistical Governance in the Smart
+  City}.
+\newblock {University of Minnesota Press}, {Minneapolis}, 2020.
+\newblock ISBN 978-1-4529-6211-5.
+
+\bibitem[Brayne(2020)]{braynePredictSurveilData2020}
+Sarah Brayne.
+\newblock \emph{Predict and {{Surveil}}: {{Data}}, {{Discretion}}, and the
+  {{Future}} of {{Policing}}}.
+\newblock {Oxford University Press}, October 2020.
+\newblock URL \url{https://doi.org/10.1093/oso/9780190684099.001.0001}.
+
+\bibitem[{Information Systems Advisory Board, County of Los
+  Angeles}(2021)]{informationsystemsadvisoryboardcountyoflosangelesCONTRACTCOUNTYANGELES2021}
+{Information Systems Advisory Board, County of Los Angeles}.
+\newblock {{CONTRACT BETWEEN THE COUNTY OF LOS ANGELES AND cFIVE SOLUTIONS}},
+  {{INC}}. {{FOR CONSOLIDATED CRIMINAL HISTORY REPORTING SYSTEM MAINTENANCE}},
+  {{SUPPORT}}, {{AND ENHANCEMENT SERVICES}}, September 2021.
+\newblock URL \url{https://file.lacounty.gov/SDSInter/bos/supdocs/161887.pdf}.
+
+\bibitem[{Chief Executive Office, County of Los
+  Angeles}(2022)]{chiefexecutiveofficecountyoflosangelesStrategicPlanGoal2022}
+{Chief Executive Office, County of Los Angeles}.
+\newblock Strategic {{Plan Goal Three}}: {{Realize Tomorrow}}'s {{Government
+  Today}}, May 2022.
+\newblock URL \url{https://ceo.lacounty.gov/strategic-plan-goal-three/}.
+
+\bibitem[Farahani and {Information Systems Advisory Body, County of Los
+  Angeles}(2016)]{farahaniLinkingPublicSafety2016}
+Ali Farahani and {Information Systems Advisory Body, County of Los Angeles}.
+\newblock Linking {{Public Safety Data}} to the {{Countywide Master Data
+  Management System}}, October 2016.
+
+\bibitem[Lamdan(2020)]{lamdanDefundPoliceDefund2020}
+Sarah Lamdan.
+\newblock Defund the {{Police}}, and {{Defund Big Data Policing}}, {{Too}},
+  June 2020.
+\newblock URL
+  \url{https://www.jurist.org/commentary/2020/06/sarah-lamdan-data-policing/}.
+
+\bibitem[Guariglia(2020)]{guarigliaTechnologyCanPredict2020}
+Matthew Guariglia.
+\newblock Technology {{Can}}'t {{Predict Crime}}, {{It Can Only Weaponize
+  Proximity}} to {{Policing}}, September 2020.
+\newblock URL
+  \url{https://www.eff.org/deeplinks/2020/09/technology-cant-predict-crime-it-can-only-weaponize-proximity-policing}.
+
+\bibitem[Kathleen et~al.(2020)Kathleen, Bedi, and
+  Clifford]{kathleenTargeted2020}
+McGrory Kathleen, Neil Bedi, and Douglas~R. Clifford.
+\newblock Targeted.
+\newblock \emph{Tampa Bay Times}, September 2020.
+\newblock URL
+  \url{https://projects.tampabay.com/projects/2020/investigations/police-pasco-sheriff-targeted/intelligence-led-policing}.
+
+\bibitem[{Stop LAPD Spying
+  Coalition}(2021)]{stoplapdspyingcoalitionRacialTerrorWhite2021}
+{Stop LAPD Spying Coalition}.
+\newblock Racial {{Terror}} and {{White Wealth}} in {{South Central}}.
+\newblock In \emph{Automating {{Banishment}}}. November 2021.
+\newblock URL
+  \url{https://automatingbanishment.org/section/5-racial-terror-and-white-wealth-in-south-central/\#operation-laser-racial-terror}.
+
+\bibitem[{Stop LAPD Spying
+  Coalition}(2018)]{stoplapdspyingcoalitionBulletHitsBody2018}
+{Stop LAPD Spying Coalition}.
+\newblock Before the {{Bullet Hits}} the {{Body}}, May 2018.
+\newblock URL
+  \url{https://stoplapdspying.org/wp-content/uploads/2018/05/Before-the-Bullet-Hits-the-Body-May-8-2018.pdf}.
+
+\bibitem[{Stop LAPD Spying
+  Coalition}(2019)]{stoplapdspyingcoalitionLetter28Professors2019}
+{Stop LAPD Spying Coalition}.
+\newblock Letter from 28 {{Professors}} and 48 {{Graduate Students}} of
+  {{UCLA}} to {{LAPD}}, April 2019.
+\newblock URL
+  \url{https://stoplapdspying.medium.com/on-tuesday-april-2nd-2019-twenty-eight-professors-and-forty-graduate-students-of-university-of-8ed7da1a8655}.
+
+\bibitem[Castelvecchi(2020)]{castelvecchiMathematiciansUrgeColleagues2020}
+Davide Castelvecchi.
+\newblock Mathematicians urge colleagues to boycott police work in wake of
+  killings.
+\newblock \emph{Nature}, June 2020.
+\newblock \doi{10.1038/d41586-020-01874-9}.
+\newblock URL \url{https://www.nature.com/articles/d41586-020-01874-9}.
+
+\bibitem[Hong(2022)]{hongPredictionExtractionDiscretion2022}
+Sun-ha Hong.
+\newblock Prediction as {{Extraction}} of {{Discretion}}.
+\newblock In \emph{2022 {{ACM Conference}} on {{Fairness}}, {{Accountability}},
+  and {{Transparency}}}, {{FAccT}} '22, pages 925--934, {New York, NY, USA},
+  June 2022. {Association for Computing Machinery}.
+\newblock ISBN 978-1-4503-9352-2.
+\newblock \doi{10.1145/3531146.3533155}.
+\newblock URL \url{https://doi.org/10.1145/3531146.3533155}.
+
+\bibitem[{Stop LAPD Spying
+  Coalition}(2020)]{stoplapdspyingcoalitionFUCKPOLICETRUST2020}
+{Stop LAPD Spying Coalition}.
+\newblock {{FUCK THE POLICE}}, {{TRUST THE PEOPLE}}: {{Surveillance Bureaucracy
+  Expands}} the {{Stalker State}}, June 2020.
+\newblock URL
+  \url{https://stoplapdspying.org/wp-content/uploads/2020/06/TRUST-THE-PPL-not-the-POLICE.pdf}.
+
+\bibitem[Constantaras et~al.(2023)Constantaras, Geiger, Braun, Mehrotra, and
+  Aung]{constantarasSuspicionMachine2023}
+Eva Constantaras, Gabriel Geiger, Justin-Casimir Braun, Dhruv Mehrotra, and
+  Htet Aung.
+\newblock Inside the {{Suspicion Machine}}.
+\newblock \emph{Wired}, March 2023.
+\newblock URL \url{https://www.wired.com/story/welfare-state-algorithms/}.
+
+\bibitem[Braun et~al.(2023)Braun, Constantaras, Aung, Geiger, Mehrotra, and
+  Howden]{braunSuspicionMachinesMethodology2023}
+Justin-Casimir Braun, Eva Constantaras, Htet Aung, Gabriel Geiger, Dhruv
+  Mehrotra, and Daniel Howden.
+\newblock Suspicion {{Machines Methodology}}.
+\newblock \emph{Lighthouse Reports}, March 2023.
+\newblock URL
+  \url{https://www.lighthousereports.com/suspicion-machines-methodology/}.
+
+\bibitem[Consortium(2019{\natexlab{b}})]{consortiumBiomedicalDataTranslator2019}
+The Biomedical Data~Translator Consortium.
+\newblock The {{Biomedical Data Translator Program}}: {{Conception}},
+  {{Culture}}, and {{Community}}.
+\newblock \emph{Clinical and Translational Science}, 12\penalty0 (2):\penalty0
+  91--94, 2019{\natexlab{b}}.
+\newblock ISSN 1752-8062.
+\newblock \doi{10.1111/cts.12592}.
+\newblock URL \url{https://onlinelibrary.wiley.com/doi/abs/10.1111/cts.12592}.
+
+\bibitem[{Directorate-General for Research and Innovation (European
+  Commission)} et~al.(2021){Directorate-General for Research and Innovation
+  (European Commission)}, {EOSC Executive Board}, van~de Sanden, Robertson,
+  Appleton, and
+  Manghi]{directorate-generalforresearchandinnovationeuropeancommissionEOSCArchitectureWorking2021}
+{Directorate-General for Research and Innovation (European Commission)}, {EOSC
+  Executive Board}, Mark van~de Sanden, Dale Robertson, Owen Appleton, and
+  Paolo Manghi.
+\newblock \emph{{{EOSC}} Architecture Working Group View on the Minimum Viable
+  {{EOSC}}: {{Report}} from the {{EOSC Executive Board Working Group}} ({{WG}})
+  {{Architecture}}}.
+\newblock {Publications Office of the European Union}, {LU}, 2021.
+\newblock ISBN 978-92-76-29813-7.
+\newblock URL \url{https://data.europa.eu/doi/10.2777/492370}.
+
+\bibitem[{Directorate-General for Research and Innovation (European
+  Commission)}(2020)]{directorate-generalforresearchandinnovationeuropeancommissionSolutionsSustainableEOSC2020}
+{Directorate-General for Research and Innovation (European Commission)}.
+\newblock \emph{Solutions for a Sustainable {{EOSC}}: A {{FAIR Lady}} (Olim
+  {{Iron Lady}}) Report from the {{EOSC Sustainability Working Group}}}.
+\newblock {Publications Office of the European Union}, {LU}, 2020.
+\newblock ISBN 978-92-76-25594-9.
+\newblock URL \url{https://data.europa.eu/doi/10.2777/870770}.
+
+\bibitem[{Directorate-General for Research {and} Innovation (European
+  Commission)} et~al.(2021){Directorate-General for Research {and} Innovation
+  (European Commission)}, Board, Corcho, Eriksson, Kurowski, Ojster{\v s}ek,
+  Choirat, van~de Sanden, and
+  Coppens]{directorate-generalforresearchandinnovationeuropeancommissionEOSCInteroperabilityFramework2021}
+{Directorate-General for Research {and} Innovation (European Commission)},
+  EOSC~Executive Board, Oscar Corcho, Magnus Eriksson, Krzysztof Kurowski,
+  Milan Ojster{\v s}ek, Christine Choirat, Mark van~de Sanden, and Frederik
+  Coppens.
+\newblock \emph{{{EOSC}} Interoperability Framework: Report from the {{EOSC
+  Executive Board Working Groups FAIR}} and {{Architecture}}}.
+\newblock {Publications Office of the European Union}, {LU}, 2021.
+\newblock ISBN 978-92-76-28949-4.
+\newblock URL \url{https://data.europa.eu/doi/10.2777/620649}.
+
+\bibitem[{National Institutes of
+  Health}(2021)]{nationalinstitutesofhealthSTRIDESInitiative2021}
+{National Institutes of Health}.
+\newblock {{STRIDES Initiative}}, September 2021.
+\newblock URL \url{https://datascience.nih.gov/strides/}.
+
+\bibitem[Graeber(2015)]{graeberUtopiaRulesTechnology2015}
+David Graeber.
+\newblock \emph{The Utopia of Rules: On Technology, Stupidity, and the Secret
+  Joys of Bureaucracy}.
+\newblock {Melville House}, {Brooklyn : London}, 2015.
+\newblock ISBN 978-1-61219-374-8.
+
+\bibitem[Zimmerman et~al.(2021)Zimmerman, Porter, Ward, Singh, Vithani, Meller,
+  Mallimadugula, Kuhn, Borowsky, Wiewiora, Hurley, Harbison, Fogarty, Coffland,
+  Fadda, Voelz, Chodera, and Bowman]{zimmermanSARSCoV2SimulationsGo2021}
+Maxwell~I. Zimmerman, Justin~R. Porter, Michael~D. Ward, Sukrit Singh, Neha
+  Vithani, Artur Meller, Upasana~L. Mallimadugula, Catherine~E. Kuhn,
+  Jonathan~H. Borowsky, Rafal~P. Wiewiora, Matthew F.~D. Hurley, Aoife~M.
+  Harbison, Carl~A. Fogarty, Joseph~E. Coffland, Elisa Fadda, Vincent~A. Voelz,
+  John~D. Chodera, and Gregory~R. Bowman.
+\newblock {{SARS-CoV-2}} simulations go exascale to predict dramatic spike
+  opening and cryptic pockets across the proteome.
+\newblock \emph{Nature Chemistry}, 13\penalty0 (7):\penalty0 651--659, July
+  2021.
+\newblock ISSN 1755-4349.
+\newblock \doi{10.1038/s41557-021-00707-0}.
+\newblock URL \url{https://www.nature.com/articles/s41557-021-00707-0}.
+
+\bibitem[V.(2012)]{v.FileFoldingHome2012}
+Jesse V.
+\newblock File:{{Folding}}@home and {{Supercomputer Computational Powers}}.png,
+  April 2012.
+\newblock URL
+  \url{https://commons.wikimedia.org/wiki/File:Folding@home\_and\_Supercomputer\_Computational\_Powers.png}.
+
+\bibitem[{Van der Sar}(2006)]{vandersarBitTorrentOneThird2006}
+Ernesto {Van der Sar}.
+\newblock {{BitTorrent}}: {{The}} "one third of all {{Internet}} traffic"
+  {{Myth}} * {{TorrentFreak}}, September 2006.
+\newblock URL
+  \url{https://torrentfreak.com/bittorrent-the-one-third-of-all-internet-traffic-myth/}.
+
+\bibitem[{Van der Sar}(2007)]{vandersarP2PTrafficBooming2007}
+Ernesto {Van der Sar}.
+\newblock {{P2P Traffic Is Booming}}, {{BitTorrent The Dominant Protocol}} *
+  {{TorrentFreak}}, November 2007.
+\newblock URL \url{https://torrentfreak.com/p2p-traffic-still-booming-071128/}.
+
+\bibitem[Lawler(2021)]{lawlerAmazonServerOutage2021}
+Richard Lawler.
+\newblock An {{Amazon}} server outage caused problems for {{Alexa}}, {{Ring}},
+  {{Disney Plus}}, and deliveries, December 2021.
+\newblock URL
+  \url{https://www.theverge.com/2021/12/7/22822332/amazon-server-aws-down-disney-plus-ring-outage}.
+
+\bibitem[Hutchinson(2012)]{hutchinsonAmazonWebServices2012}
+Lee Hutchinson.
+\newblock Amazon {{Web Services}} outage once again shows reality behind "the
+  cloud", October 2012.
+\newblock URL
+  \url{https://arstechnica.com/information-technology/2012/10/amazon-web-services-outage-once-again-shows-reality-behind-the-cloud/}.
+
+\bibitem[DeVault(2020)]{devaultRecklessInfiniteScope2020}
+Drew DeVault.
+\newblock The reckless, infinite scope of web browsers, March 2020.
+\newblock URL
+  \url{https://drewdevault.com/2020/03/18/Reckless-limitless-scope.html}.
+
+\bibitem[ReG(2021)]{ReGoogleDigital2021}
+In re: {{Google Digital Advertising Antitrust Litigation}} - {{Amended
+  Complaint}} \#152, October 2021.
+\newblock URL
+  \url{https://www.courtlistener.com/docket/60149069/152/in-re-google-digital-advertising-antitrust-litigation/}.
+
+\bibitem[Bender et~al.(2021)Bender, Gebru, {McMillan-Major}, and
+  Shmitchell]{benderDangersStochasticParrots2021}
+Emily~M. Bender, Timnit Gebru, Angelina {McMillan-Major}, and Shmargaret
+  Shmitchell.
+\newblock On the {{Dangers}} of {{Stochastic Parrots}}: {{Can Language Models
+  Be Too Big}}? \&\#x1f99c;.
+\newblock In \emph{Proceedings of the 2021 {{ACM Conference}} on {{Fairness}},
+  {{Accountability}}, and {{Transparency}}}, {{FAccT}} '21, pages 610--623,
+  {New York, NY, USA}, March 2021. {Association for Computing Machinery}.
+\newblock ISBN 978-1-4503-8309-7.
+\newblock \doi{10.1145/3442188.3445922}.
+\newblock URL \url{https://doi.org/10.1145/3442188.3445922}.
+
+\bibitem[D'Ignazio and Klein(2020)]{dignazioDataFeminism2020}
+Catherine D'Ignazio and Lauren~F. Klein.
+\newblock \emph{Data Feminism}.
+\newblock Strong Ideas Series. {The MIT Press}, {Cambridge, Massachusetts},
+  2020.
+\newblock ISBN 978-0-262-04400-4.
+
+\bibitem[Birhane and Guest(2020)]{birhaneDecolonisingComputationalSciences2020}
+Abeba Birhane and Olivia Guest.
+\newblock Towards decolonising computational sciences, September 2020.
+\newblock URL \url{http://arxiv.org/abs/2009.14258}.
+
+\bibitem[Mager(2014)]{magerDefiningAlgorithmicIdeology2014}
+Astrid Mager.
+\newblock Defining {{Algorithmic Ideology}}: {{Using Ideology Critique}} to
+  {{Scrutinize Corporate Search Engines}}.
+\newblock \emph{tripleC: Communication, Capitalism \& Critique. Open Access
+  Journal for a Global Sustainable Information Society}, 12\penalty0
+  (1):\penalty0 28--39, February 2014.
+\newblock ISSN 1726-670X, 1726-670X.
+\newblock \doi{10.31269/triplec.v12i1.439}.
+\newblock URL \url{https://www.triple-c.at/index.php/tripleC/article/view/439}.
+
+\bibitem[Hu(2015)]{huPrehistoryCloud2015}
+Tung-Hui Hu.
+\newblock \emph{A {{Prehistory}} of the {{Cloud}}}.
+\newblock {MIT Press}, August 2015.
+\newblock ISBN 978-0-262-33009-1.
+\newblock \doi{10.7551/mitpress/9780262029513.001.0001}.
+\newblock URL
+  \url{https://direct.mit.edu/books/book/2291/A-Prehistory-of-the-Cloud}.
+
+\bibitem[Pa{\c s}ca(2007{\natexlab{a}})]{pascaOrganizingSearchingWorld2007}
+Marius Pa{\c s}ca.
+\newblock Organizing and searching the world wide web of facts -- step two:
+  Harnessing the wisdom of the crowds.
+\newblock In \emph{Proceedings of the 16th International Conference on {{World
+  Wide Web}}}, {{WWW}} '07, pages 101--110, {New York, NY, USA}, May
+  2007{\natexlab{a}}. {Association for Computing Machinery}.
+\newblock ISBN 978-1-59593-654-7.
+\newblock \doi{10.1145/1242572.1242587}.
+\newblock URL \url{https://dl.acm.org/doi/10.1145/1242572.1242587}.
+
+\bibitem[{Google}(2022{\natexlab{a}})]{googleSearchQualityEvaluator2022}
+{Google}.
+\newblock Search {{Quality Evaluator Guidelines}}, December 2022{\natexlab{a}}.
+\newblock URL
+  \url{https://static.googleusercontent.com/media/guidelines.raterhub.com/en//searchqualityevaluatorguidelines.pdf}.
+
+\bibitem[Halevy et~al.(2009)Halevy, Norvig, and
+  Pereira]{halevyUnreasonableEffectivenessData2009}
+Alon Halevy, Peter Norvig, and Fernando Pereira.
+\newblock The {{Unreasonable Effectiveness}} of {{Data}}.
+\newblock \emph{IEEE Intelligent Systems}, 24\penalty0 (2):\penalty0 8--12,
+  March 2009.
+\newblock ISSN 1941-1294.
+\newblock \doi{10.1109/MIS.2009.36}.
+
+\bibitem[Kallinikos et~al.(2013)Kallinikos, Aaltonen, and
+  Marton]{kallinikosAmbivalentOntologyDigital2013}
+Jannis Kallinikos, Aleksi Aaltonen, and Attila Marton.
+\newblock The {{Ambivalent Ontology}} of {{Digital Artifacts}}.
+\newblock \emph{MIS Quarterly}, 37\penalty0 (2):\penalty0 357--370, 2013.
+\newblock ISSN 0276-7783.
+\newblock URL \url{https://www.jstor.org/stable/43825913}.
+
+\bibitem[Doctorow(2023)]{doctorowTiktokEnshittification2023}
+Cory Doctorow.
+\newblock Tiktok's enshittification, February 2023.
+\newblock URL \url{https://pluralistic.net/2023/01/21/potemkin-ai/\#hey-guys}.
+
+\bibitem[Page et~al.(1999)Page, Brin, Motwani, and
+  Winograd]{pagePageRankCitationRanking1999}
+Lawrence Page, S.~Brin, R.~Motwani, and T.~Winograd.
+\newblock The {{PageRank Citation Ranking}}: {{Bringing Order}} to the {{Web}}.
+\newblock In \emph{The {{Web Conference}}}, November 1999.
+\newblock URL
+  \url{https://www.semanticscholar.org/paper/The-PageRank-Citation-Ranking-\%3A-Bringing-Order-to-Page-Brin/eb82d3035849cd23578096462ba419b53198a556}.
+
+\bibitem[Li(2010)]{liUnderstandingSemanticStructure2010}
+Xiao Li.
+\newblock Understanding the {{Semantic Structure}} of {{Noun Phrase Queries}}.
+\newblock In \emph{Proceedings of the 48th {{Annual Meeting}} of the
+  {{Association}} for {{Computational Linguistics}}}, pages 1337--1345, 2010.
+\newblock \doi{10.5555/1858681.1858817}.
+\newblock URL \url{https://aclanthology.org/P10-1136.pdf}.
+
+\bibitem[Reisinger and Pasca(2011)]{reisingerFineGrainedClassLabel2011}
+Joseph Reisinger and Marius Pasca.
+\newblock Fine-{{Grained Class Label Markup}} of {{Search Queries}}.
+\newblock In \emph{Proceedings of the 49th {{Annual Meeting}} of the
+  {{Association}} for {{Computational Linguistics}}: {{Human Language
+  Technologies}}.}, 2011.
+
+\bibitem[Pasca and Van~Durme(2007)]{pascaWhatYouSeek2007}
+Marius Pasca and Benjamin Van~Durme.
+\newblock What you seek is what you get: Extraction of class attributes from
+  query logs.
+\newblock In \emph{Proceedings of the 20th International Joint Conference on
+  {{Artifical}} Intelligence}, {{IJCAI}}'07, pages 2832--2837, {San Francisco,
+  CA, USA}, January 2007. {Morgan Kaufmann Publishers Inc.}
+
+\bibitem[Pasca(2008)]{pascaTurningWebText2008}
+Marius Pasca.
+\newblock Turning web text and search queries into factual knowledge:
+  Hierarchical class attribute extraction.
+\newblock In \emph{Proceedings of the 23rd National Conference on
+  {{Artificial}} Intelligence - {{Volume}} 2}, {{AAAI}}'08, pages 1225--1230,
+  {Chicago, Illinois}, July 2008. {AAAI Press}.
+\newblock ISBN 978-1-57735-368-3.
+\newblock \doi{10.5555/1620163.1620263}.
+\newblock URL \url{https://dl.acm.org/doi/abs/10.5555/1620163.1620263}.
+
+\bibitem[Pa{\c
+  s}ca(2007{\natexlab{b}})]{pascaWeaklysupervisedDiscoveryNamed2007}
+Marius Pa{\c s}ca.
+\newblock Weakly-supervised discovery of named entities using web search
+  queries.
+\newblock In \emph{Proceedings of the Sixteenth {{ACM}} Conference on
+  {{Conference}} on Information and Knowledge Management}, {{CIKM}} '07, pages
+  683--690, {New York, NY, USA}, November 2007{\natexlab{b}}. {Association for
+  Computing Machinery}.
+\newblock ISBN 978-1-59593-803-9.
+\newblock \doi{10.1145/1321440.1321536}.
+\newblock URL \url{https://dl.acm.org/doi/10.1145/1321440.1321536}.
+
+\bibitem[Pasca et~al.(2006)Pasca, Lin, Bigham, Lifchits, and
+  Jain]{pascaOrganizingSearchingWorld2006}
+Marius Pasca, Dekang Lin, Jeffrey Bigham, Andrei Lifchits, and Alpa Jain.
+\newblock Organizing and {{Searching}} the {{World Wide Web}} of {{Facts}} -
+  {{Step One}}: {{The One-Million Fact Extraction Challenge}}.
+\newblock \emph{AAAI}, 6, 2006.
+\newblock URL
+  \url{https://fileadmin.cs.lth.se/ai/Proceedings/aaai06/12/AAAI06-220.pdf}.
+
+\bibitem[Pasca(2004)]{pascaAcquisitionCategorizedNamed2004}
+Marius Pasca.
+\newblock Acquisition of categorized named entities for web search.
+\newblock In \emph{Proceedings of the Thirteenth {{ACM}} International
+  Conference on {{Information}} and Knowledge Management}, {{CIKM}} '04, pages
+  137--145, {New York, NY, USA}, November 2004. {Association for Computing
+  Machinery}.
+\newblock ISBN 978-1-58113-874-0.
+\newblock \doi{10.1145/1031171.1031194}.
+\newblock URL \url{https://dl.acm.org/doi/10.1145/1031171.1031194}.
+
+\bibitem[Vaswani et~al.(2017)Vaswani, Shazeer, Parmar, Uszkoreit, Jones, Gomez,
+  Kaiser, and Polosukhin]{vaswaniAttentionAllYou2017}
+Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones,
+  Aidan~N. Gomez, Lukasz Kaiser, and Illia Polosukhin.
+\newblock Attention {{Is All You Need}}, December 2017.
+\newblock URL \url{http://arxiv.org/abs/1706.03762}.
+
+\bibitem[Devlin et~al.(2019)Devlin, Chang, Lee, and
+  Toutanova]{devlinBERTPretrainingDeep2019}
+Jacob Devlin, Ming-Wei Chang, Kenton Lee, and Kristina Toutanova.
+\newblock {{BERT}}: {{Pre-training}} of {{Deep Bidirectional Transformers}} for
+  {{Language Understanding}}, May 2019.
+\newblock URL \url{http://arxiv.org/abs/1810.04805}.
+
+\bibitem[Nayak(2019)]{nayakUnderstandingSearchesBetter2019}
+Pandu Nayak.
+\newblock Understanding searches better than ever before, October 2019.
+\newblock URL
+  \url{https://blog.google/products/search/search-language-understanding-bert/}.
+
+\bibitem[Nayak(2021)]{nayakMUMNewAI2021}
+Pandu Nayak.
+\newblock {{MUM}}: {{A}} new {{AI}} milestone for understanding information,
+  May 2021.
+\newblock URL \url{https://blog.google/products/search/introducing-mum/}.
+
+\bibitem[Tay et~al.(2021)Tay, Zhao, Bahri, Metzler, and
+  Juan]{tayHyperGridTransformersSingle2021}
+Yi~Tay, Zhe Zhao, Dara Bahri, Don Metzler, and Da-Cheng Juan.
+\newblock {{HyperGrid Transformers}}: {{Towards A Single Model}} for {{Multiple
+  Tasks}}.
+\newblock In \emph{{{ICLR}} 2021}, 2021.
+
+\bibitem[Hu and Singh(2021)]{huUniTMultimodalMultitask2021}
+Ronghang Hu and Amanpreet Singh.
+\newblock {{UniT}}: {{Multimodal Multitask Learning}} with a {{Unified
+  Transformer}}, August 2021.
+\newblock URL \url{http://arxiv.org/abs/2102.10772}.
+
+\bibitem[{Microsoft}(2023)]{microsoftFutureWorkAI2023}
+{Microsoft}.
+\newblock The {{Future}} of {{Work With AI}} - {{Microsoft March}} 2023
+  {{Event}}, March 2023.
+\newblock URL \url{https://www.youtube.com/watch?v=Bf-dbS9CcRU}.
+
+\bibitem[Ma and Liu(2020)]{maChallengesSupportingExploratory2020a}
+Xiao Ma and Ariel Liu.
+\newblock Challenges in {{Supporting Exploratory Search}} through {{Voice
+  Assistants}}.
+\newblock In \emph{Proceedings of the 2nd {{Conference}} on {{Conversational
+  User Interfaces}}}, {{CUI}} '20, pages 1--3, {New York, NY, USA}, July 2020.
+  {Association for Computing Machinery}.
+\newblock ISBN 978-1-4503-7544-3.
+\newblock \doi{10.1145/3405755.3406152}.
+\newblock URL \url{https://dl.acm.org/doi/10.1145/3405755.3406152}.
+
+\bibitem[Gomes(2018)]{gomesImprovingSearchNext2018}
+Ben Gomes.
+\newblock Improving {{Search}} for the next 20 years, September 2018.
+\newblock URL
+  \url{https://blog.google/products/search/improving-search-next-20-years/}.
+
+\bibitem[Konzelmann(2018)]{konzelmannChattingYourGoogle2018}
+Jaclyn Konzelmann.
+\newblock Chatting up your {{Google Assistant}} just got easier, June 2018.
+\newblock URL
+  \url{https://blog.google/products/assistant/chatting-your-google-assistant-just-got-easier/}.
+
+\bibitem[Friedman and Beavers(2023)]{friedmanBehindtheDesignMeetCopilot2023}
+Jon Friedman and Kurtis Beavers.
+\newblock Behind-the-{{Design}}: {{Meet Copilot}}, April 2023.
+\newblock URL
+  \url{https://medium.com/microsoft-design/behind-the-design-meet-copilot-2c68182a0e70}.
+
+\bibitem[{Future of Life
+  Institute}(2023)]{futureoflifeinstitutePauseGiantAI2023}
+{Future of Life Institute}.
+\newblock Pause {{Giant AI Experiments}}: {{An Open Letter}}, March 2023.
+\newblock URL
+  \url{https://futureoflife.org/open-letter/pause-giant-ai-experiments/}.
+
+\bibitem[Gebru et~al.(2023-02-31)Gebru, Bender, {McMillan-Major}, and
+  Mitchell]{gebruStatementListedAuthors2023}
+Timnit Gebru, Emily~M. Bender, Angelina {McMillan-Major}, and Margaret
+  Mitchell.
+\newblock Statement from the listed authors of {{Stochastic Parrots}} on the
+  ``{{AI}} pause'' letter, 2023-02-31.
+\newblock URL
+  \url{https://www.dair-institute.org/blog/letter-statement-March2023}.
+
+\bibitem[Bender and Koller(2020)]{benderClimbingNLUMeaning2020}
+Emily~M. Bender and Alexander Koller.
+\newblock Climbing towards {{NLU}}: {{On Meaning}}, {{Form}}, and
+  {{Understanding}} in the {{Age}} of {{Data}}.
+\newblock In \emph{Proceedings of the 58th {{Annual Meeting}} of the
+  {{Association}} for {{Computational Linguistics}}}, pages 5185--5198,
+  {Online}, July 2020. {Association for Computational Linguistics}.
+\newblock \doi{10.18653/v1/2020.acl-main.463}.
+\newblock URL \url{https://aclanthology.org/2020.acl-main.463}.
+
+\bibitem[Horvitz and Paek(2000)]{horvitz2000grounding}
+Eric Horvitz and Tim Paek.
+\newblock Grounding criterion: {{Toward}} a formal theory of grounding.
+\newblock Technical Report MSR-TR-2000-40, April 2000.
+\newblock URL
+  \url{https://www.microsoft.com/en-us/research/publication/grounding-criterion-toward-a-formal-theory-of-grounding/}.
+
+\bibitem[McQuillan(2022)]{mcquillanResistingAIAntifascist2022}
+Dan McQuillan.
+\newblock \emph{Resisting {{AI}}: An Anti-Fascist Approach to Artificial
+  Intelligence}.
+\newblock {Bristol University Press}, {Bristol}, 2022.
+\newblock ISBN 978-1-5292-1349-2 978-1-5292-1350-8.
+
+\bibitem[Diaz(2023)]{diazImmortalityAttainable20302023}
+Adriana Diaz.
+\newblock Immortality is attainable by 2030: {{Google}} scientist.
+\newblock \emph{New York Post}, March 2023.
+\newblock URL
+  \url{https://nypost.com/2023/03/29/immortality-is-attainable-by-2030-google-scientist/}.
+
+\bibitem[Bubeck et~al.(2023)Bubeck, Chandrasekaran, Eldan, Gehrke, Horvitz,
+  Kamar, Lee, Lee, Li, Lundberg, Nori, Palangi, Ribeiro, and
+  Zhang]{bubeckSparksArtificialGeneral2023}
+S{\'e}bastien Bubeck, Varun Chandrasekaran, Ronen Eldan, Johannes Gehrke, Eric
+  Horvitz, Ece Kamar, Peter Lee, Yin~Tat Lee, Yuanzhi Li, Scott Lundberg,
+  Harsha Nori, Hamid Palangi, Marco~Tulio Ribeiro, and Yi~Zhang.
+\newblock Sparks of {{Artificial General Intelligence}}: {{Early}} experiments
+  with {{GPT-4}}, March 2023.
+\newblock URL \url{http://arxiv.org/abs/2303.12712}.
+
+\bibitem[Raffel et~al.(2020)Raffel, Shazeer, Roberts, Lee, Narang, Matena,
+  Zhou, Li, and Liu]{raffelExploringLimitsTransfer2020}
+Colin Raffel, Noam Shazeer, Adam Roberts, Katherine Lee, Sharan Narang, Michael
+  Matena, Yanqi Zhou, Wei Li, and Peter~J. Liu.
+\newblock Exploring the {{Limits}} of {{Transfer Learning}} with a {{Unified
+  Text-to-Text Transformer}}, July 2020.
+\newblock URL \url{http://arxiv.org/abs/1910.10683}.
+
+\bibitem[Tilley and McLaughlin(2018)]{tilleySevenYearItchHow2018}
+Aaron Tilley and Kevin McLaughlin.
+\newblock The {{Seven-Year Itch}}: {{How Apple}}'s {{Marriage}} to {{Siri
+  Turned Sour}}.
+\newblock \emph{The Information}, March 2018.
+\newblock URL
+  \url{https://www.theinformation.com/articles/the-seven-year-itch-how-apples-marriage-to-siri-turned-sour}.
+
+\bibitem[Mickle et~al.(2023)Mickle, Metz, and Grant]{mickleChatbotsAreHere2023}
+Tripp Mickle, Cade Metz, and Nico Grant.
+\newblock The {{Chatbots Are Here}}, and the {{Internet Industry Is}} in a
+  {{Tizzy}}.
+\newblock \emph{The New York Times}, March 2023.
+\newblock ISSN 0362-4331.
+\newblock URL
+  \url{https://www.nytimes.com/2023/03/08/technology/chatbots-disrupt-internet-industry.html}.
+
+\bibitem[{Google}(2023{\natexlab{a}})]{googleWhyWeFocus2023}
+{Google}.
+\newblock Why we focus on {{AI}} (and to what end), January 2023{\natexlab{a}}.
+\newblock URL \url{https://ai.google/our-focus/}.
+
+\bibitem[Adolphs et~al.(2022)Adolphs, Boerschinger, Buck, Huebscher, Ciaramita,
+  Espeholt, Hofmann, Kilcher, Rothe, Sessa, and
+  Saralegui]{adolphsBoostingSearchEngines2022}
+Leonard Adolphs, Benjamin Boerschinger, Christian Buck, Michelle~Chen
+  Huebscher, Massimiliano Ciaramita, Lasse Espeholt, Thomas Hofmann, Yannic
+  Kilcher, Sascha Rothe, Pier~Giuseppe Sessa, and Lierni~Sestorain Saralegui.
+\newblock Boosting {{Search Engines}} with {{Interactive Agents}}, June 2022.
+\newblock URL \url{http://arxiv.org/abs/2109.00527}.
+
+\bibitem[Metzler et~al.(2021)Metzler, Tay, Bahri, and
+  Najork]{metzlerRethinkingSearchMaking2021}
+Donald Metzler, Yi~Tay, Dara Bahri, and Marc Najork.
+\newblock Rethinking {{Search}}: {{Making Domain Experts}} out of
+  {{Dilettantes}}, July 2021.
+\newblock URL \url{https://arxiv.org/abs/2105.02274v2}.
+
+\bibitem[Bronstein(2019)]{bronsteinBringingYouNextgeneration2019}
+Manuel Bronstein.
+\newblock Bringing you the next-generation {{Google Assistant}}, May 2019.
+\newblock URL
+  \url{https://blog.google/products/assistant/next-generation-google-assistant-io/}.
+
+\bibitem[Pichai(2016)]{pichaiPersonalGoogleJust2016}
+Sundar Pichai.
+\newblock A personal {{Google}}, just for you, October 2016.
+\newblock URL
+  \url{https://blog.google/products/assistant/personal-google-just-you/}.
+
+\bibitem[Shah and Bender(2022)]{shahSituatingSearch2022}
+Chirag Shah and Emily~M. Bender.
+\newblock Situating {{Search}}.
+\newblock In \emph{Proceedings of the 2022 {{Conference}} on {{Human
+  Information Interaction}} and {{Retrieval}}}, {{CHIIR}} '22, pages 221--232,
+  {New York, NY, USA}, March 2022. {Association for Computing Machinery}.
+\newblock ISBN 978-1-4503-9186-3.
+\newblock \doi{10.1145/3498366.3505816}.
+\newblock URL \url{https://dl.acm.org/doi/10.1145/3498366.3505816}.
+
+\bibitem[Bharadwaj(2020)]{bharadwajDependencyGraphGeneration2020}
+Amit Bharadwaj.
+\newblock Dependency graph generation in a networked system, June 2020.
+\newblock URL \url{https://patents.google.com/patent/US10679622B2/}.
+
+\bibitem[Adolphs et~al.(2021)Adolphs, Shuster, Urbanek, Szlam, and
+  Weston]{adolphsReasonFirstThen2021}
+Leonard Adolphs, Kurt Shuster, Jack Urbanek, Arthur~D. Szlam, and J.~Weston.
+\newblock Reason first, then respond: {{Modular Generation}} for
+  {{Knowledge-infused Dialogue}}.
+\newblock In \emph{Conference on {{Empirical Methods}} in {{Natural Language
+  Processing}}}, November 2021.
+\newblock URL
+  \url{https://www.semanticscholar.org/paper/Reason-first\%2C-then-respond\%3A-Modular-Generation-for-Adolphs-Shuster/d15d96517370c9ed0658d176b979bcf92d1373ea}.
+
+\bibitem[Mialon et~al.(2023)Mialon, Dess{\`i}, Lomeli, Nalmpantis, Pasunuru,
+  Raileanu, Rozi{\`e}re, Schick, {Dwivedi-Yu}, Celikyilmaz, Grave, LeCun, and
+  Scialom]{mialonAugmentedLanguageModels2023}
+Gr{\'e}goire Mialon, Roberto Dess{\`i}, Maria Lomeli, Christoforos Nalmpantis,
+  Ram Pasunuru, Roberta Raileanu, Baptiste Rozi{\`e}re, Timo Schick, Jane
+  {Dwivedi-Yu}, Asli Celikyilmaz, Edouard Grave, Yann LeCun, and Thomas
+  Scialom.
+\newblock Augmented {{Language Models}}: A {{Survey}}, February 2023.
+\newblock URL \url{http://arxiv.org/abs/2302.07842}.
+
+\bibitem[Lazaridou et~al.(2022)Lazaridou, Gribovskaya, Stokowiec, and
+  Grigorev]{lazaridouInternetaugmentedLanguageModels2022}
+Angeliki Lazaridou, Elena Gribovskaya, Wojciech Stokowiec, and Nikolai
+  Grigorev.
+\newblock Internet-augmented language models through few-shot prompting for
+  open-domain question answering.
+\newblock 2022.
+\newblock \doi{10.48550/ARXIV.2203.05115}.
+\newblock URL \url{https://arxiv.org/abs/2203.05115}.
+
+\bibitem[{Berners-Lee}(1998{\natexlab{c}})]{berners-leeEvolutionSpecificationCommentary1998}
+Tim {Berners-Lee}.
+\newblock The {{Evolution}} of a specification -- {{Commentary}} on {{Web}}
+  architecture, March 1998{\natexlab{c}}.
+\newblock URL \url{https://www.w3.org/DesignIssues/Evolution.html}.
+
+\bibitem[McBurney and Luck(2007)]{mcburneyAgentsAreAll2007}
+Peter McBurney and Michael Luck.
+\newblock The {{Agents Are All Busy Doing Stuff}}!
+\newblock \emph{IEEE Intelligent Systems}, 22\penalty0 (4):\penalty0 6--7, July
+  2007.
+\newblock ISSN 1541-1672.
+\newblock \doi{10.1109/MIS.2007.77}.
+\newblock URL \url{http://ieeexplore.ieee.org/document/4287266/}.
+
+\bibitem[Vinsel(2021)]{vinselYouReDoing2021}
+Lee Vinsel.
+\newblock You're {{Doing It Wrong}}: {{Notes}} on {{Criticism}} and
+  {{Technology Hype}}, February 2021.
+\newblock URL
+  \url{https://sts-news.medium.com/youre-doing-it-wrong-notes-on-criticism-and-technology-hype-18b08b4307e5}.
+
+\bibitem[Elias(2023)]{eliasGoogleReshufflesVirtual2023}
+Jennifer Elias.
+\newblock Google reshuffles virtual assistant unit with focus on {{Bard
+  A}}.{{I}}. technology.
+\newblock \emph{CNBC}, March 2023.
+\newblock URL
+  \url{https://www.cnbc.com/2023/03/29/google-reorganization-in-assistant-follows-bard-launch-memo-says.html}.
+
+\bibitem[S(2016)]{sGoogle2016Keynote2016}
+Pangambam S.
+\newblock Google {{I}}/{{O}} 2016 {{Keynote Full Transcript}}, May 2016.
+\newblock URL
+  \url{https://singjupost.com/google-io-2016-keynote-full-transcript/?singlepage=1}.
+
+\bibitem[{Google Developers}(2021)]{googledevelopersWhatNewGoogle2021}
+{Google Developers}.
+\newblock What's new in {{Google Assistant}} | {{Keynote}}, May 2021.
+\newblock URL \url{https://www.youtube.com/watch?v=O2gCx\_iX2vQ}.
+
+\bibitem[{Google}(2022{\natexlab{b}})]{googleGoogleKeynoteGoogle2022}
+{Google}.
+\newblock Google {{Keynote}} ({{Google I}}/{{O}} `22), May 2022{\natexlab{b}}.
+\newblock URL \url{https://www.youtube.com/watch?v=nP-nMZpLM1A}.
+
+\bibitem[{Statista}(2023)]{statistaGlobalMobileOS2023}
+{Statista}.
+\newblock Global mobile {{OS}} market share 2022, February 2023.
+\newblock URL
+  \url{https://www.statista.com/statistics/272698/global-market-share-held-by-mobile-operating-systems-since-2009/}.
+
+\bibitem[Blanke and Pybus(2020)]{blankeMaterialConditionsPlatforms2020}
+Tobias Blanke and Jennifer Pybus.
+\newblock The {{Material Conditions}} of {{Platforms}}: {{Monopolization
+  Through Decentralization}}.
+\newblock \emph{Social Media + Society}, 6\penalty0 (4):\penalty0
+  205630512097163, October 2020.
+\newblock ISSN 2056-3051, 2056-3051.
+\newblock \doi{10.1177/2056305120971632}.
+\newblock URL \url{http://journals.sagepub.com/doi/10.1177/2056305120971632}.
+
+\bibitem[Nathenson(2022)]{nathensonHelpingDevelopersCreate2022}
+Rebecca Nathenson.
+\newblock Helping {{Developers Create Meaningful Voice Interactions}} with
+  {{Android}}, June 2022.
+\newblock URL
+  \url{https://developers.googleblog.com/2022/06/Helping-Developers-Create-Meaningful-Voice-Interactions-with-Android.html}.
+
+\bibitem[{Apple Developer
+  Documentation}()]{appledeveloperdocumentationAppIntents}
+{Apple Developer Documentation}.
+\newblock App {{Intents}}.
+\newblock URL \url{https://developer.apple.com/documentation/appintents/}.
+
+\bibitem[{Android Developer
+  Documentation}()]{androiddeveloperdocumentationBuildAppActions}
+{Android Developer Documentation}.
+\newblock Build {{App Actions}} | {{Documentation}}.
+\newblock URL
+  \url{https://developer.android.com/guide/app-actions/get-started}.
+
+\bibitem[{welcometomymemepage}(2020)]{welcometomymemepageAllRobotComputers2020}
+{welcometomymemepage}.
+\newblock All {{Robot}} \& {{Computers Must Shut The Hell Up}}, March 2020.
+\newblock URL \url{https://www.instagram.com/p/B9ppe5-Foeo/}.
+
+\bibitem[Mercurio et~al.(2023)Mercurio, Baughan, Liu, Chen, Ma, and
+  Wang]{mercurioMixedMethodsApproachUnderstanding2023}
+Allison Mercurio, Amanda~Elizabeth Baughan, Ariel Liu, Jilin Chen, Xiao Ma, and
+  Xuezhi Wang.
+\newblock A {{Mixed-Methods Approach}} to {{Understanding User Trust}} after
+  {{Voice Assistant Failures}}.
+\newblock 2023.
+\newblock URL \url{https://arxiv.org/abs/2303.00164}.
+
+\bibitem[Stempel(2021)]{stempelAppleMustFace2021}
+Jonathan Stempel.
+\newblock Apple must face {{Siri}} voice assistant privacy lawsuit
+  -{{U}}.{{S}}. judge.
+\newblock \emph{Reuters}, September 2021.
+\newblock URL
+  \url{https://www.reuters.com/technology/apple-must-face-siri-voice-assistant-privacy-lawsuit-us-judge-2021-09-02/}.
+
+\bibitem[Clark(2021)]{clarkAmazonDidMath2021}
+Mitchell Clark.
+\newblock Amazon did the math and would actually prefer getting sued.
+\newblock \emph{The Verge}, June 2021.
+\newblock URL
+  \url{https://www.theverge.com/2021/6/1/22463550/amazon-lawsuit-arbitration-terms-of-service-update-alexa}.
+
+\bibitem[Stempel and Merken(2021)]{stempelGoogleMustFace2021}
+Jonathan Stempel and Sara Merken.
+\newblock Google must face {{Voice Assistant}} privacy lawsuit -{{U}}.{{S}}.
+  judge.
+\newblock \emph{Reuters}, July 2021.
+\newblock URL
+  \url{https://www.reuters.com/technology/google-must-face-voice-assistant-privacy-lawsuit-us-judge-2021-07-02/}.
+
+\bibitem[{Microsoft Graph Developer
+  Documentation}(2022)]{microsoftgraphdeveloperdocumentationMicrosoftGraphConnectors2022}
+{Microsoft Graph Developer Documentation}.
+\newblock Microsoft {{Graph}} connectors overview, August 2022.
+\newblock URL
+  \url{https://learn.microsoft.com/en-us/graph/connecting-external-content-connectors-overview}.
+
+\bibitem[Balog(2018)]{balogEntityOrientedSearch2018}
+Krisztian Balog.
+\newblock \emph{Entity-{{Oriented Search}}}, volume~39 of \emph{The
+  {{Information Retrieval Series}}}.
+\newblock {Springer International Publishing}, {Cham}, 2018.
+\newblock ISBN 978-3-319-93933-9 978-3-319-93935-3.
+\newblock \doi{10.1007/978-3-319-93935-3}.
+\newblock URL \url{http://link.springer.com/10.1007/978-3-319-93935-3}.
+
+\bibitem[Carbune and Sharifi(2022)]{carbuneAutomatedAssistantAdaptation2022}
+Victor Carbune and Matthew Sharifi.
+\newblock Automated assistant adaptation of a response to an utterance and/or
+  of processing of the utterance, based on determined interaction measure,
+  December 2022.
+\newblock URL \url{https://patents.google.com/patent/US20220392449A1/}.
+
+\bibitem[Mahajan(2021)]{mahajanCommunicatingContextDevice2021}
+Satayan Mahajan.
+\newblock Communicating context to a device using an imperceptible audio
+  identifier, April 2021.
+\newblock URL \url{https://patents.google.com/patent/US10971144B2/en/}.
+
+\bibitem[Ropek(2022)]{ropekAmazonMakesCreepy2022}
+Lucas Ropek.
+\newblock Amazon {{Makes Creepy Surveillance Robot Even Creepier With Yet More
+  Ring Integration}}, September 2022.
+\newblock URL
+  \url{https://gizmodo.com/amazon-astro-robot-ring-virtual-security-guard-cops-1849591805}.
+
+\bibitem[Gault and Cox(2021)]{gaultLeakedDocumentsShow2021}
+Matthew Gault and Joseph Cox.
+\newblock Leaked {{Documents Show How Amazon}}'s {{Astro Robot Tracks
+  Everything You Do}}, September 2021.
+\newblock URL
+  \url{https://www.vice.com/en/article/93ypp8/leaked-documents-amazon-astro-surveillance-robot-tracking}.
+
+\bibitem[{Ring}()]{ringRingAlwaysHome}
+{Ring}.
+\newblock Ring {{Always Home Cam}}.
+\newblock URL \url{https://ring.com/always-home-cam-flying-camera}.
+
+\bibitem[Alas et~al.(2022)Alas, Rozgic, and
+  Wang]{alasMultipleClassificationsAudio2022}
+Gustavo Alfonso~Aguilar Alas, Viktor Rozgic, and Chao Wang.
+\newblock Multiple classifications of audio data, May 2022.
+\newblock URL \url{https://patents.google.com/patent/US11335347B2/}.
+
+\bibitem[Jablokov et~al.(2015)Jablokov, Jablokov, Terrell, White, and
+  Paden]{jablokovFacilitatingPresentationAds2015}
+Victor~Roditis Jablokov, Igor~Roditis Jablokov, II~James~Richard Terrell, Marc
+  White, and Scott~Edward Paden.
+\newblock Facilitating presentation of ads relating to words of a message, June
+  2015.
+\newblock URL \url{https://patents.google.com/patent/US9053489B2/}.
+
+\bibitem[har(2023)]{harrisDilemma2023}
+The {{A}}.{{I}}. {{Dilemma}}, March 2023.
+\newblock URL \url{https://vimeo.com/809258916/92b420d98a}.
+
+\bibitem[{Google}(2023{\natexlab{b}})]{google2022Q4Fiscal2023}
+{Google}.
+\newblock 2022 {{Q4}} \& {{Fiscal Year Earnings Webcast Transcript}}, February
+  2023{\natexlab{b}}.
+\newblock URL
+  \url{https://abc.xyz/investor/static/pdf/2022\_Q4\_Earnings\_Transcript.pdf?cache=c632791}.
+
+\bibitem[{Google}()]{googleSmartBidding}
+{Google}.
+\newblock About {{Smart Bidding}}.
+\newblock URL \url{https://support.google.com/google-ads/answer/7065882?hl=en}.
+
+\bibitem[{Curious\_Evolver}(2023)]{curious_evolverCustomerServiceNew2023}
+{Curious\_Evolver}.
+\newblock The customer service of the new bing chat is amazing, February 2023.
+\newblock URL
+  \url{www.reddit.com/r/bing/comments/110eagl/the\_customer\_service\_of\_the\_new\_bing\_chat\_is/}.
+
+\bibitem[Edelman(2020)]{edelmanAdTechCould2020}
+Gilad Edelman.
+\newblock Ad {{Tech Could Be}} the {{Next Internet Bubble}}.
+\newblock \emph{Wired}, October 2020.
+\newblock ISSN 1059-1028.
+\newblock URL
+  \url{https://www.wired.com/story/ad-tech-could-be-the-next-internet-bubble/}.
+
+\bibitem[{AMP letter}(2018)]{ampletterLetterGoogleAMP2018}
+{AMP letter}.
+\newblock A letter about {{Google AMP}}, January 2018.
+\newblock URL \url{http://ampletter.org/}.
+
+\bibitem[Bohn(2018)]{bohnGooglePlanMake2018}
+Dieter Bohn.
+\newblock Inside {{Google}}'s plan to make the whole web as fast as {{AMP}}.
+\newblock \emph{The Verge}, March 2018.
+\newblock URL
+  \url{https://www.theverge.com/2018/3/8/17095078/google-amp-accelerated-mobile-page-announcement-standard-web-packaging-urls}.
+
+\bibitem[Sullivan(2021)]{sullivanGoogleSearchSends2021}
+Danny Sullivan.
+\newblock Google {{Search}} sends more traffic to the open web every year,
+  March 2021.
+\newblock URL
+  \url{https://blog.google/products/search/google-search-sends-more-traffic-open-web-every-year/}.
+
+\bibitem[Ouyang et~al.(2022)Ouyang, Wu, Jiang, Almeida, Wainwright, Mishkin,
+  Zhang, Agarwal, Slama, Ray, Schulman, Hilton, Kelton, Miller, Simens, Askell,
+  Welinder, Christiano, Leike, and Lowe]{ouyangTrainingLanguageModels2022}
+Long Ouyang, Jeff Wu, Xu~Jiang, Diogo Almeida, Carroll~L. Wainwright, Pamela
+  Mishkin, Chong Zhang, Sandhini Agarwal, Katarina Slama, Alex Ray, John
+  Schulman, Jacob Hilton, Fraser Kelton, Luke Miller, Maddie Simens, Amanda
+  Askell, Peter Welinder, Paul Christiano, Jan Leike, and Ryan Lowe.
+\newblock Training language models to follow instructions with human feedback,
+  March 2022.
+\newblock URL \url{http://arxiv.org/abs/2203.02155}.
+
+\bibitem[Lecue(2020)]{lecueRoleKnowledgeGraphs2020}
+Freddy Lecue.
+\newblock On the role of knowledge graphs in explainable {{AI}}.
+\newblock \emph{Semantic Web}, 11\penalty0 (1):\penalty0 41--51, January 2020.
+\newblock ISSN 1570-0844.
+\newblock \doi{10.3233/SW-190374}.
+\newblock URL
+  \url{https://content.iospress.com/articles/semantic-web/sw190374}.
+
+\bibitem[Janowicz et~al.(2020)Janowicz, Hitzler, Bianchi, Ebrahimi, and
+  Sarker]{janowiczNeuralsymbolicIntegrationSemantic2020}
+Krzysztof Janowicz, Pascal Hitzler, Federico Bianchi, Monireh Ebrahimi, and
+  Md~Kamruzzaman Sarker.
+\newblock Neural-symbolic integration and the {{Semantic Web}}.
+\newblock \emph{Semantic Web}, 11\penalty0 (1):\penalty0 3--11, January 2020.
+\newblock ISSN 1570-0844.
+\newblock \doi{10.3233/SW-190368}.
+\newblock URL \url{https://doi.org/10.3233/SW-190368}.
+
+\bibitem[Tiddi et~al.(2020)Tiddi, L{\'e}cu{\'e}, and
+  Hitzler]{tiddiKnowledgeGraphsEXplainable2020}
+I.~Tiddi, F.~L{\'e}cu{\'e}, and P.~Hitzler.
+\newblock \emph{Knowledge {{Graphs}} for {{eXplainable Artificial
+  Intelligence}}: {{Foundations}}, {{Applications}} and {{Challenges}}}.
+\newblock {IOS Press}, May 2020.
+\newblock ISBN 978-1-64368-081-1.
+
+\bibitem[Oliva(2021)]{olivaDosingDiscriminationRegulating2021}
+Jennifer~D. Oliva.
+\newblock Dosing {{Discrimination}}: {{Regulating PDMP Risk Scores}}, January
+  2021.
+\newblock URL \url{https://papers.ssrn.com/abstract=3768774}.
+
+\bibitem[Ordish et~al.(2019)Ordish, Murfet, and
+  Hall]{ordishAlgorithmsMedicalDevices2019}
+Johan Ordish, Hannah Murfet, and Alison Hall.
+\newblock Algorithms as {{Medical Devices}}.
+\newblock Technical report, {PHG Foundation}, 2019.
+\newblock URL
+  \url{https://www.phgfoundation.org/media/74/download/algorithms-as-medical-devices.pdf?v=1}.
+
+\bibitem[{El-Sayed}(2021)]{el-sayedMedicalAlgorithmsNeed2021}
+Soleil~Shah {El-Sayed}, Abdul.
+\newblock Medical {{Algorithms Need Better Regulation}}, October 2021.
+\newblock URL
+  \url{https://www.scientificamerican.com/article/the-fda-should-better-regulate-medical-algorithms/}.
+
+\bibitem[Sadilek et~al.(2021)Sadilek, Liu, Nguyen, Kamruzzaman, Serghiou,
+  Rader, Ingerman, Mellem, Kairouz, Nsoesie, MacFarlane, Vullikanti, Marathe,
+  Eastham, Brownstein, y~Arcas, Howell, and
+  Hernandez]{sadilekPrivacyfirstHealthResearch2021}
+Adam Sadilek, Luyang Liu, Dung Nguyen, Methun Kamruzzaman, Stylianos Serghiou,
+  Benjamin Rader, Alex Ingerman, Stefan Mellem, Peter Kairouz, Elaine~O.
+  Nsoesie, Jamie MacFarlane, Anil Vullikanti, Madhav Marathe, Paul Eastham,
+  John~S. Brownstein, Blaise~Aguera y~Arcas, Michael~D. Howell, and John
+  Hernandez.
+\newblock Privacy-first health research with federated learning.
+\newblock \emph{npj Digital Medicine}, 4\penalty0 (1):\penalty0 1--8, September
+  2021.
+\newblock ISSN 2398-6352.
+\newblock \doi{10.1038/s41746-021-00489-2}.
+\newblock URL \url{https://www.nature.com/articles/s41746-021-00489-2}.
+
+\bibitem[McMahan et~al.(2022)McMahan, Talwar, Zhang, and
+  Ramage]{mcmahanTrainingUserlevelDifferentially2022}
+Hugh~Brendan McMahan, Kunal Talwar, Li~Zhang, and Daniel Ramage.
+\newblock Training user-level differentially private machine-learned models,
+  October 2022.
+\newblock URL \url{https://patents.google.com/patent/US11475350B2/}.
+
+\bibitem[Smith(1925)]{smithWordsIdiomsStudies1925}
+Logan~Pearsall Smith.
+\newblock \emph{Words and Idioms : Studies in the {{English}} Language}.
+\newblock {Houghton Mifflin}, 1925.
+\newblock URL
+  \url{https://www.semanticscholar.org/paper/Words-and-idioms-\%3A-studies-in-the-English-language-Smith/24b5844bc6b64568e0bdc013fc4cd44104b67ed4}.
+
+\bibitem[Li et~al.(2023)Li, Yang, Islam, and Ren]{liMakingAILess2023}
+Pengfei Li, Jianyi Yang, Mohammad~A. Islam, and Shaolei Ren.
+\newblock Making {{AI Less}} "{{Thirsty}}": {{Uncovering}} and {{Addressing}}
+  the {{Secret Water Footprint}} of {{AI Models}}, April 2023.
+\newblock URL \url{http://arxiv.org/abs/2304.03271}.
+
+\bibitem[Hong(2021)]{hongControlCreepWhen2021}
+Sun-ha Hong.
+\newblock Control {{Creep}}: {{When}} the {{Data Always Travels}}, {{So Do}}
+  the {{Harms}}, April 2021.
+\newblock URL
+  \url{https://www.cigionline.org/articles/control-creep-when-data-always-travels-so-do-harms/}.
+
+\bibitem[{Journal of Internet
+  Cataloging}(1999)]{journalofinternetcatalogingJournalInternetCataloging1999}
+{Journal of Internet Cataloging}.
+\newblock Journal of {{Internet Cataloging Homepage}}, May 1999.
+\newblock URL
+  \url{https://web.archive.org/web/19990508233709/http://www.haworthpressinc.com:80/jic/}.
+
+\bibitem[Introna and Nissenbaum(2000)]{intronaShapingWebWhy2000}
+Lucas~D. Introna and Helen Nissenbaum.
+\newblock Shaping the {{Web}}: {{Why}} the {{Politics}} of {{Search Engines
+  Matters}}.
+\newblock \emph{The Information Society}, 16\penalty0 (3):\penalty0 169--185,
+  July 2000.
+\newblock ISSN 0197-2243.
+\newblock \doi{10.1080/01972240050133634}.
+\newblock URL \url{https://doi.org/10.1080/01972240050133634}.
+
+\bibitem[Stickler(2002)]{sticklerReMonotonicityWas2002}
+Patrick Stickler.
+\newblock Re: Monotonicity [was: {{Re}}: {{On Consensus}}] from {{Patrick
+  Stickler}} on 2002-09-25 (w3c-rdfcore-wg@w3.org from {{September}} 2002),
+  September 2002.
+\newblock URL
+  \url{https://lists.w3.org/Archives/Public/w3c-rdfcore-wg/2002Sep/0276.html}.
+
+\bibitem[{CrimethInc Ex-Workers
+  Collective}(2002)]{crimethincex-workerscollectiveFightingOurLives2002}
+{CrimethInc Ex-Workers Collective}.
+\newblock Fighting for {{Our Lives}} : {{An Anarchist Primer}}, 2002.
+\newblock URL
+  \url{https://crimethinc.com/2017/11/28/fighting-for-our-lives-an-anarchist-primer}.
+
+\bibitem[Mea({\natexlab{a}})]{MeatballWikiRightToFork}
+Meatball {{Wiki}}: {{RightToFork}}, {\natexlab{a}}.
+\newblock URL \url{http://meatballwiki.org/wiki/RightToFork}.
+
+\bibitem[Bookchin(1969)]{bookchinNoteAffinityGroups1969}
+Murray Bookchin.
+\newblock A {{Note}} on {{Affinity Groups}}.
+\newblock page~2, 1969.
+\newblock URL
+  \url{https://theanarchistlibrary.org/library/murray-bookchin-a-note-on-affinity-groups}.
+
+\bibitem[Mea({\natexlab{b}})]{MeatballWikiEnlargeSpace}
+Meatball {{Wiki}}: {{EnlargeSpace}}, {\natexlab{b}}.
+\newblock URL \url{http://meatballwiki.org/wiki/EnlargeSpace}.
+
+\bibitem[Harper()]{harperVulgar}
+Douglas Harper.
+\newblock Vulgar.
+\newblock URL \url{https://www.etymonline.com/word/vulgar}.
+
+\bibitem[Saunders(2023)]{saundersReNIHRFI2023}
+Jonny~L. Saunders.
+\newblock Re: {{NIH RFI}} on {{Plan}} to {{Enhance Public Access}} to the
+  {{Results}} of {{NIH-Supported Research}}, April 2023.
+\newblock URL \url{https://jon-e.net/blog/2023/04/24/Re-NIH-RFI-OSTP-Memo/}.
+
+\end{thebibliography}
