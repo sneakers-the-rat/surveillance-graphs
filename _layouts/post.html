@@ -65,7 +65,7 @@ layout: default
         <div class="post-date">
             <span>Rendered:&nbsp;</span>
             <time datetime="{{ site.time | date: "%Y-%m-%d"}}"> {{ site.time | date: "%Y-%m-%d" }}</time>
-            {% if site.versioned %} - <span style="font-style:none">permalink:</span> <a href="{{ page.repository }}commit/{{ site.data['hash'] }}"><code>{{ site.data['hash'] }}</code></a> 
+            {% if site.versioned %} - <span style="font-style:none">permalink:</span> <a href="{{ site.baseurl }}/versions/{{ site.data['hash'] }}"><code>{{ site.data['hash'] }}</code></a><a href="{{ page.repository }}commit/{{ site.data['hash'] }}" style="margin-left: 0.2em;"><code>(src)</code></a>
             {% endif %}
             {% if page.pdf_link %} - <a href="{{ page.pdf_link }}"><code>PDF VERSION</code></a> {% endif %}
 
