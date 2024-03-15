@@ -25,20 +25,24 @@ body {
   --text-color: #{$default-color};
   --text-shade: #{$default-shade};
   --bg-color: #{$white};
+  --bg-color-card: #{$grey-3};
   --link-color: #{$purple};
   --note-color: #{$default-color};
   --custom-highlight-color: #{$purple-lighter-highlight};
   --highlight-text-color: #{$default-color};
+  --code-color: #{$code-color-light};
 
 
   &.dark-theme {
     --text-color: #{$grey-2};
     --text-shade: #{$default-tint};
     --bg-color: #{$background-dark};
+    --bg-color-card: #{$background-dark-card};
     --link-color: #{$purple-lighter};
     --note-color: #{$default-color};
     --custom-highlight-color: #{$purple-darker};
     --highlight-text-color: #{$grey-2};
+    --code-color: #{$code-color-dark};
   }
 }
 
@@ -47,19 +51,23 @@ body {
     --text-color: #{$grey-2};
     --text-shade: #{$default-tint};
     --bg-color: #{$background-dark};
+    --bg-color-card: #{$background-dark-card};
     --link-color: #{$purple-lighter};
     --note-color: #{$default-color};
     --custom-highlight-color: #{$purple-darker};
     --highlight-text-color: #{$grey-2};
+    --code-color: #{$code-color-dark};
 
     &.light-theme {
       --text-color: #{$default-color};
       --text-shade: #{$default-shade};
       --bg-color: #{$white};
+      --bg-color-card: #{$grey-3};
       --link-color: #{$purple};
       --note-color: #{$default-color};
       --custom-highlight-color: #{$purple-lighter-highlight};
       --highlight-text-color: #{$default-color};
+      --code-color: #{$code-color-light};
     }
   }
 }

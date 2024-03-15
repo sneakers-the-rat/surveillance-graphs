@@ -74,6 +74,15 @@ layout: default
         <div class="wordcount">
             <span>Estimated Reading Time: {{ time }} minutes (<span property="wordCount">{{ words }}</span> words)</span>
         </div>
+
+        <div class="citelink">
+            <span>Cite: <a href="https://doi.org/{{ page.doi }}">doi:{{ page.doi }}</a></span>
+            <code type="button" class="bibtex-button">
+                (bibtex)
+            </code>
+            {% include citation.html %}
+        </div>
+
         {% include options.html %}
         <div class="post-line"></div>
     </div>

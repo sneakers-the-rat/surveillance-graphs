@@ -14,9 +14,12 @@ $purple-lighter: lighten($purple, 20%);
 $purple-lighter-highlight: lighten($purple, 45%);
 $purple-darker: darken($purple, 20%);
 $shadow-color: rgba(0, 0, 0, .2) !default;
-$code-color: #bf616a !default;
+// $code-color: #bf616a !default;
+$code-color-dark: lighten($purple, 20%) !default;
+$code-color-light: #bf616a !default;
 $highlight-color: $purple !default;
 $background-dark: #121212;
+$background-dark-card: lighten($background-dark, 5%);
 
 //  breakpoints
 $width-tablet: 900px;

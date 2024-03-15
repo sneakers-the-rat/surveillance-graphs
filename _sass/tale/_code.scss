@@ -4,11 +4,16 @@ code {
 }
 
 code {
-  background-color: $grey-3;
+  background-color: var(--bg-color-card);
+  border: 1px solid var(--code-color);
   border-radius: 3px;
-  color: $code-color;
+  color: var(--code-color);
   font-size: 85%;
-  padding: .25em .5em;
+  padding: .15em .25em;
+}
+
+pre > code {
+  border: unset;
 }
 
 pre {
@@ -23,7 +28,7 @@ pre code {
 }
 
 .highlight {
-  background-color: $grey-3;
+  background-color: var(--bg-color-card);
   border-radius: 3px;
   line-height: 1.4;
   margin: 0 0 1rem;

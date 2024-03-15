@@ -10,25 +10,35 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - uses: actions/cache@v2
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@8575951200e472d5f2d95c625da0c7bec8217c42 # v1.161.0
         with:
-          path: vendor/bundle
-          key: ${{ runner.os }}-gemsv3-${{ hashFiles('**/Gemfile') }}-${{ hashFiles('_config.yml') }}
-          restore-keys: |
-            ${{ runner.os }}-gemsv3-
-      - name: Main Jekyll Build
-        uses: helaili/jekyll-action@master
+          bundler-cache: true # runs 'bundle install' and caches installed gems automatically
+          cache-version: 0 # Increment this number if you need to re-download cached gems
+      - name: Setup Pages
+        id: pages
+        uses: actions/configure-pages@v4
+      - name: Build with Jekyll
+        # Outputs to the './_site' directory by default
+        run: bundle exec jekyll build -d ./_site
+        env:
+          JEKYLL_ENV: production
+      - name: Get Short Hash
+        id: vars
+        shell: bash
+        run: echo "::set-output name=sha_short::$(git rev-parse --short HEAD)"
+      - name: Versioned build
+        run: bundle exec jekyll build -d ./_site/versions/${{ steps.vars.outputs.sha_short }}
+        env:
+          JEKYLL_ENV: production
+      - name: Deploy 
+        uses: JamesIves/github-pages-deploy-action@v4
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          pre_build_commands: git config --global --add safe.directory /github/workspace
-      # - name: Get Short Hash
-      #   id: vars
-      #   shell: bash
-      #   run: echo "::set-output name=sha_short::$(git rev-parse --short HEAD)"
-      # - name: Versioned Jekyll Build
-      #   uses: helaili/jekyll-action@master
-      #   with:
-      #     token: ${{ secrets.GITHUB_TOKEN }}
-      #     keep_history: true
-      #     target_path: versions/${{ steps.vars.outputs.sha_short }}
-      #     pre_build_commands: git config --global --add safe.directory /github/workspace
+          folder: _site
+          branch: gh-pages
+          clean: true
+          clean-exclude: |
+            .nojekyll
+            versions/**/*
+            versions
+
