@@ -36,9 +36,7 @@ jobs:
         with:
           folder: _site
           branch: gh-pages
-          clean: true
+          clean: false
           clean-exclude: |
             .nojekyll
-            versions/**/*
-            versions
 
