@@ -5,20 +5,18 @@ import re
 import pdb
 
 def replace_includes(text:str) -> str:
+    """
+    inline text from included markdown files, see :func:`.include`
+    """
     pattern = r'\{% include_relative\s(.*)\s%\}'
     while re.search(pattern, text):
         text = re.sub(pattern, include, text)
-    
-
     return text
 
 def fix_citations(text:str) -> str:
-    # text-wide alterations
     # fix cite calls
     text = re.compile(r'(?s)\\\{\\%[^\\]*cite(.*?)\\%\\\}').sub(r'\\cite{\1} ', text)
     # fix cites spearated with space not comma
-    # text = re.compile(r'(?s)(?<=\\cite\{)\s*(\S*)\s*([^\s]*)\s').sub(r'\1,\2', text)
-    # pdb.set_trace()
     text = re.compile(r"(?s)(?<=\\cite\{).*?\s.*?(?=\})").sub(split_cites, text)
     return text
 
@@ -27,12 +25,9 @@ def jekyll_to_tex(
     output: typing.Optional[typing.Union[Path, str]]=None,
     document_class: str = "article",
     document_class_options:list= [],
-    title: str = "",
-    author: str = "",
     date:str = "\\today",
     load_packages: list = [],
     additional_calls: list = [()],
-    toc:bool = True,
     domain: typing.Optional[str] = None,
     img_root: typing.Optional[str] = None,
     strip:typing.Optional[list]=None,
@@ -52,30 +47,17 @@ def jekyll_to_tex(
     # replace relative includes
     text = replace_includes(text)
 
+    text = pypandoc.convert_text(
+        text, 
+        format='markdown', 
+        to='tex', 
+        extra_args=[
+            "--highlight-style=pygments",
+        ]
+    )
 
-    text = pypandoc.convert_text(text, format='markdown', to='tex', 
-        extra_args=["--highlight-style=pygments",
-        #"--template=template.latex",
-        #"--pdf-engine=xelatex"
-        ])
-
-    # sort out frontmatter
-    # frontmatter = build_frontmatter(
-    #    document_class, document_class_options, title, author, date,
-    #    load_packages, additional_calls, toc)
-
-    # ending
-    # ending = tex_call('end', 'document')
-
-    # text = '\n'.join((frontmatter, text, ending))
-
-    #pdb.set_trace()
+    # replace markdown-style citations with latex \cite
     text = fix_citations(text)
-
-    # replace multicols
-    # pdb.set_trace()
-    #text = re.sub(r"MULTICOLSTART", r"\n\\begin{multicols}{2}\n", text)
-    #text = re.sub(r"MULTICOLEND", r"\n\\end{multicols}\n", text)
 
     if domain is not None or img_root is not None:
         text = fix_relative_links(text, domain, img_root)
@@ -84,12 +66,9 @@ def jekyll_to_tex(
         for to_strip in strip:
             text = re.compile(to_strip).sub('', text)
 
-    #if 'tufte' in document_class:
-    #    text = re.compile(r'(?s)\\footnote').sub(r'\\sidenote', text)
     if replace is not None:
         for to_replace in replace:
             text = re.compile(to_replace[0]).sub(to_replace[1], text)
-
 
     if output is not None:
         with open(output, 'w') as out_f:
@@ -97,46 +76,13 @@ def jekyll_to_tex(
 
     return text
 
-def build_frontmatter(document_class: str = "article",
-    document_class_options:list = [],
-    title: str = "",
-    author: str = "",
-    date:str = "\\today",
-    load_packages: list = [],
-    additional_calls:list=[()],
-    toc:bool = True):
-    
-    if len(document_class_options) == 0:
-        doc_class = f"\\documentclass{{{document_class}}}\n"
-    else:
-        doc_class_opts = ', '.join(document_class_options)
-        doc_class = f"\\documentclass[{doc_class_opts}]{{{document_class}}}\n"
-
-    # add packages
-    packs = '\n'.join([tex_call('usepackage', pack) for pack in load_packages])
-
-    # declare title and author and date
-    title =tex_call('title', title)
-    author = tex_call('author', author)
-    date = tex_call('date', date)
-
-    # add any other calls
-    calls = '\n'.join([tex_call(call[0], call[1]) for call in additional_calls])
-
-    # combine
-    return '\n'.join((doc_class, packs, title, author, date, calls))
-
-
 
 def include(match):
     path = (Path(__file__).parent.parent).resolve() / match.groups()[0]
     with open(path, 'r') as includef:
         include_text = includef.read()
-    #if 'footnotes' in str(path) or 'bib.md' in str(path):
-    #    pass
-    #else:
-    #    include_text = r" MULTICOLSTART " + include_text + r" MULTICOLEND "
     return include_text
+
 
 def split_cites(match):
     match_text = str(match.group(0).strip())
@@ -151,8 +97,6 @@ def tex_call(function, argument=None):
         return f"\\{function}{{{argument}}}"
 
 
-
-
 def fix_relative_links(text, href=None, includegraphics=None):
     # fix \href{/link}
     if href is not None:
@@ -163,43 +107,29 @@ def fix_relative_links(text, href=None, includegraphics=None):
     return text
 
 
-
-
 if __name__ == "__main__":
     in_fn = (Path(__file__).parent / '../index.markdown').resolve()
     out_fn = (Path(__file__).parent / './src/index.tex').resolve()
 
     print(f'Converting {in_fn} to .tex...')
-    document_class = 'dissertation'
 
-
-
-    if document_class == 'dissertation':
-        text = jekyll_to_tex(
-            in_fn,
-            document_class=document_class,
-            document_class_options=['nohyper'],
-            title="Decentralized Infrastructure for Neuro(science)",
-            author="Jonny L. Saunders",
-            date="\\today",
-            load_packages=[],
-            additional_calls=[('addbibresource', '../assets/infrastructure.bib')],
-            toc=True,
-            domain='https://jon-e.net',
-
-            #img_root='.',
-            strip=(r'\\tightlist',),
-            replace=(
-                (r'/surveillance-graphs/assets/', ''),
-                (r'(?<=\\includegraphics)(\{[^}]*})', r'[width=\\linewidth]\1'),
-                (r'\.svg', '.png'),
-                (r'(?s)\\footnote', r'\\sidenote')
-                ),
-            output=out_fn
-            )
-            #replace=[
-            #    (r'(?s)\\footnote', replace)
-            #])
+    text = jekyll_to_tex(
+        in_fn,
+        document_class='dissertation',
+        document_class_options=['nohyper'],
+        date="\\today",
+        load_packages=[],
+        additional_calls=[('addbibresource', '../assets/infrastructure.bib')],
+        domain='https://jon-e.net',
+        strip=(r'\\tightlist',),
+        replace=(
+            (r'/surveillance-graphs/assets/', ''),
+            (r'(?<=\\includegraphics)(\{[^}]*})', r'[width=\\linewidth]\1'),
+            (r'\.svg', '.png'),
+            (r'(?s)\\footnote', r'\\sidenote')
+            ),
+        output=out_fn
+        )
 
 
     #text = re.compile(r'(?<=\\includegraphics\{)/blog([^}]*)').sub(fr'{"/Users/jonny/git/sneakers-the-rat.github.io/_preblog"}\1', text)
