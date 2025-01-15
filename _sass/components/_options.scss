@@ -15,9 +15,13 @@
     border-bottom-color: #424242;
     background: silver;
     color: black;
-    padding: 0 0 4px;
+    padding: 2px 4px;
     border-radius: 1px;
+    font-family: $button-font;
+    font-size: 0.75em;
+
 }
+
 .option-button:hover {
     border: 2px inset #fff;
     background: silver;

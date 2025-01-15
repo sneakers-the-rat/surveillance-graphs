@@ -31,6 +31,7 @@ $serif-primary: 'EB Garamond', 'Times New Roman', Times, serif !default;
 $serif-secondary: Palatino, 'Palatino LT STD', 'Palatino Linotype', 'Book Antiqua', 'Georgia', serif !default;
 $sans-serif: 'Helvetica Neue', 'Segoe UI', Helvetica, Arial, sans-serif !default;
 $monospaced: 'Cutive Mono', Menlo, Monaco, monospace !default;
+$button-font: 'MS Sans', Arial, sans-serif !default;
 
 @mixin box-sizing($type: border-box) {
   -webkit-box-sizing: $type;

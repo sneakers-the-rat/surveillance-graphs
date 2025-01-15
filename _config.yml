@@ -24,6 +24,7 @@ baseurl: "/surveillance-graphs" # the subpath of your site, e.g. /blog
 url: "https://jon-e.net" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: json_dirs
 github_username:  sneakers-the-rat
+description: Vulgarity and Cloud Orthodoxy in Linked Data Infrastructures - A critical history of the semantic web and linked data, grappling with the next generation of surveillance capitalism, where grand corporate knowledge graphs present themselves as a glassy-eyed LLM personal assistants, will we remain stuck in the ideology of the cloud, or can we have better dreams?
 
 author:
   name: Jonny Saunders
@@ -54,6 +55,12 @@ scholar:
 
 # If we are making a specific rendered version and permalinking it...
 versioned: true
+
+copy:
+  enabled: true
+  tasks:
+    - from: "./_tex/build/surveillance-graphs/surveillance-graphs.pdf"
+      to: "./_site/"
 
 
 # Exclude from processing.

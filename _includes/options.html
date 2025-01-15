@@ -1,5 +1,8 @@
 <div id="options">
 <div class="options-menu">
 {% include options/darkmode.html %}
+{% if page.pdf %}
+{% include options/pdf.html %}
+{% endif %}
 </div>
 </div>

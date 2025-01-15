@@ -3,6 +3,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   {% seo %}
+  {% if page.highwire_meta %}
+  {% include highwire_meta.html %}
+  {% endif %}
+  {% if page.fediverse_creator %}
+  {% include fedi_creator.html %}
+  {% endif %}
 
   <!-- CSS -->
   <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">

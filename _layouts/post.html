@@ -29,6 +29,13 @@ layout: default
             </a>
             </span>
             {% endif %}
+            {% if author.fedi %}
+            <span property="foaf:account" content="{{ author.fedi.url }}">
+                <a href="{{ author.fedi.url }}" title="{{ author.fedi.handle }}">
+                    <img src="{{ site.baseurl }}/assets/img/masto-logo.svg" class="masto-icon" alt="Mastodon (the fediverse software) logo, a small m inside a speech bubble"/>
+                </a>
+            </span>
+            {% endif %}
           </span>
           {% endfor %}
         </div>
