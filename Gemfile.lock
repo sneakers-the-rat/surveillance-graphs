@@ -55,8 +55,6 @@ GEM
       safe_yaml (~> 1.0)
       terminal-table (>= 1.8, < 4.0)
       webrick (~> 1.7)
-    jekyll-copyr (1.0.2)
-      jekyll (>= 3.3, < 5.0)
     jekyll-feed (0.17.0)
       jekyll (>= 3.7, < 5.0)
     jekyll-inline-svg (1.1.4)
@@ -131,7 +129,6 @@ PLATFORMS
 
 DEPENDENCIES
   jekyll (~> 4.3.2)
-  jekyll-copyr
   jekyll-inline-svg (~> 1.1)
   jekyll-scholar!
   jekyll-seo-tag
